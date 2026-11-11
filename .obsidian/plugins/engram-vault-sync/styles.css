@@ -1,0 +1,1978 @@
+/* Engram Sync plugin styles */
+
+/* Status bar */
+.engram-status-bar-clickable {
+	cursor: pointer;
+}
+
+/* Search — shared between modal and sidebar */
+
+/* One source of vertical rhythm: the panel is a flex column with a uniform gap,
+   so individual controls never set their own stacking margins (which had drifted
+   between 4/6.4/8px). Empty children (e.g. the tag-chip row) collapse the gap. */
+.engram-search-panel {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.engram-search-input {
+	width: 100%;
+	padding: 8px 12px;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 6px;
+	background: var(--background-primary);
+	color: var(--text-normal);
+	font-size: 1em;
+}
+
+.engram-search-input:focus {
+	border-color: var(--interactive-accent);
+	outline: none;
+}
+
+.engram-search-folder-input {
+	font-size: 0.9em;
+	padding: 6px 10px;
+}
+
+.engram-search-empty {
+	color: var(--text-muted);
+	text-align: center;
+	padding: 24px 0;
+	font-style: italic;
+}
+
+/* Results own a section of their own so the list can scroll independently of
+   the panel's inter-control gap. The section used to lead with an <hr>; the
+   rows carry their own borders, so the rule drew a boundary twice. */
+.engram-search-results-section {
+	display: flex;
+	flex-direction: column;
+	min-height: 0;
+}
+
+.engram-search-results {
+	max-height: 400px;
+	overflow-y: auto;
+}
+
+/* ── Search mode: a three-position segmented control ──────────────
+   Keyword / Semantic / Both. Buttons rather than a dropdown so the current
+   mode is readable without opening anything, and `flex: 1` so the three
+   unequal labels split the row evenly (same reasoning as .engram-tab). */
+.engram-search-mode {
+	display: flex;
+	gap: 2px;
+	padding: 2px;
+	border-radius: var(--radius-s);
+	background: var(--background-modifier-form-field);
+}
+
+.engram-search-mode-btn {
+	flex: 1 1 0;
+	padding: 4px 8px;
+	border: none;
+	border-radius: var(--radius-s);
+	background: none;
+	box-shadow: none;
+	color: var(--text-muted);
+	cursor: pointer;
+	font-size: var(--font-ui-smaller);
+}
+
+.engram-search-mode-btn:hover {
+	color: var(--text-normal);
+}
+
+/* Accent fill, not a lighter grey. Three low-contrast buttons in a grey
+   trough left the active one readable only by comparison against its
+   neighbours — you had to look at all three to learn which was on. */
+.engram-search-mode-btn.is-active {
+	background: var(--interactive-accent);
+	color: var(--text-on-accent);
+	font-weight: var(--font-semibold);
+}
+
+.engram-search-mode-btn.is-active:hover {
+	background: var(--interactive-accent-hover);
+	color: var(--text-on-accent);
+}
+
+/* The selected mode's one-line explanation. These three differ in what they
+   MATCH, not just how they rank, and the labels alone cannot carry that.
+   
+   Set apart deliberately: as plain muted text it read as another setting in
+   the stack rather than as a note about the buttons above it. The icon and
+   the rule on the left mark it as an annotation, and the text sits at normal
+   contrast so it is actually legible. */
+.engram-search-mode-hint {
+	display: flex;
+
+	/* Centred, not top-aligned: the hint wraps to two or three lines in a narrow
+	   sidebar, and an icon pinned to the first line then sits visibly high
+	   against the block it labels. */
+	align-items: center;
+	gap: 6px;
+	padding: 6px 8px;
+	border-left: 2px solid var(--interactive-accent);
+	border-radius: var(--radius-s);
+	background: var(--background-secondary);
+	color: var(--text-normal);
+	font-size: var(--font-ui-smaller);
+	line-height: var(--line-height-tight);
+}
+
+.engram-search-mode-hint-icon {
+	display: inline-flex;
+	align-items: center;
+	flex-shrink: 0;
+	color: var(--text-accent);
+}
+
+.engram-search-mode-hint-icon svg {
+	width: 0.95em;
+	height: 0.95em;
+}
+
+.engram-search-result-item {
+	padding: 10px 12px;
+	border-radius: 4px;
+	cursor: pointer;
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.engram-search-result-item:hover,
+.engram-search-result-item.is-selected {
+	background: var(--background-secondary);
+}
+
+.engram-search-result-header {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+}
+
+.engram-search-result-title {
+	font-weight: 600;
+	color: var(--text-normal);
+}
+
+/* Own row: provenance pill + match-strength meter. */
+.engram-search-result-meta {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	margin-top: 4px;
+}
+
+.engram-search-result-path {
+	display: block;
+	font-size: 0.8em;
+	color: var(--text-muted);
+	margin-top: 4px;
+}
+
+/* Provenance pill — colored + worded so the hybrid blend isn't easy to miss. */
+.engram-search-match {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.25rem;
+	flex-shrink: 0;
+	padding: 0.05rem 0.45rem;
+	font-size: var(--font-ui-smaller);
+	font-weight: 600;
+	border-radius: 999px;
+	border: 1px solid currentcolor;
+}
+
+.engram-search-match-semantic {
+	color: var(--color-purple);
+	background: rgba(var(--color-purple-rgb), 0.12);
+}
+
+.engram-search-match-keyword {
+	color: var(--color-blue);
+	background: rgba(var(--color-blue-rgb), 0.12);
+}
+
+.engram-search-match-both {
+	color: var(--color-green);
+	background: rgba(var(--color-green-rgb), 0.12);
+}
+
+.engram-search-match-icon {
+	display: inline-flex;
+}
+
+.engram-search-match-icon svg {
+	width: 0.85em;
+	height: 0.85em;
+}
+
+/* Relative match-strength meter. */
+.engram-search-strength {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+}
+
+.engram-search-strength-bar {
+	width: 48px;
+	height: 4px;
+	border-radius: 999px;
+	background: var(--background-modifier-border);
+	overflow: hidden;
+}
+
+.engram-search-strength-fill {
+	display: block;
+	height: 100%;
+	border-radius: 999px;
+	background: var(--interactive-accent);
+}
+
+.engram-search-strength-label {
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+}
+
+.engram-search-result-snippet {
+	font-size: 0.85em;
+	color: var(--text-muted);
+	margin: 6px 0 0;
+	line-height: 1.45;
+}
+
+/* Modal overrides */
+.engram-search-modal {
+	padding: 12px;
+}
+
+.engram-search-modal .modal-close-button {
+	display: none;
+}
+
+/* Sidebar view */
+.engram-search-view-container {
+	padding: 8px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.engram-search-view-container .engram-search-results-section {
+	flex: 1;
+}
+
+.engram-search-view-container .engram-search-results {
+	flex: 1;
+	min-height: 0;
+	max-height: none;
+}
+
+/* ── Settings status indicator ────────────────────────────────── */
+
+/* Flex row so the Upgrade button can sit at the far right rather than trailing
+   the status text. Wraps, and the last-sync line claims a full row of its own
+   (see .engram-status-time), so this stays a two-line block on narrow panes
+   instead of squeezing. */
+.engram-status-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 16px;
+	padding: 8px 12px;
+	border-radius: 6px;
+	background-color: var(--background-secondary);
+}
+
+/* Both status-strip buttons share their sizing; only their placement differs. */
+.engram-status-upgrade-btn,
+.engram-status-open-sync-btn {
+	padding: 2px 10px;
+	font-size: 0.85em;
+}
+
+/* Persistent across all four tabs, pushed to the right so it never competes
+   with the connection status for the start of the line. */
+.engram-status-upgrade-btn {
+	margin-left: auto;
+}
+
+.engram-status-dot {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	margin-right: 8px;
+	background-color: var(--text-muted);
+}
+
+.engram-status-dot.is-error {
+	background-color: var(--text-error, #e03e3e);
+}
+
+.engram-status-dot.is-connected {
+	background-color: var(--text-success, #28a745);
+}
+
+.engram-status-dot.is-polling {
+	background-color: var(--text-warning, #e5a100);
+}
+
+.engram-status-dot.is-idle {
+	background-color: var(--text-muted, #888888);
+}
+
+.engram-status-dot.is-waiting {
+	background-color: var(--text-warning, #e5a100);
+}
+
+.engram-status-open-sync-btn {
+	margin-left: 12px;
+}
+
+.engram-sync-progress {
+	display: none;
+	padding: 12px 0;
+}
+
+.engram-sync-progress.is-active {
+	display: block;
+}
+
+.engram-progress-label {
+	margin: 0 0 4px;
+}
+
+/* ── Device flow modal ───────────────────────────────────────── */
+
+.engram-device-code {
+	display: block;
+	font-size: 2rem;
+	font-family: var(--font-monospace);
+	text-align: center;
+	padding: 1rem;
+	margin: 1rem 0;
+	letter-spacing: 0.15em;
+	cursor: pointer;
+}
+
+.engram-device-waiting {
+	font-style: italic;
+}
+
+/* Upgrade button appended to limit-exceeded Notice toasts (limit-toast.ts). */
+.engram-limit-upgrade-btn {
+	margin-left: 8px;
+}
+
+/* Own line under the notice text, so it reads as a link, not a stray word. */
+.engram-notice-link {
+	display: block;
+	margin-top: 4px;
+}
+
+/* ── Sync log modal ──────────────────────────────────────────── */
+
+.engram-sync-log-list {
+	max-height: 400px;
+	overflow-y: auto;
+	font-family: var(--font-monospace);
+	font-size: 0.85em;
+}
+
+.engram-sync-log-entry {
+	padding: 2px 0;
+}
+
+.engram-sync-log-entry-error {
+	color: var(--text-error);
+}
+
+.engram-sync-log-error {
+	color: var(--text-error);
+	opacity: 0.8;
+}
+
+.engram-sync-log-detail {
+	opacity: 0.7;
+}
+
+/* ── Advanced tab ────────────────────────────────────────────── */
+
+.engram-ignore-textarea {
+	width: 100%;
+	box-sizing: border-box;
+	resize: none;
+	overflow: auto;
+}
+
+.engram-ignore-setting {
+	flex-direction: column;
+	align-items: stretch;
+	gap: 8px;
+}
+
+/* ── Account tab ─────────────────────────────────────────────── */
+
+.engram-api-key-input {
+	font-family: var(--font-monospace);
+}
+
+/* Prominent CTA box — the self-hosted "Run your own Engram server" block. */
+.engram-setup-cta {
+	padding: 16px;
+	background: var(--background-secondary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 8px;
+	margin-bottom: 1em;
+}
+
+.engram-setup-cta .setting-item-name {
+	font-size: 1.15em;
+	font-weight: 700;
+}
+
+.engram-setup-cta .setting-item-description {
+	font-size: 1em;
+	color: var(--text-normal);
+	line-height: 1.5;
+	margin-top: 4px;
+}
+
+/* Drops to its own line so the long GitHub URL never wraps mid-string. */
+.engram-setup-cta .setting-item-description a {
+	display: block;
+	margin-top: 4px;
+	font-weight: 600;
+	color: var(--text-accent);
+}
+
+/* Give the Engram URL field room — let the control fill the row and the input
+   span its full width instead of Obsidian's narrow default. */
+.engram-url-setting .setting-item-control {
+	flex-grow: 1;
+}
+
+.engram-url-setting .setting-item-control input[type="text"] {
+	flex-grow: 1;
+	width: auto;
+}
+
+/* Background preflight status under the Engram URL field. */
+.engram-url-preflight:empty {
+	display: none;
+}
+
+.engram-url-preflight {
+	margin-top: 6px;
+	font-size: 0.85em;
+}
+
+.engram-url-preflight.is-checking {
+	color: var(--text-muted);
+}
+
+.engram-url-preflight.is-engram {
+	color: var(--text-success);
+}
+
+.engram-url-preflight.is-reachable {
+	color: var(--text-warning);
+}
+
+.engram-url-preflight.is-unreachable {
+	color: var(--text-error);
+}
+
+.engram-vault-current-name {
+	font-family: var(--font-monospace);
+	color: var(--text-accent);
+	margin-right: 0.75em;
+}
+
+/* Own row. The container is a flex line now, so without this the timestamp
+   would sit inline beside the status label instead of under it. */
+.engram-status-time {
+	flex-basis: 100%;
+	font-size: 0.85em;
+	color: var(--text-muted);
+	margin-top: 2px;
+}
+
+.engram-status-warning {
+	background-color: var(--background-modifier-error-rgb, rgba(255, 0, 0, 0.05));
+	border-radius: 6px;
+	padding: 8px;
+}
+
+/* ── Settings tab bar ────────────────────────────────────────── */
+
+/* Obsidian 1.13+ renders our tab via a getSettingDefinitions() render hatch,
+ * which hands us a .setting-item row. Strip the row's flex/padding/border so
+ * the hosted tabbed UI lays out edge-to-edge like it does in display(). */
+.engram-settings-host {
+	display: block;
+	padding: 0;
+	border: none;
+}
+
+/* Obsidian 1.13+ renders our plugin name through the settings render-hatch as
+   an ordinary setting label. At the default size it reads as a row label for
+   the status strip beneath it rather than as the title of the page, and it
+   sits flush against that strip with nothing between them. Size and space it
+   like the heading it actually is. */
+.engram-settings-host .setting-item-name {
+	font-size: var(--font-ui-larger);
+	font-weight: var(--font-semibold);
+	line-height: var(--line-height-tight);
+	margin-bottom: 12px;
+}
+
+/* The description is empty by design (the tab bar names all five
+   destinations), but the element still claims vertical space. */
+.engram-settings-host .setting-item-description:empty {
+	display: none;
+}
+
+.engram-tab-bar {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px 12px;
+	margin-bottom: 16px;
+}
+
+/* Equal shares of the full width. The four labels differ in length, so
+   intrinsic sizing left a ragged strip with dead space at the end; `flex: 1`
+   with a zero basis divides the row evenly regardless of label text, and the
+   active underline then spans a consistent width. */
+.engram-tab {
+	flex: 1 1 0;
+	text-align: center;
+	padding: 8px 16px;
+	background: none;
+	border: none;
+	border-bottom: 2px solid transparent;
+	color: var(--text-muted);
+	cursor: pointer;
+	font-size: var(--font-ui-small);
+}
+
+/* Phone-width breakpoint — 5 tabs fit comfortably above ~600px */
+@media (max-width: 600px) {
+	.engram-tab-bar {
+		justify-content: center;
+	}
+
+	/* Five tabs: three on the first row, two on the second. */
+	.engram-tab {
+		flex: 1 1 calc(33% - 12px);
+		padding: 8px 10px;
+		text-align: center;
+	}
+
+	/* Stack cramped setting rows on phone — input/value above its button */
+	.engram-setting-api-key .setting-item-control,
+	.engram-setting-vault-name .setting-item-control,
+	.engram-setting-support {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 8px;
+	}
+
+	.engram-setting-support .setting-item-info,
+	.engram-setting-support .setting-item-control {
+		width: 100%;
+	}
+
+	.engram-support-buttons {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.engram-kofi-button {
+		justify-content: center;
+	}
+
+	.engram-api-key-input {
+		width: 100%;
+	}
+
+	.engram-vault-current-name {
+		text-align: center;
+	}
+}
+
+.engram-tab:hover {
+	color: var(--text-normal);
+}
+
+.engram-tab.is-active {
+	color: var(--text-normal);
+	border-bottom-color: var(--interactive-accent);
+}
+
+/* ── Welcome (about) tab ─────────────────────────────────────── */
+
+/* Leads the Welcome tab. Accent border + tint so it reads as an invitation
+   rather than one more row in a settings list. */
+.engram-about-video {
+	margin: 0 0 20px;
+	padding: 14px 16px;
+	border: 1px solid var(--interactive-accent);
+	border-radius: 8px;
+	background: var(--background-secondary);
+}
+
+.engram-about-heading .setting-item-name {
+	font-size: var(--font-ui-large);
+	font-weight: 800;
+	color: var(--text-normal);
+}
+
+.engram-about-link {
+	margin: 4px 0 0;
+}
+
+/* Plans — three side-by-side cards */
+.engram-plans {
+	display: flex;
+	gap: 12px;
+	margin: 12px 0;
+	padding: 0;
+	list-style: none;
+}
+
+.engram-plan {
+	flex: 1;
+	padding: 12px 14px;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 8px;
+	background: var(--background-secondary);
+}
+
+.engram-plan h4 {
+	margin: 0 0 8px;
+	font-size: var(--font-ui-medium);
+	color: var(--text-normal);
+	text-align: center;
+}
+
+.engram-plan-features {
+	margin: 0;
+	padding-left: 18px;
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+	line-height: 1.5;
+}
+
+.engram-plan-features li {
+	margin-bottom: 4px;
+}
+
+/* Learn more — prominent link chips */
+.engram-about-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin: 8px 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+.engram-about-links a {
+	display: inline-block;
+	padding: 6px 12px;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 6px;
+	color: var(--text-accent);
+	font-weight: 600;
+}
+
+.engram-about-links a:hover {
+	background: var(--background-modifier-hover);
+	text-decoration: none;
+}
+
+@media (max-width: 600px) {
+	.engram-plans {
+		flex-direction: column;
+	}
+}
+
+/* ── Sync progress modal ─────────────────────────────────────── */
+
+.engram-progress-path {
+	margin: 0 0 8px;
+	font-family: var(--font-monospace);
+	font-size: 0.8em;
+	opacity: 0.6;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.engram-progress-bar-outer {
+	height: 8px;
+	background: var(--background-modifier-border);
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.engram-progress-bar-inner {
+	height: 100%;
+	width: 0%;
+	background: var(--interactive-accent);
+	transition: width 0.15s ease;
+}
+
+.engram-progress-bar-inner.is-complete {
+	background: var(--text-success, var(--interactive-accent));
+}
+
+.engram-progress-intro {
+	margin: 4px 0 10px;
+	color: var(--text-muted);
+}
+
+.engram-progress-subtext {
+	margin: 0 0 8px;
+	font-size: 0.85em;
+	color: var(--text-muted);
+}
+
+.engram-progress-status {
+	font-weight: bold;
+	margin: 8px 0 4px;
+}
+
+/* One persistent row per phase: status icon, label, its own bar, and count. */
+.engram-progress-rows {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	margin: 8px 0;
+}
+
+.engram-progress-row {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.engram-progress-row-status {
+	flex: 0 0 auto;
+	width: 1.2em;
+	text-align: center;
+}
+
+.engram-progress-row-label {
+	flex: 0 0 6.5em;
+}
+
+.engram-progress-row .engram-progress-bar-outer {
+	flex: 1 1 auto;
+}
+
+.engram-progress-row-count {
+	flex: 0 0 auto;
+	min-width: 4.5em;
+	font-family: var(--font-monospace);
+	font-size: 0.85em;
+	color: var(--text-muted);
+	text-align: right;
+}
+
+.engram-progress-failed {
+	color: var(--text-error);
+	margin: 8px 0 0;
+}
+
+.engram-progress-summary {
+	margin: 12px 0 0;
+}
+
+/* Three-way completion tally: ✓ synced · ⤳ skipped (plan) · ✕ failed. */
+.engram-progress-summary-tally {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px 12px;
+	align-items: baseline;
+}
+
+.engram-progress-tally-synced {
+	color: var(--text-success, var(--text-normal));
+}
+
+/* Calm — plan-skips are expected on Free tier, not errors. Accent, not red. */
+.engram-progress-tally-skipped {
+	color: var(--text-accent);
+}
+
+.engram-progress-tally-failed {
+	color: var(--text-error);
+}
+
+.engram-progress-plan-note {
+	margin: 8px 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px;
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+}
+
+.engram-progress-upgrade {
+	flex: none;
+}
+
+.engram-progress-hint {
+	margin: 12px 0 0;
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+}
+
+.engram-progress-verify {
+	margin: 12px 0 0;
+}
+
+.engram-progress-verify-link {
+	color: var(--text-accent);
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.engram-progress-buttons {
+	display: flex;
+	justify-content: flex-end;
+	gap: 8px;
+	margin-top: 16px;
+}
+
+/* About section */
+.engram-about-list {
+	list-style: none;
+	padding-left: 0;
+	margin: 8px 0 16px 0;
+}
+
+.engram-about-list li {
+	padding: 4px 0;
+	color: var(--text-muted);
+	font-size: 0.9em;
+}
+
+.engram-about-list a {
+	color: var(--text-accent);
+}
+
+/* Support buttons (GitHub Sponsors + Ko-fi) */
+.engram-support-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	width: 100%;
+}
+
+.engram-support-buttons > a {
+	flex: 1 1 0;
+	justify-content: center;
+}
+
+/* Stack vertically on Obsidian mobile so the labels don't truncate */
+body.is-mobile .engram-support-buttons {
+	flex-direction: column;
+}
+
+body.is-mobile .engram-support-buttons > a {
+	flex: 0 0 auto;
+	width: 100%;
+}
+
+/* Let the support row use the full Setting width instead of hugging the right side */
+.engram-setting-support {
+	flex-direction: column;
+	align-items: stretch;
+	gap: 12px;
+}
+
+/* Scoped under `.engram-support-buttons a` for (0,2,1) specificity — beats
+   Obsidian themes that style anchors at (0,1,1) without needing !important. */
+.engram-support-buttons a.engram-kofi-button {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 8px 16px;
+	background: linear-gradient(135deg, #ff5e5b 0%, #ff8d6b 100%);
+	color: #ffffff;
+	border-radius: 8px;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 0.95em;
+	box-shadow: 0 2px 6px rgba(255, 94, 91, 0.25);
+	transition:
+		transform 0.15s ease,
+		box-shadow 0.15s ease;
+}
+
+.engram-support-buttons a.engram-kofi-button:hover {
+	transform: translateY(-1px);
+	box-shadow: 0 4px 14px rgba(255, 94, 91, 0.4);
+}
+
+.engram-support-buttons .engram-kofi-button .engram-kofi-icon {
+	display: inline-flex;
+	align-items: center;
+}
+
+.engram-support-buttons .engram-kofi-button .engram-kofi-icon svg {
+	width: 18px;
+	height: 18px;
+	stroke: #ffffff;
+}
+
+/* GitHub Sponsors brand pink, paired with the Ko-fi button above */
+.engram-support-buttons a.engram-sponsor-button {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 8px 16px;
+	background: linear-gradient(135deg, #ea4aaa 0%, #bf3989 100%);
+	color: #ffffff;
+	border-radius: 8px;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 0.95em;
+	box-shadow: 0 2px 6px rgba(234, 74, 170, 0.25);
+	transition:
+		transform 0.15s ease,
+		box-shadow 0.15s ease;
+}
+
+.engram-support-buttons a.engram-sponsor-button:hover {
+	transform: translateY(-1px);
+	box-shadow: 0 4px 14px rgba(234, 74, 170, 0.4);
+}
+
+.engram-support-buttons .engram-sponsor-button .engram-sponsor-icon {
+	display: inline-flex;
+	align-items: center;
+}
+
+.engram-support-buttons .engram-sponsor-button .engram-sponsor-icon svg {
+	width: 18px;
+	height: 18px;
+	fill: #ffffff;
+	stroke: #ffffff;
+}
+
+/* ───────────── Sync Center pane ───────────── */
+
+/* Workspace leaf content defaults to --background-secondary, which would
+   make every section card disappear. Pin the pane to --background-primary
+   so the section cards (in --background-secondary) actually contrast. */
+.engram-sync-center {
+	padding: 12px 14px;
+	font-size: var(--font-ui-small);
+	background-color: var(--background-primary);
+}
+
+.engram-sync-center-header {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	background-color: var(--background-modifier-form-field);
+	border: 1px solid var(--background-modifier-border);
+	border-left: 3px solid var(--interactive-accent);
+	border-radius: 8px;
+	padding: 10px 14px;
+	margin-bottom: 12px;
+	box-shadow: var(--shadow-s);
+}
+
+/* Version-floor refusal: terminal until updated, so it reads as an error, not
+   the accent-coloured info strip below it. */
+.engram-update-required-banner {
+	background-color: var(--background-modifier-form-field);
+	border: 1px solid var(--background-modifier-border);
+	border-left: 3px solid var(--text-error);
+	border-radius: 8px;
+	padding: 10px 14px;
+	margin-bottom: 12px;
+}
+
+.engram-update-required-banner p {
+	margin: 4px 0 10px;
+	color: var(--text-muted);
+}
+
+.engram-sync-center-issue-badge {
+	background: var(--background-modifier-error);
+	color: var(--text-on-accent);
+	border-radius: 10px;
+	padding: 2px 8px;
+	font-size: 11px;
+	font-weight: 600;
+}
+
+.engram-sync-center-ignored-badge {
+	background: var(--background-modifier-border);
+	color: var(--text-muted);
+	border-radius: 10px;
+	padding: 2px 8px;
+	font-size: 11px;
+	font-weight: 600;
+}
+
+.engram-sync-center-retrying-badge {
+	background: var(--background-modifier-border);
+	color: var(--text-accent);
+	border-radius: 10px;
+	padding: 2px 8px;
+	font-size: 11px;
+	font-weight: 600;
+}
+
+/* Queue-held badge — states WHY work is waiting. Muted: a held queue is
+   information, not a fault. */
+.engram-sync-center-queued-badge {
+	background: var(--background-modifier-border);
+	color: var(--text-muted);
+	border-radius: 10px;
+	padding: 2px 8px;
+	font-size: 11px;
+	font-weight: 600;
+}
+
+/* "Not synced on your plan" badge — calm/info, never error-red. */
+.engram-sync-center-plan-badge {
+	background: var(--background-modifier-form-field);
+	color: var(--text-accent);
+	border-radius: 10px;
+	padding: 2px 8px;
+	font-size: 11px;
+	font-weight: 600;
+}
+
+/* "Needs attention" reason card — one per failure reason, inside the section. */
+.engram-sync-center-card {
+	background-color: var(--background-primary);
+	border: 1px solid var(--background-modifier-border);
+	border-left: 3px solid var(--text-error);
+	border-radius: 6px;
+	padding: 10px 12px;
+	margin-bottom: 10px;
+}
+
+.engram-sync-center-card:last-child {
+	margin-bottom: 0;
+}
+
+/* Calm "Not synced on your plan" variant — info treatment, not error.
+   Overrides the default red left-border with the accent so the card reads
+   as informational rather than broken. */
+.engram-sync-center-card-info {
+	border-left-color: var(--interactive-accent);
+}
+
+/* The plan-skip section itself reuses the section card chrome but signals
+   "informational" via the accent left-border (the default for sections) and a
+   muted heading; no extra error coloring. */
+.engram-sync-center-plan-section .setting-item-heading .setting-item-name {
+	color: var(--text-accent);
+}
+
+.engram-sync-center-card-head {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.engram-sync-center-card-icon {
+	font-size: 16px;
+}
+
+.engram-sync-center-card-title {
+	font-weight: 600;
+	color: var(--text-normal);
+}
+
+.engram-sync-center-card-hint {
+	margin: 6px 0 10px;
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+}
+
+.engram-sync-center-card-actions {
+	display: flex;
+	gap: 6px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.engram-sync-center-card-toggle {
+	background: transparent;
+	box-shadow: none;
+	color: var(--text-muted);
+	cursor: pointer;
+}
+
+.engram-sync-center-actions {
+	display: flex;
+	gap: 6px;
+	flex-wrap: wrap;
+	background-color: var(--background-modifier-form-field);
+	border: 1px solid var(--background-modifier-border);
+	border-left: 3px solid var(--interactive-accent);
+	border-radius: 8px;
+	padding: 10px 12px;
+	margin-bottom: 14px;
+	box-shadow: var(--shadow-s);
+}
+
+.engram-sync-center-action-btn {
+	flex: 1;
+	min-width: 80px;
+}
+
+.engram-sync-center-section {
+	background-color: var(--background-modifier-form-field);
+	border-radius: 8px;
+	padding: 10px 14px 14px;
+	margin-bottom: 14px;
+	border: 1px solid var(--background-modifier-border);
+	border-left: 3px solid var(--interactive-accent);
+	box-shadow: var(--shadow-s);
+}
+
+/* Obsidian Setting heading inside our section card — strip its own
+   borders so it reads as the section title, not a separator. */
+.engram-sync-center-section .setting-item-heading {
+	border-top: none;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-bottom: 8px;
+}
+
+.engram-sync-center-section .setting-item-heading .setting-item-name {
+	font-size: var(--font-ui-small);
+	color: var(--text-muted);
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.6px;
+}
+
+.engram-sync-center-section-body {
+	display: block;
+}
+
+.engram-sync-center-empty {
+	color: var(--text-muted);
+	font-style: italic;
+	margin: 4px 0 0;
+	font-size: 12px;
+}
+
+.engram-sync-center-issue-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.engram-sync-center-issue-list.is-collapsed {
+	display: none;
+}
+
+.engram-sync-center-issue-row {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 8px 10px;
+	border-top: 1px solid var(--background-modifier-border);
+}
+
+.engram-sync-center-issue-row:first-child {
+	border-top: none;
+}
+
+.engram-sync-center-issue-main {
+	flex: 1;
+	min-width: 0;
+}
+
+.engram-sync-center-issue-path {
+	font-family: var(--font-monospace);
+	font-size: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.engram-sync-center-issue-meta {
+	color: var(--text-muted);
+	font-size: 11px;
+	margin-top: 2px;
+}
+
+.engram-sync-center-issue-reason {
+	color: var(--text-muted);
+	font-size: 11px;
+	margin-top: 2px;
+}
+
+.engram-sync-center-issue-reason code {
+	font-family: var(--font-monospace);
+	font-size: 11px;
+	margin-left: 4px;
+}
+
+.engram-sync-center-issue-actions {
+	display: flex;
+	gap: 4px;
+}
+
+.engram-sync-center-issue-actions button {
+	font-size: 11px;
+	padding: 3px 8px;
+}
+
+/* Activity feed */
+
+.engram-sync-center-activity-list {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 6px;
+	overflow: hidden;
+	background: var(--background-primary);
+	max-height: 320px;
+	overflow-y: auto;
+}
+
+.engram-sync-center-activity-row {
+	display: grid;
+	grid-template-columns: 18px 50px 1fr auto;
+	gap: 8px;
+	align-items: center;
+	padding: 5px 10px;
+	font-size: 12px;
+	border-top: 1px solid var(--background-modifier-border);
+}
+
+.engram-sync-center-activity-row:first-child {
+	border-top: none;
+}
+
+.engram-sync-center-activity-row.is-error {
+	background: var(--background-modifier-error-hover);
+}
+
+.engram-sync-center-activity-row.is-skipped {
+	color: var(--text-muted);
+}
+
+.engram-sync-center-activity-icon {
+	font-weight: 600;
+	text-align: center;
+}
+
+.engram-sync-center-activity-row.is-ok .engram-sync-center-activity-icon {
+	color: var(--color-green);
+}
+
+.engram-sync-center-activity-row.is-error .engram-sync-center-activity-icon {
+	color: var(--color-red);
+}
+
+.engram-sync-center-activity-action {
+	font-family: var(--font-monospace);
+	font-size: 11px;
+	color: var(--text-muted);
+	text-transform: uppercase;
+}
+
+.engram-sync-center-activity-path {
+	font-family: var(--font-monospace);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.engram-sync-center-activity-time {
+	color: var(--text-muted);
+	font-size: 11px;
+	white-space: nowrap;
+}
+
+.engram-sync-center-activity-error {
+	grid-column: 2 / -1;
+	color: var(--text-error);
+	font-size: 11px;
+	padding: 2px 10px 6px;
+}
+
+/* Stats */
+
+.engram-sync-center-stats-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 8px 16px;
+}
+
+.engram-sync-center-stat {
+	padding: 4px 0;
+}
+
+.engram-sync-center-stat-label {
+	font-size: 11px;
+	color: var(--text-muted);
+	text-transform: uppercase;
+	letter-spacing: 0.4px;
+}
+
+.engram-sync-center-stat-value {
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 2px;
+}
+
+/* SyncPreviewModal */
+
+/* Shared chrome for the connect -> preview -> progress flow.
+
+   These three modals run back-to-back as one user task, but each was a
+   separate Modal relying on Obsidian's content-driven sizing, so every step
+   came out a different width and height. A resize is the strongest cue a UI
+   has for "this is a different thing", which is why one flow read as three
+   unrelated dialogs.
+
+   Sizing only — each modal keeps its own body styles. Staged fix; the real
+   one is a single shell with the steps as renderers (see engram-app
+   issue for the flow-shell refactor). */
+.engram-flow-modal {
+	/* min(), not a flat value: Obsidian on mobile is narrower than 32em and a
+	   hard min-width would overflow the viewport. */
+	min-width: min(32em, 100%);
+	min-height: 16em;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Matches .engram-sync-preview-header exactly, so the two modals that use a
+   bare h2 stop looking like a different product mid-flow. */
+.engram-flow-modal h2 {
+	margin: 0 0 1em 0;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+.engram-sync-preview-modal .engram-sync-preview-header {
+	margin: 0 0 1em 0;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+.engram-sync-preview-modal .engram-sync-preview-header-success {
+	color: var(--text-success, var(--text-accent));
+}
+
+.engram-sync-preview-header-emoji {
+	margin-right: 0.15em;
+}
+
+.engram-sync-preview-picker-help {
+	color: var(--text-muted);
+	margin: 0.25em 0 1em 0;
+}
+
+.engram-sync-preview-loading {
+	color: var(--text-muted);
+	padding: 1.5em 0;
+	text-align: center;
+
+	/* Reserve the body so the modal does not collapse to one line and then
+	   snap back open when the plan lands. That resize is what made a single
+	   modal read as three different ones. */
+	min-height: 8em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.engram-sync-preview-picker-body {
+	margin-bottom: 1em;
+}
+
+.engram-sync-preview-picker-list {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+}
+
+.engram-sync-preview-picker-item {
+	text-align: left;
+	width: 100%;
+	padding: 0.6em 0.75em;
+}
+
+.engram-sync-preview-picker-item-name {
+	font-weight: 600;
+}
+
+.engram-sync-preview-picker-item-default {
+	color: var(--text-muted);
+	font-size: 0.85em;
+}
+
+.engram-sync-preview-picker-error {
+	color: var(--text-error);
+}
+
+.engram-sync-preview-compare {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 0.75em;
+	margin-bottom: 0.5em;
+}
+
+.engram-sync-preview-compare-col {
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+}
+
+.engram-sync-preview-compare-title {
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+	gap: 0.35em;
+	font-size: 1.05em;
+	font-weight: 700;
+	color: var(--text-normal);
+	overflow: hidden;
+}
+
+.engram-sync-preview-compare-name {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 100%;
+}
+
+.engram-sync-preview-compare-role {
+	text-align: center;
+	font-size: 0.8em;
+	color: var(--text-muted);
+	margin-bottom: 0.35em;
+}
+
+.engram-sync-preview-compare-card {
+	background: var(--background-secondary);
+	border-radius: 6px;
+	padding: 0.6em 0.75em;
+}
+
+.engram-sync-preview-compare-emoji {
+	line-height: 1;
+}
+
+.engram-sync-preview-compare-card-body {
+	display: flex;
+	flex-direction: column;
+	gap: 0.15em;
+}
+
+.engram-sync-preview-compare-row {
+	font-size: 0.9em;
+	color: var(--text-muted);
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+	gap: 0.4em;
+}
+
+.engram-sync-preview-compare-row-count {
+	font-weight: 700;
+	color: var(--text-normal);
+	font-variant-numeric: tabular-nums;
+}
+
+.engram-sync-preview-compare-row-emoji {
+	margin-right: 0;
+}
+
+.engram-sync-preview-compare-row-label {
+	margin-left: 0.15em;
+}
+
+.engram-sync-preview-match {
+	text-align: center;
+	margin: 0.75em 0 0.25em 0;
+	font-size: 1.05em;
+}
+
+.engram-sync-preview-match-value {
+	font-weight: 700;
+	color: var(--text-normal);
+	font-variant-numeric: tabular-nums;
+}
+
+.engram-sync-preview-match-value.is-perfect {
+	color: var(--text-success, var(--text-accent));
+}
+
+.engram-sync-preview-match-label {
+	color: var(--text-muted);
+}
+
+.engram-sync-preview-ignored {
+	text-align: center;
+	margin: 0 0 0.25em 0;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-faint);
+}
+
+.engram-sync-preview-conflicts {
+	text-align: center;
+	margin-bottom: 1em;
+	font-size: 0.9em;
+}
+
+.engram-sync-preview-conflicts-value {
+	color: var(--text-warning, var(--text-error));
+	font-weight: 600;
+}
+
+.engram-sync-preview-conflicts-label {
+	color: var(--text-muted);
+}
+
+.engram-sync-preview-skip-note {
+	text-align: center;
+	margin: 0.25em 0 1em 0;
+	font-size: 0.85em;
+	color: var(--text-muted);
+}
+
+.engram-sync-preview-skip-note-icon {
+	opacity: 0.8;
+}
+
+.engram-sync-preview-options {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75em;
+	margin-top: 1.5em;
+	padding-top: 1.25em;
+	border-top: 1px solid var(--background-modifier-border);
+}
+
+.engram-sync-preview-options-merge {
+	display: flex;
+	flex-direction: column;
+}
+
+.engram-sync-preview-options-grid {
+	display: flex;
+	flex-direction: column;
+	gap: 0.6em;
+}
+
+.engram-sync-preview-advanced {
+	margin: 0.5em 0 0;
+}
+
+.engram-sync-preview-advanced > .engram-sync-preview-options-grid {
+	margin-top: 0.6em;
+}
+
+.engram-sync-preview-advanced-summary {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.4em;
+	padding: 6px 10px;
+	cursor: pointer;
+	user-select: none;
+	list-style: none;
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+}
+
+/* Hide the native disclosure marker — we render our own chevron on the right. */
+.engram-sync-preview-advanced-summary::-webkit-details-marker {
+	display: none;
+}
+
+.engram-sync-preview-advanced-summary:hover {
+	color: var(--text-normal);
+}
+
+.engram-sync-preview-advanced-chevron {
+	display: inline-flex;
+	align-items: center;
+}
+
+.engram-sync-preview-advanced-chevron svg {
+	width: 14px;
+	height: 14px;
+}
+
+.engram-sync-preview-options-header {
+	text-align: center;
+	font-size: 1.05em;
+	font-weight: 600;
+	color: var(--text-normal);
+	margin-bottom: 0.6em;
+}
+
+.engram-sync-preview-option-wrap {
+	display: flex;
+	flex-direction: column;
+}
+
+.engram-sync-preview-option {
+	width: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5em;
+}
+
+.engram-sync-preview-option-emoji {
+	font-size: 1.1em;
+	line-height: 1;
+}
+
+.engram-sync-preview-option-label {
+	flex: 0 1 auto;
+}
+
+.engram-sync-preview-destructive {
+	background: var(--background-modifier-error);
+	color: var(--text-on-accent);
+}
+
+.engram-sync-preview-diagnostics-optin {
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	margin: 0.5em 0;
+	color: var(--text-muted);
+	font-size: 0.9em;
+}
+
+.engram-sync-preview-footer {
+	display: flex;
+	justify-content: flex-end;
+	gap: 0.5em;
+	margin-top: 1.5em;
+}
+
+.engram-sync-preview-warning {
+	color: var(--text-error);
+	font-weight: 600;
+}
+
+.engram-sync-preview-confirm-keyword {
+	color: var(--text-error);
+	font-weight: 700;
+}
+
+.engram-sync-preview-tree-caption {
+	margin: 1em 0 0.35em 0;
+	font-weight: 600;
+}
+
+.engram-sync-preview-tree {
+	background: var(--code-background, var(--background-secondary));
+	border-radius: 6px;
+	padding: 0.5em 0.75em;
+	margin: 0 0 1em 0;
+	max-height: 260px;
+	overflow-y: auto;
+	font-family: var(--font-monospace);
+	font-size: 0.85em;
+	line-height: 1.45;
+	white-space: pre;
+}
+
+.engram-sync-preview-tree code {
+	background: transparent;
+	padding: 0;
+	display: block;
+}
+
+.engram-sync-preview-tree-row {
+	white-space: pre;
+}
+
+.engram-sync-preview-tree-folder {
+	color: var(--text-normal);
+	font-weight: 600;
+}
+
+.engram-sync-preview-tree-folder-deleted {
+	color: var(--text-error);
+}
+
+.engram-sync-preview-tree-file {
+	color: var(--text-error);
+}
+
+.engram-sync-preview-confirm-input {
+	width: 100%;
+	padding: 0.4em;
+	font-family: monospace;
+}
+
+.engram-sync-preview-new-vault-input {
+	width: 100%;
+	padding: 0.4em;
+}
+
+/* ── Search highlights ───────────────────────────────────────── */
+
+.engram-search-hl {
+	background: var(--text-highlight-bg);
+	border-radius: var(--radius-s);
+}
+
+.engram-folder-suggest-item {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+}
+
+.engram-folder-suggest-icon {
+	display: inline-flex;
+	color: var(--text-muted);
+}
+
+.engram-folder-suggest-icon svg {
+	width: 1em;
+	height: 1em;
+}
+
+/* Search row: input grows, filters toggle sits at the end (native .search-row). */
+.engram-search-row {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.engram-search-input-wrap {
+	position: relative;
+	flex: 1;
+	min-width: 0;
+}
+
+.engram-search-input-icon {
+	position: absolute;
+	left: 0.5rem;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+	color: var(--text-muted);
+	pointer-events: none;
+}
+
+/* Room for the leading magnifier and the trailing clear button; hide the
+   browser's native search clear. */
+.engram-search-input-wrap .engram-search-input {
+	padding-left: 1.85rem;
+	padding-right: 1.8rem;
+}
+
+.engram-search-input::-webkit-search-cancel-button {
+	appearance: none;
+}
+
+.engram-search-clear {
+	position: absolute;
+	right: 0.25rem;
+	top: 50%;
+	transform: translateY(-50%);
+	display: none;
+	color: var(--text-muted);
+}
+
+.engram-search-clear.is-visible {
+	display: inline-flex;
+}
+
+/* Filters toggle: accent-tinted while the panel is open or a filter is active. */
+.engram-search-filter-toggle.is-active,
+.engram-search-filter-toggle.has-filters {
+	color: var(--text-accent);
+}
+
+.engram-search-filters {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.engram-search-filters.is-hidden {
+	display: none;
+}
+
+.engram-search-tag-chips {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.25rem;
+}
+
+/* No empty gap when there are no active filters. */
+.engram-search-tag-chips:empty {
+	display: none;
+}
+
+.engram-search-tag-chip {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.25rem;
+	padding: 0.1rem 0.4rem;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-normal);
+	background: var(--background-modifier-hover);
+	border-radius: var(--radius-s);
+	cursor: pointer;
+}
+
+.engram-search-tag-chip-remove {
+	display: inline-flex;
+	cursor: pointer;
+	color: var(--text-muted);
+	line-height: 1;
+}
+
+.engram-search-tag-chip:hover .engram-search-tag-chip-remove {
+	color: var(--text-normal);
+}
+
+.engram-connection-warning .setting-item-name {
+	color: var(--text-warning);
+}
+
+/* One-click first-sync (empty-side) screen */
+.engram-sync-preview-simple {
+	margin: 16px 0;
+}
+
+.engram-sync-preview-simple-body {
+	font-size: var(--font-ui-medium);
+	margin: 0 0 4px 0;
+}
+
+.engram-sync-preview-simple-note {
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+	margin: 0 0 12px 0;
+}
+
+.engram-sync-preview-simple-action {
+	width: 100%;
+	padding: 10px;
+}
+
+/* ── Feedback tab ── */
+.engram-feedback-composer {
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-m);
+	overflow: hidden;
+}
+
+.engram-feedback-composer:focus-within {
+	border-color: var(--interactive-accent);
+}
+
+/* Four equal columns, or 2x2 on a phone, so no chip wraps alone. */
+.engram-feedback-chips {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: var(--size-4-1);
+	padding: var(--size-4-2);
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+/* Obsidian's mobile buttons are tall and wide; chips stay compact. */
+.engram-feedback-chip {
+	height: auto;
+	padding: var(--size-4-1) var(--size-4-3);
+	border-radius: var(--radius-l);
+	font-size: var(--font-ui-small);
+}
+
+@media (max-width: 600px) {
+	.engram-feedback-chips {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+.engram-feedback-chip[aria-pressed="true"] {
+	background-color: var(--interactive-accent);
+	color: var(--text-on-accent);
+}
+
+.engram-feedback-input {
+	display: block;
+	width: 100%;
+	min-height: 12rem;
+	resize: none;
+	border: none;
+	border-radius: 0;
+	background: transparent;
+	box-shadow: none;
+}
+
+.engram-feedback-mood {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: var(--size-4-3);
+	padding: var(--size-4-1) var(--size-4-3);
+	border-top: 1px solid var(--background-modifier-border);
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+}
+
+.engram-feedback-faces {
+	display: flex;
+	flex-shrink: 0;
+	gap: var(--size-2-1);
+}
+
+.engram-feedback-face {
+	width: auto;
+	height: auto;
+	padding: var(--size-2-2);
+	font-size: var(--font-ui-medium);
+	opacity: 0.4;
+	filter: grayscale(1);
+}
+
+.engram-feedback-face[aria-pressed="true"],
+.engram-feedback-face:hover {
+	opacity: 1;
+	filter: none;
+}
+
+.engram-feedback-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: var(--size-4-3);
+	margin-top: var(--size-4-3);
+}
+
+.engram-feedback-consent {
+	display: flex;
+	align-items: center;
+	gap: var(--size-4-2);
+	color: var(--text-muted);
+}
+
