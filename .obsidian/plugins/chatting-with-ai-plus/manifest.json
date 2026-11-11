@@ -1,0 +1,10 @@
+{
+  "id": "chatting-with-ai-plus",
+  "name": "Chatting with AI Plus",
+  "version": "1.0.1",
+  "minAppVersion": "1.11.4",
+  "description": "Chat with Anthropic, OpenAI, or your ChatGPT account, manage named conversations, attach images, and work with Markdown notes.",
+  "author": "nagisa525",
+  "authorUrl": "https://github.com/nagisa525",
+  "isDesktopOnly": false
+}
