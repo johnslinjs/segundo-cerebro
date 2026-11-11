@@ -45,7 +45,13 @@
   "authorName": "",
   "authorEmail": "",
   "keepEmptyFolders": true,
-  "mirror": null,
+  "mirror": {
+    "enabled": false,
+    "provider": "github",
+    "owner": "",
+    "repo": "",
+    "branch": "main"
+  },
   "noticeLevel": "auto",
   "syncOnOpen": true,
   "explorerBadges": true,
