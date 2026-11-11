@@ -46,3 +46,20 @@ language: pt-BR
 4. Não inventar datas, causas, diagnósticos ou conexões.
 5. Não tratar metas como conquistas nem registros antigos como situação atual.
 6. Proteger informações pessoais sensíveis.
+
+
+## Manual e documentação
+- [[05 - SISTEMA/05 - Modelos e Padrões/Manual do Segundo Cérebro]]
+- [[05 - SISTEMA/05 - Modelos e Padrões/Guia de pastas e áreas]]
+- [[05 - SISTEMA/05 - Modelos e Padrões/Como processar a Entrada - CODE]]
+- [[05 - SISTEMA/05 - Modelos e Padrões/Como registrar informações e fontes]]
+- [[05 - SISTEMA/05 - Modelos e Padrões/Obsidian, Engram e GitHub - funcionamento]]
+
+
+## Modelos
+- [[05 - SISTEMA/05 - Modelos e Padrões/Modelo - Nota geral]]
+- [[05 - SISTEMA/05 - Modelos e Padrões/Modelo - Projeto]]
+- [[05 - SISTEMA/05 - Modelos e Padrões/Modelo - Pessoa e relação]]
+- [[05 - SISTEMA/05 - Modelos e Padrões/Modelo - Evento da linha do tempo]]
+- [[05 - SISTEMA/05 - Modelos e Padrões/Modelo - Recurso]]
+- [[05 - SISTEMA/05 - Modelos e Padrões/Modelo - Nota permanente]]
