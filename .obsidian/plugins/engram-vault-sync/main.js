@@ -1297,7 +1297,6 @@ var de = {
   "1. Make an account": "1. Erstelle ein Konto",
   "10 GB attachments": "10 GB Anh\xE4nge",
   "10 vaults, unlimited devices": "10 Vaults, unbegrenzte Ger\xE4te",
-  "2,000 notes searchable": "2.000 Notizen durchsuchbar",
   "2. Connect your vault to Engram": "2. Verbinde deinen Vault mit Engram",
   "3. Connect your AI": "3. Verbinde deine KI",
   "50 GB attachments": "50 GB Anh\xE4nge",
@@ -1306,9 +1305,8 @@ var de = {
   "A temporary server problem \u2014 retrying automatically.": "Ein vor\xFCbergehendes Serverproblem \u2013 wird automatisch erneut versucht.",
   "AI / MCP setup guide": "Anleitung zur AI / MCP-Einrichtung",
   "AI searches": "KI-Suchen",
-  "API access": "API-Zugriff",
   "API key": "API-Schl\xFCssel",
-  "API keys need a Pro plan. Sign in with your Engram account instead.": "API-Schl\xFCssel ben\xF6tigen einen Pro-Plan. Melde dich stattdessen mit deinem Engram-Konto an.",
+  "API key access is turned off for this account. Sign in with your Engram account instead.": "Der API-Schl\xFCsselzugriff ist f\xFCr dieses Konto deaktiviert. Melde dich stattdessen mit deinem Engram-Konto an.",
   About: "\xDCber",
   "Accept it to keep syncing.": "Akzeptiere es, um die Synchronisierung fortzusetzen.",
   "Access token": "Zugriffstoken",
@@ -1320,14 +1318,13 @@ var de = {
   "Advanced sync options": "Erweiterte Synchronisierungsoptionen",
   "All synced. Your vault and the cloud now match.": "Alles synchronisiert. Dein Vault und die Cloud sind jetzt identisch.",
   "Already in sync. Nothing is deleted.": "Bereits synchronisiert. Nichts wird gel\xF6scht.",
-  "Already signed in on another device. Upgrade for multi-device.": "Du bist bereits auf einem anderen Ger\xE4t angemeldet. Upgrade f\xFCr mehrere Ger\xE4te.",
   "Already up to date. Nothing needed syncing.": "Bereits auf dem neuesten Stand. Nichts musste synchronisiert werden.",
   "An unexpected error \u2014 retrying automatically.": "Ein unerwarteter Fehler \u2013 wird automatisch erneut versucht.",
+  "Attachment not accepted": "Anh\xE4nge werden nicht akzeptiert",
   "Attachment storage full": "Speicherplatz f\xFCr Anh\xE4nge voll",
   "Attachment storage is full \u2014 upgrade for more.": "Der Speicher f\xFCr Anh\xE4nge ist voll \u2014 upgrade f\xFCr mehr Speicher.",
   "Attachment sync is disabled for this account.": "Die Synchronisierung von Anh\xE4ngen ist f\xFCr dieses Konto deaktiviert.",
   Attachments: "Anh\xE4nge",
-  "Attachments need a paid plan": "Anh\xE4nge ben\xF6tigen ein kostenpflichtiges Abonnement",
   "Attachments on this device": "Anh\xE4nge auf diesem Ger\xE4t",
   "Authenticated via Engram account (OAuth).": "Authentifizierung \xFCber Engram-Konto (OAuth).",
   "Authenticated via manual API key.": "Authentifizierung \xFCber manuellen API-Schl\xFCssel.",
@@ -1378,7 +1375,7 @@ var de = {
   "Create a hosted account at {signup}, or self-host the server ({guide}).": "Erstelle ein Konto bei {signup} oder hoste den Server selbst ({guide}).",
   "Create a new empty vault on the server, then sync this Obsidian vault into it.": "Erstelle ein neues, leeres Vault auf dem Server und synchronisiere dann dieses Obsidian-Vault damit.",
   "Custom patterns": "Benutzerdefinierte Muster",
-  "Daily AI search limit reached. Free includes 20 per day across Obsidian, the web app and MCP. Upgrade for unlimited.": "T\xE4gliches Limit f\xFCr KI-Suchen erreicht. Das kostenlose Abo beinhaltet 20 Suchen pro Tag f\xFCr Obsidian, die Web-App und MCP. Upgrade f\xFCr unbegrenzte Suchen.",
+  "Daily AI search limit reached. Free searches are shared across Obsidian, the web app and MCP. Upgrade for unlimited.": "T\xE4gliches Limit f\xFCr KI-Suchen erreicht. Kostenlose Suchvorg\xE4nge werden zwischen Obsidian, der Web-App und MCP geteilt. Upgrade f\xFCr unbegrenzte Nutzung.",
   "Dart tool cache": "Dart-Tool-Cache",
   "Debug (verbose)": "Debug (ausf\xFChrlich)",
   "Delete all local files, then download from remote": "L\xF6sche alle lokalen Dateien und lade sie dann von der Ferne herunter",
@@ -1401,6 +1398,7 @@ var de = {
     one: "{count} wird im Cloud-Speicher gel\xF6scht.",
     other: "{count} werden im Cloud-Speicher gel\xF6scht."
   },
+  "Device limit reached. Disconnect a device or upgrade.": "Ger\xE4te-Limit erreicht. Trenne ein Ger\xE4t oder upgrade.",
   "Device swap cooldown active. Wait or upgrade.": "Ger\xE4teschaltzeit aktiv. Warte oder upgrade.",
   Diagnostics: "Diagnose",
   "Diagnostics detail": "Diagnose-Details",
@@ -1441,7 +1439,6 @@ var de = {
   "Engram Sync: {details}": "Engram-Synchronisierung: {details}",
   "Engram URL": "Engram-URL",
   "Engram Vault Sync {version} is available. {link}.": "Engram Vault Sync {version} verf\xFCgbar. {link}.",
-  "Engram indexes {indexed} of your {all} notes. The rest match on this device only. Upgrade to index everything.": "Engram indiziert {indexed} deiner {all} Notizen. Der Rest wird nur auf diesem Ger\xE4t gefunden. Upgrade, um alles zu indizieren.",
   "Engram is the backend that powers sync and semantic search.": "Engram ist das Backend, das die Synchronisierung und die semantische Suche erm\xF6glicht.",
   "Engram search": "Engram-Suche",
   "Engram server changed \u2014 sign in again to continue.": "Engram-Server ge\xE4ndert \u2013 melde dich erneut an, um fortzufahren.",
@@ -1489,9 +1486,9 @@ var de = {
   "Engram: this vault no longer exists on the server. Pick or create a vault to continue.": "Engram: Dieses Vault existiert nicht mehr auf dem Server. W\xE4hle ein Vault aus oder erstelle eines, um fortzufahren.",
   "Engram: update required": "Engram: Update erforderlich",
   "Engram: your login expired \u2014 open Engram settings to reconnect.": "Engram: Deine Anmeldung ist abgelaufen \u2013 \xF6ffne die Engram-Einstellungen, um die Verbindung wiederherzustellen.",
-  "Engram: {count} attachments skipped \u2014 upgrade your plan to sync images & PDFs.": {
-    one: "Engram: {count} Anhang \xFCbersprungen \u2013 aktualisiere dein Abo, um Bilder und PDFs zu synchronisieren.",
-    other: "Engram: {count} Anh\xE4nge \xFCbersprungen \u2013 aktualisiere dein Abo, um Bilder und PDFs zu synchronisieren."
+  "Engram: {count} attachments skipped. See Sync Center for why.": {
+    one: "Engram: {count} Anhang \xFCbersprungen. Siehe Sync-Zentrale, um den Grund zu erfahren.",
+    other: "Engram: {count} Anh\xE4nge \xFCbersprungen. Siehe Sync-Zentrale, um den Grund zu erfahren."
   },
   "Engram: {count} files failed to sync{detail} \u2014 open Sync Center": {
     one: "Engram: {count} Datei konnte nicht synchronisiert werden{detail} \u2014 \xD6ffne die Sync-Zentrale",
@@ -1525,11 +1522,6 @@ var de = {
   "Finished with some errors. Open the sync log to see what failed.": "Beendet mit Fehlern. \xD6ffne das Synchronprotokoll, um zu sehen, was fehlgeschlagen ist.",
   "First sync, this may take a moment.": "Erste Synchronisierung, das kann einen Moment dauern.",
   Free: "Kostenlos",
-  "Free syncs notes only \u2014 images & PDFs need a paid plan.": "Kostenlose Synchronisierung gilt nur f\xFCr Notizen \u2013 Bilder und PDFs ben\xF6tigen ein kostenpflichtiges Abonnement.",
-  "Free syncs notes only \u2014 {count} attachments will be skipped.": {
-    one: "Kostenlose Synchronisierung gilt nur f\xFCr Notizen \u2013 {count} Anhang wird \xFCbersprungen.",
-    other: "Kostenlose Synchronisierung gilt nur f\xFCr Notizen \u2013 {count} Anh\xE4nge werden \xFCbersprungen."
-  },
   "Frontmatter could not be parsed": "Frontmatter konnte nicht analysiert werden",
   "Frontmatter isn't valid YAML.": "Das Frontmatter ist kein g\xFCltiges YAML.",
   'Frontmatter key "{key}" could not be parsed as YAML.': 'Der Frontmatter-Schl\xFCssel "{key}" konnte nicht als YAML geparst werden.',
@@ -1590,8 +1582,6 @@ var de = {
   "Note limit reached. Upgrade to keep adding notes.": "Notizen-Limit erreicht. Upgrade, um weitere Notizen hinzuf\xFCgen zu k\xF6nnen.",
   "Note not synced locally": "Notiz nicht lokal synchronisiert",
   "Notes on this device": "Notizen auf diesem Ger\xE4t",
-  "Notes past this still sync and open normally, they are just not in the search index. The index keeps your oldest notes, so it is your newest ones that fall outside.": "Notizen nach diesem Punkt werden weiterhin synchronisiert und normal ge\xF6ffnet, sie sind nur nicht im Suchindex enthalten. Der Index speichert deine \xE4ltesten Notizen, sodass die neuesten Notizen nicht enthalten sind.",
-  "Notes searchable": "Notizen durchsuchbar",
   "Notes stored": "Notizen gespeichert",
   "Nothing in this vault syncs until you choose how to merge it with the server.": "Nichts in diesem Vault wird synchronisiert, bis du entscheidest, wie es mit dem Server zusammengef\xFChrt werden soll.",
   "Nothing is deleted.": "Nichts wird gel\xF6scht.",
@@ -1613,7 +1603,6 @@ var de = {
   "Open the file to resolve the conflict, then sync again.": "\xD6ffne die Datei, um den Konflikt zu beheben, und synchronisiere dann erneut.",
   "Opens your browser to sign in, or create an account if you don't have one yet, then links this vault.": "\xD6ffnet deinen Browser, um dich anzumelden oder ein Konto zu erstellen, falls du noch keins hast, und verkn\xFCpft dann diesen Vault.",
   "Or authenticate with a token instead of signing in.": "Oder authentifiziere dich mit einem Token anstelle der Anmeldung.",
-  "Or authenticate with a token instead of signing in. Engram Cloud API keys require the Pro plan; on Free and Starter, sign in above.": "Oder authentifiziere dich mit einem Token anstelle der Anmeldung. Engram Cloud API-Schl\xFCssel erfordern das Pro-Abonnement; bei Free und Starter melde dich oben an.",
   "Paths to skip (one per line). Folder patterns end with /. Built-in: {configDir}/, .trash/, .git/": "Pfade, die \xFCbersprungen werden sollen (einer pro Zeile). Ordnernamen enden mit /. Voreinstellungen: {configDir}/, .trash/, .git/",
   "Pick a vault": "W\xE4hle ein Vault",
   "Pick a vault (previous: '{name}' not found)": "W\xE4hle ein Vault (vorherige: '{name}' nicht gefunden)",
@@ -1657,7 +1646,6 @@ var de = {
   "Search failed \u2014 check connection": "Suche fehlgeschlagen \u2013 Verbindung pr\xFCfen",
   "Search settings": "Such-Einstellungen",
   "Search your vault\u2026": "Suche in deinem Vault\u2026",
-  "Searching {indexed} of {all} notes. Upgrade to search everything.": "Durchsucht {indexed} von {all} Notizen. Upgrade, um alles zu durchsuchen.",
   "See full pricing": "Siehe vollst\xE4ndige Preis\xFCbersicht",
   "See the AI setup guide": "Sieh dir die Anleitung zur KI-Einrichtung an",
   "Select which vault this plugin syncs with.": "W\xE4hle das Vault aus, mit dem dieses Plugin synchronisiert.",
@@ -1705,7 +1693,7 @@ var de = {
   "Sync server": "Synchronisierungsserver",
   "Sync these now": "Jetzt synchronisieren",
   "Sync...": "Synchronisieren...",
-  "Synced. Some attachments need a paid plan to sync (see below).": "Synchronisiert. Einige Anh\xE4nge ben\xF6tigen ein kostenpflichtiges Abonnement, um synchronisiert zu werden (siehe unten).",
+  "Synced. Some attachments were skipped (see below).": "Synchronisiert. Einige Anh\xE4nge wurden \xFCbersprungen (siehe unten).",
   "Syncing attachments": "Anh\xE4nge synchronisieren",
   "Syncing your vault": "Synchronisiere dein Vault",
   "Syncing...": "Synchronisieren...",
@@ -1718,7 +1706,6 @@ var de = {
   "That does not look like an Engram API key (expected {prefix}\u2026).": "Das sieht nicht nach einem Engram API-Schl\xFCssel aus (erwartet {prefix}\u2026).",
   "The Engram server no longer accepts this plugin version (it needs {version} or newer), so notes are not being sent or received. Changes made on this device stay here until you update.": "Der Engram-Server akzeptiert diese Plugin-Version nicht (er ben\xF6tigt {version} oder neuer), daher werden keine Notizen gesendet oder empfangen. \xC4nderungen, die du hier vornimmst, bleiben lokal, bis du aktualisierst.",
   "The Engram server no longer accepts this plugin version, so notes are not being sent or received. Changes made on this device stay here until you update.": "Der Engram-Server akzeptiert diese Plugin-Version nicht, daher werden keine Notizen gesendet oder empfangen. \xC4nderungen, die du hier vornimmst, bleiben lokal, bis du aktualisierst.",
-  "The Free tier syncs notes only. Upgrade to sync images and PDFs.": "Die kostenlose Version synchronisiert nur Notizen. Upgrade, um auch Bilder und PDFs zu synchronisieren.",
   "The file is over the server's size limit. Compress or split it, then it will sync.": "Die Datei ist gr\xF6\xDFer als die Server-Gr\xF6\xDFenbeschr\xE4nkung. Komprimiere oder teile sie, dann wird sie synchronisiert.",
   "The file is too large for the server.": "Die Datei ist zu gro\xDF f\xFCr den Server.",
   "The note synced, but its frontmatter could not be fully parsed. Open it to fix the highlighted line.": "Die Notiz wurde synchronisiert, aber ihr Frontmatter konnte nicht vollst\xE4ndig analysiert werden. \xD6ffne sie, um die hervorgehobene Zeile zu korrigieren.",
@@ -1726,7 +1713,7 @@ var de = {
   "The server does not accept this type of file. It will retry if the file changes.": "Der Server akzeptiert diesen Dateityp nicht. Er wird es erneut versuchen, wenn sich die Datei \xE4ndert.",
   "The server lost this file's stored content and will try to restore it. Nothing on this device was changed.": "Der Server hat den Inhalt dieser Datei verloren und versucht, ihn wiederherzustellen. Auf diesem Ger\xE4t wurden keine \xC4nderungen vorgenommen.",
   "The server took too long to respond. Try again.": "Der Server hat zu lange zum Antworten gebraucht. Versuche es erneut.",
-  "These files are fine. They just need a paid plan to sync.": "Diese Dateien sind in Ordnung. Sie ben\xF6tigen nur einen kostenpflichtigen Plan, um synchronisiert zu werden.",
+  "These files are fine. Each card below says why they did not sync.": "Diese Dateien sind in Ordnung. Jede Karte unten erkl\xE4rt, warum sie nicht synchronisiert wurden.",
   "This account was deleted. Contact support if that is wrong.": "Dieses Konto wurde gel\xF6scht. Kontaktiere den Support, falls das falsch ist.",
   "This cannot be undone.": "Das kann nicht r\xFCckg\xE4ngig gemacht werden.",
   "This code expired before the link finished. Generate a new code to try again.": "Dieser Code ist abgelaufen, bevor der Link fertig war. Generiere einen neuen Code und versuche es erneut.",
@@ -1734,10 +1721,10 @@ var de = {
   "This file type isn't accepted by this server.": "Dieser Dateityp wird von diesem Server nicht akzeptiert.",
   "This note could not be processed and was skipped.": "Diese Notiz konnte nicht verarbeitet und wurde \xFCbersprungen.",
   "This server is self-hosted, so feedback is not collected here. ": "Dieser Server ist selbst gehostet, daher werden hier keine Daten gesammelt. ",
+  "This server isn't accepting this attachment for your account.": "Dieser Server akzeptiert diesen Anhang nicht f\xFCr dein Konto.",
   "This vault": "Dieser Vault",
   "This vault is empty on the server. Upload your {what}?": "Dieser Vault ist auf dem Server leer. M\xF6chtest du deine {what} hochladen?",
   "Too large for the server": "Zu gro\xDF f\xFCr den Server",
-  "Too many connected AI clients. Disconnect one or upgrade.": "Zu viele verbundene KI-Clients. Trenne einen oder upgrade.",
   "Too many connected Obsidian vaults. Disconnect one or upgrade.": "Zu viele verbundene Obsidian-Vaults. Trenne eine oder upgrade.",
   "Too many requests. Wait a moment and try again.": "Zu viele Anfragen. Warte einen Moment und versuche es erneut.",
   "Type {keyword} to confirm:": "Gib {keyword} ein, um zu best\xE4tigen:",
@@ -1813,9 +1800,13 @@ var de = {
   "waiting for a plugin update": "Wartet auf ein Plugin-Update",
   "waiting to retry": "wartet auf Wiederholung",
   "{count} attachments": { one: "{count} Anhang", other: "{count} Anh\xE4nge" },
-  "{count} attachments need a paid plan to sync. See Sync Center.": {
-    one: "{count} Anhang ben\xF6tigt ein kostenpflichtiges Abo, um synchronisiert zu werden. Siehe Sync-Zentrale.",
-    other: "{count} Anh\xE4nge ben\xF6tigen ein kostenpflichtiges Abo, um synchronisiert zu werden. Siehe Sync-Zentrale."
+  "{count} attachments skipped. See Sync Center.": {
+    one: "{count} Anhang \xFCbersprungen. Siehe Sync-Zentrale.",
+    other: "{count} Anh\xE4nge \xFCbersprungen. Siehe Sync-Zentrale."
+  },
+  "{count} attachments will be skipped: this server only accepts text files.": {
+    one: "{count} Anhang wird \xFCbersprungen: dieser Server akzeptiert nur Textdateien.",
+    other: "{count} Anh\xE4nge werden \xFCbersprungen: Dieser Server akzeptiert nur Textdateien."
   },
   "{count} attempts": { one: "{count} Versuch", other: "{count} Versuche" },
   "{count} conflicts need resolution": {
@@ -1875,10 +1866,7 @@ var de = {
   "\u2715 {count} failed": { one: "\u2715 {count} fehlgeschlagen", other: "\u2715 {count} fehlgeschlagen" },
   "\u2717 couldn't reach a server at this URL": "\u2717 Kein Server unter dieser URL erreichbar",
   "\u2717 server responded but isn't an Engram server": "\u2717 Der Server antwortet, ist aber kein Engram-Server",
-  "\u2933 {count} skipped (Free plan)": {
-    one: "\u2933 {count} \xFCbersprungen (kostenlose Version)",
-    other: "\u2933 {count} \xFCbersprungen (Kostenlose Version)"
-  },
+  "\u2933 {count} skipped": { one: "\u2933 {count} \xFCbersprungen", other: "\u2933 {count} \xFCbersprungen" },
   "\u{1F44B} Welcome": "\u{1F44B} Willkommen",
   "\u{1F4AC} Feedback": "\u{1F4AC} Feedback",
   "\u{1F504} Sync Center": "\u{1F504} Sync-Zentrale",
@@ -1899,20 +1887,20 @@ var enPlurals = {
   "Engram: {count} files failed to sync{detail} \u2014 open Sync Center": {
     one: "Engram: {count} file failed to sync{detail} \u2014 open Sync Center"
   },
-  "Engram: {count} attachments skipped \u2014 upgrade your plan to sync images & PDFs.": {
-    one: "Engram: {count} attachment skipped \u2014 upgrade your plan to sync images & PDFs."
+  "Engram: {count} attachments skipped. See Sync Center for why.": {
+    one: "Engram: {count} attachment skipped. See Sync Center for why."
   },
   "Engram: plan upgraded \u2014 syncing {count} attachments\u2026": {
     one: "Engram: plan upgraded \u2014 syncing {count} attachment\u2026"
   },
-  "Free syncs notes only \u2014 {count} attachments will be skipped.": {
-    one: "Free syncs notes only \u2014 {count} attachment will be skipped."
+  "{count} attachments will be skipped: this server only accepts text files.": {
+    one: "{count} attachment will be skipped: this server only accepts text files."
   },
   "{count} conflicts need resolution": {
     one: "{count} conflict needs resolution"
   },
-  "{count} attachments need a paid plan to sync. See Sync Center.": {
-    one: "{count} attachment needs a paid plan to sync. See Sync Center."
+  "{count} attachments skipped. See Sync Center.": {
+    one: "{count} attachment skipped. See Sync Center."
   },
   "{count} files queued": {
     one: "{count} file queued"
@@ -1981,7 +1969,7 @@ var enPlurals = {
   "Downloading {count}.": { one: "Downloading {count}." },
   "Deleting {count} on the cloud.": { one: "Deleting {count} on the cloud." },
   "\u2713 {count} synced": { one: "\u2713 {count} synced" },
-  "\u2933 {count} skipped (Free plan)": { one: "\u2933 {count} skipped (Free plan)" },
+  "\u2933 {count} skipped": { one: "\u2933 {count} skipped" },
   "\u2715 {count} failed": { one: "\u2715 {count} failed" },
   '{count} failed. Run "{command}" for details.': {
     one: '{count} failed. Run "{command}" for details.'
@@ -2002,7 +1990,6 @@ var es = {
   "1. Make an account": "1. Crea una cuenta",
   "10 GB attachments": "10 GB de adjuntos",
   "10 vaults, unlimited devices": "10 b\xF3vedas, dispositivos ilimitados",
-  "2,000 notes searchable": "2000 notas buscables",
   "2. Connect your vault to Engram": "2. Conecta tu b\xF3veda a Engram",
   "3. Connect your AI": "3. Conecta tu IA",
   "50 GB attachments": "50 GB de adjuntos",
@@ -2011,9 +1998,8 @@ var es = {
   "A temporary server problem \u2014 retrying automatically.": "Un problema temporal del servidor, se est\xE1 reintentando autom\xE1ticamente.",
   "AI / MCP setup guide": "Gu\xEDa de configuraci\xF3n de IA / MCP",
   "AI searches": "B\xFAsquedas con IA",
-  "API access": "Acceso a la API",
   "API key": "Clave API",
-  "API keys need a Pro plan. Sign in with your Engram account instead.": "Las claves de API requieren un plan Pro. Inicia sesi\xF3n con tu cuenta de Engram en su lugar.",
+  "API key access is turned off for this account. Sign in with your Engram account instead.": "El acceso a la clave API est\xE1 desactivado para esta cuenta. Inicia sesi\xF3n con tu cuenta de Engram en su lugar.",
   About: "Acerca de",
   "Accept it to keep syncing.": "Acepta para continuar sincronizando.",
   "Access token": "Token de acceso",
@@ -2025,14 +2011,13 @@ var es = {
   "Advanced sync options": "Opciones de sincronizaci\xF3n avanzadas",
   "All synced. Your vault and the cloud now match.": "Todo sincronizado. Tu b\xF3veda y la nube ahora coinciden.",
   "Already in sync. Nothing is deleted.": "Ya est\xE1 sincronizado. Nada se elimina.",
-  "Already signed in on another device. Upgrade for multi-device.": "Ya iniciaste sesi\xF3n en otro dispositivo. Actualiza para usar varios dispositivos.",
   "Already up to date. Nothing needed syncing.": "Ya est\xE1 actualizado. No es necesario sincronizar nada.",
   "An unexpected error \u2014 retrying automatically.": "Un error inesperado, se est\xE1 reintentando autom\xE1ticamente.",
+  "Attachment not accepted": "Archivo no aceptado",
   "Attachment storage full": "Almacenamiento de adjuntos lleno",
   "Attachment storage is full \u2014 upgrade for more.": "El almacenamiento de adjuntos est\xE1 lleno. Actualiza para obtener m\xE1s espacio.",
   "Attachment sync is disabled for this account.": "La sincronizaci\xF3n de adjuntos est\xE1 desactivada para esta cuenta.",
   Attachments: "Adjuntos",
-  "Attachments need a paid plan": "Los adjuntos requieren un plan de pago",
   "Attachments on this device": "Adjuntos en este dispositivo",
   "Authenticated via Engram account (OAuth).": "Autenticado a trav\xE9s de la cuenta de Engram (OAuth).",
   "Authenticated via manual API key.": "Autenticado a trav\xE9s de una clave API manual.",
@@ -2083,7 +2068,7 @@ var es = {
   "Create a hosted account at {signup}, or self-host the server ({guide}).": "Crea una cuenta alojada en {signup}, o aloja el servidor t\xFA mismo ({guide}).",
   "Create a new empty vault on the server, then sync this Obsidian vault into it.": "Crea una b\xF3veda vac\xEDa en el servidor y luego sincroniza esta b\xF3veda de Obsidian con ella.",
   "Custom patterns": "Patrones personalizados",
-  "Daily AI search limit reached. Free includes 20 per day across Obsidian, the web app and MCP. Upgrade for unlimited.": "L\xEDmite diario de b\xFAsquedas de IA alcanzado. La versi\xF3n gratuita incluye 20 b\xFAsquedas por d\xEDa en Obsidian, la aplicaci\xF3n web y MCP. Actualiza para tener b\xFAsquedas ilimitadas.",
+  "Daily AI search limit reached. Free searches are shared across Obsidian, the web app and MCP. Upgrade for unlimited.": "L\xEDmite diario de b\xFAsquedas con IA alcanzado. Las b\xFAsquedas gratuitas se comparten entre Obsidian, la aplicaci\xF3n web y MCP. Actualiza para b\xFAsquedas ilimitadas.",
   "Dart tool cache": "Cach\xE9 de herramientas Dart",
   "Debug (verbose)": "Depuraci\xF3n (detallado)",
   "Delete all local files, then download from remote": "Borra todos los archivos locales y luego desc\xE1rgalos desde el servidor",
@@ -2110,6 +2095,7 @@ var es = {
     many: "Eliminando la versi\xF3n {count} en la nube.",
     other: "Eliminando {count} en la nube."
   },
+  "Device limit reached. Disconnect a device or upgrade.": "L\xEDmite de dispositivos alcanzado. Desconecta un dispositivo o actualiza.",
   "Device swap cooldown active. Wait or upgrade.": "Periodo de espera para cambio de dispositivo activo. Espera o actualiza.",
   Diagnostics: "Diagn\xF3sticos",
   "Diagnostics detail": "Detalles de los diagn\xF3sticos",
@@ -2158,7 +2144,6 @@ var es = {
   "Engram Sync: {details}": "Sincronizaci\xF3n de Engram: {details}",
   "Engram URL": "URL de Engram",
   "Engram Vault Sync {version} is available. {link}.": "Engram Vault Sync {version} est\xE1 disponible. {link}.",
-  "Engram indexes {indexed} of your {all} notes. The rest match on this device only. Upgrade to index everything.": "Engram indexa {indexed} de tus {all} notas. El resto solo coinciden en este dispositivo. Actualiza para indexar todo.",
   "Engram is the backend that powers sync and semantic search.": "Engram es el servidor que permite la sincronizaci\xF3n y la b\xFAsqueda sem\xE1ntica.",
   "Engram search": "B\xFAsqueda en Engram",
   "Engram server changed \u2014 sign in again to continue.": "El servidor de Engram ha cambiado; inicia sesi\xF3n de nuevo para continuar.",
@@ -2208,10 +2193,10 @@ var es = {
   "Engram: this vault no longer exists on the server. Pick or create a vault to continue.": "Engram: esta b\xF3veda ya no existe en el servidor. Elige o crea una b\xF3veda para continuar.",
   "Engram: update required": "Engram: actualizaci\xF3n necesaria",
   "Engram: your login expired \u2014 open Engram settings to reconnect.": "Engram: tu sesi\xF3n ha expirado \u2014 abre la configuraci\xF3n de Engram para volver a conectar.",
-  "Engram: {count} attachments skipped \u2014 upgrade your plan to sync images & PDFs.": {
-    one: "Engram: Se omiti\xF3 {count} adjunto. Actualiza tu plan para sincronizar im\xE1genes y PDF.",
-    many: "Engram: {count} adjuntos omitidos. Mejora tu plan para sincronizar im\xE1genes y PDF.",
-    other: "Engram: Se omitieron {count} adjuntos. Actualiza tu plan para sincronizar im\xE1genes y PDF."
+  "Engram: {count} attachments skipped. See Sync Center for why.": {
+    one: "Engram: Se omiti\xF3 {count} adjunto. Consulta el Centro de sincronizaci\xF3n para saber por qu\xE9.",
+    many: "Engram: Se omitieron {count} adjuntos. Consulta el Centro de sincronizaci\xF3n para saber por qu\xE9.",
+    other: "Engram: Se omitieron {count} adjuntos. Consulta el Centro de sincronizaci\xF3n para ver el motivo."
   },
   "Engram: {count} files failed to sync{detail} \u2014 open Sync Center": {
     one: "Engram: {count} archivo no se pudo sincronizar{detail} \u2014 abre el Centro de sincronizaci\xF3n",
@@ -2248,12 +2233,6 @@ var es = {
   "Finished with some errors. Open the sync log to see what failed.": "Finalizado con algunos errores. Abre el registro de sincronizaci\xF3n para ver qu\xE9 fall\xF3.",
   "First sync, this may take a moment.": "Primer sincronizaci\xF3n, esto puede tardar un momento.",
   Free: "Gratuito",
-  "Free syncs notes only \u2014 images & PDFs need a paid plan.": "Sincroniza notas gratis, pero las im\xE1genes y los PDF requieren un plan de pago.",
-  "Free syncs notes only \u2014 {count} attachments will be skipped.": {
-    one: "Sincroniza notas gratis, solo se omitir\xE1 {count} adjunto.",
-    many: "Sincroniza notas gratis, solo se sincronizar\xE1n {count} adjuntos.",
-    other: "Sincroniza notas gratis, solo se omitir\xE1n {count} adjuntos."
-  },
   "Frontmatter could not be parsed": "No se pudo analizar el frontmatter",
   "Frontmatter isn't valid YAML.": "El frontmatter no es un YAML v\xE1lido.",
   'Frontmatter key "{key}" could not be parsed as YAML.': 'No se pudo analizar la clave del frontmatter "{key}" como YAML.',
@@ -2314,8 +2293,6 @@ var es = {
   "Note limit reached. Upgrade to keep adding notes.": "Se ha alcanzado el l\xEDmite de notas. Actualiza para seguir a\xF1adiendo notas.",
   "Note not synced locally": "Nota no sincronizada localmente",
   "Notes on this device": "Notas en este dispositivo",
-  "Notes past this still sync and open normally, they are just not in the search index. The index keeps your oldest notes, so it is your newest ones that fall outside.": "Las notas posteriores a esta fecha se sincronizan y se abren normalmente, pero no est\xE1n en el \xEDndice de b\xFAsqueda. El \xEDndice guarda tus notas m\xE1s antiguas, por lo que las m\xE1s recientes quedan fuera.",
-  "Notes searchable": "Notas indexadas para b\xFAsqueda",
   "Notes stored": "Notas almacenadas",
   "Nothing in this vault syncs until you choose how to merge it with the server.": "Nada de esta b\xF3veda se sincroniza hasta que elijas c\xF3mo fusionarla con el servidor.",
   "Nothing is deleted.": "Nada se elimina.",
@@ -2337,7 +2314,6 @@ var es = {
   "Open the file to resolve the conflict, then sync again.": "Abre el archivo para resolver el conflicto, luego sincroniza de nuevo.",
   "Opens your browser to sign in, or create an account if you don't have one yet, then links this vault.": "Abre tu navegador para iniciar sesi\xF3n o crear una cuenta si no la tienes, y luego vincula esta b\xF3veda.",
   "Or authenticate with a token instead of signing in.": "O autent\xEDcate con un token en lugar de iniciar sesi\xF3n.",
-  "Or authenticate with a token instead of signing in. Engram Cloud API keys require the Pro plan; on Free and Starter, sign in above.": "O autent\xEDcate con un token en lugar de iniciar sesi\xF3n. Las claves API de Engram requieren el plan Pro; en Free y Starter, inicia sesi\xF3n arriba.",
   "Paths to skip (one per line). Folder patterns end with /. Built-in: {configDir}/, .trash/, .git/": "Rutas a omitir (una por l\xEDnea). Los patrones de carpeta terminan con /. Incorporados: {configDir}/, .trash/, .git/",
   "Pick a vault": "Elige una b\xF3veda",
   "Pick a vault (previous: '{name}' not found)": "Elige una b\xF3veda (anterior: '{name}' no encontrado)",
@@ -2381,7 +2357,6 @@ var es = {
   "Search failed \u2014 check connection": "B\xFAsqueda fallida \u2014 verifica la conexi\xF3n",
   "Search settings": "Configuraci\xF3n de b\xFAsqueda",
   "Search your vault\u2026": "Busca en tu b\xF3veda\u2026",
-  "Searching {indexed} of {all} notes. Upgrade to search everything.": "Buscando {indexed} de {all} notas. Actualiza para buscar todo.",
   "See full pricing": "Ver precios completos",
   "See the AI setup guide": "Consulta la gu\xEDa de configuraci\xF3n de la IA",
   "Select which vault this plugin syncs with.": "Selecciona la b\xF3veda con la que este plugin se sincroniza.",
@@ -2433,7 +2408,7 @@ var es = {
   "Sync server": "Servidor de sincronizaci\xF3n",
   "Sync these now": "Sincronizar ahora",
   "Sync...": "Sincronizando...",
-  "Synced. Some attachments need a paid plan to sync (see below).": "Sincronizado. Algunos adjuntos requieren un plan de pago para sincronizarse (ver abajo).",
+  "Synced. Some attachments were skipped (see below).": "Sincronizado. Algunos adjuntos fueron omitidos (ver abajo).",
   "Syncing attachments": "Sincronizando adjuntos",
   "Syncing your vault": "Sincronizando tu b\xF3veda",
   "Syncing...": "Sincronizando...",
@@ -2446,7 +2421,6 @@ var es = {
   "That does not look like an Engram API key (expected {prefix}\u2026).": "Eso no parece una clave API de Engram (se espera {prefix}\u2026).",
   "The Engram server no longer accepts this plugin version (it needs {version} or newer), so notes are not being sent or received. Changes made on this device stay here until you update.": "El servidor de Engram ya no acepta esta versi\xF3n del plugin (necesita {version} o superior), por lo que las notas no se est\xE1n enviando ni recibiendo. Los cambios realizados en este dispositivo permanecen aqu\xED hasta que actualices.",
   "The Engram server no longer accepts this plugin version, so notes are not being sent or received. Changes made on this device stay here until you update.": "El servidor de Engram ya no acepta esta versi\xF3n del plugin, por lo que las notas no se est\xE1n enviando ni recibiendo. Los cambios realizados en este dispositivo permanecen aqu\xED hasta que actualices.",
-  "The Free tier syncs notes only. Upgrade to sync images and PDFs.": "El plan gratuito sincroniza solo notas. Actualiza para sincronizar im\xE1genes y PDFs.",
   "The file is over the server's size limit. Compress or split it, then it will sync.": "El archivo supera el l\xEDmite de tama\xF1o del servidor. Comprime o div\xEDdelo, luego se sincronizar\xE1.",
   "The file is too large for the server.": "El archivo es demasiado grande para el servidor.",
   "The note synced, but its frontmatter could not be fully parsed. Open it to fix the highlighted line.": "La nota se sincroniz\xF3, pero no se pudo analizar completamente su frontmatter. \xC1brela para corregir la l\xEDnea resaltada.",
@@ -2454,7 +2428,7 @@ var es = {
   "The server does not accept this type of file. It will retry if the file changes.": "El servidor no acepta este tipo de archivo. Lo volver\xE1 a intentar si el archivo cambia.",
   "The server lost this file's stored content and will try to restore it. Nothing on this device was changed.": "El servidor perdi\xF3 el contenido almacenado de este archivo e intentar\xE1 restaurarlo. Nada se modific\xF3 en este dispositivo.",
   "The server took too long to respond. Try again.": "El servidor tard\xF3 demasiado en responder. Int\xE9ntalo de nuevo.",
-  "These files are fine. They just need a paid plan to sync.": "Estos archivos est\xE1n bien. Solo necesitan un plan de pago para sincronizarse.",
+  "These files are fine. Each card below says why they did not sync.": "Estos archivos est\xE1n bien. Cada tarjeta a continuaci\xF3n explica por qu\xE9 no se sincronizaron.",
   "This account was deleted. Contact support if that is wrong.": "Esta cuenta fue eliminada. Contacta con soporte si es incorrecto.",
   "This cannot be undone.": "Esto no se puede deshacer.",
   "This code expired before the link finished. Generate a new code to try again.": "Este c\xF3digo ha expirado antes de que se completara la conexi\xF3n. Genera un nuevo c\xF3digo para intentarlo de nuevo.",
@@ -2462,10 +2436,10 @@ var es = {
   "This file type isn't accepted by this server.": "Este tipo de archivo no es aceptado por este servidor.",
   "This note could not be processed and was skipped.": "Esta nota no se pudo procesar y se omiti\xF3.",
   "This server is self-hosted, so feedback is not collected here. ": "Este servidor es autohospedado, por lo que los comentarios no se recopilan aqu\xED. ",
+  "This server isn't accepting this attachment for your account.": "Este servidor no acepta este archivo adjunto para tu cuenta.",
   "This vault": "Esta b\xF3veda",
   "This vault is empty on the server. Upload your {what}?": "Esta b\xF3veda est\xE1 vac\xEDa en el servidor. \xBFQuieres subir tus {what}?",
   "Too large for the server": "Demasiado grande para el servidor",
-  "Too many connected AI clients. Disconnect one or upgrade.": "Demasiados clientes de IA conectados. Desconecta uno o actualiza.",
   "Too many connected Obsidian vaults. Disconnect one or upgrade.": "Demasiadas b\xF3vedas de Obsidian conectadas. Desconecta una o actualiza.",
   "Too many requests. Wait a moment and try again.": "Demasiadas solicitudes. Espera un momento e int\xE9ntalo de nuevo.",
   "Type {keyword} to confirm:": "Escribe {keyword} para confirmar:",
@@ -2552,10 +2526,15 @@ var es = {
     many: "{count} adjuntos",
     other: "{count} adjuntos"
   },
-  "{count} attachments need a paid plan to sync. See Sync Center.": {
-    one: "{count} adjunto necesita un plan de pago para sincronizarse. Consulta el Centro de sincronizaci\xF3n.",
-    many: "{count} Los adjuntos requieren un plan de pago para sincronizarse. Consulta el Centro de sincronizaci\xF3n.",
-    other: "{count} adjuntos necesitan un plan de pago para sincronizarse. Consulta el Centro de sincronizaci\xF3n."
+  "{count} attachments skipped. See Sync Center.": {
+    one: "{count} adjunto omitido. Consulta el Centro de sincronizaci\xF3n.",
+    many: "{count} adjuntos omitidos. Consulta el Centro de sincronizaci\xF3n.",
+    other: "{count} adjuntos omitidos. Consulta el Centro de sincronizaci\xF3n."
+  },
+  "{count} attachments will be skipped: this server only accepts text files.": {
+    one: "Se omitir\xE1 {count} adjunto: este servidor solo acepta archivos de texto.",
+    many: "Se omitir\xE1n {count} de adjuntos: este servidor solo acepta archivos de texto.",
+    other: "Se omitir\xE1n {count} adjuntos: este servidor solo acepta archivos de texto."
   },
   "{count} attempts": {
     one: "{count} intento",
@@ -2653,10 +2632,10 @@ var es = {
   },
   "\u2717 couldn't reach a server at this URL": "\u2717 No se pudo acceder a un servidor en esta URL",
   "\u2717 server responded but isn't an Engram server": "\u2717 El servidor respondi\xF3, pero no es un servidor de Engram",
-  "\u2933 {count} skipped (Free plan)": {
-    one: "\u2933 {count} omitido (Plan gratuito)",
-    many: "\u2933 {count} omitido (Plan gratuito)",
-    other: "\u2933 {count} omitidos (Plan gratuito)"
+  "\u2933 {count} skipped": {
+    one: "\u2933 {count} omitido",
+    many: "\u2933 {count} omitidos",
+    other: "\u2933 {count} omitidos"
   },
   "\u{1F44B} Welcome": "\u{1F44B} Bienvenido/a",
   "\u{1F4AC} Feedback": "\u{1F4AC} Comentarios",
@@ -2678,7 +2657,6 @@ var fr = {
   "1. Make an account": "1. Cr\xE9e un compte",
   "10 GB attachments": "10 Go de pi\xE8ces jointes",
   "10 vaults, unlimited devices": "10 coffres, nombre illimit\xE9 d'appareils",
-  "2,000 notes searchable": "2 000 notes consultables",
   "2. Connect your vault to Engram": "2. Connecte ton coffre \xE0 Engram",
   "3. Connect your AI": "3. Connecte ton IA",
   "50 GB attachments": "50 Go de pi\xE8ces jointes",
@@ -2687,9 +2665,8 @@ var fr = {
   "A temporary server problem \u2014 retrying automatically.": "Un probl\xE8me temporaire du serveur \u2014 nouvelle tentative automatique.",
   "AI / MCP setup guide": "Guide de configuration IA / MCP",
   "AI searches": "Recherches IA",
-  "API access": "Acc\xE8s \xE0 l'API",
   "API key": "Cl\xE9 API",
-  "API keys need a Pro plan. Sign in with your Engram account instead.": "Les cl\xE9s API n\xE9cessitent un abonnement Pro. Connecte-toi avec ton compte Engram \xE0 la place.",
+  "API key access is turned off for this account. Sign in with your Engram account instead.": "L'acc\xE8s \xE0 la cl\xE9 API est d\xE9sactiv\xE9 pour ce compte. Connecte-toi avec ton compte Engram \xE0 la place.",
   About: "\xC0 propos",
   "Accept it to keep syncing.": "Accepte-la pour continuer la synchronisation.",
   "Access token": "Jeton d'acc\xE8s",
@@ -2701,14 +2678,13 @@ var fr = {
   "Advanced sync options": "Options de synchronisation avanc\xE9es",
   "All synced. Your vault and the cloud now match.": "Tout est synchronis\xE9. Ton coffre et le cloud sont maintenant identiques.",
   "Already in sync. Nothing is deleted.": "D\xE9j\xE0 synchronis\xE9. Rien n'est supprim\xE9.",
-  "Already signed in on another device. Upgrade for multi-device.": "Tu es d\xE9j\xE0 connect\xE9 sur un autre appareil. Passe \xE0 un abonnement sup\xE9rieur pour utiliser plusieurs appareils.",
   "Already up to date. Nothing needed syncing.": "D\xE9j\xE0 \xE0 jour. Rien \xE0 synchroniser.",
   "An unexpected error \u2014 retrying automatically.": "Une erreur inattendue \u2014 nouvelle tentative automatique.",
+  "Attachment not accepted": "Pi\xE8ce jointe non accept\xE9e",
   "Attachment storage full": "Espace de stockage des pi\xE8ces jointes satur\xE9",
   "Attachment storage is full \u2014 upgrade for more.": "L'espace de stockage des pi\xE8ces jointes est plein \u2014 passe \xE0 un abonnement sup\xE9rieur pour plus d'espace.",
   "Attachment sync is disabled for this account.": "La synchronisation des pi\xE8ces jointes est d\xE9sactiv\xE9e pour ce compte.",
   Attachments: "Pi\xE8ces jointes",
-  "Attachments need a paid plan": "Les pi\xE8ces jointes n\xE9cessitent un abonnement payant",
   "Attachments on this device": "Pi\xE8ces jointes sur cet appareil",
   "Authenticated via Engram account (OAuth).": "Authentifi\xE9 via ton compte Engram (OAuth).",
   "Authenticated via manual API key.": "Authentifi\xE9 via une cl\xE9 API manuelle.",
@@ -2759,7 +2735,7 @@ var fr = {
   "Create a hosted account at {signup}, or self-host the server ({guide}).": "Cr\xE9e un compte chez {signup}, ou h\xE9berge le serveur toi-m\xEAme ({guide}).",
   "Create a new empty vault on the server, then sync this Obsidian vault into it.": "Cr\xE9e un nouveau coffre vide sur le serveur, puis synchronise ce coffre Obsidian avec lui.",
   "Custom patterns": "Motifs personnalis\xE9s",
-  "Daily AI search limit reached. Free includes 20 per day across Obsidian, the web app and MCP. Upgrade for unlimited.": "Limite quotidienne de recherche IA atteinte. L'abonnement gratuit inclut 20 recherches par jour sur Obsidian, l'application web et MCP. Passe \xE0 un abonnement sup\xE9rieur pour un nombre illimit\xE9.",
+  "Daily AI search limit reached. Free searches are shared across Obsidian, the web app and MCP. Upgrade for unlimited.": "La limite de recherche IA quotidienne est atteinte. Les recherches gratuites sont partag\xE9es entre Obsidian, l'application web et MCP. Passe \xE0 la version payante pour un nombre illimit\xE9.",
   "Dart tool cache": "Cache des outils Dart",
   "Debug (verbose)": "D\xE9bogage (d\xE9taill\xE9)",
   "Delete all local files, then download from remote": "Supprimer tous les fichiers locaux, puis t\xE9l\xE9charger depuis le serveur",
@@ -2786,6 +2762,7 @@ var fr = {
     many: "Suppression de la version {count} sur le cloud.",
     other: "Suppression de {count} \xE9l\xE9ments dans le cloud."
   },
+  "Device limit reached. Disconnect a device or upgrade.": "Limite de p\xE9riph\xE9riques atteinte. D\xE9connecte un appareil ou passe \xE0 une offre sup\xE9rieure.",
   "Device swap cooldown active. Wait or upgrade.": "P\xE9riode de refroidissement pour le changement d'appareil active. Attends ou passe \xE0 un abonnement sup\xE9rieur.",
   Diagnostics: "Diagnostics",
   "Diagnostics detail": "D\xE9tails des diagnostics",
@@ -2834,7 +2811,6 @@ var fr = {
   "Engram Sync: {details}": "Synchronisation Engram : {details}",
   "Engram URL": "URL Engram",
   "Engram Vault Sync {version} is available. {link}.": "Engram Vault Sync {version} est disponible. {link}.",
-  "Engram indexes {indexed} of your {all} notes. The rest match on this device only. Upgrade to index everything.": "Engram indexe {indexed} de tes {all} notes. Le reste correspond uniquement sur ce p\xE9riph\xE9rique. Passe \xE0 une version sup\xE9rieure pour indexer tout.",
   "Engram is the backend that powers sync and semantic search.": "Engram est le serveur qui g\xE8re la synchronisation et la recherche s\xE9mantique.",
   "Engram search": "Recherche Engram",
   "Engram server changed \u2014 sign in again to continue.": "Le serveur Engram a chang\xE9 \u2014 reconnecte-toi pour continuer.",
@@ -2884,10 +2860,10 @@ var fr = {
   "Engram: this vault no longer exists on the server. Pick or create a vault to continue.": "Engram : ce coffre n'existe plus sur le serveur. Choisis ou cr\xE9e un coffre pour continuer.",
   "Engram: update required": "Engram: mise \xE0 jour requise",
   "Engram: your login expired \u2014 open Engram settings to reconnect.": "Engram : ton identifiant a expir\xE9 \u2014 ouvre les param\xE8tres Engram pour te reconnecter.",
-  "Engram: {count} attachments skipped \u2014 upgrade your plan to sync images & PDFs.": {
-    one: "Engram: {count} pi\xE8ce jointe ignor\xE9e \u2014 am\xE9liore ton abonnement pour synchroniser les images et les PDF.",
-    many: "Engram: {count} pi\xE8ces jointes ignor\xE9es \u2014 am\xE9liore ton abonnement pour synchroniser les images et les PDF.",
-    other: "Engram: {count} pi\xE8ces jointes ignor\xE9es \u2014 am\xE9liore ton abonnement pour synchroniser les images et les PDF."
+  "Engram: {count} attachments skipped. See Sync Center for why.": {
+    one: "Engram: {count} pi\xE8ce jointe ignor\xE9e. Consulte le Centre de synchronisation pour plus de d\xE9tails.",
+    many: "Engram: {count} pi\xE8ces jointes ignor\xE9es. Consulte le Centre de synchronisation pour plus de d\xE9tails.",
+    other: "Engram: {count} pi\xE8ces jointes ignor\xE9es. Consulte le Centre de synchronisation pour plus de d\xE9tails."
   },
   "Engram: {count} files failed to sync{detail} \u2014 open Sync Center": {
     one: "Engram : {count} fichier n'a pas pu \xEAtre synchronis\xE9{detail} \u2014 ouvre le Centre de synchronisation",
@@ -2924,12 +2900,6 @@ var fr = {
   "Finished with some errors. Open the sync log to see what failed.": "Termin\xE9 avec quelques erreurs. Ouvre le journal de synchronisation pour voir ce qui a \xE9chou\xE9.",
   "First sync, this may take a moment.": "Premi\xE8re synchronisation, cela peut prendre un moment.",
   Free: "Gratuit",
-  "Free syncs notes only \u2014 images & PDFs need a paid plan.": "Synchronisation gratuite pour les notes uniquement \u2014 les images et les PDF n\xE9cessitent un abonnement payant.",
-  "Free syncs notes only \u2014 {count} attachments will be skipped.": {
-    one: "Synchronisation gratuite des notes uniquement \u2014 {count} pi\xE8ce jointe sera ignor\xE9e.",
-    many: "Synchronisation gratuite des notes uniquement \u2014 {count} pi\xE8ces jointes seront ignor\xE9es.",
-    other: "Synchronisation gratuite des notes uniquement \u2014 {count} pi\xE8ces jointes seront ignor\xE9es."
-  },
   "Frontmatter could not be parsed": "Le frontmatter n'a pas pu \xEAtre analys\xE9",
   "Frontmatter isn't valid YAML.": "Le frontmatter n'est pas un YAML valide.",
   'Frontmatter key "{key}" could not be parsed as YAML.': `La cl\xE9 du frontmatter "{key}" n'a pas pu \xEAtre interpr\xE9t\xE9e comme du YAML.`,
@@ -2990,8 +2960,6 @@ var fr = {
   "Note limit reached. Upgrade to keep adding notes.": "Limite de notes atteinte. Passe \xE0 un abonnement sup\xE9rieur pour ajouter plus de notes.",
   "Note not synced locally": "Note non synchronis\xE9e localement",
   "Notes on this device": "Notes sur cet appareil",
-  "Notes past this still sync and open normally, they are just not in the search index. The index keeps your oldest notes, so it is your newest ones that fall outside.": "Les notes apr\xE8s celle-ci sont toujours synchronis\xE9es et s'ouvrent normalement, mais ne sont pas dans l'index de recherche. L'index conserve tes notes les plus anciennes, donc ce sont les plus r\xE9centes qui ne sont pas incluses.",
-  "Notes searchable": "Notes index\xE9es",
   "Notes stored": "Notes stock\xE9es",
   "Nothing in this vault syncs until you choose how to merge it with the server.": "Rien dans ce coffre n'est synchronis\xE9 tant que tu n'as pas choisi comment le fusionner avec le serveur.",
   "Nothing is deleted.": "Rien n'est supprim\xE9.",
@@ -3013,7 +2981,6 @@ var fr = {
   "Open the file to resolve the conflict, then sync again.": "Ouvre le fichier pour r\xE9soudre le conflit, puis synchronise \xE0 nouveau.",
   "Opens your browser to sign in, or create an account if you don't have one yet, then links this vault.": "Ouvre ton navigateur pour te connecter, ou cr\xE9er un compte si tu n'en as pas, puis associe ce coffre.",
   "Or authenticate with a token instead of signing in.": "Ou authentifie-toi avec un token au lieu de te connecter.",
-  "Or authenticate with a token instead of signing in. Engram Cloud API keys require the Pro plan; on Free and Starter, sign in above.": "Ou authentifie-toi avec un token au lieu de te connecter. Les cl\xE9s API Engram Cloud n\xE9cessitent l'abonnement Pro ; sur les plans Free et Starter, connecte-toi ci-dessus.",
   "Paths to skip (one per line). Folder patterns end with /. Built-in: {configDir}/, .trash/, .git/": "Chemins \xE0 ignorer (un par ligne). Les motifs de dossiers se terminent par /. Int\xE9gr\xE9s : {configDir}/, .trash/, .git/",
   "Pick a vault": "Choisis un coffre",
   "Pick a vault (previous: '{name}' not found)": "Choisis un coffre (pr\xE9c\xE9dent : '{name}' introuvable)",
@@ -3057,7 +3024,6 @@ var fr = {
   "Search failed \u2014 check connection": "Recherche impossible \u2014 v\xE9rifie ta connexion",
   "Search settings": "Param\xE8tres de recherche",
   "Search your vault\u2026": "Recherche dans ton coffre\u2026",
-  "Searching {indexed} of {all} notes. Upgrade to search everything.": "Recherche dans {indexed} de tes {all} notes. Passe \xE0 une version sup\xE9rieure pour rechercher tout.",
   "See full pricing": "Voir les tarifs complets",
   "See the AI setup guide": "Consulte le guide de configuration de l'IA",
   "Select which vault this plugin syncs with.": "Choisis le coffre que ce plugin synchronise.",
@@ -3109,7 +3075,7 @@ var fr = {
   "Sync server": "Serveur de synchronisation",
   "Sync these now": "Synchroniser maintenant",
   "Sync...": "Synchronisation...",
-  "Synced. Some attachments need a paid plan to sync (see below).": "Synchronis\xE9. Certaines pi\xE8ces jointes n\xE9cessitent un abonnement payant pour la synchronisation (voir ci-dessous).",
+  "Synced. Some attachments were skipped (see below).": "Synchronis\xE9. Certaines pi\xE8ces jointes ont \xE9t\xE9 ignor\xE9es (voir ci-dessous).",
   "Syncing attachments": "Synchronisation des pi\xE8ces jointes",
   "Syncing your vault": "Synchronisation de ton coffre",
   "Syncing...": "Synchronisation en cours...",
@@ -3122,7 +3088,6 @@ var fr = {
   "That does not look like an Engram API key (expected {prefix}\u2026).": "Cela ne ressemble pas \xE0 une cl\xE9 API Engram (attendu {prefix}\u2026).",
   "The Engram server no longer accepts this plugin version (it needs {version} or newer), so notes are not being sent or received. Changes made on this device stay here until you update.": "Le serveur Engram n'accepte plus cette version du plugin (il n\xE9cessite {version} ou une version ult\xE9rieure), donc les notes ne sont ni envoy\xE9es ni re\xE7ues. Les modifications effectu\xE9es sur cet appareil restent ici jusqu'\xE0 ce que tu mettes \xE0 jour.",
   "The Engram server no longer accepts this plugin version, so notes are not being sent or received. Changes made on this device stay here until you update.": "Le serveur Engram n'accepte plus cette version du plugin, donc les notes ne sont ni envoy\xE9es ni re\xE7ues. Les modifications effectu\xE9es sur cet appareil restent ici jusqu'\xE0 ce que tu mettes \xE0 jour.",
-  "The Free tier syncs notes only. Upgrade to sync images and PDFs.": "Le plan gratuit synchronise uniquement les notes. Passe \xE0 un abonnement payant pour synchroniser les images et les PDF.",
   "The file is over the server's size limit. Compress or split it, then it will sync.": "Le fichier d\xE9passe la limite de taille du serveur. Compresse-le ou divise-le, puis il sera synchronis\xE9.",
   "The file is too large for the server.": "Le fichier est trop volumineux pour le serveur.",
   "The note synced, but its frontmatter could not be fully parsed. Open it to fix the highlighted line.": "La note a \xE9t\xE9 synchronis\xE9e, mais son frontmatter n'a pas pu \xEAtre enti\xE8rement analys\xE9. Ouvre-la pour corriger la ligne surlign\xE9e.",
@@ -3130,7 +3095,7 @@ var fr = {
   "The server does not accept this type of file. It will retry if the file changes.": "Le serveur n'accepte pas ce type de fichier. Il retentera si le fichier change.",
   "The server lost this file's stored content and will try to restore it. Nothing on this device was changed.": "Le serveur a perdu le contenu de ce fichier et va essayer de le restaurer. Rien n'a \xE9t\xE9 modifi\xE9 sur cet appareil.",
   "The server took too long to respond. Try again.": "Le serveur a mis trop de temps \xE0 r\xE9pondre. R\xE9essaie.",
-  "These files are fine. They just need a paid plan to sync.": "Ces fichiers sont corrects. Ils n\xE9cessitent un abonnement payant pour \xEAtre synchronis\xE9s.",
+  "These files are fine. Each card below says why they did not sync.": "Ces fichiers sont corrects. Chaque carte ci-dessous explique pourquoi ils n'ont pas \xE9t\xE9 synchronis\xE9s.",
   "This account was deleted. Contact support if that is wrong.": "Ce compte a \xE9t\xE9 supprim\xE9. Contacte le support si c'est une erreur.",
   "This cannot be undone.": "Cela ne peut pas \xEAtre annul\xE9.",
   "This code expired before the link finished. Generate a new code to try again.": "Ce code a expir\xE9 avant que le lien ne soit termin\xE9. G\xE9n\xE8re un nouveau code pour r\xE9essayer.",
@@ -3138,10 +3103,10 @@ var fr = {
   "This file type isn't accepted by this server.": "Ce type de fichier n'est pas accept\xE9 par ce serveur.",
   "This note could not be processed and was skipped.": "Cette note n'a pas pu \xEAtre trait\xE9e et a \xE9t\xE9 ignor\xE9e.",
   "This server is self-hosted, so feedback is not collected here. ": "Ce serveur est auto-h\xE9berg\xE9, donc les retours ne sont pas collect\xE9s ici. ",
+  "This server isn't accepting this attachment for your account.": "Ce serveur n'accepte pas cette pi\xE8ce jointe pour ton compte.",
   "This vault": "Ce coffre",
   "This vault is empty on the server. Upload your {what}?": "Ce coffre est vide sur le serveur. Souhaites-tu t\xE9l\xE9charger tes {what}?",
   "Too large for the server": "Trop volumineux pour le serveur",
-  "Too many connected AI clients. Disconnect one or upgrade.": "Trop de clients IA connect\xE9s. D\xE9connecte-en un ou passe \xE0 un abonnement sup\xE9rieur.",
   "Too many connected Obsidian vaults. Disconnect one or upgrade.": "Trop de coffres Obsidian connect\xE9s. D\xE9connecte-en un ou passe \xE0 un abonnement sup\xE9rieur.",
   "Too many requests. Wait a moment and try again.": "Trop de requ\xEAtes. Attends un moment et r\xE9essaie.",
   "Type {keyword} to confirm:": "Tape {keyword} pour confirmer :",
@@ -3228,10 +3193,15 @@ var fr = {
     many: "{count} pi\xE8ces jointes",
     other: "{count} pi\xE8ces jointes"
   },
-  "{count} attachments need a paid plan to sync. See Sync Center.": {
-    one: "{count} pi\xE8ce jointe n\xE9cessite un abonnement payant pour \xEAtre synchronis\xE9e. Consulte le Centre de synchronisation.",
-    many: "{count} Les pi\xE8ces jointes n\xE9cessitent un abonnement payant pour la synchronisation. Consulte le Centre de synchronisation.",
-    other: "{count} pi\xE8ces jointes n\xE9cessitent un abonnement payant pour la synchronisation. Consulte le Centre de synchronisation."
+  "{count} attachments skipped. See Sync Center.": {
+    one: "{count} pi\xE8ce jointe ignor\xE9e. Consulte le Centre de synchronisation.",
+    many: "{count} pi\xE8ces jointes ignor\xE9es. Consulte le Centre de synchronisation.",
+    other: "{count} pi\xE8ces jointes ignor\xE9es. Consulte le Centre de synchronisation."
+  },
+  "{count} attachments will be skipped: this server only accepts text files.": {
+    one: "{count} pi\xE8ce jointe sera ignor\xE9e : ce serveur n'accepte que les fichiers texte.",
+    many: "{count} pi\xE8ces jointes seront ignor\xE9es : ce serveur n'accepte que les fichiers texte.",
+    other: "{count} pi\xE8ces jointes seront ignor\xE9es : ce serveur n'accepte que les fichiers texte."
   },
   "{count} attempts": {
     one: "{count} tentative",
@@ -3325,10 +3295,10 @@ var fr = {
   },
   "\u2717 couldn't reach a server at this URL": "\u2717 Impossible de contacter un serveur \xE0 cette URL",
   "\u2717 server responded but isn't an Engram server": "\u2717 Le serveur a r\xE9pondu, mais ce n'est pas un serveur Engram",
-  "\u2933 {count} skipped (Free plan)": {
-    one: "\u2933 {count} ignor\xE9 (plan gratuit)",
-    many: "\u2933 {count} ignor\xE9 (Plan gratuit)",
-    other: "\u2933 {count} ignor\xE9s (Plan gratuit)"
+  "\u2933 {count} skipped": {
+    one: "\u2933 {count} ignor\xE9",
+    many: "\u2933 {count} ignor\xE9s",
+    other: "\u2933 {count} ignor\xE9s"
   },
   "\u{1F44B} Welcome": "\u{1F44B} Bienvenue",
   "\u{1F4AC} Feedback": "\u{1F4AC} Retour",
@@ -3346,7 +3316,6 @@ var id = {
   "1. Make an account": "1. Buat akun",
   "10 GB attachments": "10 GB lampiran",
   "10 vaults, unlimited devices": "10 Vault, perangkat tanpa batas",
-  "2,000 notes searchable": "2.000 catatan dapat dicari",
   "2. Connect your vault to Engram": "2. Hubungkan Vault Anda ke Engram",
   "3. Connect your AI": "3. Hubungkan AI Anda",
   "50 GB attachments": "50 GB lampiran",
@@ -3355,9 +3324,8 @@ var id = {
   "A temporary server problem \u2014 retrying automatically.": "Masalah server sementara \u2014 mencoba lagi secara otomatis.",
   "AI / MCP setup guide": "Panduan pengaturan AI / MCP",
   "AI searches": "Pencarian AI",
-  "API access": "Akses API",
   "API key": "Kunci API",
-  "API keys need a Pro plan. Sign in with your Engram account instead.": "Kunci API memerlukan paket Pro. Masuk dengan akun Engram Anda.",
+  "API key access is turned off for this account. Sign in with your Engram account instead.": "Akses kunci API dimatikan untuk akun ini. Masuk dengan akun Engram Anda.",
   About: "Tentang",
   "Accept it to keep syncing.": "Terima untuk melanjutkan sinkronisasi.",
   "Access token": "Token akses",
@@ -3369,14 +3337,13 @@ var id = {
   "Advanced sync options": "Opsi sinkronisasi lanjutan",
   "All synced. Your vault and the cloud now match.": "Semua sudah disinkronkan. Vault Anda dan cloud sekarang sama.",
   "Already in sync. Nothing is deleted.": "Sudah tersinkronisasi. Tidak ada yang dihapus.",
-  "Already signed in on another device. Upgrade for multi-device.": "Sudah masuk dengan perangkat lain. Tingkatkan untuk penggunaan multi-perangkat.",
   "Already up to date. Nothing needed syncing.": "Sudah terbaru. Tidak ada yang perlu disinkronkan.",
   "An unexpected error \u2014 retrying automatically.": "Terjadi kesalahan tak terduga \u2014 mencoba lagi secara otomatis.",
+  "Attachment not accepted": "Lampiran tidak diterima",
   "Attachment storage full": "Ruang penyimpanan lampiran penuh",
   "Attachment storage is full \u2014 upgrade for more.": "Ruang penyimpanan lampiran penuh \u2014 tingkatkan untuk mendapatkan lebih banyak.",
   "Attachment sync is disabled for this account.": "Sinkronisasi lampiran dinonaktifkan untuk akun ini.",
   Attachments: "Lampiran",
-  "Attachments need a paid plan": "Lampiran memerlukan paket berbayar",
   "Attachments on this device": "Lampiran di perangkat ini",
   "Authenticated via Engram account (OAuth).": "Terautentikasi melalui akun Engram (OAuth).",
   "Authenticated via manual API key.": "Terautentikasi melalui kunci API manual.",
@@ -3427,7 +3394,7 @@ var id = {
   "Create a hosted account at {signup}, or self-host the server ({guide}).": "Buat akun di {signup}, atau host server sendiri ({guide}).",
   "Create a new empty vault on the server, then sync this Obsidian vault into it.": "Buat Vault kosong baru di server, lalu sinkronkan Vault Obsidian ini ke dalamnya.",
   "Custom patterns": "Pola khusus",
-  "Daily AI search limit reached. Free includes 20 per day across Obsidian, the web app and MCP. Upgrade for unlimited.": "Batas pencarian AI harian tercapai. Versi gratis mencakup 20 per hari di seluruh Obsidian, aplikasi web, dan MCP. Tingkatkan untuk tanpa batas.",
+  "Daily AI search limit reached. Free searches are shared across Obsidian, the web app and MCP. Upgrade for unlimited.": "Batas pencarian AI harian telah tercapai. Pencarian gratis dibagi antara Obsidian, aplikasi web, dan MCP. Tingkatkan untuk pencarian tanpa batas.",
   "Dart tool cache": "Cache alat Dart",
   "Debug (verbose)": "Debug (rinci)",
   "Delete all local files, then download from remote": "Hapus semua file lokal, lalu unduh dari jarak jauh",
@@ -3438,6 +3405,7 @@ var id = {
   Deleting: "Menghapus",
   "Deleting {count} local files.": "Menghapus {count} berkas lokal.",
   "Deleting {count} on the cloud.": "Menghapus {count} di cloud.",
+  "Device limit reached. Disconnect a device or upgrade.": "Batas perangkat tercapai. Putuskan sambungan perangkat atau tingkatkan.",
   "Device swap cooldown active. Wait or upgrade.": "Fitur penggantian perangkat sedang aktif. Tunggu atau tingkatkan.",
   Diagnostics: "Diagnostik",
   "Diagnostics detail": "Detail diagnostik",
@@ -3466,7 +3434,6 @@ var id = {
   "Engram Sync: {details}": "Engram Sinkronisasi: {details}",
   "Engram URL": "URL Engram",
   "Engram Vault Sync {version} is available. {link}.": "Engram Vault Sync {version} tersedia. {link}.",
-  "Engram indexes {indexed} of your {all} notes. The rest match on this device only. Upgrade to index everything.": "Engram mengindeks {indexed} dari {all} catatan Anda. Sisanya hanya cocok di perangkat ini. Tingkatkan untuk mengindeks semuanya.",
   "Engram is the backend that powers sync and semantic search.": "Engram adalah backend yang mendukung sinkronisasi dan pencarian semantik.",
   "Engram search": "Engram pencarian",
   "Engram server changed \u2014 sign in again to continue.": "Server Engram telah berubah \u2014 masuk kembali untuk melanjutkan.",
@@ -3508,7 +3475,7 @@ var id = {
   "Engram: this vault no longer exists on the server. Pick or create a vault to continue.": "Engram: vault ini tidak lagi ada di server. Pilih atau buat vault untuk melanjutkan.",
   "Engram: update required": "Engram: pembaruan diperlukan",
   "Engram: your login expired \u2014 open Engram settings to reconnect.": "Engram: sesi login Anda telah berakhir \u2014 buka pengaturan Engram untuk menghubungkan kembali.",
-  "Engram: {count} attachments skipped \u2014 upgrade your plan to sync images & PDFs.": "Engram: {count} lampiran dilewati \u2014 tingkatkan paket Anda untuk menyinkronkan gambar & PDF.",
+  "Engram: {count} attachments skipped. See Sync Center for why.": "Engram: {count} lampiran dilewati. Lihat Pusat Sinkronisasi untuk alasannya.",
   "Engram: {count} files failed to sync{detail} \u2014 open Sync Center": "Engram: {count} berkas gagal disinkronkan{detail} \u2014 buka Pusat Sinkronisasi",
   "Engram: {count} notes have frontmatter problems. Open Sync Center to fix.": "Engram: {count} catatan memiliki masalah frontmatter. Buka Pusat Sinkronisasi untuk memperbaikinya.",
   "Engram: \u26A0 {count} sync errors": "Engram: \u26A0 {count} kesalahan sinkronisasi",
@@ -3532,8 +3499,6 @@ var id = {
   "Finished with some errors. Open the sync log to see what failed.": "Selesai dengan beberapa kesalahan. Buka log sinkronisasi untuk melihat apa yang gagal.",
   "First sync, this may take a moment.": "Sinkronisasi pertama, ini mungkin memerlukan waktu.",
   Free: "Gratis",
-  "Free syncs notes only \u2014 images & PDFs need a paid plan.": "Sinkronisasi catatan gratis saja \u2014 gambar & PDF memerlukan langganan berbayar.",
-  "Free syncs notes only \u2014 {count} attachments will be skipped.": "Sinkronisasi catatan gratis, hanya {count} lampiran yang akan dilewati.",
   "Frontmatter could not be parsed": "Frontmatter tidak dapat diproses",
   "Frontmatter isn't valid YAML.": "Frontmatter bukan YAML yang valid.",
   'Frontmatter key "{key}" could not be parsed as YAML.': 'Kunci frontmatter "{key}" tidak dapat diuraikan sebagai YAML.',
@@ -3594,8 +3559,6 @@ var id = {
   "Note limit reached. Upgrade to keep adding notes.": "Batas catatan tercapai. Tingkatkan untuk menambahkan lebih banyak catatan.",
   "Note not synced locally": "Catatan belum disinkronkan secara lokal",
   "Notes on this device": "Catatan di perangkat ini",
-  "Notes past this still sync and open normally, they are just not in the search index. The index keeps your oldest notes, so it is your newest ones that fall outside.": "Catatan setelah ini masih disinkronkan dan dibuka seperti biasa, hanya saja tidak ada dalam indeks pencarian. Indeks menyimpan catatan Anda yang paling lama, sehingga catatan terbaru Anda yang tidak masuk ke dalam indeks.",
-  "Notes searchable": "Catatan dapat dicari",
   "Notes stored": "Catatan disimpan",
   "Nothing in this vault syncs until you choose how to merge it with the server.": "Tidak ada yang disinkronkan di Vault ini sampai Anda memilih cara menggabungkannya dengan server.",
   "Nothing is deleted.": "Tidak ada yang dihapus.",
@@ -3617,7 +3580,6 @@ var id = {
   "Open the file to resolve the conflict, then sync again.": "Buka file untuk menyelesaikan konflik, lalu sinkronisasi ulang.",
   "Opens your browser to sign in, or create an account if you don't have one yet, then links this vault.": "Membuka browser Anda untuk masuk, atau membuat akun jika Anda belum memilikinya, lalu menghubungkan Vault ini.",
   "Or authenticate with a token instead of signing in.": "Atau autentikasi dengan token, bukan masuk.",
-  "Or authenticate with a token instead of signing in. Engram Cloud API keys require the Pro plan; on Free and Starter, sign in above.": "Atau, autentikasi dengan token alih-alih masuk. Kunci API Cloud Engram memerlukan paket Pro; pada paket Gratis dan Starter, masuk seperti di atas.",
   "Paths to skip (one per line). Folder patterns end with /. Built-in: {configDir}/, .trash/, .git/": "Jalur yang akan dilewati (satu per baris). Pola folder berakhir dengan /. Bawaan: {configDir}/, .trash/, .git/",
   "Pick a vault": "Pilih Vault",
   "Pick a vault (previous: '{name}' not found)": "Pilih Vault (sebelumnya: '{name}' tidak ditemukan)",
@@ -3661,7 +3623,6 @@ var id = {
   "Search failed \u2014 check connection": "Pencarian gagal \u2014 periksa koneksi",
   "Search settings": "Pengaturan pencarian",
   "Search your vault\u2026": "Cari di Vault Anda\u2026",
-  "Searching {indexed} of {all} notes. Upgrade to search everything.": "Mencari {indexed} dari {all} catatan. Tingkatkan untuk mencari semuanya.",
   "See full pricing": "Lihat harga lengkap",
   "See the AI setup guide": "Lihat panduan pengaturan AI",
   "Select which vault this plugin syncs with.": "Pilih Vault yang akan disinkronkan oleh plugin ini.",
@@ -3709,7 +3670,7 @@ var id = {
   "Sync server": "Server sinkronisasi",
   "Sync these now": "Sinkronisasi sekarang",
   "Sync...": "Sinkronisasi...",
-  "Synced. Some attachments need a paid plan to sync (see below).": "Sinkronisasi selesai. Beberapa lampiran memerlukan paket berbayar untuk disinkronkan (lihat di bawah).",
+  "Synced. Some attachments were skipped (see below).": "Disinkronkan. Beberapa lampiran dilewati (lihat di bawah).",
   "Syncing attachments": "Mensinkronkan lampiran",
   "Syncing your vault": "Mensinkronkan Vault Anda",
   "Syncing...": "Sedang menyinkronkan...",
@@ -3722,7 +3683,6 @@ var id = {
   "That does not look like an Engram API key (expected {prefix}\u2026).": "Itu tidak terlihat seperti kunci API Engram (diharapkan {prefix}\u2026).",
   "The Engram server no longer accepts this plugin version (it needs {version} or newer), so notes are not being sent or received. Changes made on this device stay here until you update.": "Server Engram tidak lagi menerima versi plugin ini (membutuhkan {version} atau lebih baru), sehingga catatan tidak dikirim atau diterima. Perubahan yang dibuat di perangkat ini akan tetap di sini sampai Anda memperbarui.",
   "The Engram server no longer accepts this plugin version, so notes are not being sent or received. Changes made on this device stay here until you update.": "Server Engram tidak lagi menerima versi plugin ini, sehingga catatan tidak dikirim atau diterima. Perubahan yang dibuat di perangkat ini akan tetap di sini sampai Anda memperbarui.",
-  "The Free tier syncs notes only. Upgrade to sync images and PDFs.": "Paket gratis hanya menyinkronkan catatan. Tingkatkan untuk menyinkronkan gambar dan PDF.",
   "The file is over the server's size limit. Compress or split it, then it will sync.": "Ukuran berkas melebihi batas server. Kompres atau bagi berkas tersebut, lalu lakukan sinkronisasi.",
   "The file is too large for the server.": "File terlalu besar untuk server.",
   "The note synced, but its frontmatter could not be fully parsed. Open it to fix the highlighted line.": "Catatan berhasil disinkronisasi, tetapi frontmatter-nya tidak dapat diproses sepenuhnya. Buka untuk memperbaiki baris yang ditandai.",
@@ -3730,7 +3690,7 @@ var id = {
   "The server does not accept this type of file. It will retry if the file changes.": "Server tidak menerima tipe file ini. Akan dicoba lagi jika file berubah.",
   "The server lost this file's stored content and will try to restore it. Nothing on this device was changed.": "Server kehilangan konten file ini dan akan mencoba memulihkannya. Tidak ada yang berubah di perangkat ini.",
   "The server took too long to respond. Try again.": "Server membutuhkan waktu terlalu lama untuk merespons. Coba lagi.",
-  "These files are fine. They just need a paid plan to sync.": "File-file ini tidak masalah. Hanya memerlukan paket berbayar untuk disinkronkan.",
+  "These files are fine. Each card below says why they did not sync.": "File-file ini tidak masalah. Setiap kartu di bawah menjelaskan mengapa tidak disinkronkan.",
   "This account was deleted. Contact support if that is wrong.": "Akun ini telah dihapus. Hubungi dukungan jika itu salah.",
   "This cannot be undone.": "Ini tidak dapat dibatalkan.",
   "This code expired before the link finished. Generate a new code to try again.": "Kode ini kedaluwarsa sebelum tautan selesai. Hasilkan kode baru untuk mencoba lagi.",
@@ -3738,10 +3698,10 @@ var id = {
   "This file type isn't accepted by this server.": "Jenis file ini tidak diterima oleh server ini.",
   "This note could not be processed and was skipped.": "Catatan ini tidak dapat diproses dan dilewati.",
   "This server is self-hosted, so feedback is not collected here. ": "Server ini dihosting sendiri, jadi umpan balik tidak dikumpulkan di sini. ",
+  "This server isn't accepting this attachment for your account.": "Server ini tidak menerima lampiran ini untuk akun Anda.",
   "This vault": "Vault ini",
   "This vault is empty on the server. Upload your {what}?": "Vault ini kosong di server. Apakah Anda ingin mengunggah {what}?",
   "Too large for the server": "Terlalu besar untuk server",
-  "Too many connected AI clients. Disconnect one or upgrade.": "Terlalu banyak klien AI yang terhubung. Putuskan sambungan satu atau tingkatkan.",
   "Too many connected Obsidian vaults. Disconnect one or upgrade.": "Terlalu banyak Vault Obsidian yang terhubung. Putuskan sambungan satu atau tingkatkan.",
   "Too many requests. Wait a moment and try again.": "Terlalu banyak permintaan. Tunggu sebentar dan coba lagi.",
   "Type {keyword} to confirm:": "Ketik {keyword} untuk konfirmasi:",
@@ -3808,7 +3768,8 @@ var id = {
   "waiting for a plugin update": "Menunggu pembaruan plugin",
   "waiting to retry": "Menunggu untuk mencoba lagi",
   "{count} attachments": "{count} lampiran",
-  "{count} attachments need a paid plan to sync. See Sync Center.": "{count} lampiran memerlukan paket berbayar untuk sinkronisasi. Lihat Pusat Sinkronisasi.",
+  "{count} attachments skipped. See Sync Center.": "{count} lampiran dilewati. Lihat Pusat Sinkronisasi.",
+  "{count} attachments will be skipped: this server only accepts text files.": "{count} lampiran akan dilewati: server ini hanya menerima berkas teks.",
   "{count} attempts": "{count} percobaan",
   "{count} conflicts need resolution": "{count} konflik memerlukan penyelesaian",
   "{count} conflicts to resolve.": "{count} konflik yang perlu diselesaikan.",
@@ -3837,7 +3798,7 @@ var id = {
   "\u2715 {count} failed": "\u2715 {count} gagal",
   "\u2717 couldn't reach a server at this URL": "\u2717 Tidak dapat menjangkau server di URL ini",
   "\u2717 server responded but isn't an Engram server": "\u2717 Server merespons tetapi bukan server Engram",
-  "\u2933 {count} skipped (Free plan)": "\u2933 {count} dilewati (Paket gratis)",
+  "\u2933 {count} skipped": "\u2933 {count} dilewati",
   "\u{1F44B} Welcome": "\u{1F44B} Selamat datang",
   "\u{1F4AC} Feedback": "\u{1F4AC} Umpan balik",
   "\u{1F504} Sync Center": "\u{1F504} Pusat Sinkronisasi",
@@ -3858,7 +3819,6 @@ var it = {
   "1. Make an account": "1. Crea un account",
   "10 GB attachments": "10 GB di allegati",
   "10 vaults, unlimited devices": "10 archivi, dispositivi illimitati",
-  "2,000 notes searchable": "2.000 note ricercabili",
   "2. Connect your vault to Engram": "2. Collega il tuo Vault a Engram",
   "3. Connect your AI": "3. Collega la tua AI",
   "50 GB attachments": "50 GB di allegati",
@@ -3867,9 +3827,8 @@ var it = {
   "A temporary server problem \u2014 retrying automatically.": "Un problema temporaneo del server \u2014 riprova automaticamente.",
   "AI / MCP setup guide": "Guida all'installazione AI / MCP",
   "AI searches": "Ricerche AI",
-  "API access": "Accesso all'API",
   "API key": "Chiave API",
-  "API keys need a Pro plan. Sign in with your Engram account instead.": "Le chiavi API richiedono un piano Pro. Accedi con il tuo account Engram invece.",
+  "API key access is turned off for this account. Sign in with your Engram account instead.": "L'accesso alla chiave API \xE8 disabilitato per questo account. Accedi con il tuo account Engram invece.",
   About: "Informazioni",
   "Accept it to keep syncing.": "Accettalo per continuare la sincronizzazione.",
   "Access token": "Token di accesso",
@@ -3881,14 +3840,13 @@ var it = {
   "Advanced sync options": "Opzioni di sincronizzazione avanzate",
   "All synced. Your vault and the cloud now match.": "Sincronizzazione completata. Il tuo vault e il cloud ora corrispondono.",
   "Already in sync. Nothing is deleted.": "Gi\xE0 sincronizzato. Niente viene eliminato.",
-  "Already signed in on another device. Upgrade for multi-device.": "Gi\xE0 effettuato l'accesso su un altro dispositivo. Effettua l'upgrade per l'uso su pi\xF9 dispositivi.",
   "Already up to date. Nothing needed syncing.": "Gi\xE0 aggiornato. Non \xE8 necessario sincronizzare nulla.",
   "An unexpected error \u2014 retrying automatically.": "Si \xE8 verificato un errore inatteso \u2014 riprova automaticamente.",
+  "Attachment not accepted": "Allegato non accettato",
   "Attachment storage full": "Spazio di archiviazione degli allegati esaurito",
   "Attachment storage is full \u2014 upgrade for more.": "Lo spazio di archiviazione degli allegati \xE8 pieno, effettua l'upgrade per averne di pi\xF9.",
   "Attachment sync is disabled for this account.": "La sincronizzazione degli allegati \xE8 disabilitata per questo account.",
   Attachments: "Allegati",
-  "Attachments need a paid plan": "Gli allegati richiedono un piano a pagamento",
   "Attachments on this device": "Allegati su questo dispositivo",
   "Authenticated via Engram account (OAuth).": "Autenticato tramite account Engram (OAuth).",
   "Authenticated via manual API key.": "Autenticato tramite chiave API manuale.",
@@ -3939,7 +3897,7 @@ var it = {
   "Create a hosted account at {signup}, or self-host the server ({guide}).": "Crea un account ospitato su {signup}, oppure ospita tu stesso il server ({guide}).",
   "Create a new empty vault on the server, then sync this Obsidian vault into it.": "Crea un nuovo vault vuoto sul server, quindi sincronizza questo vault Obsidian con esso.",
   "Custom patterns": "Modelli personalizzati",
-  "Daily AI search limit reached. Free includes 20 per day across Obsidian, the web app and MCP. Upgrade for unlimited.": "Raggiunto il limite giornaliero di ricerche AI. Il piano gratuito include 20 ricerche al giorno tra Obsidian, l'app web e MCP. Effettua l'upgrade per un uso illimitato.",
+  "Daily AI search limit reached. Free searches are shared across Obsidian, the web app and MCP. Upgrade for unlimited.": "Limite di ricerche AI giornaliere raggiunto. Le ricerche gratuite sono condivise tra Obsidian, l'app web e MCP. Aggiorna per ricerche illimitate.",
   "Dart tool cache": "Cache degli strumenti Dart",
   "Debug (verbose)": "Debug (dettagliato)",
   "Delete all local files, then download from remote": "Elimina tutti i file locali, poi scaricali dal server",
@@ -3966,6 +3924,7 @@ var it = {
     many: "Eliminando la versione {count} nel cloud.",
     other: "Eliminando {count} dal cloud."
   },
+  "Device limit reached. Disconnect a device or upgrade.": "Numero massimo di dispositivi raggiunto. Disconnetti un dispositivo o effettua l'upgrade.",
   "Device swap cooldown active. Wait or upgrade.": "Periodo di attesa per il cambio dispositivo attivo. Attendi o effettua l'upgrade.",
   Diagnostics: "Diagnostica",
   "Diagnostics detail": "Dettagli diagnostica",
@@ -4014,7 +3973,6 @@ var it = {
   "Engram Sync: {details}": "Sincronizzazione Engram: {details}",
   "Engram URL": "URL di Engram",
   "Engram Vault Sync {version} is available. {link}.": "Engram Vault Sync {version} disponibile. {link}.",
-  "Engram indexes {indexed} of your {all} notes. The rest match on this device only. Upgrade to index everything.": "Engram indicizza {indexed} delle tue {all} note. Il resto corrisponde solo su questo dispositivo. Aggiorna per indicizzare tutto.",
   "Engram is the backend that powers sync and semantic search.": "Engram \xE8 il backend che alimenta la sincronizzazione e la ricerca semantica.",
   "Engram search": "Ricerca Engram",
   "Engram server changed \u2014 sign in again to continue.": "Il server Engram \xE8 cambiato: accedi di nuovo per continuare.",
@@ -4064,10 +4022,10 @@ var it = {
   "Engram: this vault no longer exists on the server. Pick or create a vault to continue.": "Engram: questo Vault non esiste pi\xF9 sul server. Seleziona o crea un Vault per continuare.",
   "Engram: update required": "Engram: aggiornamento necessario",
   "Engram: your login expired \u2014 open Engram settings to reconnect.": "Engram: la tua sessione \xE8 scaduta: apri le impostazioni di Engram per ricollegarti.",
-  "Engram: {count} attachments skipped \u2014 upgrade your plan to sync images & PDFs.": {
-    one: "Engram: {count} allegato saltato \u2014 aggiorna il tuo piano per sincronizzare immagini e PDF.",
-    many: "Engram: {count} allegati saltati \u2014 aggiorna il tuo piano per sincronizzare immagini e PDF.",
-    other: "Engram: {count} allegati saltati \u2014 aggiorna il tuo piano per sincronizzare immagini e PDF."
+  "Engram: {count} attachments skipped. See Sync Center for why.": {
+    one: "Engram: {count} allegato saltato. Consulta il Centro di sincronizzazione per il motivo.",
+    many: "Engram: {count} allegati saltati. Consulta il Centro di sincronizzazione per i dettagli.",
+    other: "Engram: {count} allegati saltati. Consulta il Centro di sincronizzazione per il motivo."
   },
   "Engram: {count} files failed to sync{detail} \u2014 open Sync Center": {
     one: "Engram: impossibile sincronizzare {count} file{detail} \u2014 apri il Centro di sincronizzazione",
@@ -4104,12 +4062,6 @@ var it = {
   "Finished with some errors. Open the sync log to see what failed.": "Completata con alcuni errori. Apri il registro di sincronizzazione per vedere cosa \xE8 fallito.",
   "First sync, this may take a moment.": "Prima sincronizzazione, potrebbe richiedere un momento.",
   Free: "Gratuito",
-  "Free syncs notes only \u2014 images & PDFs need a paid plan.": "La sincronizzazione \xE8 gratuita solo per le note; immagini e PDF richiedono un piano a pagamento.",
-  "Free syncs notes only \u2014 {count} attachments will be skipped.": {
-    one: "Sincronizza gratuitamente le note, ma salta {count} allegato.",
-    many: "Sincronizza gratuitamente solo le note; verranno saltati {count} allegati.",
-    other: "Sincronizza gratuitamente solo le note; verranno saltati {count} allegati."
-  },
   "Frontmatter could not be parsed": "Impossibile analizzare il frontmatter",
   "Frontmatter isn't valid YAML.": "Il frontmatter non \xE8 un YAML valido.",
   'Frontmatter key "{key}" could not be parsed as YAML.': 'La chiave del frontmatter "{key}" non pu\xF2 essere interpretata come YAML.',
@@ -4170,8 +4122,6 @@ var it = {
   "Note limit reached. Upgrade to keep adding notes.": "Numero massimo di note raggiunto. Aggiorna per continuare ad aggiungere note.",
   "Note not synced locally": "La nota non \xE8 sincronizzata localmente",
   "Notes on this device": "Note su questo dispositivo",
-  "Notes past this still sync and open normally, they are just not in the search index. The index keeps your oldest notes, so it is your newest ones that fall outside.": "Le note successive a questa vengono comunque sincronizzate e aperte normalmente, ma non sono nell'indice di ricerca. L'indice conserva le tue note pi\xF9 vecchie, quindi sono quelle pi\xF9 recenti che non vengono incluse.",
-  "Notes searchable": "Note indicizzabili",
   "Notes stored": "Note salvate",
   "Nothing in this vault syncs until you choose how to merge it with the server.": "Nessuna nota in questo Vault viene sincronizzata finch\xE9 non scegli come fonderla con il server.",
   "Nothing is deleted.": "Niente viene eliminato.",
@@ -4193,7 +4143,6 @@ var it = {
   "Open the file to resolve the conflict, then sync again.": "Apri il file per risolvere il conflitto, poi sincronizza di nuovo.",
   "Opens your browser to sign in, or create an account if you don't have one yet, then links this vault.": "Apre il tuo browser per accedere, oppure crea un account se non ne hai ancora uno, quindi collega questo vault.",
   "Or authenticate with a token instead of signing in.": "Oppure autenticati con un token invece di accedere.",
-  "Or authenticate with a token instead of signing in. Engram Cloud API keys require the Pro plan; on Free and Starter, sign in above.": "Oppure autenticati con un token invece di accedere. Le chiavi API di Engram richiedono il piano Pro; nei piani Free e Starter, accedi qui sopra.",
   "Paths to skip (one per line). Folder patterns end with /. Built-in: {configDir}/, .trash/, .git/": "Percorsi da escludere (uno per riga). I modelli di cartella terminano con /. Predefiniti: {configDir}/, .trash/, .git/",
   "Pick a vault": "Scegli un Vault",
   "Pick a vault (previous: '{name}' not found)": "Scegli un Vault (precedente: '{name}' non trovato)",
@@ -4237,7 +4186,6 @@ var it = {
   "Search failed \u2014 check connection": "Ricerca fallita \u2014 controlla la connessione",
   "Search settings": "Impostazioni di ricerca",
   "Search your vault\u2026": "Cerca nel tuo Vault\u2026",
-  "Searching {indexed} of {all} notes. Upgrade to search everything.": "Ricerca in {indexed} di {all} note. Aggiorna per cercare tutto.",
   "See full pricing": "Vedi i prezzi completi",
   "See the AI setup guide": "Consulta la guida per la configurazione dell'AI",
   "Select which vault this plugin syncs with.": "Seleziona il Vault con cui questo plugin si sincronizza.",
@@ -4289,7 +4237,7 @@ var it = {
   "Sync server": "Server di sincronizzazione",
   "Sync these now": "Sincronizza ora",
   "Sync...": "Sincronizza...",
-  "Synced. Some attachments need a paid plan to sync (see below).": "Sincronizzato. Alcuni allegati richiedono un piano a pagamento per essere sincronizzati (vedi sotto).",
+  "Synced. Some attachments were skipped (see below).": "Sincronizzato. Alcuni allegati sono stati saltati (vedi sotto).",
   "Syncing attachments": "Sincronizzazione degli allegati",
   "Syncing your vault": "Sincronizzazione del tuo vault",
   "Syncing...": "Sincronizzazione in corso...",
@@ -4302,7 +4250,6 @@ var it = {
   "That does not look like an Engram API key (expected {prefix}\u2026).": "Non sembra una chiave API di Engram (previsto {prefix}\u2026).",
   "The Engram server no longer accepts this plugin version (it needs {version} or newer), so notes are not being sent or received. Changes made on this device stay here until you update.": "Il server Engram non accetta pi\xF9 questa versione del plugin (\xE8 necessaria la versione {version} o successiva), quindi le note non vengono inviate o ricevute. Le modifiche apportate su questo dispositivo rimangono qui finch\xE9 non aggiorni.",
   "The Engram server no longer accepts this plugin version, so notes are not being sent or received. Changes made on this device stay here until you update.": "Il server Engram non accetta pi\xF9 questa versione del plugin, quindi le note non vengono inviate o ricevute. Le modifiche apportate su questo dispositivo rimangono qui finch\xE9 non aggiorni.",
-  "The Free tier syncs notes only. Upgrade to sync images and PDFs.": "Il piano gratuito sincronizza solo le note. Aggiorna per sincronizzare immagini e PDF.",
   "The file is over the server's size limit. Compress or split it, then it will sync.": "Il file supera il limite di dimensione del server. Comprimilo o dividilo, poi verr\xE0 sincronizzato.",
   "The file is too large for the server.": "Il file \xE8 troppo grande per il server.",
   "The note synced, but its frontmatter could not be fully parsed. Open it to fix the highlighted line.": "La nota \xE8 stata sincronizzata, ma il suo frontmatter non \xE8 stato completamente analizzato. Aprila per correggere la riga evidenziata.",
@@ -4310,7 +4257,7 @@ var it = {
   "The server does not accept this type of file. It will retry if the file changes.": "Il server non accetta questo tipo di file. Riprover\xE0 se il file cambia.",
   "The server lost this file's stored content and will try to restore it. Nothing on this device was changed.": "Il server ha perso il contenuto di questo file e tenter\xE0 di ripristinarlo. Nulla \xE8 cambiato su questo dispositivo.",
   "The server took too long to respond. Try again.": "Il server ha impiegato troppo tempo per rispondere. Riprova.",
-  "These files are fine. They just need a paid plan to sync.": "Questi file sono ok. Hanno solo bisogno di un piano a pagamento per essere sincronizzati.",
+  "These files are fine. Each card below says why they did not sync.": "Questi file sono corretti. Ogni scheda qui sotto spiega perch\xE9 non sono stati sincronizzati.",
   "This account was deleted. Contact support if that is wrong.": "Questo account \xE8 stato eliminato. Contatta l'assistenza se non \xE8 corretto.",
   "This cannot be undone.": "Questa operazione non \xE8 annullabile.",
   "This code expired before the link finished. Generate a new code to try again.": "Questo codice \xE8 scaduto prima che il collegamento fosse completato. Genera un nuovo codice per riprovare.",
@@ -4318,10 +4265,10 @@ var it = {
   "This file type isn't accepted by this server.": "Questo tipo di file non \xE8 accettato da questo server.",
   "This note could not be processed and was skipped.": "Questa nota non pu\xF2 essere elaborata ed \xE8 stata saltata.",
   "This server is self-hosted, so feedback is not collected here. ": "Questo server \xE8 ospitato privatamente, quindi il feedback non viene raccolto qui. ",
+  "This server isn't accepting this attachment for your account.": "Questo server non accetta questo allegato per il tuo account.",
   "This vault": "Questo Vault",
   "This vault is empty on the server. Upload your {what}?": "Questo Vault \xE8 vuoto sul server. Vuoi caricare {what}?",
   "Too large for the server": "Troppo grande per il server",
-  "Too many connected AI clients. Disconnect one or upgrade.": "Troppi client AI collegati. Disconnetti uno o effettua l'upgrade.",
   "Too many connected Obsidian vaults. Disconnect one or upgrade.": "Troppi archivi Obsidian collegati. Disconnetti uno o effettua l'upgrade.",
   "Too many requests. Wait a moment and try again.": "Troppe richieste. Attendi un momento e riprova.",
   "Type {keyword} to confirm:": "Digita {keyword} per confermare:",
@@ -4408,10 +4355,15 @@ var it = {
     many: "{count} allegati",
     other: "{count} allegati"
   },
-  "{count} attachments need a paid plan to sync. See Sync Center.": {
-    one: "{count} allegato richiede un piano a pagamento per essere sincronizzato. Vedi il Centro di sincronizzazione.",
-    many: "{count} Gli allegati richiedono un piano a pagamento per la sincronizzazione. Vedi il Centro di sincronizzazione.",
-    other: "{count} allegati richiedono un piano a pagamento per essere sincronizzati. Vedi il Centro di sincronizzazione."
+  "{count} attachments skipped. See Sync Center.": {
+    one: "{count} allegato saltato. Vedi Centro di sincronizzazione.",
+    many: "{count} allegati saltati. Vedi il Centro di sincronizzazione.",
+    other: "{count} allegati saltati. Vedi il Centro di sincronizzazione."
+  },
+  "{count} attachments will be skipped: this server only accepts text files.": {
+    one: "{count} allegato verr\xE0 saltato: questo server accetta solo file di testo.",
+    many: "{count} allegati verranno saltati: questo server accetta solo file di testo.",
+    other: "{count} allegati verranno saltati: questo server accetta solo file di testo."
   },
   "{count} attempts": {
     one: "{count} tentativo",
@@ -4505,10 +4457,10 @@ var it = {
   },
   "\u2717 couldn't reach a server at this URL": "\u2717 Impossibile raggiungere un server a questo URL",
   "\u2717 server responded but isn't an Engram server": "\u2717 Il server ha risposto, ma non \xE8 un server Engram",
-  "\u2933 {count} skipped (Free plan)": {
-    one: "\u2933 {count} saltata (piano gratuito)",
-    many: "\u2933 {count} saltata (Piano gratuito)",
-    other: "\u2933 {count} saltati (Piano gratuito)"
+  "\u2933 {count} skipped": {
+    one: "\u2933 {count} saltato",
+    many: "\u2933 {count} saltati",
+    other: "\u2933 {count} saltati"
   },
   "\u{1F44B} Welcome": "\u{1F44B} Benvenuto",
   "\u{1F4AC} Feedback": "\u{1F4AC} Feedback",
@@ -4526,7 +4478,6 @@ var ja = {
   "1. Make an account": "1. \u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u4F5C\u6210",
   "10 GB attachments": "10 GB \u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB",
   "10 vaults, unlimited devices": "10\u500B\u306E\u4FDD\u7BA1\u5EAB\u3001\u30C7\u30D0\u30A4\u30B9\u6570\u7121\u5236\u9650",
-  "2,000 notes searchable": "2,000\u4EF6\u307E\u3067\u306E\u30CE\u30FC\u30C8\u3092\u691C\u7D22\u53EF\u80FD",
   "2. Connect your vault to Engram": "2. \u4FDD\u7BA1\u5EAB\u3092Engram\u306B\u63A5\u7D9A\u3057\u307E\u3059",
   "3. Connect your AI": "3. AI\u3068\u306E\u63A5\u7D9A",
   "50 GB attachments": "50 GB \u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB",
@@ -4535,9 +4486,8 @@ var ja = {
   "A temporary server problem \u2014 retrying automatically.": "\u4E00\u6642\u7684\u306A\u30B5\u30FC\u30D0\u30FC\u306E\u554F\u984C\u3067\u3059\u3002\u81EA\u52D5\u7684\u306B\u518D\u8A66\u884C\u3057\u307E\u3059\u3002",
   "AI / MCP setup guide": "AI / MCP \u8A2D\u5B9A\u30AC\u30A4\u30C9",
   "AI searches": "AI\u691C\u7D22",
-  "API access": "API\u30A2\u30AF\u30BB\u30B9",
   "API key": "API\u30AD\u30FC",
-  "API keys need a Pro plan. Sign in with your Engram account instead.": "API\u30AD\u30FC\u306B\u306FPro\u30D7\u30E9\u30F3\u304C\u5FC5\u8981\u3067\u3059\u3002\u4EE3\u308F\u308A\u306BEngram\u30A2\u30AB\u30A6\u30F3\u30C8\u3067\u30B5\u30A4\u30F3\u30A4\u30F3\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
+  "API key access is turned off for this account. Sign in with your Engram account instead.": "\u3053\u306E\u30A2\u30AB\u30A6\u30F3\u30C8\u306EAPI\u30AD\u30FC\u306E\u5229\u7528\u306F\u505C\u6B62\u3055\u308C\u3066\u3044\u307E\u3059\u3002Engram\u30A2\u30AB\u30A6\u30F3\u30C8\u3067\u30B5\u30A4\u30F3\u30A4\u30F3\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
   About: "\u6982\u8981",
   "Accept it to keep syncing.": "\u540C\u671F\u3092\u7D9A\u3051\u308B\u5834\u5408\u306F\u3001\u540C\u610F\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
   "Access token": "\u30A2\u30AF\u30BB\u30B9\u30C8\u30FC\u30AF\u30F3",
@@ -4549,14 +4499,13 @@ var ja = {
   "Advanced sync options": "\u8A73\u7D30\u306A\u540C\u671F\u30AA\u30D7\u30B7\u30E7\u30F3",
   "All synced. Your vault and the cloud now match.": "\u3059\u3079\u3066\u540C\u671F\u3055\u308C\u307E\u3057\u305F\u3002\u4FDD\u7BA1\u5EAB\u3068\u30AF\u30E9\u30A6\u30C9\u304C\u4E00\u81F4\u3057\u307E\u3057\u305F\u3002",
   "Already in sync. Nothing is deleted.": "\u3059\u3067\u306B\u540C\u671F\u3055\u308C\u3066\u3044\u307E\u3059\u3002\u4F55\u3082\u524A\u9664\u3057\u307E\u305B\u3093\u3002",
-  "Already signed in on another device. Upgrade for multi-device.": "\u5225\u306E\u30C7\u30D0\u30A4\u30B9\u3067\u65E2\u306B\u30B5\u30A4\u30F3\u30A4\u30F3\u3057\u3066\u3044\u307E\u3059\u3002\u8907\u6570\u30C7\u30D0\u30A4\u30B9\u5229\u7528\u306B\u306F\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u304C\u5FC5\u8981\u3067\u3059\u3002",
   "Already up to date. Nothing needed syncing.": "\u3059\u3067\u306B\u6700\u65B0\u306E\u72B6\u614B\u3067\u3059\u3002\u540C\u671F\u3059\u308B\u5FC5\u8981\u306F\u3042\u308A\u307E\u305B\u3093\u3002",
   "An unexpected error \u2014 retrying automatically.": "\u4E88\u671F\u3057\u306A\u3044\u30A8\u30E9\u30FC\u304C\u767A\u751F\u3057\u307E\u3057\u305F\u3002\u81EA\u52D5\u7684\u306B\u518D\u8A66\u884C\u3057\u307E\u3059\u3002",
+  "Attachment not accepted": "\u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB\u306F\u53D7\u3051\u4ED8\u3051\u3089\u308C\u307E\u305B\u3093",
   "Attachment storage full": "\u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB\u306E\u4FDD\u5B58\u5BB9\u91CF\u4E0A\u9650",
   "Attachment storage is full \u2014 upgrade for more.": "\u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB\u306E\u4FDD\u5B58\u5BB9\u91CF\u304C\u3044\u3063\u3071\u3044\u3067\u3059\u3002\u3088\u308A\u591A\u304F\u306E\u5BB9\u91CF\u306E\u305F\u3081\u306B\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
   "Attachment sync is disabled for this account.": "\u3053\u306E\u30A2\u30AB\u30A6\u30F3\u30C8\u3067\u306F\u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB\u306E\u540C\u671F\u304C\u7121\u52B9\u306B\u306A\u3063\u3066\u3044\u307E\u3059\u3002",
   Attachments: "\u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB",
-  "Attachments need a paid plan": "\u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB\u306B\u306F\u6709\u6599\u30D7\u30E9\u30F3\u304C\u5FC5\u8981\u3067\u3059",
   "Attachments on this device": "\u3053\u306E\u30C7\u30D0\u30A4\u30B9\u4E0A\u306E\u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB",
   "Authenticated via Engram account (OAuth).": "Engram\u30A2\u30AB\u30A6\u30F3\u30C8\uFF08OAuth\uFF09\u3067\u8A8D\u8A3C\u6E08\u307F",
   "Authenticated via manual API key.": "\u624B\u52D5\u3067\u5165\u529B\u3057\u305FAPI\u30AD\u30FC\u3067\u8A8D\u8A3C\u6E08\u307F",
@@ -4607,7 +4556,7 @@ var ja = {
   "Create a hosted account at {signup}, or self-host the server ({guide}).": "{signup} \u3067\u30DB\u30B9\u30C8\u3055\u308C\u305F\u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u4F5C\u6210\u3059\u308B\u304B\u3001\u30B5\u30FC\u30D0\u30FC\u3092\u81EA\u793E\u3067\u30DB\u30B9\u30C8\u3057\u307E\u3059 ({guide})\u3002",
   "Create a new empty vault on the server, then sync this Obsidian vault into it.": "\u30B5\u30FC\u30D0\u30FC\u4E0A\u306B\u65B0\u3057\u3044\u7A7A\u306E\u4FDD\u7BA1\u5EAB\u3092\u4F5C\u6210\u3057\u3001\u3053\u306EObsidian\u4FDD\u7BA1\u5EAB\u3092\u305D\u3053\u306B\u540C\u671F\u3057\u307E\u3059\u3002",
   "Custom patterns": "\u30AB\u30B9\u30BF\u30E0\u30D1\u30BF\u30FC\u30F3",
-  "Daily AI search limit reached. Free includes 20 per day across Obsidian, the web app and MCP. Upgrade for unlimited.": "1\u65E5\u306EAI\u691C\u7D22\u56DE\u6570\u5236\u9650\u306B\u9054\u3057\u307E\u3057\u305F\u3002\u7121\u6599\u30D7\u30E9\u30F3\u3067\u306F\u3001Obsidian\u3001\u30A6\u30A7\u30D6\u30A2\u30D7\u30EA\u3001MCP\u5168\u4F53\u30671\u65E520\u56DE\u307E\u3067\u3067\u3059\u3002\u7121\u5236\u9650\u306B\u3059\u308B\u306B\u306F\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
+  "Daily AI search limit reached. Free searches are shared across Obsidian, the web app and MCP. Upgrade for unlimited.": "AI\u691C\u7D22\u306E\u7121\u6599\u5229\u7528\u4E0A\u9650\u306B\u9054\u3057\u307E\u3057\u305F\u3002\u7121\u6599\u691C\u7D22\u306FObsidian\u3001\u30A6\u30A7\u30D6\u30A2\u30D7\u30EA\u3001\u304A\u3088\u3073MCP\u3067\u5171\u6709\u3055\u308C\u307E\u3059\u3002\u7121\u5236\u9650\u306E\u5229\u7528\u306B\u306F\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u304C\u5FC5\u8981\u3067\u3059\u3002",
   "Dart tool cache": "Dart\u30C4\u30FC\u30EB\u306E\u30AD\u30E3\u30C3\u30B7\u30E5",
   "Debug (verbose)": "\u30C7\u30D0\u30C3\u30B0\uFF08\u8A73\u7D30\uFF09",
   "Delete all local files, then download from remote": "\u30ED\u30FC\u30AB\u30EB\u30D5\u30A1\u30A4\u30EB\u3092\u3059\u3079\u3066\u524A\u9664\u3057\u3001\u30EA\u30E2\u30FC\u30C8\u304B\u3089\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9\u3057\u307E\u3059",
@@ -4618,6 +4567,7 @@ var ja = {
   Deleting: "\u524A\u9664\u4E2D",
   "Deleting {count} local files.": "{count}\u3064\u306E\u30ED\u30FC\u30AB\u30EB\u30D5\u30A1\u30A4\u30EB\u3092\u524A\u9664\u3057\u3066\u3044\u307E\u3059\u3002",
   "Deleting {count} on the cloud.": "\u30AF\u30E9\u30A6\u30C9\u304B\u3089{count}\u3064\u3092\u524A\u9664\u4E2D\u3002",
+  "Device limit reached. Disconnect a device or upgrade.": "\u30C7\u30D0\u30A4\u30B9\u306E\u63A5\u7D9A\u6570\u5236\u9650\u306B\u9054\u3057\u307E\u3057\u305F\u3002\u30C7\u30D0\u30A4\u30B9\u3092\u5207\u65AD\u3059\u308B\u304B\u3001\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
   "Device swap cooldown active. Wait or upgrade.": "\u30C7\u30D0\u30A4\u30B9\u306E\u5207\u308A\u66FF\u3048\u5236\u9650\u4E2D\u3067\u3059\u3002\u3057\u3070\u3089\u304F\u5F85\u3064\u304B\u3001\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
   Diagnostics: "\u8A3A\u65AD",
   "Diagnostics detail": "\u8A3A\u65AD\u306E\u8A73\u7D30",
@@ -4646,7 +4596,6 @@ var ja = {
   "Engram Sync: {details}": "Engram \u540C\u671F: {details}",
   "Engram URL": "Engram\u306EURL",
   "Engram Vault Sync {version} is available. {link}.": "Engram Vault Sync {version} \u304C\u5229\u7528\u53EF\u80FD\u3067\u3059\u3002{link}.",
-  "Engram indexes {indexed} of your {all} notes. The rest match on this device only. Upgrade to index everything.": "Engram \u306F\u3001\u3042\u306A\u305F\u306E {all} \u500B\u306E\u30CE\u30FC\u30C8\u306E\u3046\u3061 {indexed} \u500B\u3092\u30A4\u30F3\u30C7\u30C3\u30AF\u30B9\u5316\u3057\u3066\u3044\u307E\u3059\u3002\u6B8B\u308A\u306F\u3053\u306E\u30C7\u30D0\u30A4\u30B9\u3067\u306E\u307F\u691C\u7D22\u53EF\u80FD\u3067\u3059\u3002\u3059\u3079\u3066\u3092\u30A4\u30F3\u30C7\u30C3\u30AF\u30B9\u5316\u3059\u308B\u306B\u306F\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
   "Engram is the backend that powers sync and semantic search.": "Engram\u306F\u3001\u540C\u671F\u3068\u30BB\u30DE\u30F3\u30C6\u30A3\u30C3\u30AF\u691C\u7D22\u3092\u652F\u3048\u308B\u30D0\u30C3\u30AF\u30A8\u30F3\u30C9\u3067\u3059\u3002",
   "Engram search": "Engram \u691C\u7D22",
   "Engram server changed \u2014 sign in again to continue.": "Engram \u30B5\u30FC\u30D0\u30FC\u306B\u5909\u66F4\u304C\u3042\u308A\u307E\u3057\u305F\u3002\u7D9A\u884C\u3059\u308B\u306B\u306F\u3001\u518D\u5EA6\u30B5\u30A4\u30F3\u30A4\u30F3\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
@@ -4688,7 +4637,7 @@ var ja = {
   "Engram: this vault no longer exists on the server. Pick or create a vault to continue.": "Engram: \u3053\u306E\u4FDD\u7BA1\u5EAB\u306F\u30B5\u30FC\u30D0\u30FC\u4E0A\u306B\u5B58\u5728\u3057\u307E\u305B\u3093\u3002\u5229\u7528\u53EF\u80FD\u306A\u4FDD\u7BA1\u5EAB\u3092\u9078\u629E\u3059\u308B\u304B\u3001\u65B0\u898F\u4F5C\u6210\u3057\u3066\u7D9A\u884C\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
   "Engram: update required": "Engram: \u66F4\u65B0\u304C\u5FC5\u8981\u3067\u3059",
   "Engram: your login expired \u2014 open Engram settings to reconnect.": "Engram: \u30ED\u30B0\u30A4\u30F3\u304C\u671F\u9650\u5207\u308C\u3067\u3059\u3002Engram \u306E\u8A2D\u5B9A\u3092\u958B\u3044\u3066\u518D\u63A5\u7D9A\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
-  "Engram: {count} attachments skipped \u2014 upgrade your plan to sync images & PDFs.": "Engram: {count}\u500B\u306E\u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB\u3092\u30B9\u30AD\u30C3\u30D7\u3057\u307E\u3057\u305F\u3002\u753B\u50CF\u3084PDF\u3092\u540C\u671F\u3059\u308B\u306B\u306F\u3001\u30D7\u30E9\u30F3\u3092\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
+  "Engram: {count} attachments skipped. See Sync Center for why.": "Engram: {count}\u500B\u306E\u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB\u3092\u30B9\u30AD\u30C3\u30D7\u3057\u307E\u3057\u305F\u3002\u7406\u7531\u306F\u540C\u671F\u30BB\u30F3\u30BF\u30FC\u3067\u3054\u78BA\u8A8D\u304F\u3060\u3055\u3044\u3002",
   "Engram: {count} files failed to sync{detail} \u2014 open Sync Center": "Engram: \u540C\u671F\u306B\u5931\u6557\u3057\u305F\u30D5\u30A1\u30A4\u30EB\u304C{count}\u4EF6\u3042\u308A\u307E\u3059{detail} \u2014 \u540C\u671F\u30BB\u30F3\u30BF\u30FC\u3092\u958B\u304F",
   "Engram: {count} notes have frontmatter problems. Open Sync Center to fix.": "Engram: {count}\u3064\u306E\u30CE\u30FC\u30C8\u306B\u30D5\u30ED\u30F3\u30C8\u30DE\u30BF\u30FC\u306E\u554F\u984C\u304C\u3042\u308A\u307E\u3059\u3002\u540C\u671F\u30BB\u30F3\u30BF\u30FC\u3092\u958B\u3044\u3066\u4FEE\u6B63\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
   "Engram: \u26A0 {count} sync errors": "Engram: \u26A0 \u540C\u671F\u30A8\u30E9\u30FC {count}\u4EF6",
@@ -4712,8 +4661,6 @@ var ja = {
   "Finished with some errors. Open the sync log to see what failed.": "\u4E00\u90E8\u306E\u30A8\u30E9\u30FC\u3067\u5B8C\u4E86\u3057\u307E\u3057\u305F\u3002\u30A8\u30E9\u30FC\u306E\u8A73\u7D30\u306B\u3064\u3044\u3066\u306F\u3001\u540C\u671F\u30ED\u30B0\u3092\u3054\u78BA\u8A8D\u304F\u3060\u3055\u3044\u3002",
   "First sync, this may take a moment.": "\u521D\u56DE\u540C\u671F\u306E\u305F\u3081\u3001\u3057\u3070\u3089\u304F\u6642\u9593\u304C\u304B\u304B\u308B\u5834\u5408\u304C\u3042\u308A\u307E\u3059\u3002",
   Free: "\u7121\u6599",
-  "Free syncs notes only \u2014 images & PDFs need a paid plan.": "\u30CE\u30FC\u30C8\u306E\u307F\u7121\u6599\u3067\u540C\u671F\u3002\u753B\u50CF\u3068PDF\u306F\u6709\u6599\u30D7\u30E9\u30F3\u304C\u5FC5\u8981\u3067\u3059\u3002",
-  "Free syncs notes only \u2014 {count} attachments will be skipped.": "\u7121\u6599\u3067\u306F\u30CE\u30FC\u30C8\u306E\u307F\u540C\u671F\u3002\u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB\u306F{count}\u3064\u307E\u3067\u3002",
   "Frontmatter could not be parsed": "\u30D5\u30ED\u30F3\u30C8\u30DE\u30BF\u30FC\u3092\u89E3\u6790\u3067\u304D\u307E\u305B\u3093\u3067\u3057\u305F",
   "Frontmatter isn't valid YAML.": "YAML \u3068\u3057\u3066\u7121\u52B9\u306A Frontmatter \u3067\u3059\u3002",
   'Frontmatter key "{key}" could not be parsed as YAML.': 'YAML \u3068\u3057\u3066\u89E3\u6790\u3067\u304D\u306A\u3044 Frontmatter \u30AD\u30FC "{key}" \u304C\u3042\u308A\u307E\u3059\u3002',
@@ -4774,8 +4721,6 @@ var ja = {
   "Note limit reached. Upgrade to keep adding notes.": "\u30CE\u30FC\u30C8\u306E\u5236\u9650\u306B\u9054\u3057\u307E\u3057\u305F\u3002\u30CE\u30FC\u30C8\u3092\u8FFD\u52A0\u3059\u308B\u306B\u306F\u3001\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
   "Note not synced locally": "\u30CE\u30FC\u30C8\u304C\u30ED\u30FC\u30AB\u30EB\u306B\u540C\u671F\u3055\u308C\u3066\u3044\u307E\u305B\u3093",
   "Notes on this device": "\u3053\u306E\u30C7\u30D0\u30A4\u30B9\u4E0A\u306E\u30CE\u30FC\u30C8",
-  "Notes past this still sync and open normally, they are just not in the search index. The index keeps your oldest notes, so it is your newest ones that fall outside.": "\u3053\u3053\u3088\u308A\u5F8C\u306E\u30CE\u30FC\u30C8\u306F\u901A\u5E38\u901A\u308A\u540C\u671F\u3055\u308C\u3001\u958B\u304F\u3053\u3068\u304C\u3067\u304D\u307E\u3059\u3002\u305F\u3060\u3057\u3001\u691C\u7D22\u30A4\u30F3\u30C7\u30C3\u30AF\u30B9\u306B\u306F\u542B\u307E\u308C\u307E\u305B\u3093\u3002\u30A4\u30F3\u30C7\u30C3\u30AF\u30B9\u306B\u306F\u53E4\u3044\u30CE\u30FC\u30C8\u304C\u4FDD\u6301\u3055\u308C\u308B\u305F\u3081\u3001\u65B0\u3057\u3044\u30CE\u30FC\u30C8\u304C\u5BFE\u8C61\u5916\u306B\u306A\u308B\u3053\u3068\u304C\u3042\u308A\u307E\u3059\u3002",
-  "Notes searchable": "\u691C\u7D22\u53EF\u80FD\u306A\u30CE\u30FC\u30C8",
   "Notes stored": "\u30CE\u30FC\u30C8\u3092\u4FDD\u5B58",
   "Nothing in this vault syncs until you choose how to merge it with the server.": "\u3053\u306E\u4FDD\u7BA1\u5EAB\u306E\u5185\u5BB9\u306F\u3001\u30B5\u30FC\u30D0\u30FC\u3068\u306E\u9023\u643A\u65B9\u6CD5\u3092\u9078\u629E\u3059\u308B\u307E\u3067\u540C\u671F\u3055\u308C\u307E\u305B\u3093\u3002",
   "Nothing is deleted.": "\u4F55\u3082\u524A\u9664\u3057\u307E\u305B\u3093\u3002",
@@ -4797,7 +4742,6 @@ var ja = {
   "Open the file to resolve the conflict, then sync again.": "\u7AF6\u5408\u3092\u89E3\u6C7A\u3059\u308B\u30D5\u30A1\u30A4\u30EB\u3092\u958B\u304D\u3001\u518D\u5EA6\u540C\u671F\u3057\u307E\u3059\u3002",
   "Opens your browser to sign in, or create an account if you don't have one yet, then links this vault.": "\u30D6\u30E9\u30A6\u30B6\u3092\u958B\u304D\u3001\u30ED\u30B0\u30A4\u30F3\u3059\u308B\u304B\u3001\u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u4F5C\u6210\u3057\u3066\u3001\u3053\u306E\u4FDD\u7BA1\u5EAB\u3092\u30EA\u30F3\u30AF\u3057\u307E\u3059\u3002",
   "Or authenticate with a token instead of signing in.": "\u307E\u305F\u306F\u3001\u30B5\u30A4\u30F3\u30A4\u30F3\u306E\u4EE3\u308F\u308A\u306B\u30C8\u30FC\u30AF\u30F3\u3067\u8A8D\u8A3C\u3057\u307E\u3059\u3002",
-  "Or authenticate with a token instead of signing in. Engram Cloud API keys require the Pro plan; on Free and Starter, sign in above.": "\u307E\u305F\u306F\u3001\u30B5\u30A4\u30F3\u30A4\u30F3\u306E\u4EE3\u308F\u308A\u306B\u30C8\u30FC\u30AF\u30F3\u3067\u8A8D\u8A3C\u3057\u307E\u3059\u3002Engram Cloud API\u30AD\u30FC\u306FPro\u30D7\u30E9\u30F3\u304C\u5FC5\u8981\u3067\u3059\u3002Free\u304A\u3088\u3073Starter\u30D7\u30E9\u30F3\u3067\u306F\u3001\u4E0A\u8A18\u304B\u3089\u30B5\u30A4\u30F3\u30A4\u30F3\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
   "Paths to skip (one per line). Folder patterns end with /. Built-in: {configDir}/, .trash/, .git/": '\u9664\u5916\u3059\u308B\u30D1\u30B9\uFF081\u884C\u306B1\u3064\uFF09\u3002\u30D5\u30A9\u30EB\u30C0\u306E\u30D1\u30BF\u30FC\u30F3\u306F"/"\u3067\u7D42\u308F\u308A\u307E\u3059\u3002\u5185\u8535: {configDir}/, .trash/, .git/',
   "Pick a vault": "\u4FDD\u7BA1\u5EAB\u3092\u9078\u629E",
   "Pick a vault (previous: '{name}' not found)": "\u4FDD\u7BA1\u5EAB\u3092\u9078\u629E (\u4EE5\u524D: '{name}' \u304C\u898B\u3064\u304B\u308A\u307E\u305B\u3093)",
@@ -4841,7 +4785,6 @@ var ja = {
   "Search failed \u2014 check connection": "\u691C\u7D22\u306B\u5931\u6557\u3057\u307E\u3057\u305F\u3002\u63A5\u7D9A\u3092\u78BA\u8A8D\u3057\u3066\u304F\u3060\u3055\u3044",
   "Search settings": "\u691C\u7D22\u8A2D\u5B9A",
   "Search your vault\u2026": "\u4FDD\u7BA1\u5EAB\u3092\u691C\u7D22\u2026",
-  "Searching {indexed} of {all} notes. Upgrade to search everything.": "{all} \u500B\u306E\u30CE\u30FC\u30C8\u306E\u3046\u3061 {indexed} \u500B\u3092\u691C\u7D22\u4E2D\u3067\u3059\u3002\u3059\u3079\u3066\u3092\u691C\u7D22\u3059\u308B\u306B\u306F\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
   "See full pricing": "\u8A73\u7D30\u306A\u6599\u91D1\u3092\u898B\u308B",
   "See the AI setup guide": "AI\u306E\u8A2D\u5B9A\u30AC\u30A4\u30C9\u3092\u898B\u308B",
   "Select which vault this plugin syncs with.": "\u3053\u306E\u30D7\u30E9\u30B0\u30A4\u30F3\u3067\u540C\u671F\u3059\u308B\u4FDD\u7BA1\u5EAB\u3092\u9078\u629E\u3057\u307E\u3059\u3002",
@@ -4889,7 +4832,7 @@ var ja = {
   "Sync server": "\u540C\u671F\u30B5\u30FC\u30D0\u30FC",
   "Sync these now": "\u4ECA\u3059\u3050\u540C\u671F",
   "Sync...": "\u540C\u671F\u4E2D...",
-  "Synced. Some attachments need a paid plan to sync (see below).": "\u540C\u671F\u5B8C\u4E86\u3002\u4E00\u90E8\u306E\u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB\u306F\u6709\u6599\u30D7\u30E9\u30F3\u3067\u306E\u307F\u540C\u671F\u53EF\u80FD\u3067\u3059 (\u4E0B\u8A18\u53C2\u7167)\u3002",
+  "Synced. Some attachments were skipped (see below).": "\u540C\u671F\u5B8C\u4E86\u3002\u4E00\u90E8\u306E\u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB\u306F\u30B9\u30AD\u30C3\u30D7\u3055\u308C\u307E\u3057\u305F\uFF08\u4E0B\u8A18\u53C2\u7167\uFF09\u3002",
   "Syncing attachments": "\u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB\u306E\u540C\u671F",
   "Syncing your vault": "\u4FDD\u7BA1\u5EAB\u306E\u540C\u671F",
   "Syncing...": "\u540C\u671F\u4E2D...",
@@ -4902,7 +4845,6 @@ var ja = {
   "That does not look like an Engram API key (expected {prefix}\u2026).": "\u3053\u308C\u306FEngram\u306EAPI\u30AD\u30FC\u306E\u3088\u3046\u306B\u898B\u3048\u307E\u305B\u3093 (\u671F\u5F85\u3055\u308C\u308B\u306E\u306F {prefix}\u2026)",
   "The Engram server no longer accepts this plugin version (it needs {version} or newer), so notes are not being sent or received. Changes made on this device stay here until you update.": "Engram\u30B5\u30FC\u30D0\u30FC\u306F\u3001\u3053\u306E\u30D7\u30E9\u30B0\u30A4\u30F3\u306E\u30D0\u30FC\u30B8\u30E7\u30F3\u306B\u5BFE\u5FDC\u3057\u3066\u3044\u307E\u305B\u3093\uFF08{version}\u4EE5\u4E0A\u304C\u5FC5\u8981\u3067\u3059\uFF09\u3002\u305D\u306E\u305F\u3081\u3001\u30CE\u30FC\u30C8\u306E\u9001\u53D7\u4FE1\u304C\u3067\u304D\u307E\u305B\u3093\u3002\u3053\u306E\u30C7\u30D0\u30A4\u30B9\u3067\u884C\u3063\u305F\u5909\u66F4\u306F\u3001\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8\u3059\u308B\u307E\u3067\u3053\u3053\u3067\u4FDD\u5B58\u3055\u308C\u307E\u3059\u3002",
   "The Engram server no longer accepts this plugin version, so notes are not being sent or received. Changes made on this device stay here until you update.": "Engram\u30B5\u30FC\u30D0\u30FC\u306F\u3001\u3053\u306E\u30D7\u30E9\u30B0\u30A4\u30F3\u306E\u30D0\u30FC\u30B8\u30E7\u30F3\u306B\u5BFE\u5FDC\u3057\u3066\u3044\u307E\u305B\u3093\u3002\u305D\u306E\u305F\u3081\u3001\u30CE\u30FC\u30C8\u306E\u9001\u53D7\u4FE1\u304C\u3067\u304D\u307E\u305B\u3093\u3002\u3053\u306E\u30C7\u30D0\u30A4\u30B9\u3067\u884C\u3063\u305F\u5909\u66F4\u306F\u3001\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8\u3059\u308B\u307E\u3067\u3053\u3053\u3067\u4FDD\u5B58\u3055\u308C\u307E\u3059\u3002",
-  "The Free tier syncs notes only. Upgrade to sync images and PDFs.": "\u7121\u6599\u30D7\u30E9\u30F3\u3067\u306F\u30CE\u30FC\u30C8\u306E\u307F\u540C\u671F\u3055\u308C\u307E\u3059\u3002\u753B\u50CF\u3084PDF\u3092\u540C\u671F\u3059\u308B\u306B\u306F\u3001\u6709\u6599\u30D7\u30E9\u30F3\u306B\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
   "The file is over the server's size limit. Compress or split it, then it will sync.": "\u30D5\u30A1\u30A4\u30EB\u304C\u30B5\u30FC\u30D0\u30FC\u306E\u30B5\u30A4\u30BA\u5236\u9650\u3092\u8D85\u3048\u3066\u3044\u307E\u3059\u3002\u5727\u7E2E\u3059\u308B\u304B\u5206\u5272\u3057\u3001\u518D\u5EA6\u540C\u671F\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
   "The file is too large for the server.": "\u30D5\u30A1\u30A4\u30EB\u304C\u30B5\u30FC\u30D0\u30FC\u306E\u8A31\u5BB9\u91CF\u3092\u8D85\u3048\u3066\u3044\u307E\u3059\u3002",
   "The note synced, but its frontmatter could not be fully parsed. Open it to fix the highlighted line.": "\u30CE\u30FC\u30C8\u306F\u540C\u671F\u3055\u308C\u307E\u3057\u305F\u304C\u3001\u30D5\u30ED\u30F3\u30C8\u30DE\u30BF\u30FC\u3092\u5B8C\u5168\u306B\u89E3\u6790\u3067\u304D\u307E\u305B\u3093\u3067\u3057\u305F\u3002\u30CF\u30A4\u30E9\u30A4\u30C8\u3055\u308C\u305F\u884C\u3092\u4FEE\u6B63\u3059\u308B\u305F\u3081\u306B\u958B\u3044\u3066\u304F\u3060\u3055\u3044\u3002",
@@ -4910,7 +4852,7 @@ var ja = {
   "The server does not accept this type of file. It will retry if the file changes.": "\u30B5\u30FC\u30D0\u30FC\u304C\u3053\u306E\u7A2E\u985E\u306E\u30D5\u30A1\u30A4\u30EB\u3092\u8A31\u53EF\u3057\u3066\u3044\u307E\u305B\u3093\u3002\u30D5\u30A1\u30A4\u30EB\u304C\u5909\u66F4\u3055\u308C\u305F\u5834\u5408\u3001\u518D\u8A66\u884C\u3057\u307E\u3059\u3002",
   "The server lost this file's stored content and will try to restore it. Nothing on this device was changed.": "\u30B5\u30FC\u30D0\u30FC\u304C\u3053\u306E\u30D5\u30A1\u30A4\u30EB\u306E\u30C7\u30FC\u30BF\u3092\u5931\u3044\u3001\u5FA9\u5143\u3092\u8A66\u307F\u307E\u3059\u3002\u3053\u306E\u30C7\u30D0\u30A4\u30B9\u306E\u5185\u5BB9\u306F\u5909\u66F4\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002",
   "The server took too long to respond. Try again.": "\u30B5\u30FC\u30D0\u30FC\u306E\u5FDC\u7B54\u304C\u9045\u3059\u304E\u307E\u3059\u3002\u3082\u3046\u4E00\u5EA6\u304A\u8A66\u3057\u304F\u3060\u3055\u3044\u3002",
-  "These files are fine. They just need a paid plan to sync.": "\u3053\u308C\u3089\u306E\u30D5\u30A1\u30A4\u30EB\u306F\u554F\u984C\u3042\u308A\u307E\u305B\u3093\u3002\u540C\u671F\u3059\u308B\u306B\u306F\u6709\u6599\u30D7\u30E9\u30F3\u304C\u5FC5\u8981\u3067\u3059\u3002",
+  "These files are fine. Each card below says why they did not sync.": "\u3053\u308C\u3089\u306E\u30D5\u30A1\u30A4\u30EB\u306F\u554F\u984C\u3042\u308A\u307E\u305B\u3093\u3002\u5404\u30AB\u30FC\u30C9\u306B\u306F\u3001\u540C\u671F\u3055\u308C\u306A\u304B\u3063\u305F\u7406\u7531\u304C\u8A18\u8F09\u3055\u308C\u3066\u3044\u307E\u3059\u3002",
   "This account was deleted. Contact support if that is wrong.": "\u3053\u306E\u30A2\u30AB\u30A6\u30F3\u30C8\u306F\u524A\u9664\u3055\u308C\u307E\u3057\u305F\u3002\u3082\u3057\u8AA4\u308A\u304C\u3042\u308C\u3070\u3001\u30B5\u30DD\u30FC\u30C8\u307E\u3067\u3054\u9023\u7D61\u304F\u3060\u3055\u3044\u3002",
   "This cannot be undone.": "\u3053\u306E\u64CD\u4F5C\u306F\u53D6\u308A\u6D88\u305B\u307E\u305B\u3093\u3002",
   "This code expired before the link finished. Generate a new code to try again.": "\u3053\u306E\u30B3\u30FC\u30C9\u306F\u30EA\u30F3\u30AF\u304C\u5B8C\u4E86\u3059\u308B\u524D\u306B\u671F\u9650\u5207\u308C\u306B\u306A\u308A\u307E\u3057\u305F\u3002\u518D\u8A66\u884C\u3059\u308B\u306B\u306F\u3001\u65B0\u3057\u3044\u30B3\u30FC\u30C9\u3092\u751F\u6210\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
@@ -4918,10 +4860,10 @@ var ja = {
   "This file type isn't accepted by this server.": "\u3053\u306E\u30D5\u30A1\u30A4\u30EB\u5F62\u5F0F\u306F\u30B5\u30FC\u30D0\u30FC\u3067\u30B5\u30DD\u30FC\u30C8\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002",
   "This note could not be processed and was skipped.": "\u3053\u306E\u30CE\u30FC\u30C8\u306E\u51E6\u7406\u306B\u5931\u6557\u3057\u3001\u30B9\u30AD\u30C3\u30D7\u3055\u308C\u307E\u3057\u305F\u3002",
   "This server is self-hosted, so feedback is not collected here. ": "\u3053\u306E\u30B5\u30FC\u30D0\u30FC\u306F\u81EA\u5DF1\u30DB\u30B9\u30C8\u578B\u306A\u306E\u3067\u3001\u30D5\u30A3\u30FC\u30C9\u30D0\u30C3\u30AF\u306F\u3053\u3053\u3067\u53CE\u96C6\u3055\u308C\u307E\u305B\u3093\u3002",
+  "This server isn't accepting this attachment for your account.": "\u3053\u306E\u30B5\u30FC\u30D0\u30FC\u306F\u3001\u304A\u5BA2\u69D8\u306E\u30A2\u30AB\u30A6\u30F3\u30C8\u3067\u3053\u306E\u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB\u3092\u53D7\u3051\u4ED8\u3051\u3066\u3044\u307E\u305B\u3093\u3002",
   "This vault": "\u3053\u306E\u4FDD\u7BA1\u5EAB",
   "This vault is empty on the server. Upload your {what}?": "\u3053\u306E\u4FDD\u7BA1\u5EAB\u306F\u30B5\u30FC\u30D0\u30FC\u4E0A\u3067\u7A7A\u3067\u3059\u3002{what} \u3092\u30A2\u30C3\u30D7\u30ED\u30FC\u30C9\u3057\u307E\u3059\u304B\uFF1F",
   "Too large for the server": "\u30D5\u30A1\u30A4\u30EB\u30B5\u30A4\u30BA\u304C\u5927\u304D\u3059\u304E\u307E\u3059",
-  "Too many connected AI clients. Disconnect one or upgrade.": "\u63A5\u7D9A\u3055\u308C\u3066\u3044\u308BAI\u30AF\u30E9\u30A4\u30A2\u30F3\u30C8\u304C\u591A\u3059\u304E\u307E\u3059\u3002\u3044\u305A\u308C\u304B\u3092\u89E3\u9664\u3059\u308B\u304B\u3001\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
   "Too many connected Obsidian vaults. Disconnect one or upgrade.": "\u63A5\u7D9A\u3055\u308C\u3066\u3044\u308BObsidian\u306E\u4FDD\u7BA1\u5EAB\u304C\u591A\u3059\u304E\u307E\u3059\u3002\u3044\u305A\u308C\u304B\u3092\u89E3\u9664\u3059\u308B\u304B\u3001\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
   "Too many requests. Wait a moment and try again.": "\u30EA\u30AF\u30A8\u30B9\u30C8\u304C\u591A\u3059\u304E\u307E\u3059\u3002\u3057\u3070\u3089\u304F\u5F85\u3063\u3066\u304B\u3089\u3001\u3082\u3046\u4E00\u5EA6\u304A\u8A66\u3057\u304F\u3060\u3055\u3044\u3002",
   "Type {keyword} to confirm:": "\u78BA\u8A8D\u306E\u305F\u3081\u3001{keyword}\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044:",
@@ -4988,7 +4930,8 @@ var ja = {
   "waiting for a plugin update": "\u30D7\u30E9\u30B0\u30A4\u30F3\u306E\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8\u3092\u5F85\u3063\u3066\u3044\u307E\u3059",
   "waiting to retry": "\u518D\u8A66\u884C\u5F85\u3061",
   "{count} attachments": "{count}\u3064\u306E\u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB",
-  "{count} attachments need a paid plan to sync. See Sync Center.": "{count}\u3064\u306E\u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB\u306F\u3001\u6709\u6599\u30D7\u30E9\u30F3\u3067\u306E\u307F\u540C\u671F\u53EF\u80FD\u3067\u3059\u3002\u8A73\u7D30\u306F\u3053\u3061\u3089: \u540C\u671F\u30BB\u30F3\u30BF\u30FC\u3002",
+  "{count} attachments skipped. See Sync Center.": "{count}\u500B\u306E\u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB\u3092\u30B9\u30AD\u30C3\u30D7\u3057\u307E\u3057\u305F\u3002\u540C\u671F\u30BB\u30F3\u30BF\u30FC\u3067\u3054\u78BA\u8A8D\u304F\u3060\u3055\u3044\u3002",
+  "{count} attachments will be skipped: this server only accepts text files.": "{count} \u500B\u306E\u6DFB\u4ED8\u30D5\u30A1\u30A4\u30EB\u306F\u30B9\u30AD\u30C3\u30D7\u3055\u308C\u307E\u3059\u3002\u3053\u306E\u30B5\u30FC\u30D0\u30FC\u306F\u30C6\u30AD\u30B9\u30C8\u30D5\u30A1\u30A4\u30EB\u306E\u307F\u3092\u53D7\u3051\u4ED8\u3051\u307E\u3059\u3002",
   "{count} attempts": "{count}\u56DE\u8A66\u884C\u3057\u307E\u3057\u305F",
   "{count} conflicts need resolution": "{count}\u3064\u306E\u7AF6\u5408\u3092\u89E3\u6C7A\u3059\u308B\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059",
   "{count} conflicts to resolve.": "\u89E3\u6C7A\u3059\u3079\u304D\u7AF6\u5408\u304C{count}\u4EF6\u3042\u308A\u307E\u3059\u3002",
@@ -5017,7 +4960,7 @@ var ja = {
   "\u2715 {count} failed": "\u2715 {count}\u56DE\u5931\u6557",
   "\u2717 couldn't reach a server at this URL": "\u2717 \u3053\u306EURL\u306E\u30B5\u30FC\u30D0\u30FC\u306B\u63A5\u7D9A\u3067\u304D\u307E\u305B\u3093\u3067\u3057\u305F",
   "\u2717 server responded but isn't an Engram server": "\u2717 \u30B5\u30FC\u30D0\u30FC\u304B\u3089\u306E\u5FDC\u7B54\u3042\u308A\u307E\u3057\u305F\u304C\u3001Engram \u30B5\u30FC\u30D0\u30FC\u3067\u306F\u3042\u308A\u307E\u305B\u3093",
-  "\u2933 {count} skipped (Free plan)": "\u2933 \u7121\u6599\u30D7\u30E9\u30F3\u3067\u306F{count}\u4EF6\u30B9\u30AD\u30C3\u30D7\u3055\u308C\u307E\u3059",
+  "\u2933 {count} skipped": "\u2933 {count} \u306F\u30B9\u30AD\u30C3\u30D7\u3055\u308C\u307E\u3057\u305F",
   "\u{1F44B} Welcome": "\u{1F44B} \u3088\u3046\u3053\u305D",
   "\u{1F4AC} Feedback": "\u{1F4AC} \u30D5\u30A3\u30FC\u30C9\u30D0\u30C3\u30AF",
   "\u{1F504} Sync Center": "\u{1F504} \u540C\u671F\u30BB\u30F3\u30BF\u30FC",
@@ -5034,7 +4977,6 @@ var ko = {
   "1. Make an account": "1. \uACC4\uC815 \uB9CC\uB4E4\uAE30",
   "10 GB attachments": "10GB \uCCA8\uBD80 \uD30C\uC77C",
   "10 vaults, unlimited devices": "10\uAC1C\uC758 \uBCF4\uAD00\uD568, \uAE30\uAE30 \uC218 \uC81C\uD55C \uC5C6\uC74C",
-  "2,000 notes searchable": "2,000\uAC1C\uC758 \uB178\uD2B8 \uAC80\uC0C9 \uAC00\uB2A5",
   "2. Connect your vault to Engram": "2. \uBCF4\uAD00\uD568\uC744 Engram\uC5D0 \uC5F0\uACB0\uD558\uC138\uC694",
   "3. Connect your AI": "3. AI \uC5F0\uACB0",
   "50 GB attachments": "50GB \uCCA8\uBD80 \uD30C\uC77C",
@@ -5043,9 +4985,8 @@ var ko = {
   "A temporary server problem \u2014 retrying automatically.": "\uC77C\uC2DC\uC801\uC778 \uC11C\uBC84 \uBB38\uC81C - \uC790\uB3D9\uC73C\uB85C \uC7AC\uC2DC\uB3C4 \uC911\uC785\uB2C8\uB2E4.",
   "AI / MCP setup guide": "AI / MCP \uC124\uC815 \uAC00\uC774\uB4DC",
   "AI searches": "AI \uAC80\uC0C9",
-  "API access": "API \uC811\uADFC",
   "API key": "API \uD0A4",
-  "API keys need a Pro plan. Sign in with your Engram account instead.": "API \uD0A4\uB294 Pro \uD50C\uB79C\uC774 \uD544\uC694\uD569\uB2C8\uB2E4. Engram \uACC4\uC815\uC73C\uB85C \uB85C\uADF8\uC778\uD558\uC138\uC694.",
+  "API key access is turned off for this account. Sign in with your Engram account instead.": "\uC774 \uACC4\uC815\uC758 API \uD0A4 \uC0AC\uC6A9\uC774 \uC911\uB2E8\uB418\uC5C8\uC2B5\uB2C8\uB2E4. Engram \uACC4\uC815\uC73C\uB85C \uB85C\uADF8\uC778\uD558\uC138\uC694.",
   About: "\uC815\uBCF4",
   "Accept it to keep syncing.": "\uB3D9\uAE30\uD654\uB97C \uACC4\uC18D\uD558\uB824\uBA74 \uC218\uB77D\uD558\uC138\uC694.",
   "Access token": "\uC811\uADFC \uD1A0\uD070",
@@ -5057,14 +4998,13 @@ var ko = {
   "Advanced sync options": "\uACE0\uAE09 \uB3D9\uAE30\uD654 \uC635\uC158",
   "All synced. Your vault and the cloud now match.": "\uBAA8\uB450 \uB3D9\uAE30\uD654\uB418\uC5C8\uC2B5\uB2C8\uB2E4. \uBCF4\uAD00\uD568\uACFC \uD074\uB77C\uC6B0\uB4DC\uAC00 \uC774\uC81C \uB3D9\uC77C\uD569\uB2C8\uB2E4.",
   "Already in sync. Nothing is deleted.": "\uC774\uBBF8 \uB3D9\uAE30\uD654\uB418\uC5C8\uC2B5\uB2C8\uB2E4. \uC0AD\uC81C\uB418\uB294 \uD56D\uBAA9\uC740 \uC5C6\uC2B5\uB2C8\uB2E4.",
-  "Already signed in on another device. Upgrade for multi-device.": "\uB2E4\uB978 \uAE30\uAE30\uC5D0\uC11C \uC774\uBBF8 \uB85C\uADF8\uC778\uB418\uC5C8\uC2B5\uB2C8\uB2E4. \uC5EC\uB7EC \uAE30\uAE30 \uC0AC\uC6A9\uC744 \uC6D0\uD558\uC2DC\uBA74 \uC5C5\uADF8\uB808\uC774\uB4DC\uD558\uC138\uC694.",
   "Already up to date. Nothing needed syncing.": "\uC774\uBBF8 \uCD5C\uC2E0 \uC0C1\uD0DC\uC785\uB2C8\uB2E4. \uB3D9\uAE30\uD654\uD560 \uD544\uC694\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4.",
   "An unexpected error \u2014 retrying automatically.": "\uC608\uC0C1\uCE58 \uBABB\uD55C \uC624\uB958 - \uC790\uB3D9\uC73C\uB85C \uC7AC\uC2DC\uB3C4 \uC911\uC785\uB2C8\uB2E4.",
+  "Attachment not accepted": "\uCCA8\uBD80 \uD30C\uC77C\uC774 \uD5C8\uC6A9\uB418\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4",
   "Attachment storage full": "\uCCA8\uBD80 \uD30C\uC77C \uC800\uC7A5 \uACF5\uAC04 \uBD80\uC871",
   "Attachment storage is full \u2014 upgrade for more.": "\uC800\uC7A5 \uACF5\uAC04\uC774 \uAC00\uB4DD\uD569\uB2C8\uB2E4. \uB354 \uB9CE\uC740 \uC6A9\uB7C9\uC744 \uD655\uBCF4\uD558\uB824\uBA74 \uC5C5\uADF8\uB808\uC774\uB4DC\uD558\uC138\uC694.",
   "Attachment sync is disabled for this account.": "\uC774 \uACC4\uC815\uC758 \uCCA8\uBD80 \uD30C\uC77C \uB3D9\uAE30\uD654\uAC00 \uBE44\uD65C\uC131\uD654\uB418\uC5C8\uC2B5\uB2C8\uB2E4.",
   Attachments: "\uCCA8\uBD80 \uD30C\uC77C",
-  "Attachments need a paid plan": "\uCCA8\uBD80 \uD30C\uC77C\uC740 \uC720\uB8CC \uD50C\uB79C \uD544\uC694",
   "Attachments on this device": "\uC774 \uAE30\uAE30\uC758 \uCCA8\uBD80 \uD30C\uC77C",
   "Authenticated via Engram account (OAuth).": "Engram \uACC4\uC815(OAuth)\uC744 \uD1B5\uD574 \uC778\uC99D\uB428.",
   "Authenticated via manual API key.": "\uC218\uB3D9 API \uD0A4\uB97C \uD1B5\uD574 \uC778\uC99D\uB428.",
@@ -5115,7 +5055,7 @@ var ko = {
   "Create a hosted account at {signup}, or self-host the server ({guide}).": "{signup}\uC5D0\uC11C \uD638\uC2A4\uD305 \uACC4\uC815\uC744 \uB9CC\uB4E4\uAC70\uB098, \uC11C\uBC84\uB97C \uC9C1\uC811 \uD638\uC2A4\uD305\uD569\uB2C8\uB2E4 ({guide}).",
   "Create a new empty vault on the server, then sync this Obsidian vault into it.": "\uC11C\uBC84\uC5D0 \uC0C8 \uBCF4\uAD00\uD568\uC744 \uB9CC\uB4E4\uACE0, \uC774 Obsidian \uBCF4\uAD00\uD568\uC744 \uB3D9\uAE30\uD654\uD569\uB2C8\uB2E4.",
   "Custom patterns": "\uC0AC\uC6A9\uC790 \uC815\uC758 \uD328\uD134",
-  "Daily AI search limit reached. Free includes 20 per day across Obsidian, the web app and MCP. Upgrade for unlimited.": "\uC77C\uC77C AI \uAC80\uC0C9 \uC81C\uD55C\uC5D0 \uB3C4\uB2EC\uD588\uC2B5\uB2C8\uB2E4. \uBB34\uB8CC \uBC84\uC804\uC740 Obsidian, \uC6F9 \uC571 \uBC0F MCP\uC5D0\uC11C \uD558\uB8E8\uC5D0 20\uD68C \uAC80\uC0C9\uC744 \uC81C\uACF5\uD569\uB2C8\uB2E4. \uBB34\uC81C\uD55C \uC0AC\uC6A9\uC744 \uC6D0\uD558\uC2DC\uBA74 \uC5C5\uADF8\uB808\uC774\uB4DC\uD558\uC138\uC694.",
+  "Daily AI search limit reached. Free searches are shared across Obsidian, the web app and MCP. Upgrade for unlimited.": "\uC77C\uC77C AI \uAC80\uC0C9 \uC81C\uD55C\uC5D0 \uB3C4\uB2EC\uD588\uC2B5\uB2C8\uB2E4. \uBB34\uB8CC \uAC80\uC0C9 \uD69F\uC218\uB294 Obsidian, \uC6F9 \uC571 \uBC0F MCP\uC5D0\uC11C \uACF5\uC720\uB429\uB2C8\uB2E4. \uB354 \uB9CE\uC740 \uAC80\uC0C9\uC744 \uC6D0\uD558\uC2DC\uBA74 \uC720\uB8CC \uD50C\uB79C\uC73C\uB85C \uC5C5\uADF8\uB808\uC774\uB4DC\uD558\uC138\uC694.",
   "Dart tool cache": "Dart \uB3C4\uAD6C \uCE90\uC2DC",
   "Debug (verbose)": "\uB514\uBC84\uADF8 (\uC0C1\uC138)",
   "Delete all local files, then download from remote": "\uBAA8\uB4E0 \uB85C\uCEEC \uD30C\uC77C\uC744 \uC0AD\uC81C\uD55C \uD6C4, \uC6D0\uACA9\uC5D0\uC11C \uB2E4\uC6B4\uB85C\uB4DC\uD569\uB2C8\uB2E4",
@@ -5126,6 +5066,7 @@ var ko = {
   Deleting: "\uC0AD\uC81C \uC911",
   "Deleting {count} local files.": "{count}\uAC1C\uC758 \uB85C\uCEEC \uD30C\uC77C\uC744 \uC0AD\uC81C\uD569\uB2C8\uB2E4.",
   "Deleting {count} on the cloud.": "\uD074\uB77C\uC6B0\uB4DC\uC5D0\uC11C {count}\uAC1C\uB97C \uC0AD\uC81C \uC911\uC785\uB2C8\uB2E4.",
+  "Device limit reached. Disconnect a device or upgrade.": "\uC7A5\uCE58 \uC218 \uC81C\uD55C\uC5D0 \uB3C4\uB2EC\uD588\uC2B5\uB2C8\uB2E4. \uC7A5\uCE58\uB97C \uBD84\uB9AC\uD558\uAC70\uB098 \uC5C5\uADF8\uB808\uC774\uB4DC\uD558\uC138\uC694.",
   "Device swap cooldown active. Wait or upgrade.": "\uAE30\uAE30 \uC804\uD658 \uB300\uAE30 \uC2DC\uAC04\uC774 \uD65C\uC131\uD654\uB418\uC5C8\uC2B5\uB2C8\uB2E4. \uAE30\uB2E4\uB9AC\uAC70\uB098 \uC5C5\uADF8\uB808\uC774\uB4DC\uD558\uC138\uC694.",
   Diagnostics: "\uC9C4\uB2E8",
   "Diagnostics detail": "\uC9C4\uB2E8 \uC0C1\uC138 \uC815\uBCF4",
@@ -5154,7 +5095,6 @@ var ko = {
   "Engram Sync: {details}": "Engram \uB3D9\uAE30\uD654: {details}",
   "Engram URL": "Engram URL",
   "Engram Vault Sync {version} is available. {link}.": "Engram Vault Sync {version}\uC774 \uC0AC\uC6A9 \uAC00\uB2A5\uD569\uB2C8\uB2E4. {link}.",
-  "Engram indexes {indexed} of your {all} notes. The rest match on this device only. Upgrade to index everything.": "Engram\uC740 {all}\uAC1C\uC758 \uB178\uD2B8 \uC911 {indexed}\uAC1C\uB97C \uC778\uB371\uC2F1\uD569\uB2C8\uB2E4. \uB098\uBA38\uC9C0\uB294 \uC774 \uAE30\uAE30\uC5D0\uC11C\uB9CC \uAC80\uC0C9 \uAC00\uB2A5\uD569\uB2C8\uB2E4. \uBAA8\uB4E0 \uB178\uD2B8\uB97C \uC778\uB371\uC2F1\uD558\uB824\uBA74 \uC5C5\uADF8\uB808\uC774\uB4DC\uD558\uC138\uC694.",
   "Engram is the backend that powers sync and semantic search.": "Engram\uC740 \uB3D9\uAE30\uD654 \uBC0F \uC758\uBBF8 \uAC80\uC0C9 \uAE30\uB2A5\uC744 \uC81C\uACF5\uD558\uB294 \uBC31\uC5D4\uB4DC\uC785\uB2C8\uB2E4.",
   "Engram search": "Engram \uAC80\uC0C9",
   "Engram server changed \u2014 sign in again to continue.": "Engram \uC11C\uBC84\uAC00 \uBCC0\uACBD\uB418\uC5C8\uC2B5\uB2C8\uB2E4. \uACC4\uC18D\uD558\uB824\uBA74 \uB2E4\uC2DC \uB85C\uADF8\uC778\uD558\uC138\uC694.",
@@ -5196,7 +5136,7 @@ var ko = {
   "Engram: this vault no longer exists on the server. Pick or create a vault to continue.": "Engram: \uC774 \uBCF4\uAD00\uD568\uC740 \uB354 \uC774\uC0C1 \uC11C\uBC84\uC5D0 \uC874\uC7AC\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4. \uACC4\uC18D\uD558\uB824\uBA74 \uBCF4\uAD00\uD568\uC744 \uC120\uD0DD\uD558\uAC70\uB098 \uC0C8\uB85C \uB9CC\uB4DC\uC138\uC694.",
   "Engram: update required": "Engram: \uC5C5\uB370\uC774\uD2B8 \uD544\uC694",
   "Engram: your login expired \u2014 open Engram settings to reconnect.": "Engram: \uB85C\uADF8\uC778 \uB9CC\uB8CC\uB418\uC5C8\uC2B5\uB2C8\uB2E4. \uB2E4\uC2DC \uC5F0\uACB0\uD558\uB824\uBA74 Engram \uC124\uC815\uC73C\uB85C \uC774\uB3D9\uD558\uC138\uC694.",
-  "Engram: {count} attachments skipped \u2014 upgrade your plan to sync images & PDFs.": "Engram: {count}\uAC1C\uC758 \uCCA8\uBD80 \uD30C\uC77C \uAC74\uB108\uFFFD\uB3A0\uC2B5\uB2C8\uB2E4. \uC774\uBBF8\uC9C0 \uBC0F PDF \uB3D9\uAE30\uD654\uB97C \uC704\uD574 \uC694\uAE08\uC81C\uB97C \uC5C5\uADF8\uB808\uC774\uB4DC\uD558\uC138\uC694.",
+  "Engram: {count} attachments skipped. See Sync Center for why.": "Engram: {count}\uAC1C\uC758 \uCCA8\uBD80 \uD30C\uC77C\uC774 \uAC74\uB108\uB72C. \uC774\uC720\uB294 \uB3D9\uAE30\uD654 \uC13C\uD130\uC5D0\uC11C \uD655\uC778\uD558\uC138\uC694.",
   "Engram: {count} files failed to sync{detail} \u2014 open Sync Center": "Engram: {count}\uAC1C\uC758 \uD30C\uC77C \uB3D9\uAE30\uD654 \uC2E4\uD328{detail} \u2014 \uB3D9\uAE30\uD654 \uC13C\uD130 \uC5F4\uAE30",
   "Engram: {count} notes have frontmatter problems. Open Sync Center to fix.": "Engram: {count}\uAC1C\uC758 \uB178\uD2B8\uC5D0 \uBA54\uD0C0\uB370\uC774\uD130 \uBB38\uC81C\uAC00 \uC788\uC2B5\uB2C8\uB2E4. \uB3D9\uAE30\uD654 \uC13C\uD130\uC5D0\uC11C \uC218\uC815\uD558\uC138\uC694.",
   "Engram: \u26A0 {count} sync errors": "Engram: \u26A0 {count}\uAC1C\uC758 \uB3D9\uAE30\uD654 \uC624\uB958",
@@ -5220,8 +5160,6 @@ var ko = {
   "Finished with some errors. Open the sync log to see what failed.": "\uC624\uB958\uC640 \uD568\uAED8 \uC644\uB8CC\uB418\uC5C8\uC2B5\uB2C8\uB2E4. \uC2E4\uD328 \uC6D0\uC778\uC744 \uBCF4\uB824\uBA74 \uB3D9\uAE30\uD654 \uB85C\uADF8\uB97C \uD655\uC778\uD558\uC138\uC694.",
   "First sync, this may take a moment.": "\uCCAB \uBC88\uC9F8 \uB3D9\uAE30\uD654, \uC7A0\uC2DC \uC2DC\uAC04\uC774 \uAC78\uB9B4 \uC218 \uC788\uC2B5\uB2C8\uB2E4.",
   Free: "\uBB34\uB8CC",
-  "Free syncs notes only \u2014 images & PDFs need a paid plan.": "\uB178\uD2B8\uB9CC \uBB34\uB8CC \uB3D9\uAE30\uD654, \uC774\uBBF8\uC9C0 \uBC0F PDF\uB294 \uC720\uB8CC \uD50C\uB79C\uC774 \uD544\uC694\uD569\uB2C8\uB2E4.",
-  "Free syncs notes only \u2014 {count} attachments will be skipped.": "\uBB34\uB8CC \uB3D9\uAE30\uD654\uB294 \uB178\uD2B8\uB9CC \uB3D9\uAE30\uD654\uD558\uBA70, \uCCA8\uBD80 \uD30C\uC77C {count}\uAC1C\uB294 \uC81C\uC678\uB429\uB2C8\uB2E4.",
   "Frontmatter could not be parsed": "frontmatter \uBD84\uC11D \uC2E4\uD328",
   "Frontmatter isn't valid YAML.": "Frontmatter\uAC00 \uC720\uD6A8\uD55C YAML \uD615\uC2DD\uC774 \uC544\uB2D9\uB2C8\uB2E4.",
   'Frontmatter key "{key}" could not be parsed as YAML.': 'Frontmatter \uD0A4 "{key}"\uC744 YAML\uB85C \uD30C\uC2F1\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.',
@@ -5282,8 +5220,6 @@ var ko = {
   "Note limit reached. Upgrade to keep adding notes.": "\uB178\uD2B8 \uC81C\uD55C\uC5D0 \uB3C4\uB2EC\uD588\uC2B5\uB2C8\uB2E4. \uB354 \uB9CE\uC740 \uB178\uD2B8\uB97C \uCD94\uAC00\uD558\uB824\uBA74 \uC5C5\uADF8\uB808\uC774\uB4DC\uD558\uC138\uC694.",
   "Note not synced locally": "\uB178\uD2B8\uAC00 \uB85C\uCEEC\uC5D0 \uB3D9\uAE30\uD654\uB418\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4",
   "Notes on this device": "\uC774 \uAE30\uAE30\uC758 \uB178\uD2B8",
-  "Notes past this still sync and open normally, they are just not in the search index. The index keeps your oldest notes, so it is your newest ones that fall outside.": "\uC774 \uC774\uD6C4\uC758 \uB178\uD2B8\uB294 \uC815\uC0C1\uC801\uC73C\uB85C \uB3D9\uAE30\uD654\uB418\uACE0 \uC5F4\uB9BD\uB2C8\uB2E4. \uB2E8, \uAC80\uC0C9 \uC778\uB371\uC2A4\uC5D0 \uD3EC\uD568\uB418\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4. \uC778\uB371\uC2A4\uB294 \uAC00\uC7A5 \uC624\uB798\uB41C \uB178\uD2B8\uB97C \uC720\uC9C0\uD558\uBBC0\uB85C, \uAC00\uC7A5 \uCD5C\uC2E0\uC758 \uB178\uD2B8\uB294 \uC778\uB371\uC2A4\uC5D0\uC11C \uC81C\uC678\uB420 \uC218 \uC788\uC2B5\uB2C8\uB2E4.",
-  "Notes searchable": "\uAC80\uC0C9 \uAC00\uB2A5\uD55C \uB178\uD2B8",
   "Notes stored": "\uC800\uC7A5\uB41C \uB178\uD2B8",
   "Nothing in this vault syncs until you choose how to merge it with the server.": "\uC774 \uBCF4\uAD00\uD568\uC758 \uB0B4\uC6A9\uC740 \uC11C\uBC84\uC640 \uBCD1\uD569\uD558\uB294 \uBC29\uBC95\uC744 \uC120\uD0DD\uD560 \uB54C\uAE4C\uC9C0 \uB3D9\uAE30\uD654\uB418\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.",
   "Nothing is deleted.": "\uC0AD\uC81C\uB418\uB294 \uD56D\uBAA9\uC740 \uC5C6\uC2B5\uB2C8\uB2E4.",
@@ -5305,7 +5241,6 @@ var ko = {
   "Open the file to resolve the conflict, then sync again.": "\uCDA9\uB3CC\uC744 \uD574\uACB0\uD560 \uD30C\uC77C\uC744 \uC5F4\uACE0 \uB2E4\uC2DC \uB3D9\uAE30\uD654\uD569\uB2C8\uB2E4.",
   "Opens your browser to sign in, or create an account if you don't have one yet, then links this vault.": "\uBE0C\uB77C\uC6B0\uC800\uB97C \uC5F4\uC5B4 \uB85C\uADF8\uC778\uD558\uAC70\uB098, \uACC4\uC815\uC774 \uC5C6\uB2E4\uBA74 \uC0C8\uB85C \uB9CC\uB4E4\uACE0, \uC774 \uBCF4\uAD00\uD568\uC744 \uC5F0\uACB0\uD569\uB2C8\uB2E4.",
   "Or authenticate with a token instead of signing in.": "\uB610\uB294 \uD1A0\uD070\uC744 \uC0AC\uC6A9\uD558\uC5EC \uC778\uC99D\uD569\uB2C8\uB2E4.",
-  "Or authenticate with a token instead of signing in. Engram Cloud API keys require the Pro plan; on Free and Starter, sign in above.": "\uB610\uB294 \uD1A0\uD070\uC744 \uC0AC\uC6A9\uD558\uC5EC \uC778\uC99D\uD569\uB2C8\uB2E4. Engram \uD074\uB77C\uC6B0\uB4DC API \uD0A4\uB294 Pro \uD50C\uB79C\uC774 \uD544\uC694\uD569\uB2C8\uB2E4. Free \uBC0F Starter \uD50C\uB79C\uC5D0\uC11C\uB294 \uC704\uC758 \uB85C\uADF8\uC778 \uBC29\uBC95\uC744 \uC0AC\uC6A9\uD558\uC138\uC694.",
   "Paths to skip (one per line). Folder patterns end with /. Built-in: {configDir}/, .trash/, .git/": "\uAC74\uB108\uB6F8 \uACBD\uB85C (\uD55C \uC904\uC5D0 \uD558\uB098). \uD3F4\uB354 \uD328\uD134\uC740 /\uB85C \uB05D\uB0A9\uB2C8\uB2E4. \uB0B4\uC7A5: {configDir}/, .trash/, .git/",
   "Pick a vault": "\uBCF4\uAD00\uD568 \uC120\uD0DD",
   "Pick a vault (previous: '{name}' not found)": "\uBCF4\uAD00\uD568 \uC120\uD0DD (\uC774\uC804: '{name}'\uC744 \uCC3E\uC744 \uC218 \uC5C6\uC74C)",
@@ -5349,7 +5284,6 @@ var ko = {
   "Search failed \u2014 check connection": "\uAC80\uC0C9 \uC2E4\uD328 \u2013 \uC5F0\uACB0 \uC0C1\uD0DC \uD655\uC778",
   "Search settings": "\uAC80\uC0C9 \uC124\uC815",
   "Search your vault\u2026": "\uBCF4\uAD00\uD568\uC5D0\uC11C \uAC80\uC0C9\u2026",
-  "Searching {indexed} of {all} notes. Upgrade to search everything.": "{all}\uAC1C\uC758 \uB178\uD2B8 \uC911 {indexed}\uAC1C\uB97C \uAC80\uC0C9 \uC911\uC785\uB2C8\uB2E4. \uBAA8\uB4E0 \uB178\uD2B8\uB97C \uAC80\uC0C9\uD558\uB824\uBA74 \uC5C5\uADF8\uB808\uC774\uB4DC\uD558\uC138\uC694.",
   "See full pricing": "\uAC00\uACA9 \uC815\uBCF4 \uBCF4\uAE30",
   "See the AI setup guide": "AI \uC124\uC815 \uAC00\uC774\uB4DC \uBCF4\uAE30",
   "Select which vault this plugin syncs with.": "\uC774 \uD50C\uB7EC\uADF8\uC778\uC774 \uB3D9\uAE30\uD654\uD560 \uBCF4\uAD00\uD568\uC744 \uC120\uD0DD\uD558\uC138\uC694.",
@@ -5397,7 +5331,7 @@ var ko = {
   "Sync server": "\uB3D9\uAE30\uD654 \uC11C\uBC84",
   "Sync these now": "\uC9C0\uAE08 \uB3D9\uAE30\uD654",
   "Sync...": "\uB3D9\uAE30\uD654 \uC911...",
-  "Synced. Some attachments need a paid plan to sync (see below).": "\uB3D9\uAE30\uD654 \uC644\uB8CC. \uC77C\uBD80 \uCCA8\uBD80 \uD30C\uC77C\uC740 \uC720\uB8CC \uD50C\uB79C\uC5D0\uC11C\uB9CC \uB3D9\uAE30\uD654 \uAC00\uB2A5\uD569\uB2C8\uB2E4 (\uC544\uB798 \uCC38\uC870).",
+  "Synced. Some attachments were skipped (see below).": "\uB3D9\uAE30\uD654 \uC644\uB8CC. \uC77C\uBD80 \uCCA8\uBD80 \uD30C\uC77C\uC740 \uAC74\uB108\uB72C (\uC544\uB798 \uB0B4\uC6A9 \uCC38\uC870).",
   "Syncing attachments": "\uCCA8\uBD80 \uD30C\uC77C \uB3D9\uAE30\uD654 \uC911",
   "Syncing your vault": "\uBCF4\uAD00\uD568 \uB3D9\uAE30\uD654 \uC911",
   "Syncing...": "\uB3D9\uAE30\uD654 \uC911...",
@@ -5410,7 +5344,6 @@ var ko = {
   "That does not look like an Engram API key (expected {prefix}\u2026).": "\uC774\uAC83\uC740 Engram API \uD0A4\uCC98\uB7FC \uBCF4\uC774\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4 (\uC608\uC0C1 \uAC12: {prefix}\u2026).",
   "The Engram server no longer accepts this plugin version (it needs {version} or newer), so notes are not being sent or received. Changes made on this device stay here until you update.": "Engram \uC11C\uBC84\uB294 \uB354 \uC774\uC0C1 \uC774 \uD50C\uB7EC\uADF8\uC778 \uBC84\uC804\uC744 \uC9C0\uC6D0\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4 (\uCD5C\uC18C {version} \uC774\uC0C1 \uD544\uC694). \uB530\uB77C\uC11C \uB178\uD2B8\uAC00 \uC804\uC1A1\uB418\uAC70\uB098 \uC218\uC2E0\uB418\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4. \uC774 \uC7A5\uCE58\uC5D0\uC11C \uBCC0\uACBD\uD55C \uB0B4\uC6A9\uC740 \uC5C5\uB370\uC774\uD2B8\uD560 \uB54C\uAE4C\uC9C0 \uC5EC\uAE30\uC5D0 \uBCF4\uAD00\uB429\uB2C8\uB2E4.",
   "The Engram server no longer accepts this plugin version, so notes are not being sent or received. Changes made on this device stay here until you update.": "Engram \uC11C\uBC84\uB294 \uB354 \uC774\uC0C1 \uC774 \uD50C\uB7EC\uADF8\uC778 \uBC84\uC804\uC744 \uC9C0\uC6D0\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4. \uB530\uB77C\uC11C \uB178\uD2B8\uAC00 \uC804\uC1A1\uB418\uAC70\uB098 \uC218\uC2E0\uB418\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4. \uC774 \uC7A5\uCE58\uC5D0\uC11C \uBCC0\uACBD\uD55C \uB0B4\uC6A9\uC740 \uC5C5\uB370\uC774\uD2B8\uD560 \uB54C\uAE4C\uC9C0 \uC5EC\uAE30\uC5D0 \uBCF4\uAD00\uB429\uB2C8\uB2E4.",
-  "The Free tier syncs notes only. Upgrade to sync images and PDFs.": "\uBB34\uB8CC \uD50C\uB79C\uC740 \uB178\uD2B8\uB9CC \uB3D9\uAE30\uD654\uD569\uB2C8\uB2E4. \uC774\uBBF8\uC9C0 \uBC0F PDF \uB3D9\uAE30\uD654\uB97C \uC6D0\uD558\uC2DC\uBA74 \uC720\uB8CC \uD50C\uB79C\uC73C\uB85C \uC5C5\uADF8\uB808\uC774\uB4DC\uD558\uC138\uC694.",
   "The file is over the server's size limit. Compress or split it, then it will sync.": "\uD30C\uC77C \uD06C\uAE30\uAC00 \uC11C\uBC84 \uC81C\uD55C\uC744 \uCD08\uACFC\uD569\uB2C8\uB2E4. \uC555\uCD95\uD558\uAC70\uB098 \uBD84\uD560\uD55C \uD6C4 \uB3D9\uAE30\uD654\uB429\uB2C8\uB2E4.",
   "The file is too large for the server.": "\uD30C\uC77C \uD06C\uAE30\uAC00 \uC11C\uBC84 \uC6A9\uB7C9\uC744 \uCD08\uACFC\uD569\uB2C8\uB2E4.",
   "The note synced, but its frontmatter could not be fully parsed. Open it to fix the highlighted line.": "\uB178\uD2B8\uB294 \uB3D9\uAE30\uD654\uB418\uC5C8\uC9C0\uB9CC, frontmatter\uB97C \uC644\uC804\uD788 \uBD84\uC11D\uD558\uC9C0 \uBABB\uD588\uC2B5\uB2C8\uB2E4. \uAC15\uC870 \uD45C\uC2DC\uB41C \uC904\uC744 \uC218\uC815\uD558\uB824\uBA74 \uD30C\uC77C\uC744 \uC5FD\uB2C8\uB2E4.",
@@ -5418,7 +5351,7 @@ var ko = {
   "The server does not accept this type of file. It will retry if the file changes.": "\uC11C\uBC84\uC5D0\uC11C \uD574\uB2F9 \uD30C\uC77C \uD615\uC2DD\uC744 \uBC1B\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4. \uD30C\uC77C\uC774 \uBCC0\uACBD\uB418\uBA74 \uB2E4\uC2DC \uC2DC\uB3C4\uD569\uB2C8\uB2E4.",
   "The server lost this file's stored content and will try to restore it. Nothing on this device was changed.": "\uC11C\uBC84\uC5D0\uC11C \uD574\uB2F9 \uD30C\uC77C\uC758 \uB0B4\uC6A9\uC774 \uC0AD\uC81C\uB418\uC5C8\uC73C\uBA70, \uBCF5\uAD6C\uB97C \uC2DC\uB3C4\uD569\uB2C8\uB2E4. \uC774 \uC7A5\uCE58\uC5D0\uB294 \uBCC0\uACBD \uC0AC\uD56D\uC774 \uC5C6\uC2B5\uB2C8\uB2E4.",
   "The server took too long to respond. Try again.": "\uC11C\uBC84 \uC751\uB2F5 \uC2DC\uAC04\uC774 \uB108\uBB34 \uC624\uB798 \uAC78\uB838\uC2B5\uB2C8\uB2E4. \uB2E4\uC2DC \uC2DC\uB3C4\uD574 \uC8FC\uC138\uC694.",
-  "These files are fine. They just need a paid plan to sync.": "\uC774 \uD30C\uC77C\uB4E4\uC740 \uAD1C\uCC2E\uC2B5\uB2C8\uB2E4. \uB3D9\uAE30\uD654\uB97C \uD558\uB824\uBA74 \uC720\uB8CC \uD50C\uB79C\uC774 \uD544\uC694\uD569\uB2C8\uB2E4.",
+  "These files are fine. Each card below says why they did not sync.": "\uC774 \uD30C\uC77C\uB4E4\uC740 \uBB38\uC81C\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4. \uC544\uB798 \uAC01 \uD56D\uBAA9\uC5D0\uC11C \uB3D9\uAE30\uD654\uB418\uC9C0 \uC54A\uC740 \uC774\uC720\uB97C \uD655\uC778\uD558\uC138\uC694.",
   "This account was deleted. Contact support if that is wrong.": "\uC774 \uACC4\uC815\uC774 \uC0AD\uC81C\uB418\uC5C8\uC2B5\uB2C8\uB2E4. \uC624\uB958\uC778 \uACBD\uC6B0 \uC9C0\uC6D0\uD300\uC5D0 \uBB38\uC758\uD558\uC138\uC694.",
   "This cannot be undone.": "\uC774 \uC791\uC5C5\uC740 \uB418\uB3CC\uB9B4 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.",
   "This code expired before the link finished. Generate a new code to try again.": "\uC774 \uCF54\uB4DC\uB294 \uB9C1\uD06C \uC644\uB8CC \uC804\uC5D0 \uB9CC\uB8CC\uB418\uC5C8\uC2B5\uB2C8\uB2E4. \uB2E4\uC2DC \uC2DC\uB3C4\uD558\uB824\uBA74 \uC0C8 \uCF54\uB4DC\uB97C \uC0DD\uC131\uD558\uC138\uC694.",
@@ -5426,10 +5359,10 @@ var ko = {
   "This file type isn't accepted by this server.": "\uC774 \uD30C\uC77C \uD615\uC2DD\uC740 \uC11C\uBC84\uC5D0\uC11C \uC9C0\uC6D0\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.",
   "This note could not be processed and was skipped.": "\uC774 \uB178\uD2B8\uB97C \uCC98\uB9AC\uD560 \uC218 \uC5C6\uC5C8\uC73C\uBA70, \uAC74\uB108\uB701\uB2C8\uB2E4.",
   "This server is self-hosted, so feedback is not collected here. ": "\uC774 \uC11C\uBC84\uB294 \uC790\uCCB4 \uD638\uC2A4\uD305 \uC11C\uBC84\uC774\uBBC0\uB85C, \uD53C\uB4DC\uBC31\uC740 \uC774\uACF3\uC5D0\uC11C \uC218\uC9D1\uB418\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4. ",
+  "This server isn't accepting this attachment for your account.": "\uC774 \uC11C\uBC84\uB294 \uADC0\uD558\uC758 \uACC4\uC815\uC5D0 \uC774 \uCCA8\uBD80 \uD30C\uC77C\uC744 \uD5C8\uC6A9\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.",
   "This vault": "\uC774 \uBCF4\uAD00\uD568",
   "This vault is empty on the server. Upload your {what}?": "\uC774 \uBCF4\uAD00\uD568\uC740 \uC11C\uBC84\uC5D0 \uBE44\uC5B4 \uC788\uC2B5\uB2C8\uB2E4. {what}\uC744 \uC5C5\uB85C\uB4DC\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?",
   "Too large for the server": "\uC11C\uBC84 \uC6A9\uB7C9 \uCD08\uACFC",
-  "Too many connected AI clients. Disconnect one or upgrade.": "\uC5F0\uACB0\uB41C AI \uD074\uB77C\uC774\uC5B8\uD2B8\uAC00 \uB108\uBB34 \uB9CE\uC2B5\uB2C8\uB2E4. \uD558\uB098\uB97C \uC5F0\uACB0 \uD574\uC81C\uD558\uAC70\uB098 \uC5C5\uADF8\uB808\uC774\uB4DC\uD558\uC138\uC694.",
   "Too many connected Obsidian vaults. Disconnect one or upgrade.": "\uC5F0\uACB0\uB41C Obsidian \uBCF4\uAD00\uD568\uC774 \uB108\uBB34 \uB9CE\uC2B5\uB2C8\uB2E4. \uD558\uB098\uB97C \uC5F0\uACB0 \uD574\uC81C\uD558\uAC70\uB098 \uC5C5\uADF8\uB808\uC774\uB4DC\uD558\uC138\uC694.",
   "Too many requests. Wait a moment and try again.": "\uC694\uCCAD\uC774 \uB108\uBB34 \uB9CE\uC2B5\uB2C8\uB2E4. \uC7A0\uC2DC \uAE30\uB2E4\uB9B0 \uD6C4 \uB2E4\uC2DC \uC2DC\uB3C4\uD574 \uC8FC\uC138\uC694.",
   "Type {keyword} to confirm:": "\uD655\uC778\uC744 \uC704\uD574 {keyword}\uC744 \uC785\uB825\uD558\uC138\uC694:",
@@ -5496,7 +5429,7 @@ var ko = {
   "waiting for a plugin update": "\uD50C\uB7EC\uADF8\uC778 \uC5C5\uB370\uC774\uD2B8\uB97C \uAE30\uB2E4 \uC911\uC785\uB2C8\uB2E4",
   "waiting to retry": "\uC7AC\uC2DC\uB3C4 \uB300\uAE30 \uC911",
   "{count} attachments": "{count}\uAC1C\uC758 \uCCA8\uBD80 \uD30C\uC77C",
-  "{count} attachments need a paid plan to sync. See Sync Center.": "{count}\uAC1C\uC758 \uCCA8\uBD80 \uD30C\uC77C\uC740 \uC720\uB8CC \uD50C\uB79C\uC774 \uD544\uC694\uD569\uB2C8\uB2E4. \uB3D9\uAE30\uD654 \uC13C\uD130\uC5D0\uC11C \uD655\uC778\uD558\uC138\uC694.",
+  "{count} attachments will be skipped: this server only accepts text files.": "{count}\uAC1C\uC758 \uCCA8\uBD80 \uD30C\uC77C\uC740 \uAC74\uB108\uB701\uB2C8\uB2E4: \uC774 \uC11C\uBC84\uB294 \uD14D\uC2A4\uD2B8 \uD30C\uC77C\uB9CC \uD5C8\uC6A9\uD569\uB2C8\uB2E4.",
   "{count} attempts": "{count}\uD68C \uC2DC\uB3C4",
   "{count} conflicts need resolution": "{count}\uAC1C\uC758 \uCDA9\uB3CC\uC774 \uD574\uACB0\uB418\uC5B4\uC57C \uD569\uB2C8\uB2E4",
   "{count} conflicts to resolve.": "\uD574\uACB0\uD574\uC57C \uD560 \uCDA9\uB3CC\uC774 {count}\uAC1C \uC788\uC2B5\uB2C8\uB2E4.",
@@ -5525,7 +5458,7 @@ var ko = {
   "\u2715 {count} failed": "\u2715 {count} \uC2E4\uD328",
   "\u2717 couldn't reach a server at this URL": "\u2717 \uD574\uB2F9 URL\uC758 \uC11C\uBC84\uC5D0 \uC5F0\uACB0\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4",
   "\u2717 server responded but isn't an Engram server": "\u2717 \uC11C\uBC84 \uC751\uB2F5\uC740 \uBC1B\uC558\uC9C0\uB9CC, Engram \uC11C\uBC84\uAC00 \uC544\uB2D9\uB2C8\uB2E4",
-  "\u2933 {count} skipped (Free plan)": "\u2933 \uBB34\uB8CC \uD50C\uB79C\uC73C\uB85C \uC778\uD574 {count}\uAC74 \uAC74\uB108\uB700",
+  "\u2933 {count} skipped": "\u2933 {count} \uAC74 \uAC74\uB108\uB700",
   "\u{1F44B} Welcome": "\u{1F44B} \uC548\uB155\uD558\uC138\uC694",
   "\u{1F4AC} Feedback": "\u{1F4AC} \uD53C\uB4DC\uBC31",
   "\u{1F504} Sync Center": "\u{1F504} \uB3D9\uAE30\uD654 \uC13C\uD130",
@@ -5542,7 +5475,6 @@ var ms = {
   "1. Make an account": "1. Buat akaun",
   "10 GB attachments": "10 GB lampiran",
   "10 vaults, unlimited devices": "10 peti nota, peranti tanpa had",
-  "2,000 notes searchable": "2,000 nota boleh dicari",
   "2. Connect your vault to Engram": "2. Sambungkan peti nota anda ke Engram",
   "3. Connect your AI": "3. Sambungkan AI anda",
   "50 GB attachments": "50 GB lampiran",
@@ -5551,9 +5483,8 @@ var ms = {
   "A temporary server problem \u2014 retrying automatically.": "Masalah pelayan sementara \u2014 cuba semula secara automatik.",
   "AI / MCP setup guide": "Panduan persediaan AI / MCP",
   "AI searches": "Carian AI",
-  "API access": "Akses API",
   "API key": "Kunci API",
-  "API keys need a Pro plan. Sign in with your Engram account instead.": "Kunci API memerlukan langganan Pro. Log masuk dengan akaun Engram anda.",
+  "API key access is turned off for this account. Sign in with your Engram account instead.": "Akses kunci API telah dimatikan untuk akaun ini. Log masuk dengan akaun Engram anda.",
   About: "Mengenai",
   "Accept it to keep syncing.": "Terima untuk terus menyegerakkan.",
   "Access token": "Token akses",
@@ -5565,14 +5496,13 @@ var ms = {
   "Advanced sync options": "Pilihan sync lanjutan",
   "All synced. Your vault and the cloud now match.": "Semuanya disinkronkan. Peti Nota anda dan awan kini sepadan.",
   "Already in sync. Nothing is deleted.": "Sudah disegerakkan. Tiada apa yang dipadam.",
-  "Already signed in on another device. Upgrade for multi-device.": "Sudah log masuk pada peranti lain. Tingkatkan untuk sokongan berbilang peranti.",
   "Already up to date. Nothing needed syncing.": "Sudah terkini. Tiada apa yang perlu disinkronkan.",
   "An unexpected error \u2014 retrying automatically.": "Ralat yang tidak dijangka \u2014 cuba semula secara automatik.",
+  "Attachment not accepted": "Lampiran tidak diterima",
   "Attachment storage full": "Ruang simpan lampiran penuh",
   "Attachment storage is full \u2014 upgrade for more.": "Ruang simpanan lampiran telah penuh \u2014 tingkatkan untuk lebih banyak ruang.",
   "Attachment sync is disabled for this account.": "Penyegerakan lampiran dilumpuhkan untuk akaun ini.",
   Attachments: "Lampiran",
-  "Attachments need a paid plan": "Lampiran memerlukan langganan berbayar",
   "Attachments on this device": "Lampiran pada peranti ini",
   "Authenticated via Engram account (OAuth).": "Disahkan melalui akaun Engram (OAuth).",
   "Authenticated via manual API key.": "Disahkan melalui kunci API manual.",
@@ -5623,7 +5553,7 @@ var ms = {
   "Create a hosted account at {signup}, or self-host the server ({guide}).": "Buat akaun hos di {signup}, atau hoskan sendiri pelayan ({guide}).",
   "Create a new empty vault on the server, then sync this Obsidian vault into it.": "Buat peti nota kosong baharu di server, kemudian segerakkan peti nota Obsidian ini ke dalamnya.",
   "Custom patterns": "Corak khusus",
-  "Daily AI search limit reached. Free includes 20 per day across Obsidian, the web app and MCP. Upgrade for unlimited.": "Had carian AI harian telah dicapai. Versi percuma termasuk 20 carian sehari merentasi Obsidian, aplikasi web dan MCP. Tingkatkan untuk had yang tidak terhad.",
+  "Daily AI search limit reached. Free searches are shared across Obsidian, the web app and MCP. Upgrade for unlimited.": "Had carian AI harian telah dicapai. Carian percuma dikongsi merentasi Obsidian, aplikasi web dan MCP. Tingkatkan untuk carian tanpa had.",
   "Dart tool cache": "Cache alat Dart",
   "Debug (verbose)": "Debug (terperinci)",
   "Delete all local files, then download from remote": "Padam semua fail tempatan, kemudian muat turun dari jauh",
@@ -5634,6 +5564,7 @@ var ms = {
   Deleting: "Memadam",
   "Deleting {count} local files.": "Memadam {count} fail tempatan.",
   "Deleting {count} on the cloud.": "Memadam {count} daripada awan.",
+  "Device limit reached. Disconnect a device or upgrade.": "Had peranti telah dicapai. Cabut peranti atau tingkatkan langganan.",
   "Device swap cooldown active. Wait or upgrade.": "Tempoh tunggu pertukaran peranti sedang aktif. Tunggu atau tingkatkan.",
   Diagnostics: "Diagnosis",
   "Diagnostics detail": "Butiran diagnosis",
@@ -5662,7 +5593,6 @@ var ms = {
   "Engram Sync: {details}": "Engram Segerakkan: {details}",
   "Engram URL": "URL Engram",
   "Engram Vault Sync {version} is available. {link}.": "Engram Vault Sync {version} tersedia. {link}.",
-  "Engram indexes {indexed} of your {all} notes. The rest match on this device only. Upgrade to index everything.": "Engram mengindeks {indexed} daripada {all} nota anda. Nota yang lain hanya dipadankan pada peranti ini. Tingkatkan untuk mengindeks semuanya.",
   "Engram is the backend that powers sync and semantic search.": "Engram ialah sistem belakang yang menyokong sync dan carian semantik.",
   "Engram search": "Carian Engram",
   "Engram server changed \u2014 sign in again to continue.": "Pelayan Engram telah berubah \u2014 log masuk semula untuk meneruskan.",
@@ -5704,7 +5634,7 @@ var ms = {
   "Engram: this vault no longer exists on the server. Pick or create a vault to continue.": "Engram: peti nota ini tidak lagi wujud di server. Pilih atau cipta peti nota untuk meneruskan.",
   "Engram: update required": "Engram: kemas kini diperlukan",
   "Engram: your login expired \u2014 open Engram settings to reconnect.": "Engram: log masuk anda telah tamat tempoh \u2014 buka tetapan Engram untuk menyambung semula.",
-  "Engram: {count} attachments skipped \u2014 upgrade your plan to sync images & PDFs.": "Engram: {count} lampiran dilepaskan \u2014 tingkatkan langganan anda untuk menyegerakkan imej & fail PDF.",
+  "Engram: {count} attachments skipped. See Sync Center for why.": "Engram: {count} lampiran dilepaskan. Lihat Pusat Sync untuk maklumat lanjut.",
   "Engram: {count} files failed to sync{detail} \u2014 open Sync Center": "Engram: {count} fail gagal disegerakkan{detail} \u2014 buka Pusat Sync",
   "Engram: {count} notes have frontmatter problems. Open Sync Center to fix.": "Engram: {count} nota mempunyai masalah frontmatter. Buka Pusat Sync untuk membetulkannya.",
   "Engram: \u26A0 {count} sync errors": "Engram: \u26A0 {count} ralat sync",
@@ -5728,8 +5658,6 @@ var ms = {
   "Finished with some errors. Open the sync log to see what failed.": "Selesai dengan beberapa ralat. Buka log sync untuk melihat apa yang gagal.",
   "First sync, this may take a moment.": "Sync pertama, ini mungkin mengambil masa.",
   Free: "Percuma",
-  "Free syncs notes only \u2014 images & PDFs need a paid plan.": "Percuma untuk menyinkronkan nota sahaja \u2013 imej & fail PDF memerlukan langganan berbayar.",
-  "Free syncs notes only \u2014 {count} attachments will be skipped.": "Percuma: sync nota sahaja \u2014 {count} lampiran akan dilepaskan.",
   "Frontmatter could not be parsed": "Frontmatter tidak dapat diproses",
   "Frontmatter isn't valid YAML.": "Frontmatter bukan YAML yang sah.",
   'Frontmatter key "{key}" could not be parsed as YAML.': 'Kunci frontmatter "{key}" tidak dapat ditafsir sebagai YAML.',
@@ -5790,8 +5718,6 @@ var ms = {
   "Note limit reached. Upgrade to keep adding notes.": "Had nota telah dicapai. Tingkatkan untuk terus menambah nota.",
   "Note not synced locally": "Nota belum disinkronkan secara tempatan",
   "Notes on this device": "Nota pada peranti ini",
-  "Notes past this still sync and open normally, they are just not in the search index. The index keeps your oldest notes, so it is your newest ones that fall outside.": "Nota selepas ini masih disegerakkan dan dibuka seperti biasa, tetapi tidak berada dalam indeks carian. Indeks menyimpan nota anda yang paling lama, jadi nota terbaru anda yang tidak disertakan.",
-  "Notes searchable": "Nota boleh dicari",
   "Notes stored": "Nota disimpan",
   "Nothing in this vault syncs until you choose how to merge it with the server.": "Tiada apa dalam peti nota ini yang disinkronkan sehingga anda memilih cara untuk menggabungkannya dengan pelayan.",
   "Nothing is deleted.": "Tiada yang dipadam.",
@@ -5813,7 +5739,6 @@ var ms = {
   "Open the file to resolve the conflict, then sync again.": "Buka fail untuk menyelesaikan konflik, kemudian segerakkan semula.",
   "Opens your browser to sign in, or create an account if you don't have one yet, then links this vault.": "Membuka penyemak imbas anda untuk log masuk, atau buat akaun jika anda belum ada, kemudian pautkan peti nota ini.",
   "Or authenticate with a token instead of signing in.": "Atau gunakan token untuk pengesahan, bukan log masuk.",
-  "Or authenticate with a token instead of signing in. Engram Cloud API keys require the Pro plan; on Free and Starter, sign in above.": "Atau gunakan token untuk pengesahan, bukan log masuk. Kunci API Engram memerlukan pelan Pro; pada Free dan Starter, log masuk seperti di atas.",
   "Paths to skip (one per line). Folder patterns end with /. Built-in: {configDir}/, .trash/, .git/": "Jalur yang dikecualikan (satu per baris). Corak folder berakhir dengan /. Binaan dalam: {configDir}/, .trash/, .git/",
   "Pick a vault": "Pilih peti nota",
   "Pick a vault (previous: '{name}' not found)": "Pilih peti nota (sebelum ini: '{name}' tidak ditemui)",
@@ -5857,7 +5782,6 @@ var ms = {
   "Search failed \u2014 check connection": "Pencarian gagal \u2014 semak sambungan",
   "Search settings": "Tetapan carian",
   "Search your vault\u2026": "Cari dalam peti nota anda\u2026",
-  "Searching {indexed} of {all} notes. Upgrade to search everything.": "Mencari {indexed} daripada {all} nota. Tingkatkan untuk mencari semuanya.",
   "See full pricing": "Lihat harga penuh",
   "See the AI setup guide": "Lihat panduan konfigurasi AI",
   "Select which vault this plugin syncs with.": "Pilih peti nota yang ingin disinkronkan oleh plugin ini.",
@@ -5905,7 +5829,7 @@ var ms = {
   "Sync server": "Pelayan sync",
   "Sync these now": "Segerakkan ini sekarang",
   "Sync...": "Segerakkan...",
-  "Synced. Some attachments need a paid plan to sync (see below).": "Disegerakkan. Sesetengah lampiran memerlukan langganan berbayar untuk disegerakkan (lihat di bawah).",
+  "Synced. Some attachments were skipped (see below).": "Disegerakkan. Sesetengah lampiran telah dilepaskan (lihat di bawah).",
   "Syncing attachments": "Mengsync lampiran",
   "Syncing your vault": "Mengsync peti nota anda",
   "Syncing...": "Sedang menyinkronkan...",
@@ -5918,7 +5842,6 @@ var ms = {
   "That does not look like an Engram API key (expected {prefix}\u2026).": "Itu tidak kelihatan seperti kunci API Engram (diharapkan {prefix}\u2026).",
   "The Engram server no longer accepts this plugin version (it needs {version} or newer), so notes are not being sent or received. Changes made on this device stay here until you update.": "Pelayan Engram tidak lagi menerima versi plugin ini (perlukan {version} atau versi yang lebih baru), jadi nota tidak dihantar atau diterima. Perubahan yang dibuat pada peranti ini kekal di sini sehingga anda mengemas kini.",
   "The Engram server no longer accepts this plugin version, so notes are not being sent or received. Changes made on this device stay here until you update.": "Pelayan Engram tidak lagi menerima versi plugin ini, jadi nota tidak dihantar atau diterima. Perubahan yang dibuat pada peranti ini kekal di sini sehingga anda mengemas kini.",
-  "The Free tier syncs notes only. Upgrade to sync images and PDFs.": "Versi percuma hanya menyegerakkan nota. Tingkatkan untuk menyegerakkan imej dan fail PDF.",
   "The file is over the server's size limit. Compress or split it, then it will sync.": "Saiz fail melebihi had pelayan. Kompres atau bahagikannya, kemudian ia akan disegerakkan.",
   "The file is too large for the server.": "Fail ini terlalu besar untuk pelayan.",
   "The note synced, but its frontmatter could not be fully parsed. Open it to fix the highlighted line.": "Nota telah disink, tetapi frontmatternya tidak dapat diproses sepenuhnya. Buka untuk memperbaiki baris yang diserlahkan.",
@@ -5926,7 +5849,7 @@ var ms = {
   "The server does not accept this type of file. It will retry if the file changes.": "Pelayan tidak menerima jenis fail ini. Ia akan cuba semula jika fail berubah.",
   "The server lost this file's stored content and will try to restore it. Nothing on this device was changed.": "Pelayan telah kehilangan kandungan fail ini dan akan cuba memulihkannya. Tiada apa yang berubah pada peranti ini.",
   "The server took too long to respond. Try again.": "Pelayan mengambil masa terlalu lama untuk menjawab. Cuba lagi.",
-  "These files are fine. They just need a paid plan to sync.": "Fail ini selamat. Ia hanya memerlukan langganan berbayar untuk disegerakkan.",
+  "These files are fine. Each card below says why they did not sync.": "Fail-fail ini adalah betul. Setiap kad di bawah menyatakan mengapa ia tidak disegerakkan.",
   "This account was deleted. Contact support if that is wrong.": "Akaun ini telah dipadam. Hubungi sokongan jika ini tidak betul.",
   "This cannot be undone.": "Ini tidak dapat dibatalkan.",
   "This code expired before the link finished. Generate a new code to try again.": "Kod ini telah tamat tempoh sebelum pautan selesai. Jana kod baharu untuk cuba lagi.",
@@ -5934,10 +5857,10 @@ var ms = {
   "This file type isn't accepted by this server.": "Jenis fail ini tidak diterima oleh pelayan ini.",
   "This note could not be processed and was skipped.": "Nota ini tidak dapat diproses dan telah dilepaskan.",
   "This server is self-hosted, so feedback is not collected here. ": "Pelayan ini dikendalikan sendiri, jadi maklum balas tidak dikumpul di sini. ",
+  "This server isn't accepting this attachment for your account.": "Pelayan ini tidak menerima lampiran ini untuk akaun anda.",
   "This vault": "Peti nota ini",
   "This vault is empty on the server. Upload your {what}?": "Peti nota ini kosong di server. Adakah anda ingin memuat naik {what}?",
   "Too large for the server": "Terlalu besar untuk pelayan",
-  "Too many connected AI clients. Disconnect one or upgrade.": "Terlalu banyak klien AI yang disambungkan. Putuskan sambungan satu atau tingkatkan.",
   "Too many connected Obsidian vaults. Disconnect one or upgrade.": "Terlalu banyak Peti Nota Obsidian yang disambungkan. Putuskan sambungan satu atau tingkatkan.",
   "Too many requests. Wait a moment and try again.": "Terlalu banyak permintaan. Tunggu sebentar dan cuba lagi.",
   "Type {keyword} to confirm:": "Taip {keyword} untuk mengesahkan:",
@@ -6004,7 +5927,8 @@ var ms = {
   "waiting for a plugin update": "sedang menunggu kemas kini plugin",
   "waiting to retry": "menunggu untuk cuba semula",
   "{count} attachments": "{count} lampiran",
-  "{count} attachments need a paid plan to sync. See Sync Center.": "{count} lampiran memerlukan langganan berbayar untuk disegerakkan. Lihat Pusat Sync.",
+  "{count} attachments skipped. See Sync Center.": "{count} lampiran telah dilepaskan. Lihat Pusat Sync.",
+  "{count} attachments will be skipped: this server only accepts text files.": "{count} lampiran akan dilepaskan: pelayan ini hanya menerima fail teks.",
   "{count} attempts": "{count} percubaan",
   "{count} conflicts need resolution": "{count} konflik perlu diselesaikan",
   "{count} conflicts to resolve.": "{count} konflik untuk diselesaikan.",
@@ -6033,7 +5957,7 @@ var ms = {
   "\u2715 {count} failed": "\u2715 {count} gagal",
   "\u2717 couldn't reach a server at this URL": "\u2717 Tidak dapat mengakses perantau di URL ini",
   "\u2717 server responded but isn't an Engram server": "\u2717 Pelayan bertindak balas tetapi bukan pelayan Engram",
-  "\u2933 {count} skipped (Free plan)": "\u2933 {count} dilangkau (Pelan percuma)",
+  "\u2933 {count} skipped": "\u2933 {count} dilangkau",
   "\u{1F44B} Welcome": "\u{1F44B} Selamat datang",
   "\u{1F4AC} Feedback": "\u{1F4AC} Maklum balas",
   "\u{1F504} Sync Center": "\u{1F504} Pusat Sync",
@@ -6055,7 +5979,6 @@ var pl = {
   "1. Make an account": "1. Za\u0142\xF3\u017C konto",
   "10 GB attachments": "10 GB za\u0142\u0105cznik\xF3w",
   "10 vaults, unlimited devices": "10 sejf\xF3w, nieograniczona liczba urz\u0105dze\u0144",
-  "2,000 notes searchable": "2000 notatek do wyszukiwania",
   "2. Connect your vault to Engram": "2. Po\u0142\u0105cz sw\xF3j sejf z Engram",
   "3. Connect your AI": "3. Po\u0142\u0105cz swoje AI",
   "50 GB attachments": "50 GB za\u0142\u0105cznik\xF3w",
@@ -6064,9 +5987,8 @@ var pl = {
   "A temporary server problem \u2014 retrying automatically.": "Tymczasowy problem z serwerem \u2014 ponawiam pr\xF3b\u0119 automatycznie.",
   "AI / MCP setup guide": "Przewodnik konfiguracji AI / MCP",
   "AI searches": "Wyszukiwanie AI",
-  "API access": "Dost\u0119p do API",
   "API key": "Klucz API",
-  "API keys need a Pro plan. Sign in with your Engram account instead.": "Klucze API wymagaj\u0105 planu Pro. Zaloguj si\u0119 za pomoc\u0105 swojego konta Engram.",
+  "API key access is turned off for this account. Sign in with your Engram account instead.": "Dost\u0119p do klucza API zosta\u0142 wy\u0142\u0105czony dla tego konta. Zaloguj si\u0119 za pomoc\u0105 swojego konta Engram.",
   About: "O programie",
   "Accept it to keep syncing.": "Zaakceptuj, aby kontynuowa\u0107 synchronizacj\u0119.",
   "Access token": "Token dost\u0119pu",
@@ -6078,14 +6000,13 @@ var pl = {
   "Advanced sync options": "Zaawansowane opcje synchronizacji",
   "All synced. Your vault and the cloud now match.": "Wszystko zsynchronizowane. Tw\xF3j sejf i chmura s\u0105 teraz zsynchronizowane.",
   "Already in sync. Nothing is deleted.": "Ju\u017C zsynchronizowane. Nic nie jest usuwane.",
-  "Already signed in on another device. Upgrade for multi-device.": "Jeste\u015B ju\u017C zalogowany na innym urz\u0105dzeniu. Zaktualizuj, aby korzysta\u0107 z wielu urz\u0105dze\u0144.",
   "Already up to date. Nothing needed syncing.": "Ju\u017C aktualne. Nie wymaga synchronizacji.",
   "An unexpected error \u2014 retrying automatically.": "Nieoczekiwany b\u0142\u0105d \u2014 ponawiam pr\xF3b\u0119 automatycznie.",
+  "Attachment not accepted": "Za\u0142\u0105cznik nie zosta\u0142 zaakceptowany",
   "Attachment storage full": "Brak miejsca na przechowywanie za\u0142\u0105cznik\xF3w",
   "Attachment storage is full \u2014 upgrade for more.": "Przestrze\u0144 do przechowywania za\u0142\u0105cznik\xF3w jest pe\u0142na \u2014 zaktualizuj, aby mie\u0107 wi\u0119cej miejsca.",
   "Attachment sync is disabled for this account.": "Synchronizacja za\u0142\u0105cznik\xF3w jest wy\u0142\u0105czona dla tego konta.",
   Attachments: "Za\u0142\u0105czniki",
-  "Attachments need a paid plan": "Za\u0142\u0105czniki wymagaj\u0105 p\u0142atnego planu",
   "Attachments on this device": "Za\u0142\u0105czniki na tym urz\u0105dzeniu",
   "Authenticated via Engram account (OAuth).": "Uwierzytelnienie za pomoc\u0105 konta Engram (OAuth).",
   "Authenticated via manual API key.": "Uwierzytelnienie za pomoc\u0105 r\u0119cznego klucza API.",
@@ -6136,7 +6057,7 @@ var pl = {
   "Create a hosted account at {signup}, or self-host the server ({guide}).": "Utw\xF3rz konto na {signup} lub uruchom serwer samodzielnie ({guide}).",
   "Create a new empty vault on the server, then sync this Obsidian vault into it.": "Utw\xF3rz nowy, pusty sejf na serwerze, a nast\u0119pnie zsynchronizuj z nim ten sejf Obsidian.",
   "Custom patterns": "W\u0142asne wzorce",
-  "Daily AI search limit reached. Free includes 20 per day across Obsidian, the web app and MCP. Upgrade for unlimited.": "Osi\u0105gni\u0119to dzienny limit wyszukiwania AI. Darmowa wersja obejmuje 20 zapyta\u0144 dziennie dla Obsidian, aplikacji internetowej i MCP. Rozszerz plan, aby uzyska\u0107 nieograniczon\u0105 liczb\u0119.",
+  "Daily AI search limit reached. Free searches are shared across Obsidian, the web app and MCP. Upgrade for unlimited.": "Osi\u0105gni\u0119to dzienny limit wyszukiwa\u0144 AI. Darmowe wyszukiwania s\u0105 dzielone mi\u0119dzy Obsidian, aplikacj\u0119 internetow\u0105 i MCP. Zaktualizuj, aby uzyska\u0107 nieograniczon\u0105 liczb\u0119.",
   "Dart tool cache": "Pami\u0119\u0107 podr\u0119czna narz\u0119dzi Dart",
   "Debug (verbose)": "Debug (szczeg\xF3\u0142owy)",
   "Delete all local files, then download from remote": "Usu\u0144 wszystkie lokalne pliki, a nast\u0119pnie pobierz ze zdalnego",
@@ -6167,6 +6088,7 @@ var pl = {
     many: "Usuwanie {count} z chmury.",
     other: "Usuwanie wersji {count} z chmury."
   },
+  "Device limit reached. Disconnect a device or upgrade.": "Osi\u0105gni\u0119to limit urz\u0105dze\u0144. Od\u0142\u0105cz urz\u0105dzenie lub rozszerz pakiet.",
   "Device swap cooldown active. Wait or upgrade.": "Czas oczekiwania po zmianie urz\u0105dzenia jest aktywny. Poczekaj lub zaktualizuj.",
   Diagnostics: "Diagnostyka",
   "Diagnostics detail": "Szczeg\xF3\u0142y diagnostyki",
@@ -6220,7 +6142,6 @@ var pl = {
   "Engram Sync: {details}": "Engram Synchronizacja: {details}",
   "Engram URL": "Engram adres URL",
   "Engram Vault Sync {version} is available. {link}.": "Engram Vault Sync {version} jest dost\u0119pne. {link}.",
-  "Engram indexes {indexed} of your {all} notes. The rest match on this device only. Upgrade to index everything.": "Engram indeksuje {indexed} z twoich {all} notatek. Reszta pasuje tylko na tym urz\u0105dzeniu. Zaktualizuj, aby indeksowa\u0107 wszystko.",
   "Engram is the backend that powers sync and semantic search.": "Engram to backend, kt\xF3ry umo\u017Cliwia synchronizacj\u0119 i wyszukiwanie semantyczne.",
   "Engram search": "Engram wyszukiwanie",
   "Engram server changed \u2014 sign in again to continue.": "Serwer Engram zosta\u0142 zmieniony \u2013 zaloguj si\u0119 ponownie, aby kontynuowa\u0107.",
@@ -6272,11 +6193,11 @@ var pl = {
   "Engram: this vault no longer exists on the server. Pick or create a vault to continue.": "Engram: ten sejf nie istnieje ju\u017C na serwerze. Wybierz lub utw\xF3rz sejf, aby kontynuowa\u0107.",
   "Engram: update required": "Engram: wymagana aktualizacja",
   "Engram: your login expired \u2014 open Engram settings to reconnect.": "Engram: Twoje logowanie wygas\u0142o \u2014 otw\xF3rz ustawienia Engram, aby ponownie si\u0119 po\u0142\u0105czy\u0107.",
-  "Engram: {count} attachments skipped \u2014 upgrade your plan to sync images & PDFs.": {
-    one: "Engram: pomini\u0119to {count} za\u0142\u0105cznik \u2014 rozwi\u0144 sw\xF3j plan, aby synchronizowa\u0107 obrazy i pliki PDF.",
-    few: "Engram: pomini\u0119to {count} za\u0142\u0105czniki \u2014 rozwi\u0144 sw\xF3j plan, aby synchronizowa\u0107 obrazy i pliki PDF.",
-    many: "Engram: pomini\u0119to {count} za\u0142\u0105cznik\xF3w \u2014 rozwa\u017C aktualizacj\u0119 planu, aby synchronizowa\u0107 obrazy i pliki PDF.",
-    other: "Engram: Pomini\u0119to {count} za\u0142\u0105cznik\xF3w \u2014 rozwa\u017C aktualizacj\u0119 planu, aby synchronizowa\u0107 obrazy i pliki PDF."
+  "Engram: {count} attachments skipped. See Sync Center for why.": {
+    one: "Engram: Pomini\u0119to {count} za\u0142\u0105cznik. Sprawd\u017A Centrum synchronizacji, aby zobaczy\u0107 pow\xF3d.",
+    few: "Engram: Pomini\u0119to {count} za\u0142\u0105czniki. Sprawd\u017A Centrum synchronizacji, aby dowiedzie\u0107 si\u0119 dlaczego.",
+    many: "Engram: Pomini\u0119to {count} za\u0142\u0105cznik\xF3w. Sprawd\u017A Centrum synchronizacji, aby zobaczy\u0107 pow\xF3d.",
+    other: "Engram: Pomini\u0119to {count} za\u0142\u0105cznik\xF3w. Sprawd\u017A Centrum synchronizacji, aby dowiedzie\u0107 si\u0119 dlaczego."
   },
   "Engram: {count} files failed to sync{detail} \u2014 open Sync Center": {
     one: "Engram: Nie uda\u0142o si\u0119 zsynchronizowa\u0107 {count} pliku{detail} \u2014 otw\xF3rz Centrum synchronizacji",
@@ -6316,13 +6237,6 @@ var pl = {
   "Finished with some errors. Open the sync log to see what failed.": "Zako\u0144czono z b\u0142\u0119dami. Otw\xF3rz dziennik synchronizacji, aby zobaczy\u0107, co si\u0119 nie uda\u0142o.",
   "First sync, this may take a moment.": "Pierwsza synchronizacja, mo\u017Ce to potrwa\u0107 chwil\u0119.",
   Free: "Bezp\u0142atny",
-  "Free syncs notes only \u2014 images & PDFs need a paid plan.": "Synchronizacja notatek jest darmowa \u2014 obrazy i pliki PDF wymagaj\u0105 p\u0142atnego planu.",
-  "Free syncs notes only \u2014 {count} attachments will be skipped.": {
-    one: "Darmowa synchronizacja dotyczy tylko notatek \u2014 jeden za\u0142\u0105cznik zostanie pomini\u0119ty.",
-    few: "Darmowa synchronizacja dotyczy tylko notatek \u2014 {count} za\u0142\u0105czniki zostan\u0105 pomini\u0119te.",
-    many: "Darmowa synchronizacja dotyczy tylko notatek \u2014 {count} za\u0142\u0105cznik\xF3w zostanie pomini\u0119tych.",
-    other: "Darmowa synchronizacja dotyczy tylko notatek \u2014 {count} za\u0142\u0105cznik\xF3w zostanie pomini\u0119tych."
-  },
   "Frontmatter could not be parsed": "Nie mo\u017Cna przetworzy\u0107 nag\u0142\xF3wka",
   "Frontmatter isn't valid YAML.": "Nag\u0142\xF3wek nie jest poprawnym YAML.",
   'Frontmatter key "{key}" could not be parsed as YAML.': 'Nie mo\u017Cna zinterpretowa\u0107 klucza nag\u0142\xF3wka "{key}" jako YAML.',
@@ -6383,8 +6297,6 @@ var pl = {
   "Note limit reached. Upgrade to keep adding notes.": "Osi\u0105gni\u0119to limit notatek. Zaktualizuj, aby dodawa\u0107 wi\u0119cej notatek.",
   "Note not synced locally": "Notatka nie zsynchronizowana lokalnie",
   "Notes on this device": "Notatki na tym urz\u0105dzeniu",
-  "Notes past this still sync and open normally, they are just not in the search index. The index keeps your oldest notes, so it is your newest ones that fall outside.": "Notatki znajduj\u0105ce si\u0119 dalej s\u0105 nadal synchronizowane i otwierane normalnie, ale nie znajduj\u0105 si\u0119 w indeksie wyszukiwania. Indeks przechowuje twoje najstarsze notatki, wi\u0119c to najnowsze notatki nie s\u0105 w nim uwzgl\u0119dnione.",
-  "Notes searchable": "Notatki s\u0105 przeszukiwalne",
   "Notes stored": "Notatki zapisane",
   "Nothing in this vault syncs until you choose how to merge it with the server.": "Nic z tego sejfu nie jest synchronizowane, dop\xF3ki nie wybierzesz, jak go po\u0142\u0105czy\u0107 z serwerem.",
   "Nothing is deleted.": "Nic nie jest usuwane.",
@@ -6406,7 +6318,6 @@ var pl = {
   "Open the file to resolve the conflict, then sync again.": "Otw\xF3rz plik, aby rozwi\u0105za\u0107 konflikt, a nast\u0119pnie zsynchronizuj ponownie.",
   "Opens your browser to sign in, or create an account if you don't have one yet, then links this vault.": "Otwiera przegl\u0105dark\u0119 do logowania lub tworzenia konta, je\u015Bli jeszcze go nie masz, a nast\u0119pnie \u0142\u0105czy ten sejf.",
   "Or authenticate with a token instead of signing in.": "Lub uwierzytelnij si\u0119 za pomoc\u0105 tokena zamiast logowania.",
-  "Or authenticate with a token instead of signing in. Engram Cloud API keys require the Pro plan; on Free and Starter, sign in above.": "Lub uwierzytelnij si\u0119 za pomoc\u0105 tokena zamiast logowania. Engram Klucze API wymagaj\u0105 planu Pro; na planach Free i Starter u\u017Cyj logowania powy\u017Cej.",
   "Paths to skip (one per line). Folder patterns end with /. Built-in: {configDir}/, .trash/, .git/": "\u015Acie\u017Cki do pomini\u0119cia (jedna na lini\u0119). Wzorce folder\xF3w ko\u0144cz\u0105 si\u0119 /. Wbudowane: {configDir}/, .trash/, .git/",
   "Pick a vault": "Wybierz sejf",
   "Pick a vault (previous: '{name}' not found)": "Wybierz sejf (poprzedni: '{name}' nie znaleziono)",
@@ -6450,7 +6361,6 @@ var pl = {
   "Search failed \u2014 check connection": "Wyszukiwanie nie powiod\u0142o si\u0119 \u2014 sprawd\u017A po\u0142\u0105czenie",
   "Search settings": "Ustawienia wyszukiwania",
   "Search your vault\u2026": "Wyszukaj w swoim sejfie\u2026",
-  "Searching {indexed} of {all} notes. Upgrade to search everything.": "Wyszukiwanie w {indexed} z {all} notatek. Zaktualizuj, aby wyszukiwa\u0107 wszystko.",
   "See full pricing": "Zobacz pe\u0142ne ceny",
   "See the AI setup guide": "Sprawd\u017A przewodnik konfiguracji AI",
   "Select which vault this plugin syncs with.": "Wybierz, z kt\xF3rym sejfem plugin ma synchronizowa\u0107.",
@@ -6503,7 +6413,7 @@ var pl = {
   "Sync server": "Serwer synchronizacji",
   "Sync these now": "Synchronizuj to teraz",
   "Sync...": "Synchronizacja...",
-  "Synced. Some attachments need a paid plan to sync (see below).": "Zsynchronizowano. Niekt\xF3re za\u0142\u0105czniki wymagaj\u0105 p\u0142atnego planu, aby je zsynchronizowa\u0107 (zobacz poni\u017Cej).",
+  "Synced. Some attachments were skipped (see below).": "Zsynchronizowano. Niekt\xF3re za\u0142\u0105czniki zosta\u0142y pomini\u0119te (zobacz poni\u017Cej).",
   "Syncing attachments": "Synchronizacja za\u0142\u0105cznik\xF3w",
   "Syncing your vault": "Synchronizacja twojego sejfu",
   "Syncing...": "Synchronizacja...",
@@ -6516,7 +6426,6 @@ var pl = {
   "That does not look like an Engram API key (expected {prefix}\u2026).": "To nie wygl\u0105da na klucz API Engram (oczekiwano {prefix}\u2026).",
   "The Engram server no longer accepts this plugin version (it needs {version} or newer), so notes are not being sent or received. Changes made on this device stay here until you update.": "Serwer Engram nie obs\u0142uguje ju\u017C tej wersji wtyczki (wymagane jest {version} lub nowsza), wi\u0119c notatki nie s\u0105 wysy\u0142ane ani odbierane. Zmiany wprowadzone na tym urz\u0105dzeniu pozostaj\u0105 tutaj, dop\xF3ki nie zaktualizujesz.",
   "The Engram server no longer accepts this plugin version, so notes are not being sent or received. Changes made on this device stay here until you update.": "Serwer Engram nie obs\u0142uguje ju\u017C tej wersji wtyczki, wi\u0119c notatki nie s\u0105 wysy\u0142ane ani odbierane. Zmiany wprowadzone na tym urz\u0105dzeniu pozostaj\u0105 tutaj, dop\xF3ki nie zaktualizujesz.",
-  "The Free tier syncs notes only. Upgrade to sync images and PDFs.": "W wersji darmowej synchronizowane s\u0105 tylko notatki. Zaktualizuj, aby synchronizowa\u0107 obrazy i pliki PDF.",
   "The file is over the server's size limit. Compress or split it, then it will sync.": "Plik przekracza limit rozmiaru serwera. Skompresuj lub podziel go, a nast\u0119pnie synchronizacja si\u0119 wykona.",
   "The file is too large for the server.": "Plik jest zbyt du\u017Cy dla serwera.",
   "The note synced, but its frontmatter could not be fully parsed. Open it to fix the highlighted line.": "Notatka zosta\u0142a zsynchronizowana, ale jej nag\u0142\xF3wek nie m\xF3g\u0142 zosta\u0107 w pe\u0142ni przetworzony. Otw\xF3rz j\u0105, aby poprawi\u0107 zaznaczony wiersz.",
@@ -6524,7 +6433,7 @@ var pl = {
   "The server does not accept this type of file. It will retry if the file changes.": "Serwer nie akceptuje tego typu pliku. Spr\xF3buje ponownie, je\u015Bli plik si\u0119 zmieni.",
   "The server lost this file's stored content and will try to restore it. Nothing on this device was changed.": "Serwer utraci\u0142 zawarto\u015B\u0107 tego pliku i spr\xF3buje go odzyska\u0107. Na tym urz\u0105dzeniu nic si\u0119 nie zmieni\u0142o.",
   "The server took too long to respond. Try again.": "Serwer zbyt d\u0142ugo odpowiada\u0142. Spr\xF3buj ponownie.",
-  "These files are fine. They just need a paid plan to sync.": "Te pliki s\u0105 w porz\u0105dku. Potrzebuj\u0105 p\u0142atnego planu, aby je zsynchronizowa\u0107.",
+  "These files are fine. Each card below says why they did not sync.": "Te pliki s\u0105 w porz\u0105dku. Ka\u017Cda karta poni\u017Cej wyja\u015Bnia, dlaczego nie zosta\u0142y zsynchronizowane.",
   "This account was deleted. Contact support if that is wrong.": "To konto zosta\u0142o usuni\u0119te. Skontaktuj si\u0119 z dzia\u0142em pomocy technicznej, je\u015Bli to nieprawda.",
   "This cannot be undone.": "Nie mo\u017Cna tego cofn\u0105\u0107.",
   "This code expired before the link finished. Generate a new code to try again.": "Ten kod wygas\u0142 zanim link zosta\u0142 uko\u0144czony. Wygeneruj nowy kod i spr\xF3buj ponownie.",
@@ -6532,10 +6441,10 @@ var pl = {
   "This file type isn't accepted by this server.": "Ten typ pliku nie jest akceptowany przez ten serwer.",
   "This note could not be processed and was skipped.": "Nie mo\u017Cna by\u0142o przetworzy\u0107 tej notatki i pomini\u0119to j\u0105.",
   "This server is self-hosted, so feedback is not collected here. ": "Ten serwer jest hostowany samodzielnie, wi\u0119c tutaj nie s\u0105 zbierane \u017Cadne dane. ",
+  "This server isn't accepting this attachment for your account.": "Ten serwer nie akceptuje tego za\u0142\u0105cznika dla twojego konta.",
   "This vault": "Ten sejf",
   "This vault is empty on the server. Upload your {what}?": "Ten sejf jest pusty na serwerze. Czy chcesz przes\u0142a\u0107 swoje {what}?",
   "Too large for the server": "Zbyt du\u017Cy dla serwera",
-  "Too many connected AI clients. Disconnect one or upgrade.": "Zbyt wielu pod\u0142\u0105czonych klient\xF3w AI. Od\u0142\u0105cz jednego lub rozszerz plan.",
   "Too many connected Obsidian vaults. Disconnect one or upgrade.": "Zbyt wiele po\u0142\u0105czonych sejf\xF3w Obsidian. Od\u0142\u0105cz jeden lub rozszerz plan.",
   "Too many requests. Wait a moment and try again.": "Zbyt wiele zapyta\u0144. Poczekaj chwil\u0119 i spr\xF3buj ponownie.",
   "Type {keyword} to confirm:": "Wpisz {keyword} aby potwierdzi\u0107:",
@@ -6627,11 +6536,17 @@ var pl = {
     many: "{count} za\u0142\u0105cznik\xF3w",
     other: "{count} za\u0142\u0105czniki"
   },
-  "{count} attachments need a paid plan to sync. See Sync Center.": {
-    one: "{count} za\u0142\u0105cznik wymaga p\u0142atnego planu, aby zsynchronizowa\u0107 go. Zobacz Centrum synchronizacji.",
-    few: "{count} za\u0142\u0105czniki wymagaj\u0105 p\u0142atnego planu, aby zsynchronizowa\u0107 je. Zobacz Centrum synchronizacji.",
-    many: "{count} za\u0142\u0105cznik\xF3w wymaga p\u0142atnego planu, aby je zsynchronizowa\u0107. Zobacz Centrum synchronizacji.",
-    other: "{count} Za\u0142\u0105czniki wymagaj\u0105 p\u0142atnego planu, aby synchronizowa\u0107. Zobacz Centrum synchronizacji."
+  "{count} attachments skipped. See Sync Center.": {
+    one: "{count} za\u0142\u0105cznik pomini\u0119to. Zobacz Centrum synchronizacji.",
+    few: "{count} za\u0142\u0105czniki pomini\u0119to. Zobacz Centrum synchronizacji.",
+    many: "{count} za\u0142\u0105cznik\xF3w pomini\u0119to. Zobacz Centrum synchronizacji.",
+    other: "{count} za\u0142\u0105cznik\xF3w pomini\u0119to. Zobacz Centrum synchronizacji."
+  },
+  "{count} attachments will be skipped: this server only accepts text files.": {
+    one: "{count} za\u0142\u0105cznik zostanie pomini\u0119ty: ten serwer akceptuje tylko pliki tekstowe.",
+    few: "Pomini\u0119to {count} za\u0142\u0105czniki: ten serwer akceptuje tylko pliki tekstowe.",
+    many: "Pomini\u0119to {count} za\u0142\u0105cznik\xF3w: ten serwer akceptuje tylko pliki tekstowe.",
+    other: "{count} Za\u0142\u0105czniki zostan\u0105 pomini\u0119te: ten serwer akceptuje tylko pliki tekstowe."
   },
   "{count} attempts": {
     one: "{count} pr\xF3ba",
@@ -6751,11 +6666,11 @@ var pl = {
   },
   "\u2717 couldn't reach a server at this URL": "\u2717 Nie mo\u017Cna po\u0142\u0105czy\u0107 z serwerem pod tym adresem",
   "\u2717 server responded but isn't an Engram server": "\u2717 Serwer odpowiedzia\u0142, ale nie jest serwerem Engram",
-  "\u2933 {count} skipped (Free plan)": {
-    one: "\u2933 {count} pomini\u0119to (Plan darmowy)",
-    few: "\u2933 Pomini\u0119to {count} (Plan darmowy)",
-    many: "\u2933 Pomini\u0119to {count} (Plan darmowy)",
-    other: "\u2933 {count} pomijane (Plan darmowy)"
+  "\u2933 {count} skipped": {
+    one: "\u2933 {count} pomini\u0119to",
+    few: "\u2933 Pomini\u0119to {count} elementy",
+    many: "\u2933 Pomini\u0119to {count}",
+    other: "\u2933 {count} pomijane"
   },
   "\u{1F44B} Welcome": "\u{1F44B} Witaj",
   "\u{1F4AC} Feedback": "\u{1F4AC} Opinia",
@@ -6777,7 +6692,6 @@ var pt = {
   "1. Make an account": "1. Crie uma conta",
   "10 GB attachments": "10 GB de anexos",
   "10 vaults, unlimited devices": "10 Cofres, dispositivos ilimitados",
-  "2,000 notes searchable": "2.000 notas pesquis\xE1veis",
   "2. Connect your vault to Engram": "2. Conecte o seu cofre ao Engram",
   "3. Connect your AI": "3. Conecte a sua IA",
   "50 GB attachments": "50 GB de anexos",
@@ -6786,9 +6700,8 @@ var pt = {
   "A temporary server problem \u2014 retrying automatically.": "Um problema tempor\xE1rio no servidor \u2014 a tentar novamente automaticamente.",
   "AI / MCP setup guide": "Guia de configura\xE7\xE3o de IA / MCP",
   "AI searches": "Pesquisas de IA",
-  "API access": "Acesso \xE0 API",
   "API key": "Chave API",
-  "API keys need a Pro plan. Sign in with your Engram account instead.": "As chaves de API necessitam de um plano Pro. Inicie sess\xE3o com a sua conta Engram em vez disso.",
+  "API key access is turned off for this account. Sign in with your Engram account instead.": "O acesso \xE0 chave API est\xE1 desativado para esta conta. Inicie sess\xE3o com a sua conta Engram em vez disso.",
   About: "Sobre",
   "Accept it to keep syncing.": "Aceite para continuar a sincroniza\xE7\xE3o.",
   "Access token": "Token de acesso",
@@ -6800,14 +6713,13 @@ var pt = {
   "Advanced sync options": "Op\xE7\xF5es avan\xE7adas de sincroniza\xE7\xE3o",
   "All synced. Your vault and the cloud now match.": "Tudo sincronizado. O seu cofre e a nuvem est\xE3o agora sincronizados.",
   "Already in sync. Nothing is deleted.": "J\xE1 est\xE1 sincronizado. Nada \xE9 apagado.",
-  "Already signed in on another device. Upgrade for multi-device.": "J\xE1 est\xE1 autenticado noutro dispositivo. Fa\xE7a uma atualiza\xE7\xE3o para usar em v\xE1rios dispositivos.",
   "Already up to date. Nothing needed syncing.": "J\xE1 est\xE1 atualizado. N\xE3o \xE9 necess\xE1rio sincronizar nada.",
   "An unexpected error \u2014 retrying automatically.": "Um erro inesperado \u2014 a tentar novamente automaticamente.",
+  "Attachment not accepted": "Anexo n\xE3o aceite",
   "Attachment storage full": "Armazenamento de anexos cheio",
   "Attachment storage is full \u2014 upgrade for more.": "O espa\xE7o de armazenamento de anexos est\xE1 cheio \u2014 fa\xE7a uma atualiza\xE7\xE3o para ter mais.",
   "Attachment sync is disabled for this account.": "A sincroniza\xE7\xE3o de anexos est\xE1 desativada para esta conta.",
   Attachments: "Anexos",
-  "Attachments need a paid plan": "Os anexos requerem um plano pago",
   "Attachments on this device": "Anexos neste dispositivo",
   "Authenticated via Engram account (OAuth).": "Autenticado atrav\xE9s da conta Engram (OAuth).",
   "Authenticated via manual API key.": "Autenticado atrav\xE9s de chave API manual.",
@@ -6858,7 +6770,7 @@ var pt = {
   "Create a hosted account at {signup}, or self-host the server ({guide}).": "Crie uma conta alojada em {signup}, ou alojar o servidor {guide}.",
   "Create a new empty vault on the server, then sync this Obsidian vault into it.": "Crie um novo cofre vazio no servidor e, em seguida, sincronize este cofre Obsidian para ele.",
   "Custom patterns": "Padr\xF5es personalizados",
-  "Daily AI search limit reached. Free includes 20 per day across Obsidian, the web app and MCP. Upgrade for unlimited.": "Limite di\xE1rio de pesquisa de IA atingido. A vers\xE3o gratuita inclui 20 por dia, distribu\xEDdos por Obsidian, a aplica\xE7\xE3o web e MCP. Fa\xE7a uma atualiza\xE7\xE3o para ter acesso ilimitado.",
+  "Daily AI search limit reached. Free searches are shared across Obsidian, the web app and MCP. Upgrade for unlimited.": "Limite di\xE1rio de pesquisas por IA atingido. As pesquisas gratuitas s\xE3o partilhadas entre o Obsidian, a aplica\xE7\xE3o web e o MCP. Fa\xE7a uma atualiza\xE7\xE3o para ter pesquisas ilimitadas.",
   "Dart tool cache": "Cache das ferramentas Dart",
   "Debug (verbose)": "Debug (detalhado)",
   "Delete all local files, then download from remote": "Apague todos os ficheiros locais e, em seguida, descarregue do remoto",
@@ -6885,6 +6797,7 @@ var pt = {
     many: "Eliminar {count} na nuvem.",
     other: "A eliminar {count} na nuvem."
   },
+  "Device limit reached. Disconnect a device or upgrade.": "Limite de dispositivos atingido. Desconecte um dispositivo ou fa\xE7a uma atualiza\xE7\xE3o.",
   "Device swap cooldown active. Wait or upgrade.": "Per\xEDodo de espera para troca de dispositivo ativo. Aguarde ou fa\xE7a uma atualiza\xE7\xE3o.",
   Diagnostics: "Diagn\xF3sticos",
   "Diagnostics detail": "Detalhes dos diagn\xF3sticos",
@@ -6933,7 +6846,6 @@ var pt = {
   "Engram Sync: {details}": "Engram: Sincroniza\xE7\xE3o: {details}",
   "Engram URL": "URL do Engram",
   "Engram Vault Sync {version} is available. {link}.": "Engram Vault Sync {version} est\xE1 dispon\xEDvel. {link}.",
-  "Engram indexes {indexed} of your {all} notes. The rest match on this device only. Upgrade to index everything.": "Engram indexa {indexed} das suas {all} notas. O resto corresponde apenas neste dispositivo. Atualize para indexar tudo.",
   "Engram is the backend that powers sync and semantic search.": "Engram \xE9 o sistema que permite a sincroniza\xE7\xE3o e a pesquisa sem\xE2ntica.",
   "Engram search": "Engram: pesquisa",
   "Engram server changed \u2014 sign in again to continue.": "Servidor Engram alterado \u2014 inicie sess\xE3o novamente para continuar.",
@@ -6983,10 +6895,10 @@ var pt = {
   "Engram: this vault no longer exists on the server. Pick or create a vault to continue.": "Engram: este cofre j\xE1 n\xE3o existe no servidor. Escolha ou crie um cofre para continuar.",
   "Engram: update required": "Engram: atualiza\xE7\xE3o necess\xE1ria",
   "Engram: your login expired \u2014 open Engram settings to reconnect.": "Engram: a sua sess\xE3o expirou \u2014 abra as defini\xE7\xF5es de Engram para reconectar.",
-  "Engram: {count} attachments skipped \u2014 upgrade your plan to sync images & PDFs.": {
-    one: "Engram: {count} anexo ignorado \u2014 atualize o plano para sincronizar imagens e PDFs.",
-    many: "Engram: {count} anexos ignorados \u2014 atualize o plano para sincronizar imagens e PDFs.",
-    other: "Engram: {count} anexos ignorados \u2014 atualize o plano para sincronizar imagens e PDFs."
+  "Engram: {count} attachments skipped. See Sync Center for why.": {
+    one: "Engram: {count} anexo ignorado. Consulte o Centro de sincroniza\xE7\xE3o para saber o motivo.",
+    many: "Engram: {count} anexos ignorados. Consulte o Centro de sincroniza\xE7\xE3o para saber o motivo.",
+    other: "Engram: {count} anexos ignorados. Consulte o Centro de sincroniza\xE7\xE3o para saber o motivo."
   },
   "Engram: {count} files failed to sync{detail} \u2014 open Sync Center": {
     one: "Engram: {count} ficheiro falhou na sincroniza\xE7\xE3o{detail} \u2014 abrir o Centro de sincroniza\xE7\xE3o",
@@ -7023,12 +6935,6 @@ var pt = {
   "Finished with some errors. Open the sync log to see what failed.": "Terminado com alguns erros. Abra o registo de sincroniza\xE7\xE3o para ver o que falhou.",
   "First sync, this may take a moment.": "Primeira sincroniza\xE7\xE3o, isto pode demorar um momento.",
   Free: "Gratuito",
-  "Free syncs notes only \u2014 images & PDFs need a paid plan.": "A sincroniza\xE7\xE3o gratuita sincroniza apenas notas \u2014 imagens e PDFs requerem um plano pago.",
-  "Free syncs notes only \u2014 {count} attachments will be skipped.": {
-    one: "Sincroniza\xE7\xE3o gratuita: as notas s\xE3o sincronizadas, mas apenas {count} anexo ser\xE1 ignorado.",
-    many: "Sincroniza\xE7\xE3o gratuita de notas apenas \u2014 {count} anexos ser\xE3o ignorados.",
-    other: "Sincroniza notas gratuitamente, apenas {count} anexos ser\xE3o ignorados."
-  },
   "Frontmatter could not be parsed": "N\xE3o foi poss\xEDvel analisar o frontmatter",
   "Frontmatter isn't valid YAML.": "O frontmatter n\xE3o \xE9 um YAML v\xE1lido.",
   'Frontmatter key "{key}" could not be parsed as YAML.': 'A chave de frontmatter "{key}" n\xE3o p\xF4de ser interpretada como YAML.',
@@ -7089,8 +6995,6 @@ var pt = {
   "Note limit reached. Upgrade to keep adding notes.": "Limite de notas atingido. Fa\xE7a uma atualiza\xE7\xE3o para continuar a adicionar notas.",
   "Note not synced locally": "Nota n\xE3o sincronizada localmente",
   "Notes on this device": "Notas neste dispositivo",
-  "Notes past this still sync and open normally, they are just not in the search index. The index keeps your oldest notes, so it is your newest ones that fall outside.": "As notas ap\xF3s este ponto continuam a sincronizar e a abrir normalmente, apenas n\xE3o est\xE3o no \xEDndice de pesquisa. O \xEDndice guarda as suas notas mais antigas, por isso s\xE3o as mais recentes que ficam de fora.",
-  "Notes searchable": "Notas pesquis\xE1veis",
   "Notes stored": "Notas armazenadas",
   "Nothing in this vault syncs until you choose how to merge it with the server.": "Nada neste cofre \xE9 sincronizado at\xE9 que escolha como o combinar com o servidor.",
   "Nothing is deleted.": "Nada \xE9 apagado.",
@@ -7112,7 +7016,6 @@ var pt = {
   "Open the file to resolve the conflict, then sync again.": "Abra o ficheiro para resolver o conflito e, em seguida, sincronize novamente.",
   "Opens your browser to sign in, or create an account if you don't have one yet, then links this vault.": "Abre o seu navegador para iniciar sess\xE3o, ou criar uma conta se ainda n\xE3o tiver, e depois associa este cofre.",
   "Or authenticate with a token instead of signing in.": "Ou autentique-se com um token em vez de iniciar sess\xE3o.",
-  "Or authenticate with a token instead of signing in. Engram Cloud API keys require the Pro plan; on Free and Starter, sign in above.": "Ou autentique-se com um token em vez de iniciar sess\xE3o. As chaves API Engram requerem o plano Pro; nos planos Free e Starter, inicie sess\xE3o acima.",
   "Paths to skip (one per line). Folder patterns end with /. Built-in: {configDir}/, .trash/, .git/": "Caminhos a ignorar (um por linha). Os padr\xF5es de pastas terminam com /. Incorporados: {configDir}/, .trash/, .git/",
   "Pick a vault": "Escolha um cofre",
   "Pick a vault (previous: '{name}' not found)": "Escolha um cofre (anterior: '{name}' n\xE3o encontrado)",
@@ -7156,7 +7059,6 @@ var pt = {
   "Search failed \u2014 check connection": "A pesquisa falhou \u2014 verifique a liga\xE7\xE3o",
   "Search settings": "Defini\xE7\xF5es de pesquisa",
   "Search your vault\u2026": "Pesquisar no seu cofre\u2026",
-  "Searching {indexed} of {all} notes. Upgrade to search everything.": "A pesquisar {indexed} de {all} notas. Atualize para pesquisar tudo.",
   "See full pricing": "Ver pre\xE7os completos",
   "See the AI setup guide": "Consulte o guia de configura\xE7\xE3o da IA",
   "Select which vault this plugin syncs with.": "Selecione o cofre com o qual este plugin sincroniza.",
@@ -7208,7 +7110,7 @@ var pt = {
   "Sync server": "Servidor de sincroniza\xE7\xE3o",
   "Sync these now": "Sincronizar agora",
   "Sync...": "A sincronizar...",
-  "Synced. Some attachments need a paid plan to sync (see below).": "Sincronizado. Alguns anexos necessitam de um plano pago para sincronizar (ver abaixo).",
+  "Synced. Some attachments were skipped (see below).": "Sincronizado. Alguns anexos foram ignorados (ver abaixo).",
   "Syncing attachments": "A sincronizar anexos",
   "Syncing your vault": "A sincronizar o seu cofre",
   "Syncing...": "A sincronizar...",
@@ -7221,7 +7123,6 @@ var pt = {
   "That does not look like an Engram API key (expected {prefix}\u2026).": "Isso n\xE3o parece ser uma chave API do Engram (esperava {prefix}\u2026).",
   "The Engram server no longer accepts this plugin version (it needs {version} or newer), so notes are not being sent or received. Changes made on this device stay here until you update.": "O servidor Engram j\xE1 n\xE3o aceita esta vers\xE3o do plugin (\xE9 necess\xE1rio {version} ou superior), pelo que as notas n\xE3o est\xE3o a ser enviadas ou recebidas. As altera\xE7\xF5es feitas neste dispositivo permanecem aqui at\xE9 que fa\xE7a uma atualiza\xE7\xE3o.",
   "The Engram server no longer accepts this plugin version, so notes are not being sent or received. Changes made on this device stay here until you update.": "O servidor Engram j\xE1 n\xE3o aceita esta vers\xE3o do plugin, pelo que as notas n\xE3o est\xE3o a ser enviadas ou recebidas. As altera\xE7\xF5es feitas neste dispositivo permanecem aqui at\xE9 que fa\xE7a uma atualiza\xE7\xE3o.",
-  "The Free tier syncs notes only. Upgrade to sync images and PDFs.": "A vers\xE3o gratuita sincroniza apenas notas. Atualize para sincronizar imagens e PDFs.",
   "The file is over the server's size limit. Compress or split it, then it will sync.": "O ficheiro excede o limite de tamanho do servidor. Comprima ou divida-o, e ent\xE3o ele ser\xE1 sincronizado.",
   "The file is too large for the server.": "O ficheiro \xE9 demasiado grande para o servidor.",
   "The note synced, but its frontmatter could not be fully parsed. Open it to fix the highlighted line.": "A nota foi sincronizada, mas o seu frontmatter n\xE3o p\xF4de ser totalmente analisado. Abra-a para corrigir a linha destacada.",
@@ -7229,7 +7130,7 @@ var pt = {
   "The server does not accept this type of file. It will retry if the file changes.": "O servidor n\xE3o aceita este tipo de ficheiro. Tentar\xE1 novamente se o ficheiro for alterado.",
   "The server lost this file's stored content and will try to restore it. Nothing on this device was changed.": "O servidor perdeu o conte\xFAdo guardado deste ficheiro e tentar\xE1 restaur\xE1-lo. Nada foi alterado neste dispositivo.",
   "The server took too long to respond. Try again.": "O servidor demorou demasiado tempo a responder. Tente novamente.",
-  "These files are fine. They just need a paid plan to sync.": "Estes ficheiros est\xE3o bem. Apenas precisam de um plano pago para sincronizar.",
+  "These files are fine. Each card below says why they did not sync.": "Estes ficheiros est\xE3o bem. Cada cart\xE3o abaixo indica o motivo pelo qual n\xE3o foram sincronizados.",
   "This account was deleted. Contact support if that is wrong.": "Esta conta foi eliminada. Contacte o suporte se estiver errado.",
   "This cannot be undone.": "Esta a\xE7\xE3o n\xE3o pode ser desfeita.",
   "This code expired before the link finished. Generate a new code to try again.": "Este c\xF3digo expirou antes de a liga\xE7\xE3o ser conclu\xEDda. Gere um novo c\xF3digo para tentar novamente.",
@@ -7237,10 +7138,10 @@ var pt = {
   "This file type isn't accepted by this server.": "Este tipo de ficheiro n\xE3o \xE9 aceite por este servidor.",
   "This note could not be processed and was skipped.": "Esta nota n\xE3o p\xF4de ser processada e foi ignorada.",
   "This server is self-hosted, so feedback is not collected here. ": "Este servidor \xE9 alojado localmente, portanto, n\xE3o s\xE3o recolhidos dados aqui. ",
+  "This server isn't accepting this attachment for your account.": "Este servidor n\xE3o aceita este anexo para a sua conta.",
   "This vault": "Este cofre",
   "This vault is empty on the server. Upload your {what}?": "Este cofre est\xE1 vazio no servidor. Deseja enviar {what}?",
   "Too large for the server": "Demasiado grande para o servidor",
-  "Too many connected AI clients. Disconnect one or upgrade.": "Demasiados clientes de IA conectados. Desconecte um ou fa\xE7a uma atualiza\xE7\xE3o.",
   "Too many connected Obsidian vaults. Disconnect one or upgrade.": "Demasiados cofres Obsidian conectados. Desconecte um ou fa\xE7a uma atualiza\xE7\xE3o.",
   "Too many requests. Wait a moment and try again.": "Demasiadas solicita\xE7\xF5es. Aguarde um momento e tente novamente.",
   "Type {keyword} to confirm:": "Introduza {keyword} para confirmar:",
@@ -7327,10 +7228,15 @@ var pt = {
     many: "{count} anexos",
     other: "{count} anexos"
   },
-  "{count} attachments need a paid plan to sync. See Sync Center.": {
-    one: "{count} anexo necessita de um plano pago para sincronizar. Consulte o Centro de sincroniza\xE7\xE3o.",
-    many: "{count} anexos requerem um plano pago para sincronizar. Consulte o Centro de sincroniza\xE7\xE3o.",
-    other: "{count} anexos necessitam de um plano pago para sincronizar. Consulte o Centro de sincroniza\xE7\xE3o."
+  "{count} attachments skipped. See Sync Center.": {
+    one: "{count} anexo ignorado. Consulte o Centro de sincroniza\xE7\xE3o.",
+    many: "{count} anexos ignorados. Consulte o Centro de sincroniza\xE7\xE3o.",
+    other: "{count} anexos ignorados. Consulte o Centro de sincroniza\xE7\xE3o."
+  },
+  "{count} attachments will be skipped: this server only accepts text files.": {
+    one: "{count} anexo ser\xE1 ignorado: este servidor s\xF3 aceita ficheiros de texto.",
+    many: "{count} anexos ser\xE3o ignorados: este servidor s\xF3 aceita ficheiros de texto.",
+    other: "{count} anexos ser\xE3o ignorados: este servidor s\xF3 aceita ficheiros de texto."
   },
   "{count} attempts": {
     one: "{count} tentativas",
@@ -7428,10 +7334,10 @@ var pt = {
   },
   "\u2717 couldn't reach a server at this URL": "\u2717 N\xE3o foi poss\xEDvel contactar um servidor neste URL",
   "\u2717 server responded but isn't an Engram server": "\u2717 O servidor respondeu, mas n\xE3o \xE9 um servidor Engram",
-  "\u2933 {count} skipped (Free plan)": {
-    one: "\u2933 {count} ignorado (Plano gratuito)",
-    many: "\u2933 {count} ignorados (Plano gratuito)",
-    other: "\u2933 {count} ignorados (Plano gratuito)"
+  "\u2933 {count} skipped": {
+    one: "\u2933 {count} ignorado",
+    many: "\u2933 {count} ignorados",
+    other: "\u2933 {count} ignorados"
   },
   "\u{1F44B} Welcome": "\u{1F44B} Bem-vindo",
   "\u{1F4AC} Feedback": "\u{1F4AC} Feedback",
@@ -7453,7 +7359,6 @@ var ptBR = {
   "1. Make an account": "1. Crie uma conta",
   "10 GB attachments": "10 GB de anexos",
   "10 vaults, unlimited devices": "10 Cofres, dispositivos ilimitados",
-  "2,000 notes searchable": "2.000 notas pesquis\xE1veis",
   "2. Connect your vault to Engram": "2. Conecte seu cofre ao Engram",
   "3. Connect your AI": "3. Conecte sua IA",
   "50 GB attachments": "50 GB de anexos",
@@ -7462,9 +7367,8 @@ var ptBR = {
   "A temporary server problem \u2014 retrying automatically.": "Um problema tempor\xE1rio no servidor \u2014 tentando novamente automaticamente.",
   "AI / MCP setup guide": "Guia de configura\xE7\xE3o de IA / MCP",
   "AI searches": "Pesquisas de IA",
-  "API access": "Acesso \xE0 API",
   "API key": "Chave de API",
-  "API keys need a Pro plan. Sign in with your Engram account instead.": "As chaves de API precisam de um plano Pro. Fa\xE7a login com sua conta Engram em vez disso.",
+  "API key access is turned off for this account. Sign in with your Engram account instead.": "O acesso \xE0 chave da API est\xE1 desativado para esta conta. Fa\xE7a login com sua conta Engram em vez disso.",
   About: "Sobre",
   "Accept it to keep syncing.": "Aceite para continuar sincronizando.",
   "Access token": "Token de acesso",
@@ -7476,14 +7380,13 @@ var ptBR = {
   "Advanced sync options": "Op\xE7\xF5es avan\xE7adas de sincroniza\xE7\xE3o",
   "All synced. Your vault and the cloud now match.": "Tudo sincronizado. Seu cofre e a nuvem agora est\xE3o id\xEAnticos.",
   "Already in sync. Nothing is deleted.": "J\xE1 est\xE1 sincronizado. Nada \xE9 exclu\xEDdo.",
-  "Already signed in on another device. Upgrade for multi-device.": "J\xE1 conectado em outro dispositivo. Fa\xE7a um upgrade para acesso em m\xFAltiplos dispositivos.",
   "Already up to date. Nothing needed syncing.": "J\xE1 est\xE1 atualizado. N\xE3o h\xE1 nada para sincronizar.",
   "An unexpected error \u2014 retrying automatically.": "Um erro inesperado \u2014 tentando novamente automaticamente.",
+  "Attachment not accepted": "Anexo n\xE3o aceito",
   "Attachment storage full": "Armazenamento de anexos cheio",
   "Attachment storage is full \u2014 upgrade for more.": "O armazenamento de anexos est\xE1 cheio \u2014 fa\xE7a um upgrade para mais espa\xE7o.",
   "Attachment sync is disabled for this account.": "A sincroniza\xE7\xE3o de anexos est\xE1 desativada para esta conta.",
   Attachments: "Anexos",
-  "Attachments need a paid plan": "Anexos requerem um plano pago",
   "Attachments on this device": "Anexos neste dispositivo",
   "Authenticated via Engram account (OAuth).": "Autenticado via conta Engram (OAuth).",
   "Authenticated via manual API key.": "Autenticado via chave de API manual.",
@@ -7534,7 +7437,7 @@ var ptBR = {
   "Create a hosted account at {signup}, or self-host the server ({guide}).": "Crie uma conta hospedada em {signup}, ou hospede o servidor voc\xEA mesmo ({guide}).",
   "Create a new empty vault on the server, then sync this Obsidian vault into it.": "Crie um novo cofre vazio no servidor e, em seguida, sincronize este cofre Obsidian para ele.",
   "Custom patterns": "Padr\xF5es personalizados",
-  "Daily AI search limit reached. Free includes 20 per day across Obsidian, the web app and MCP. Upgrade for unlimited.": "Limite di\xE1rio de buscas por IA atingido. A vers\xE3o gratuita inclui 20 por dia, distribu\xEDdos entre Obsidian, o aplicativo web e MCP. Fa\xE7a um upgrade para acesso ilimitado.",
+  "Daily AI search limit reached. Free searches are shared across Obsidian, the web app and MCP. Upgrade for unlimited.": "Limite di\xE1rio de buscas por IA atingido. As buscas gratuitas s\xE3o compartilhadas entre o Obsidian, o aplicativo web e o MCP. Assine para ter buscas ilimitadas.",
   "Dart tool cache": "Cache de ferramentas Dart",
   "Debug (verbose)": "Debug (detalhado)",
   "Delete all local files, then download from remote": "Exclua todos os arquivos locais, depois baixe do remoto",
@@ -7561,6 +7464,7 @@ var ptBR = {
     many: "Excluindo {count} na nuvem.",
     other: "Excluindo {count} na nuvem."
   },
+  "Device limit reached. Disconnect a device or upgrade.": "Limite de dispositivos atingido. Desconecte um dispositivo ou fa\xE7a um upgrade.",
   "Device swap cooldown active. Wait or upgrade.": "Per\xEDodo de espera para troca de dispositivo ativo. Aguarde ou fa\xE7a um upgrade.",
   Diagnostics: "Diagn\xF3sticos",
   "Diagnostics detail": "Detalhes dos diagn\xF3sticos",
@@ -7609,7 +7513,6 @@ var ptBR = {
   "Engram Sync: {details}": "Engram: Sincroniza\xE7\xE3o: {details}",
   "Engram URL": "URL do Engram",
   "Engram Vault Sync {version} is available. {link}.": "Engram Vault Sync {version} est\xE1 dispon\xEDvel. {link}.",
-  "Engram indexes {indexed} of your {all} notes. The rest match on this device only. Upgrade to index everything.": "Engram indexa {indexed} de suas {all} notas. O restante s\xF3 corresponde neste dispositivo. Fa\xE7a um upgrade para indexar tudo.",
   "Engram is the backend that powers sync and semantic search.": "Engram \xE9 o backend que alimenta a sincroniza\xE7\xE3o e a busca sem\xE2ntica.",
   "Engram search": "Engram: pesquisa",
   "Engram server changed \u2014 sign in again to continue.": "Servidor Engram alterado \u2014 fa\xE7a login novamente para continuar.",
@@ -7659,10 +7562,10 @@ var ptBR = {
   "Engram: this vault no longer exists on the server. Pick or create a vault to continue.": "Engram: este cofre n\xE3o existe mais no servidor. Selecione ou crie um cofre para continuar.",
   "Engram: update required": "Engram: atualiza\xE7\xE3o necess\xE1ria",
   "Engram: your login expired \u2014 open Engram settings to reconnect.": "Engram: sua sess\xE3o expirou \u2014 abra as configura\xE7\xF5es de Engram para reconectar.",
-  "Engram: {count} attachments skipped \u2014 upgrade your plan to sync images & PDFs.": {
-    one: "Engram: {count} anexo ignorado \u2014 atualize seu plano para sincronizar imagens e PDFs.",
-    many: "Engram: {count} anexos ignorados \u2014 atualize seu plano para sincronizar imagens e PDFs.",
-    other: "Engram: {count} anexos ignorados \u2014 atualize seu plano para sincronizar imagens e PDFs."
+  "Engram: {count} attachments skipped. See Sync Center for why.": {
+    one: "Engram: {count} anexo ignorado. Veja a Central de sincroniza\xE7\xE3o para saber o motivo.",
+    many: "Engram: {count} anexos ignorados. Veja a Central de sincroniza\xE7\xE3o para saber o motivo.",
+    other: "Engram: {count} anexos ignorados. Veja a Central de sincroniza\xE7\xE3o para saber o motivo."
   },
   "Engram: {count} files failed to sync{detail} \u2014 open Sync Center": {
     one: "Engram: {count} arquivo falhou na sincroniza\xE7\xE3o{detail} \u2014 abra a Central de sincroniza\xE7\xE3o",
@@ -7699,12 +7602,6 @@ var ptBR = {
   "Finished with some errors. Open the sync log to see what failed.": "Finalizado com alguns erros. Abra o registro de sincroniza\xE7\xE3o para ver o que falhou.",
   "First sync, this may take a moment.": "Primeira sincroniza\xE7\xE3o, isso pode levar um momento.",
   Free: "Gratuito",
-  "Free syncs notes only \u2014 images & PDFs need a paid plan.": "A sincroniza\xE7\xE3o gratuita sincroniza apenas notas \u2014 imagens e PDFs precisam de um plano pago.",
-  "Free syncs notes only \u2014 {count} attachments will be skipped.": {
-    one: "Sincroniza notas gratuitamente, mas apenas {count} anexo ser\xE1 ignorado.",
-    many: "Sincroniza notas gratuitamente, mas {count} de anexos ser\xE3o ignorados.",
-    other: "Sincroniza notas gratuitamente, mas apenas {count} anexos ser\xE3o sincronizados."
-  },
   "Frontmatter could not be parsed": "N\xE3o foi poss\xEDvel analisar o cabe\xE7alho",
   "Frontmatter isn't valid YAML.": "O frontmatter n\xE3o \xE9 um YAML v\xE1lido.",
   'Frontmatter key "{key}" could not be parsed as YAML.': 'A chave do frontmatter "{key}" n\xE3o p\xF4de ser interpretada como YAML.',
@@ -7765,8 +7662,6 @@ var ptBR = {
   "Note limit reached. Upgrade to keep adding notes.": "Limite de notas atingido. Fa\xE7a um upgrade para continuar adicionando notas.",
   "Note not synced locally": "Nota n\xE3o sincronizada localmente",
   "Notes on this device": "Notas neste dispositivo",
-  "Notes past this still sync and open normally, they are just not in the search index. The index keeps your oldest notes, so it is your newest ones that fall outside.": "As notas ap\xF3s este ponto ainda s\xE3o sincronizadas e abertas normalmente, elas apenas n\xE3o est\xE3o no \xEDndice de pesquisa. O \xEDndice armazena suas notas mais antigas, ent\xE3o s\xE3o as suas notas mais recentes que ficam fora.",
-  "Notes searchable": "Notas pesquis\xE1veis",
   "Notes stored": "Notas armazenadas",
   "Nothing in this vault syncs until you choose how to merge it with the server.": "Nada neste cofre \xE9 sincronizado at\xE9 que voc\xEA escolha como combin\xE1-lo com o servidor.",
   "Nothing is deleted.": "Nada \xE9 exclu\xEDdo.",
@@ -7788,7 +7683,6 @@ var ptBR = {
   "Open the file to resolve the conflict, then sync again.": "Abra o arquivo para resolver o conflito, e sincronize novamente.",
   "Opens your browser to sign in, or create an account if you don't have one yet, then links this vault.": "Abre seu navegador para fazer login ou criar uma conta, se voc\xEA ainda n\xE3o tiver uma, e ent\xE3o vincula este cofre.",
   "Or authenticate with a token instead of signing in.": "Ou autentique com um token em vez de fazer login.",
-  "Or authenticate with a token instead of signing in. Engram Cloud API keys require the Pro plan; on Free and Starter, sign in above.": "Ou autentique com um token em vez de fazer login. As chaves de API Engram exigem o plano Pro; nos planos Free e Starter, fa\xE7a login acima.",
   "Paths to skip (one per line). Folder patterns end with /. Built-in: {configDir}/, .trash/, .git/": "Caminhos a serem ignorados (um por linha). Padr\xF5es de pasta terminam com /. Embutidos: {configDir}/, .trash/, .git/",
   "Pick a vault": "Escolha um cofre",
   "Pick a vault (previous: '{name}' not found)": "Escolha um cofre (anterior: '{name}' n\xE3o encontrado)",
@@ -7832,7 +7726,6 @@ var ptBR = {
   "Search failed \u2014 check connection": "A pesquisa falhou \u2014 verifique a conex\xE3o",
   "Search settings": "Configura\xE7\xF5es de pesquisa",
   "Search your vault\u2026": "Pesquise seu cofre\u2026",
-  "Searching {indexed} of {all} notes. Upgrade to search everything.": "Pesquisando {indexed} de {all} notas. Fa\xE7a um upgrade para pesquisar tudo.",
   "See full pricing": "Ver pre\xE7os completos",
   "See the AI setup guide": "Veja o guia de configura\xE7\xE3o da IA",
   "Select which vault this plugin syncs with.": "Selecione qual cofre este plugin sincroniza.",
@@ -7884,7 +7777,7 @@ var ptBR = {
   "Sync server": "Servidor de sincroniza\xE7\xE3o",
   "Sync these now": "Sincronize isso agora",
   "Sync...": "Sincronizando...",
-  "Synced. Some attachments need a paid plan to sync (see below).": "Sincronizado. Alguns anexos precisam de um plano pago para sincronizar (veja abaixo).",
+  "Synced. Some attachments were skipped (see below).": "Sincronizado. Alguns anexos foram ignorados (veja abaixo).",
   "Syncing attachments": "Sincronizando anexos",
   "Syncing your vault": "Sincronizando seu cofre",
   "Syncing...": "Sincronizando...",
@@ -7897,7 +7790,6 @@ var ptBR = {
   "That does not look like an Engram API key (expected {prefix}\u2026).": "Isso n\xE3o parece ser uma chave de API do Engram (esperado {prefix}\u2026).",
   "The Engram server no longer accepts this plugin version (it needs {version} or newer), so notes are not being sent or received. Changes made on this device stay here until you update.": "O servidor Engram n\xE3o aceita mais esta vers\xE3o do plugin (\xE9 necess\xE1rio {version} ou superior), portanto, as notas n\xE3o est\xE3o sendo enviadas ou recebidas. As altera\xE7\xF5es feitas neste dispositivo permanecem aqui at\xE9 voc\xEA atualizar.",
   "The Engram server no longer accepts this plugin version, so notes are not being sent or received. Changes made on this device stay here until you update.": "O servidor Engram n\xE3o aceita mais esta vers\xE3o do plugin, portanto, as notas n\xE3o est\xE3o sendo enviadas ou recebidas. As altera\xE7\xF5es feitas neste dispositivo permanecem aqui at\xE9 voc\xEA atualizar.",
-  "The Free tier syncs notes only. Upgrade to sync images and PDFs.": "O plano gratuito sincroniza apenas notas. Fa\xE7a um upgrade para sincronizar imagens e PDFs.",
   "The file is over the server's size limit. Compress or split it, then it will sync.": "O arquivo excede o limite de tamanho do servidor. Comprima ou divida-o, ent\xE3o ele ser\xE1 sincronizado.",
   "The file is too large for the server.": "O arquivo \xE9 muito grande para o servidor.",
   "The note synced, but its frontmatter could not be fully parsed. Open it to fix the highlighted line.": "A nota foi sincronizada, mas o cabe\xE7alho n\xE3o p\xF4de ser totalmente analisado. Abra-a para corrigir a linha destacada.",
@@ -7905,7 +7797,7 @@ var ptBR = {
   "The server does not accept this type of file. It will retry if the file changes.": "O servidor n\xE3o aceita este tipo de arquivo. Tentar\xE1 novamente se o arquivo for alterado.",
   "The server lost this file's stored content and will try to restore it. Nothing on this device was changed.": "O servidor perdeu o conte\xFAdo armazenado deste arquivo e tentar\xE1 restaur\xE1-lo. Nada foi alterado neste dispositivo.",
   "The server took too long to respond. Try again.": "O servidor demorou muito para responder. Tente novamente.",
-  "These files are fine. They just need a paid plan to sync.": "Esses arquivos est\xE3o ok. Eles s\xF3 precisam de um plano pago para sincronizar.",
+  "These files are fine. Each card below says why they did not sync.": "Esses arquivos est\xE3o ok. Cada cart\xE3o abaixo explica por que n\xE3o foram sincronizados.",
   "This account was deleted. Contact support if that is wrong.": "Esta conta foi exclu\xEDda. Entre em contato com o suporte se isso estiver incorreto.",
   "This cannot be undone.": "Isso n\xE3o pode ser desfeito.",
   "This code expired before the link finished. Generate a new code to try again.": "Este c\xF3digo expirou antes que o link fosse finalizado. Gere um novo c\xF3digo para tentar novamente.",
@@ -7913,10 +7805,10 @@ var ptBR = {
   "This file type isn't accepted by this server.": "Este tipo de arquivo n\xE3o \xE9 aceito por este servidor.",
   "This note could not be processed and was skipped.": "Esta nota n\xE3o p\xF4de ser processada e foi ignorada.",
   "This server is self-hosted, so feedback is not collected here. ": "Este servidor \xE9 auto-hospedado, portanto, os coment\xE1rios n\xE3o s\xE3o coletados aqui. ",
+  "This server isn't accepting this attachment for your account.": "Este servidor n\xE3o est\xE1 aceitando este anexo para sua conta.",
   "This vault": "Este cofre",
   "This vault is empty on the server. Upload your {what}?": "Este cofre est\xE1 vazio no servidor. Deseja enviar seus {what}?",
   "Too large for the server": "Muito grande para o servidor",
-  "Too many connected AI clients. Disconnect one or upgrade.": "Muitos clientes de IA conectados. Desconecte um ou fa\xE7a um upgrade.",
   "Too many connected Obsidian vaults. Disconnect one or upgrade.": "Muitos cofres Obsidian conectados. Desconecte um ou fa\xE7a um upgrade.",
   "Too many requests. Wait a moment and try again.": "Muitos pedidos. Aguarde um momento e tente novamente.",
   "Type {keyword} to confirm:": "Digite {keyword} para confirmar:",
@@ -8003,10 +7895,15 @@ var ptBR = {
     many: "{count} anexos",
     other: "{count} anexos"
   },
-  "{count} attachments need a paid plan to sync. See Sync Center.": {
-    one: "{count} anexo precisa de um plano pago para sincronizar. Veja a Central de sincroniza\xE7\xE3o.",
-    many: "{count} anexos precisam de um plano pago para sincronizar. Veja a Central de sincroniza\xE7\xE3o.",
-    other: "{count} anexos precisam de um plano pago para sincronizar. Veja a Central de sincroniza\xE7\xE3o."
+  "{count} attachments skipped. See Sync Center.": {
+    one: "{count} anexo ignorado. Veja a Central de sincroniza\xE7\xE3o.",
+    many: "{count} anexos ignorados. Veja a Central de sincroniza\xE7\xE3o.",
+    other: "{count} anexos ignorados. Veja a Central de sincroniza\xE7\xE3o."
+  },
+  "{count} attachments will be skipped: this server only accepts text files.": {
+    one: "{count} anexo ser\xE1 ignorado: este servidor aceita apenas arquivos de texto.",
+    many: "{count} anexos ser\xE3o ignorados: este servidor aceita apenas arquivos de texto.",
+    other: "{count} anexos ser\xE3o ignorados: este servidor aceita apenas arquivos de texto."
   },
   "{count} attempts": {
     one: "{count} tentativa",
@@ -8104,10 +8001,10 @@ var ptBR = {
   },
   "\u2717 couldn't reach a server at this URL": "\u2717 N\xE3o foi poss\xEDvel acessar um servidor neste URL",
   "\u2717 server responded but isn't an Engram server": "\u2717 O servidor respondeu, mas n\xE3o \xE9 um servidor Engram",
-  "\u2933 {count} skipped (Free plan)": {
-    one: "\u2933 {count} ignorado (Plano gratuito)",
-    many: "\u2933 {count} ignorados (Plano gratuito)",
-    other: "\u2933 {count} ignorados (Plano gratuito)"
+  "\u2933 {count} skipped": {
+    one: "\u2933 {count} ignorado",
+    many: "\u2933 {count} ignorados",
+    other: "\u2933 {count} ignorados"
   },
   "\u{1F44B} Welcome": "\u{1F44B} Bem-vindo",
   "\u{1F4AC} Feedback": "\u{1F4AC} Feedback",
@@ -8130,7 +8027,6 @@ var ru = {
   "1. Make an account": "1. \u0421\u043E\u0437\u0434\u0430\u0439\u0442\u0435 \u0443\u0447\u0451\u0442\u043D\u0443\u044E \u0437\u0430\u043F\u0438\u0441\u044C",
   "10 GB attachments": "10 \u0413\u0411 \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0439",
   "10 vaults, unlimited devices": "10 \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449, \u043D\u0435\u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u043D\u043E\u0435 \u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432",
-  "2,000 notes searchable": "2000 \u0437\u0430\u043C\u0435\u0442\u043A\u0438 \u0434\u043B\u044F \u043F\u043E\u0438\u0441\u043A\u0430",
   "2. Connect your vault to Engram": "2. \u041F\u043E\u0434\u043A\u043B\u044E\u0447\u0438\u0442\u0435 \u0432\u0430\u0448\u0435 \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435 \u043A Engram",
   "3. Connect your AI": "3. \u041F\u043E\u0434\u043A\u043B\u044E\u0447\u0438\u0442\u0435 \u0432\u0430\u0448 \u0418\u0418",
   "50 GB attachments": "50 \u0413\u0411 \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0439",
@@ -8139,9 +8035,8 @@ var ru = {
   "A temporary server problem \u2014 retrying automatically.": "\u0412\u0440\u0435\u043C\u0435\u043D\u043D\u0430\u044F \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u0430 \u0441 \u0441\u0435\u0440\u0432\u0435\u0440\u043E\u043C \u2014 \u043F\u043E\u0432\u0442\u043E\u0440\u043D\u0430\u044F \u043F\u043E\u043F\u044B\u0442\u043A\u0430.",
   "AI / MCP setup guide": "\u0420\u0443\u043A\u043E\u0432\u043E\u0434\u0441\u0442\u0432\u043E \u043F\u043E \u043D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0435 \u0418\u0418 / MCP",
   "AI searches": "\u041F\u043E\u0438\u0441\u043A \u043F\u043E \u0418\u0418",
-  "API access": "\u0414\u043E\u0441\u0442\u0443\u043F \u043A API",
   "API key": "\u041A\u043B\u044E\u0447 API",
-  "API keys need a Pro plan. Sign in with your Engram account instead.": "\u0414\u043B\u044F \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F API-\u043A\u043B\u044E\u0447\u0435\u0439 \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044F \u0442\u0430\u0440\u0438\u0444\u043D\u044B\u0439 \u043F\u043B\u0430\u043D Pro. \u0412\u043E\u0439\u0434\u0438\u0442\u0435 \u0432 \u0441\u0438\u0441\u0442\u0435\u043C\u0443, \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u044F \u0441\u0432\u043E\u044E \u0443\u0447\u0451\u0442\u043D\u0443\u044E \u0437\u0430\u043F\u0438\u0441\u044C Engram.",
+  "API key access is turned off for this account. Sign in with your Engram account instead.": "\u0414\u043E\u0441\u0442\u0443\u043F \u043A API-\u043A\u043B\u044E\u0447\u0443 \u043E\u0442\u043A\u043B\u044E\u0447\u0451\u043D \u0434\u043B\u044F \u044D\u0442\u043E\u0439 \u0443\u0447\u0451\u0442\u043D\u043E\u0439 \u0437\u0430\u043F\u0438\u0441\u0438. \u0412\u043E\u0439\u0434\u0438\u0442\u0435 \u0441 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435\u043C \u0432\u0430\u0448\u0435\u0439 \u0443\u0447\u0451\u0442\u043D\u043E\u0439 \u0437\u0430\u043F\u0438\u0441\u0438 Engram.",
   About: "\u041E \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0435",
   "Accept it to keep syncing.": "\u041F\u0440\u0438\u043C\u0438\u0442\u0435 \u0435\u0433\u043E, \u0447\u0442\u043E\u0431\u044B \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u044E.",
   "Access token": "\u0422\u043E\u043A\u0435\u043D \u0434\u043E\u0441\u0442\u0443\u043F\u0430",
@@ -8153,14 +8048,13 @@ var ru = {
   "Advanced sync options": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u043D\u044B\u0435 \u043F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u0438",
   "All synced. Your vault and the cloud now match.": "\u0412\u0441\u0451 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u043D\u043E. \u0412\u0430\u0448\u0435 \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435 \u0438 \u043E\u0431\u043B\u0430\u043A\u043E \u0442\u0435\u043F\u0435\u0440\u044C \u0441\u043E\u0432\u043F\u0430\u0434\u0430\u044E\u0442.",
   "Already in sync. Nothing is deleted.": "\u0423\u0436\u0435 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u043D\u043E. \u041D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u0431\u0443\u0434\u0435\u0442 \u0443\u0434\u0430\u043B\u0435\u043D\u043E.",
-  "Already signed in on another device. Upgrade for multi-device.": "\u0412\u044B \u0443\u0436\u0435 \u0432\u043E\u0448\u043B\u0438 \u043D\u0430 \u0434\u0440\u0443\u0433\u043E\u043C \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u0435. \u041E\u0431\u043D\u043E\u0432\u0438\u0442\u0435 \u0442\u0430\u0440\u0438\u0444 \u0434\u043B\u044F \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438 \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u0438\u0445 \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432.",
   "Already up to date. Nothing needed syncing.": "\u0423\u0436\u0435 \u0430\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u043E. \u0421\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u044F \u043D\u0435 \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044F.",
   "An unexpected error \u2014 retrying automatically.": "\u041D\u0435\u043E\u0436\u0438\u0434\u0430\u043D\u043D\u0430\u044F \u043E\u0448\u0438\u0431\u043A\u0430 \u2014 \u043F\u043E\u0432\u0442\u043E\u0440\u043D\u0430\u044F \u043F\u043E\u043F\u044B\u0442\u043A\u0430.",
+  "Attachment not accepted": "\u0412\u043B\u043E\u0436\u0435\u043D\u0438\u0435 \u043D\u0435 \u043F\u0440\u0438\u043D\u044F\u0442\u043E",
   "Attachment storage full": "\u041C\u0435\u0441\u0442\u043E \u0434\u043B\u044F \u0445\u0440\u0430\u043D\u0435\u043D\u0438\u044F \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0439 \u0437\u0430\u043F\u043E\u043B\u043D\u0435\u043D\u043E",
   "Attachment storage is full \u2014 upgrade for more.": "\u041C\u0435\u0441\u0442\u043E \u0434\u043B\u044F \u0445\u0440\u0430\u043D\u0435\u043D\u0438\u044F \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0439 \u0437\u0430\u043F\u043E\u043B\u043D\u0435\u043D\u043E \u2014 \u043E\u0431\u043D\u043E\u0432\u0438\u0442\u0435 \u0442\u0430\u0440\u0438\u0444 \u0434\u043B\u044F \u0443\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u0438\u044F.",
   "Attachment sync is disabled for this account.": "\u0421\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u044F \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0439 \u043E\u0442\u043A\u043B\u044E\u0447\u0435\u043D\u0430 \u0434\u043B\u044F \u044D\u0442\u043E\u0439 \u0443\u0447\u0451\u0442\u043D\u043E\u0439 \u0437\u0430\u043F\u0438\u0441\u0438.",
   Attachments: "\u0412\u043B\u043E\u0436\u0435\u043D\u0438\u044F",
-  "Attachments need a paid plan": "\u0412\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0442\u0440\u0435\u0431\u0443\u044E\u0442 \u043F\u043B\u0430\u0442\u043D\u043E\u0439 \u043F\u043E\u0434\u043F\u0438\u0441\u043A\u0438",
   "Attachments on this device": "\u0412\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u043D\u0430 \u044D\u0442\u043E\u043C \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u0435",
   "Authenticated via Engram account (OAuth).": "\u0410\u0443\u0442\u0435\u043D\u0442\u0438\u0444\u0438\u043A\u0430\u0446\u0438\u044F \u0447\u0435\u0440\u0435\u0437 \u0430\u043A\u043A\u0430\u0443\u043D\u0442 Engram (OAuth).",
   "Authenticated via manual API key.": "\u0410\u0443\u0442\u0435\u043D\u0442\u0438\u0444\u0438\u043A\u0430\u0446\u0438\u044F \u0447\u0435\u0440\u0435\u0437 \u0440\u0443\u0447\u043D\u043E\u0439 API-\u043A\u043B\u044E\u0447.",
@@ -8211,7 +8105,7 @@ var ru = {
   "Create a hosted account at {signup}, or self-host the server ({guide}).": "\u0421\u043E\u0437\u0434\u0430\u0439\u0442\u0435 \u0443\u0447\u0451\u0442\u043D\u0443\u044E \u0437\u0430\u043F\u0438\u0441\u044C \u043D\u0430 {signup} \u0438\u043B\u0438 \u043D\u0430\u0441\u0442\u0440\u043E\u0439\u0442\u0435 \u0441\u0435\u0440\u0432\u0435\u0440 \u0441\u0430\u043C\u043E\u0441\u0442\u043E\u044F\u0442\u0435\u043B\u044C\u043D\u043E ({guide}).",
   "Create a new empty vault on the server, then sync this Obsidian vault into it.": "\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u043D\u043E\u0432\u043E\u0435 \u043F\u0443\u0441\u0442\u043E\u0435 \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435 \u043D\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u0435, \u0437\u0430\u0442\u0435\u043C \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0441 \u043D\u0438\u043C \u0432\u0430\u0448\u0435 \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435 Obsidian.",
   "Custom patterns": "\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u0441\u043A\u0438\u0435 \u043F\u0440\u0430\u0432\u0438\u043B\u0430",
-  "Daily AI search limit reached. Free includes 20 per day across Obsidian, the web app and MCP. Upgrade for unlimited.": "\u0414\u043E\u0441\u0442\u0438\u0433\u043D\u0443\u0442 \u0434\u043D\u0435\u0432\u043D\u043E\u0439 \u043B\u0438\u043C\u0438\u0442 \u043F\u043E\u0438\u0441\u043A\u0430 \u043F\u043E \u0418\u0418. \u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u0442\u0430\u0440\u0438\u0444 \u0432\u043A\u043B\u044E\u0447\u0430\u0435\u0442 20 \u0437\u0430\u043F\u0440\u043E\u0441\u043E\u0432 \u0432 \u0434\u0435\u043D\u044C \u0434\u043B\u044F Obsidian, \u0432\u0435\u0431-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0438 MCP. \u041E\u0431\u043D\u043E\u0432\u0438\u0442\u0435 \u0442\u0430\u0440\u0438\u0444 \u0434\u043B\u044F \u043D\u0435\u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u043D\u043E\u0433\u043E \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F.",
+  "Daily AI search limit reached. Free searches are shared across Obsidian, the web app and MCP. Upgrade for unlimited.": "\u041F\u0440\u0435\u0434\u0435\u043B \u0435\u0436\u0435\u0434\u043D\u0435\u0432\u043D\u044B\u0445 \u0437\u0430\u043F\u0440\u043E\u0441\u043E\u0432 \u043A \u0418\u0418 \u043F\u0440\u0435\u0432\u044B\u0448\u0435\u043D. \u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0435 \u0437\u0430\u043F\u0440\u043E\u0441\u044B \u0440\u0430\u0441\u043F\u0440\u0435\u0434\u0435\u043B\u0435\u043D\u044B \u043C\u0435\u0436\u0434\u0443 Obsidian, \u0432\u0435\u0431-\u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435\u043C \u0438 MCP. \u041E\u0431\u043D\u043E\u0432\u0438\u0442\u0435 \u043F\u043E\u0434\u043F\u0438\u0441\u043A\u0443 \u0434\u043B\u044F \u043D\u0435\u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u043D\u043E\u0433\u043E \u0434\u043E\u0441\u0442\u0443\u043F\u0430.",
   "Dart tool cache": "\u041A\u044D\u0448 \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u043E\u0432 Dart",
   "Debug (verbose)": "\u041E\u0442\u043B\u0430\u0434\u043A\u0430 (\u043F\u043E\u0434\u0440\u043E\u0431\u043D\u0430\u044F)",
   "Delete all local files, then download from remote": "\u0423\u0434\u0430\u043B\u0438\u0442\u044C \u0432\u0441\u0435 \u043B\u043E\u043A\u0430\u043B\u044C\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B, \u0437\u0430\u0442\u0435\u043C \u0437\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C \u0438\u0437 \u0443\u0434\u0430\u043B\u0451\u043D\u043D\u043E\u0433\u043E \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0430",
@@ -8242,6 +8136,7 @@ var ru = {
     many: "\u0423\u0434\u0430\u043B\u0435\u043D\u0438\u0435 {count} \u0444\u0430\u0439\u043B\u043E\u0432 \u0438\u0437 \u043E\u0431\u043B\u0430\u043A\u0430.",
     other: "\u0423\u0434\u0430\u043B\u0435\u043D\u0438\u0435 \u0432\u0435\u0440\u0441\u0438\u0438 {count} \u0438\u0437 \u043E\u0431\u043B\u0430\u043A\u0430."
   },
+  "Device limit reached. Disconnect a device or upgrade.": "\u0414\u043E\u0441\u0442\u0438\u0433\u043D\u0443\u0442 \u043B\u0438\u043C\u0438\u0442 \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432. \u041E\u0442\u043A\u043B\u044E\u0447\u0438\u0442\u0435 \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u043E \u0438\u043B\u0438 \u043E\u0431\u043D\u043E\u0432\u0438\u0442\u0435 \u043F\u043E\u0434\u043F\u0438\u0441\u043A\u0443.",
   "Device swap cooldown active. Wait or upgrade.": "\u0410\u043A\u0442\u0438\u0432\u0435\u043D \u043F\u0435\u0440\u0438\u043E\u0434 \u043E\u0436\u0438\u0434\u0430\u043D\u0438\u044F \u043F\u0440\u0438 \u0441\u043C\u0435\u043D\u0435 \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u0430. \u041F\u043E\u0434\u043E\u0436\u0434\u0438\u0442\u0435 \u0438\u043B\u0438 \u043E\u0431\u043D\u043E\u0432\u0438\u0442\u0435 \u0442\u0430\u0440\u0438\u0444.",
   Diagnostics: "\u0414\u0438\u0430\u0433\u043D\u043E\u0441\u0442\u0438\u043A\u0430",
   "Diagnostics detail": "\u041F\u043E\u0434\u0440\u043E\u0431\u043D\u043E\u0441\u0442\u0438 \u0434\u0438\u0430\u0433\u043D\u043E\u0441\u0442\u0438\u043A\u0438",
@@ -8295,7 +8190,6 @@ var ru = {
   "Engram Sync: {details}": "\u0421\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u044F \u0441 Engram: {details}",
   "Engram URL": "URL Engram",
   "Engram Vault Sync {version} is available. {link}.": "Engram Vault Sync {version} \u0434\u043E\u0441\u0442\u0443\u043F\u0435\u043D. {link}.",
-  "Engram indexes {indexed} of your {all} notes. The rest match on this device only. Upgrade to index everything.": "Engram \u0438\u043D\u0434\u0435\u043A\u0441\u0438\u0440\u0443\u0435\u0442 {indexed} \u0438\u0437 \u0432\u0430\u0448\u0438\u0445 {all} \u0437\u0430\u043C\u0435\u0442\u043E\u043A. \u041E\u0441\u0442\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u043E\u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u044F \u043D\u0430\u0445\u043E\u0434\u044F\u0442\u0441\u044F \u0442\u043E\u043B\u044C\u043A\u043E \u043D\u0430 \u044D\u0442\u043E\u043C \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u0435. \u041E\u0431\u043D\u043E\u0432\u0438\u0442\u0435, \u0447\u0442\u043E\u0431\u044B \u0438\u043D\u0434\u0435\u043A\u0441\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0432\u0441\u0451.",
   "Engram is the backend that powers sync and semantic search.": "Engram \u2014 \u044D\u0442\u043E \u0441\u0435\u0440\u0432\u0435\u0440\u043D\u0430\u044F \u0447\u0430\u0441\u0442\u044C, \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u0432\u0430\u044E\u0449\u0430\u044F \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u044E \u0438 \u0441\u043C\u044B\u0441\u043B\u043E\u0432\u043E\u0439 \u043F\u043E\u0438\u0441\u043A.",
   "Engram search": "\u041F\u043E\u0438\u0441\u043A \u043F\u043E Engram",
   "Engram server changed \u2014 sign in again to continue.": "\u0421\u0435\u0440\u0432\u0435\u0440 Engram \u0438\u0437\u043C\u0435\u043D\u0451\u043D \u2014 \u0432\u043E\u0439\u0434\u0438\u0442\u0435 \u0441\u043D\u043E\u0432\u0430, \u0447\u0442\u043E\u0431\u044B \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C.",
@@ -8347,11 +8241,11 @@ var ru = {
   "Engram: this vault no longer exists on the server. Pick or create a vault to continue.": "Engram: \u044D\u0442\u043E \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435 \u0431\u043E\u043B\u044C\u0448\u0435 \u043D\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442 \u043D\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u0435. \u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0438\u043B\u0438 \u0441\u043E\u0437\u0434\u0430\u0439\u0442\u0435 \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435, \u0447\u0442\u043E\u0431\u044B \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C.",
   "Engram: update required": "Engram: \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044F \u043E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u0435",
   "Engram: your login expired \u2014 open Engram settings to reconnect.": "Engram: \u0432\u0430\u0448 \u0441\u0435\u0430\u043D\u0441 \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043D \u2014 \u043E\u0442\u043A\u0440\u043E\u0439\u0442\u0435 \u043D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 Engram, \u0447\u0442\u043E\u0431\u044B \u043F\u043E\u0434\u043A\u043B\u044E\u0447\u0438\u0442\u044C\u0441\u044F \u0437\u0430\u043D\u043E\u0432\u043E.",
-  "Engram: {count} attachments skipped \u2014 upgrade your plan to sync images & PDFs.": {
-    one: "Engram: \u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0435 \u2014 \u043E\u0431\u043D\u043E\u0432\u0438\u0442\u0435 \u0441\u0432\u043E\u0439 \u0442\u0430\u0440\u0438\u0444, \u0447\u0442\u043E\u0431\u044B \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u0438 PDF-\u0444\u0430\u0439\u043B\u044B.",
-    few: "Engram: \u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u2014 \u043E\u0431\u043D\u043E\u0432\u0438\u0442\u0435 \u0441\u0432\u043E\u0439 \u0442\u0430\u0440\u0438\u0444, \u0447\u0442\u043E\u0431\u044B \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u0438 PDF-\u0444\u0430\u0439\u043B\u044B.",
-    many: "Engram: \u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0439 \u2014 \u043E\u0431\u043D\u043E\u0432\u0438\u0442\u0435 \u0441\u0432\u043E\u0439 \u0442\u0430\u0440\u0438\u0444, \u0447\u0442\u043E\u0431\u044B \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u0438 PDF-\u0444\u0430\u0439\u043B\u044B.",
-    other: "Engram: \u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0439 \u2014 \u043E\u0431\u043D\u043E\u0432\u0438\u0442\u0435 \u0441\u0432\u043E\u0439 \u0442\u0430\u0440\u0438\u0444, \u0447\u0442\u043E\u0431\u044B \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u0438 PDF-\u0444\u0430\u0439\u043B\u044B."
+  "Engram: {count} attachments skipped. See Sync Center for why.": {
+    one: "Engram: \u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0435. \u041F\u043E\u0434\u0440\u043E\u0431\u043D\u043E\u0441\u0442\u0438 \u0432 \u0426\u0435\u043D\u0442\u0440\u0435 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u0438.",
+    few: "Engram: \u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044F. \u041F\u043E\u0434\u0440\u043E\u0431\u043D\u043E\u0441\u0442\u0438 \u0432 \u0426\u0435\u043D\u0442\u0440\u0435 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u0438.",
+    many: "Engram: \u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0439. \u041F\u043E\u0434\u0440\u043E\u0431\u043D\u043E\u0441\u0442\u0438 \u0432 \u0426\u0435\u043D\u0442\u0440\u0435 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u0438.",
+    other: "Engram: \u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0439. \u041F\u043E\u0434\u0440\u043E\u0431\u043D\u043E\u0441\u0442\u0438 \u0432 \u0426\u0435\u043D\u0442\u0440\u0435 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u0438."
   },
   "Engram: {count} files failed to sync{detail} \u2014 open Sync Center": {
     one: "Engram: \u041D\u0435 \u0443\u0434\u0430\u043B\u043E\u0441\u044C \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u0442\u044C {count} \u0444\u0430\u0439\u043B{detail} \u2014 \u043E\u0442\u043A\u0440\u043E\u0439\u0442\u0435 \u0426\u0435\u043D\u0442\u0440 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u0438",
@@ -8391,13 +8285,6 @@ var ru = {
   "Finished with some errors. Open the sync log to see what failed.": "\u0417\u0430\u0432\u0435\u0440\u0448\u0435\u043D\u043E \u0441 \u043E\u0448\u0438\u0431\u043A\u0430\u043C\u0438. \u041E\u0442\u043A\u0440\u043E\u0439\u0442\u0435 \u0436\u0443\u0440\u043D\u0430\u043B \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u0438, \u0447\u0442\u043E\u0431\u044B \u0443\u0437\u043D\u0430\u0442\u044C, \u0447\u0442\u043E \u043D\u0435 \u0443\u0434\u0430\u043B\u043E\u0441\u044C.",
   "First sync, this may take a moment.": "\u041F\u0435\u0440\u0432\u0430\u044F \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u044F, \u044D\u0442\u043E \u043C\u043E\u0436\u0435\u0442 \u0437\u0430\u043D\u044F\u0442\u044C \u043D\u0435\u043A\u043E\u0442\u043E\u0440\u043E\u0435 \u0432\u0440\u0435\u043C\u044F.",
   Free: "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E",
-  "Free syncs notes only \u2014 images & PDFs need a paid plan.": "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u0430\u044F \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u044F \u0442\u043E\u043B\u044C\u043A\u043E \u0434\u043B\u044F \u0437\u0430\u043C\u0435\u0442\u043E\u043A \u2014 \u0434\u043B\u044F \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0439 \u0438 PDF \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044F \u043F\u043B\u0430\u0442\u043D\u0430\u044F \u043F\u043E\u0434\u043F\u0438\u0441\u043A\u0430.",
-  "Free syncs notes only \u2014 {count} attachments will be skipped.": {
-    one: "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u043F\u043B\u0430\u043D \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u0443\u0435\u0442 \u0442\u043E\u043B\u044C\u043A\u043E \u0437\u0430\u043C\u0435\u0442\u043A\u0438, {count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0435 \u0431\u0443\u0434\u0435\u0442 \u043F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E.",
-    few: "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u043F\u043B\u0430\u043D \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u0443\u0435\u0442 \u0442\u043E\u043B\u044C\u043A\u043E \u0437\u0430\u043C\u0435\u0442\u043A\u0438, {count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0431\u0443\u0434\u0443\u0442 \u043F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u044B.",
-    many: "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u043F\u043B\u0430\u043D \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u0443\u0435\u0442 \u0442\u043E\u043B\u044C\u043A\u043E \u0437\u0430\u043C\u0435\u0442\u043A\u0438, {count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0439 \u0431\u0443\u0434\u0443\u0442 \u043F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u044B.",
-    other: "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u043F\u043B\u0430\u043D \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u0443\u0435\u0442 \u0442\u043E\u043B\u044C\u043A\u043E \u0437\u0430\u043C\u0435\u0442\u043A\u0438, {count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0439 \u0431\u0443\u0434\u0443\u0442 \u043F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u044B."
-  },
   "Frontmatter could not be parsed": "\u041D\u0435 \u0443\u0434\u0430\u043B\u043E\u0441\u044C \u043E\u0431\u0440\u0430\u0431\u043E\u0442\u0430\u0442\u044C \u043C\u0435\u0442\u0430\u0434\u0430\u043D\u043D\u044B\u0435",
   "Frontmatter isn't valid YAML.": "\u0417\u0430\u0433\u043E\u043B\u043E\u0432\u043E\u043A \u043D\u0435 \u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u0434\u043E\u043F\u0443\u0441\u0442\u0438\u043C\u044B\u043C YAML.",
   'Frontmatter key "{key}" could not be parsed as YAML.': '\u041A\u043B\u044E\u0447 \u0432 \u0437\u0430\u0433\u043E\u043B\u043E\u0432\u043A\u0435 "{key}" \u043D\u0435 \u0443\u0434\u0430\u043B\u043E\u0441\u044C \u043E\u0431\u0440\u0430\u0431\u043E\u0442\u0430\u0442\u044C \u043A\u0430\u043A YAML.',
@@ -8458,8 +8345,6 @@ var ru = {
   "Note limit reached. Upgrade to keep adding notes.": "\u0414\u043E\u0441\u0442\u0438\u0433\u043D\u0443\u0442 \u043B\u0438\u043C\u0438\u0442 \u0437\u0430\u043C\u0435\u0442\u043E\u043A. \u041E\u0431\u043D\u043E\u0432\u0438\u0442\u0435 \u043F\u043E\u0434\u043F\u0438\u0441\u043A\u0443, \u0447\u0442\u043E\u0431\u044B \u0434\u043E\u0431\u0430\u0432\u043B\u044F\u0442\u044C \u0431\u043E\u043B\u044C\u0448\u0435 \u0437\u0430\u043C\u0435\u0442\u043E\u043A.",
   "Note not synced locally": "\u0417\u0430\u043C\u0435\u0442\u043A\u0430 \u043D\u0435 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u043D\u0430 \u043B\u043E\u043A\u0430\u043B\u044C\u043D\u043E",
   "Notes on this device": "\u0417\u0430\u043C\u0435\u0442\u043A\u0438 \u043D\u0430 \u044D\u0442\u043E\u043C \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u0435",
-  "Notes past this still sync and open normally, they are just not in the search index. The index keeps your oldest notes, so it is your newest ones that fall outside.": "\u0417\u0430\u043C\u0435\u0442\u043A\u0438, \u0440\u0430\u0441\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u043D\u044B\u0435 \u043F\u043E\u0441\u043B\u0435 \u044D\u0442\u043E\u0439 \u0442\u043E\u0447\u043A\u0438, \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u0443\u044E\u0442\u0441\u044F \u0438 \u043E\u0442\u043A\u0440\u044B\u0432\u0430\u044E\u0442\u0441\u044F \u043D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u043E, \u043D\u043E \u043E\u043D\u0438 \u043D\u0435 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u044B \u0432 \u0438\u043D\u0434\u0435\u043A\u0441 \u043F\u043E\u0438\u0441\u043A\u0430. \u0418\u043D\u0434\u0435\u043A\u0441 \u0441\u043E\u0434\u0435\u0440\u0436\u0438\u0442 \u0432\u0430\u0448\u0438 \u0441\u0442\u0430\u0440\u044B\u0435 \u0437\u0430\u043C\u0435\u0442\u043A\u0438, \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u043D\u043E\u0432\u044B\u0435 \u0437\u0430\u043C\u0435\u0442\u043A\u0438 \u043D\u0435 \u043F\u043E\u043F\u0430\u0434\u0430\u044E\u0442 \u0432 \u043D\u0435\u0433\u043E.",
-  "Notes searchable": "\u0417\u0430\u043C\u0435\u0442\u043A\u0438 \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u044B \u0434\u043B\u044F \u043F\u043E\u0438\u0441\u043A\u0430",
   "Notes stored": "\u0417\u0430\u043C\u0435\u0442\u043A\u0438 \u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u044B",
   "Nothing in this vault syncs until you choose how to merge it with the server.": "\u041D\u0438\u0447\u0435\u0433\u043E \u0438\u0437 \u044D\u0442\u043E\u0433\u043E \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0430 \u043D\u0435 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u0443\u0435\u0442\u0441\u044F, \u043F\u043E\u043A\u0430 \u0432\u044B \u043D\u0435 \u0432\u044B\u0431\u0435\u0440\u0435\u0442\u0435, \u043A\u0430\u043A \u043E\u0431\u044A\u0435\u0434\u0438\u043D\u0438\u0442\u044C \u0435\u0433\u043E \u0441 \u0441\u0435\u0440\u0432\u0435\u0440\u043E\u043C.",
   "Nothing is deleted.": "\u041D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u0431\u0443\u0434\u0435\u0442 \u0443\u0434\u0430\u043B\u0435\u043D\u043E.",
@@ -8481,7 +8366,6 @@ var ru = {
   "Open the file to resolve the conflict, then sync again.": "\u041E\u0442\u043A\u0440\u043E\u0439\u0442\u0435 \u0444\u0430\u0439\u043B \u0434\u043B\u044F \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043D\u0438\u044F \u043A\u043E\u043D\u0444\u043B\u0438\u043A\u0442\u0430, \u0437\u0430\u0442\u0435\u043C \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u0443\u0439\u0442\u0435 \u0441\u043D\u043E\u0432\u0430.",
   "Opens your browser to sign in, or create an account if you don't have one yet, then links this vault.": "\u041E\u0442\u043A\u0440\u043E\u0435\u0442 \u0432\u0430\u0448 \u0431\u0440\u0430\u0443\u0437\u0435\u0440 \u0434\u043B\u044F \u0432\u0445\u043E\u0434\u0430 \u0438\u043B\u0438 \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044F \u0443\u0447\u0451\u0442\u043D\u043E\u0439 \u0437\u0430\u043F\u0438\u0441\u0438, \u0435\u0441\u043B\u0438 \u0435\u0451 \u0443 \u0432\u0430\u0441 \u0435\u0449\u0451 \u043D\u0435\u0442, \u0430 \u0437\u0430\u0442\u0435\u043C \u0441\u0432\u044F\u0436\u0435\u0442 \u044D\u0442\u043E \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435.",
   "Or authenticate with a token instead of signing in.": "\u0418\u043B\u0438 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435 \u0442\u043E\u043A\u0435\u043D \u0434\u043B\u044F \u0430\u0443\u0442\u0435\u043D\u0442\u0438\u0444\u0438\u043A\u0430\u0446\u0438\u0438 \u0432\u043C\u0435\u0441\u0442\u043E \u0432\u0445\u043E\u0434\u0430.",
-  "Or authenticate with a token instead of signing in. Engram Cloud API keys require the Pro plan; on Free and Starter, sign in above.": "\u0418\u043B\u0438 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435 \u0442\u043E\u043A\u0435\u043D \u0434\u043B\u044F \u0430\u0443\u0442\u0435\u043D\u0442\u0438\u0444\u0438\u043A\u0430\u0446\u0438\u0438 \u0432\u043C\u0435\u0441\u0442\u043E \u0432\u0445\u043E\u0434\u0430. \u041A\u043B\u044E\u0447\u0438 API Engram Cloud \u0442\u0440\u0435\u0431\u0443\u044E\u0442 \u0442\u0430\u0440\u0438\u0444\u043D\u044B\u0439 \u043F\u043B\u0430\u043D Pro; \u0434\u043B\u044F \u043F\u043B\u0430\u043D\u043E\u0432 Free \u0438 Starter \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435 \u0432\u0445\u043E\u0434 \u0432\u044B\u0448\u0435.",
   "Paths to skip (one per line). Folder patterns end with /. Built-in: {configDir}/, .trash/, .git/": "\u041F\u0443\u0442\u0438 \u0434\u043B\u044F \u0438\u0441\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u044F (\u043F\u043E \u043E\u0434\u043D\u043E\u043C\u0443 \u043D\u0430 \u0441\u0442\u0440\u043E\u043A\u0443). \u0418\u043C\u0435\u043D\u0430 \u043F\u0430\u043F\u043E\u043A \u0434\u043E\u043B\u0436\u043D\u044B \u0437\u0430\u043A\u0430\u043D\u0447\u0438\u0432\u0430\u0442\u044C\u0441\u044F \u043D\u0430 /. \u0412\u0441\u0442\u0440\u043E\u0435\u043D\u043D\u044B\u0435: {configDir}/, .trash/, .git/",
   "Pick a vault": "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435",
   "Pick a vault (previous: '{name}' not found)": "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435 (\u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0435\u0435: '{name}' \u043D\u0435 \u043D\u0430\u0439\u0434\u0435\u043D\u043E)",
@@ -8525,7 +8409,6 @@ var ru = {
   "Search failed \u2014 check connection": "\u041F\u043E\u0438\u0441\u043A \u043D\u0435 \u0443\u0434\u0430\u043B\u0441\u044F \u2014 \u043F\u0440\u043E\u0432\u0435\u0440\u044C\u0442\u0435 \u0441\u043E\u0435\u0434\u0438\u043D\u0435\u043D\u0438\u0435",
   "Search settings": "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u043F\u043E\u0438\u0441\u043A\u0430",
   "Search your vault\u2026": "\u041F\u043E\u0438\u0441\u043A \u043F\u043E \u0432\u0430\u0448\u0435\u043C\u0443 \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0443\u2026",
-  "Searching {indexed} of {all} notes. Upgrade to search everything.": "\u041F\u043E\u0438\u0441\u043A \u043F\u043E {indexed} \u0438\u0437 {all} \u0437\u0430\u043C\u0435\u0442\u043E\u043A. \u041E\u0431\u043D\u043E\u0432\u0438\u0442\u0435, \u0447\u0442\u043E\u0431\u044B \u0438\u0441\u043A\u0430\u0442\u044C \u0432\u0441\u0451.",
   "See full pricing": "\u0421\u043C\u043E\u0442\u0440\u0438\u0442\u0435 \u043F\u043E\u043B\u043D\u0443\u044E \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044E \u043E \u0446\u0435\u043D\u0430\u0445",
   "See the AI setup guide": "\u0421\u043C\u043E\u0442\u0440\u0438\u0442\u0435 \u0440\u0443\u043A\u043E\u0432\u043E\u0434\u0441\u0442\u0432\u043E \u043F\u043E \u043D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0435 \u0418\u0418",
   "Select which vault this plugin syncs with.": "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435, \u0441 \u043A\u043E\u0442\u043E\u0440\u044B\u043C \u0431\u0443\u0434\u0435\u0442 \u043E\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043B\u044F\u0442\u044C\u0441\u044F \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u044F.",
@@ -8578,7 +8461,7 @@ var ru = {
   "Sync server": "\u0421\u0435\u0440\u0432\u0435\u0440 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u0438",
   "Sync these now": "\u0421\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0441\u0435\u0439\u0447\u0430\u0441",
   "Sync...": "\u0421\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u044F...",
-  "Synced. Some attachments need a paid plan to sync (see below).": "\u0421\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u043D\u043E. \u0414\u043B\u044F \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u0438 \u043D\u0435\u043A\u043E\u0442\u043E\u0440\u044B\u0445 \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0439 \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044F \u043F\u043B\u0430\u0442\u043D\u0430\u044F \u043F\u043E\u0434\u043F\u0438\u0441\u043A\u0430 (\u0441\u043C. \u043D\u0438\u0436\u0435).",
+  "Synced. Some attachments were skipped (see below).": "\u0421\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u043D\u043E. \u041D\u0435\u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0431\u044B\u043B\u0438 \u043F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u044B (\u0441\u043C. \u043D\u0438\u0436\u0435).",
   "Syncing attachments": "\u0421\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u044F \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0439",
   "Syncing your vault": "\u0421\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u044F \u0432\u0430\u0448\u0435\u0433\u043E \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0430",
   "Syncing...": "\u0421\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u044F...",
@@ -8591,7 +8474,6 @@ var ru = {
   "That does not look like an Engram API key (expected {prefix}\u2026).": "\u042D\u0442\u043E \u043D\u0435 \u043F\u043E\u0445\u043E\u0436\u0435 \u043D\u0430 \u043A\u043B\u044E\u0447 API Engram (\u043E\u0436\u0438\u0434\u0430\u0435\u0442\u0441\u044F {prefix}\u2026).",
   "The Engram server no longer accepts this plugin version (it needs {version} or newer), so notes are not being sent or received. Changes made on this device stay here until you update.": "\u0421\u0435\u0440\u0432\u0435\u0440 Engram \u0431\u043E\u043B\u044C\u0448\u0435 \u043D\u0435 \u043F\u0440\u0438\u043D\u0438\u043C\u0430\u0435\u0442 \u044D\u0442\u0443 \u0432\u0435\u0440\u0441\u0438\u044E \u043F\u043B\u0430\u0433\u0438\u043D\u0430 (\u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044F {version} \u0438\u043B\u0438 \u043D\u043E\u0432\u0435\u0435), \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u0437\u0430\u043C\u0435\u0442\u043A\u0438 \u043D\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u044E\u0442\u0441\u044F \u0438 \u043D\u0435 \u043F\u043E\u043B\u0443\u0447\u0430\u044E\u0442\u0441\u044F. \u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u044F, \u0441\u0434\u0435\u043B\u0430\u043D\u043D\u044B\u0435 \u043D\u0430 \u044D\u0442\u043E\u043C \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u0435, \u043E\u0441\u0442\u0430\u044E\u0442\u0441\u044F \u0437\u0434\u0435\u0441\u044C \u0434\u043E \u043E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u044F.",
   "The Engram server no longer accepts this plugin version, so notes are not being sent or received. Changes made on this device stay here until you update.": "\u0421\u0435\u0440\u0432\u0435\u0440 Engram \u0431\u043E\u043B\u044C\u0448\u0435 \u043D\u0435 \u043F\u0440\u0438\u043D\u0438\u043C\u0430\u0435\u0442 \u044D\u0442\u0443 \u0432\u0435\u0440\u0441\u0438\u044E \u043F\u043B\u0430\u0433\u0438\u043D\u0430, \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u0437\u0430\u043C\u0435\u0442\u043A\u0438 \u043D\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u044E\u0442\u0441\u044F \u0438 \u043D\u0435 \u043F\u043E\u043B\u0443\u0447\u0430\u044E\u0442\u0441\u044F. \u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u044F, \u0441\u0434\u0435\u043B\u0430\u043D\u043D\u044B\u0435 \u043D\u0430 \u044D\u0442\u043E\u043C \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u0435, \u043E\u0441\u0442\u0430\u044E\u0442\u0441\u044F \u0437\u0434\u0435\u0441\u044C \u0434\u043E \u043E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u044F.",
-  "The Free tier syncs notes only. Upgrade to sync images and PDFs.": "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u0442\u0430\u0440\u0438\u0444 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u0443\u0435\u0442 \u0442\u043E\u043B\u044C\u043A\u043E \u0437\u0430\u043C\u0435\u0442\u043A\u0438. \u041E\u0431\u043D\u043E\u0432\u0438\u0442\u0435 \u043F\u043E\u0434\u043F\u0438\u0441\u043A\u0443, \u0447\u0442\u043E\u0431\u044B \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F \u0438 PDF-\u0444\u0430\u0439\u043B\u044B.",
   "The file is over the server's size limit. Compress or split it, then it will sync.": "\u0420\u0430\u0437\u043C\u0435\u0440 \u0444\u0430\u0439\u043B\u0430 \u043F\u0440\u0435\u0432\u044B\u0448\u0430\u0435\u0442 \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u0438\u0435 \u0441\u0435\u0440\u0432\u0435\u0440\u0430. \u0421\u0436\u0430\u0442\u0438\u0435 \u0438\u043B\u0438 \u0440\u0430\u0437\u0434\u0435\u043B\u0435\u043D\u0438\u0435 \u0444\u0430\u0439\u043B\u0430 \u043F\u043E\u0437\u0432\u043E\u043B\u0438\u0442 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0435\u0433\u043E.",
   "The file is too large for the server.": "\u0424\u0430\u0439\u043B \u0441\u043B\u0438\u0448\u043A\u043E\u043C \u0431\u043E\u043B\u044C\u0448\u043E\u0439 \u0434\u043B\u044F \u0441\u0435\u0440\u0432\u0435\u0440\u0430.",
   "The note synced, but its frontmatter could not be fully parsed. Open it to fix the highlighted line.": "\u0417\u0430\u043C\u0435\u0442\u043A\u0430 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u043D\u0430, \u043D\u043E \u043C\u0435\u0442\u0430\u0434\u0430\u043D\u043D\u044B\u0435 \u043D\u0435 \u0431\u044B\u043B\u0438 \u043F\u043E\u043B\u043D\u043E\u0441\u0442\u044C\u044E \u043E\u0431\u0440\u0430\u0431\u043E\u0442\u0430\u043D\u044B. \u041E\u0442\u043A\u0440\u043E\u0439\u0442\u0435 \u0435\u0451, \u0447\u0442\u043E\u0431\u044B \u0438\u0441\u043F\u0440\u0430\u0432\u0438\u0442\u044C \u0432\u044B\u0434\u0435\u043B\u0435\u043D\u043D\u0443\u044E \u0441\u0442\u0440\u043E\u043A\u0443.",
@@ -8599,7 +8481,7 @@ var ru = {
   "The server does not accept this type of file. It will retry if the file changes.": "\u0421\u0435\u0440\u0432\u0435\u0440 \u043D\u0435 \u043F\u0440\u0438\u043D\u0438\u043C\u0430\u0435\u0442 \u0444\u0430\u0439\u043B\u044B \u044D\u0442\u043E\u0433\u043E \u0442\u0438\u043F\u0430. \u041F\u043E\u0432\u0442\u043E\u0440\u043D\u0430\u044F \u043F\u043E\u043F\u044B\u0442\u043A\u0430 \u043F\u0440\u043E\u0438\u0437\u043E\u0439\u0434\u0435\u0442, \u0435\u0441\u043B\u0438 \u0444\u0430\u0439\u043B \u0438\u0437\u043C\u0435\u043D\u0438\u0442\u0441\u044F.",
   "The server lost this file's stored content and will try to restore it. Nothing on this device was changed.": "\u0421\u0435\u0440\u0432\u0435\u0440 \u043F\u043E\u0442\u0435\u0440\u044F\u043B \u0441\u043E\u0434\u0435\u0440\u0436\u0438\u043C\u043E\u0435 \u044D\u0442\u043E\u0433\u043E \u0444\u0430\u0439\u043B\u0430 \u0438 \u043F\u043E\u043F\u044B\u0442\u0430\u0435\u0442\u0441\u044F \u0435\u0433\u043E \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C. \u041D\u0430 \u044D\u0442\u043E\u043C \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u0435 \u043D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u0438\u0437\u043C\u0435\u043D\u0438\u043B\u043E\u0441\u044C.",
   "The server took too long to respond. Try again.": "\u0421\u0435\u0440\u0432\u0435\u0440 \u0441\u043B\u0438\u0448\u043A\u043E\u043C \u0434\u043E\u043B\u0433\u043E \u043E\u0442\u0432\u0435\u0447\u0430\u0435\u0442. \u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0451 \u0440\u0430\u0437.",
-  "These files are fine. They just need a paid plan to sync.": "\u042D\u0442\u0438 \u0444\u0430\u0439\u043B\u044B \u0432 \u043F\u043E\u0440\u044F\u0434\u043A\u0435. \u0414\u043B\u044F \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u0438 \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044F \u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u0442\u0430\u0440\u0438\u0444.",
+  "These files are fine. Each card below says why they did not sync.": "\u042D\u0442\u0438 \u0444\u0430\u0439\u043B\u044B \u0432 \u043F\u043E\u0440\u044F\u0434\u043A\u0435. \u041A\u0430\u0436\u0434\u0430\u044F \u043A\u0430\u0440\u0442\u043E\u0447\u043A\u0430 \u043D\u0438\u0436\u0435 \u043E\u0431\u044A\u044F\u0441\u043D\u044F\u0435\u0442, \u043F\u043E\u0447\u0435\u043C\u0443 \u043E\u043D\u0438 \u043D\u0435 \u0431\u044B\u043B\u0438 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u043D\u044B.",
   "This account was deleted. Contact support if that is wrong.": "\u042D\u0442\u0430 \u0443\u0447\u0451\u0442\u043D\u0430\u044F \u0437\u0430\u043F\u0438\u0441\u044C \u0431\u044B\u043B\u0430 \u0443\u0434\u0430\u043B\u0435\u043D\u0430. \u041E\u0431\u0440\u0430\u0442\u0438\u0442\u0435\u0441\u044C \u0432 \u0441\u043B\u0443\u0436\u0431\u0443 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438, \u0435\u0441\u043B\u0438 \u044D\u0442\u043E \u043D\u0435 \u0442\u0430\u043A.",
   "This cannot be undone.": "\u042D\u0442\u043E \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u043D\u0435\u043E\u0431\u0440\u0430\u0442\u0438\u043C\u043E.",
   "This code expired before the link finished. Generate a new code to try again.": "\u042D\u0442\u043E\u0442 \u043A\u043E\u0434 \u0443\u0441\u0442\u0430\u0440\u0435\u043B \u0434\u043E \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043D\u0438\u044F \u043F\u0440\u043E\u0446\u0435\u0441\u0441\u0430. \u0421\u0433\u0435\u043D\u0435\u0440\u0438\u0440\u0443\u0439\u0442\u0435 \u043D\u043E\u0432\u044B\u0439 \u043A\u043E\u0434, \u0447\u0442\u043E\u0431\u044B \u043F\u043E\u0432\u0442\u043E\u0440\u0438\u0442\u044C \u043F\u043E\u043F\u044B\u0442\u043A\u0443.",
@@ -8607,10 +8489,10 @@ var ru = {
   "This file type isn't accepted by this server.": "\u042D\u0442\u043E\u0442 \u0442\u0438\u043F \u0444\u0430\u0439\u043B\u0430 \u043D\u0435 \u043F\u0440\u0438\u043D\u0438\u043C\u0430\u0435\u0442\u0441\u044F \u044D\u0442\u0438\u043C \u0441\u0435\u0440\u0432\u0435\u0440\u043E\u043C.",
   "This note could not be processed and was skipped.": "\u042D\u0442\u0430 \u0437\u0430\u043C\u0435\u0442\u043A\u0430 \u043D\u0435 \u043C\u043E\u0436\u0435\u0442 \u0431\u044B\u0442\u044C \u043E\u0431\u0440\u0430\u0431\u043E\u0442\u0430\u043D\u0430 \u0438 \u0431\u044B\u043B\u0430 \u043F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u0430.",
   "This server is self-hosted, so feedback is not collected here. ": "\u042D\u0442\u043E\u0442 \u0441\u0435\u0440\u0432\u0435\u0440 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442 \u043B\u043E\u043A\u0430\u043B\u044C\u043D\u043E, \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u043E\u0442\u0437\u044B\u0432\u044B \u0437\u0434\u0435\u0441\u044C \u043D\u0435 \u0441\u043E\u0431\u0438\u0440\u0430\u044E\u0442\u0441\u044F. ",
+  "This server isn't accepting this attachment for your account.": "\u042D\u0442\u043E\u0442 \u0441\u0435\u0440\u0432\u0435\u0440 \u043D\u0435 \u043F\u0440\u0438\u043D\u0438\u043C\u0430\u0435\u0442 \u044D\u0442\u043E \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0435 \u0434\u043B\u044F \u0432\u0430\u0448\u0435\u0439 \u0443\u0447\u0451\u0442\u043D\u043E\u0439 \u0437\u0430\u043F\u0438\u0441\u0438.",
   "This vault": "\u042D\u0442\u043E \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435",
   "This vault is empty on the server. Upload your {what}?": "\u042D\u0442\u043E \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435 \u043F\u0443\u0441\u0442\u043E\u0435 \u043D\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u0435. \u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C \u0432\u0430\u0448\u0438 {what}?",
   "Too large for the server": "\u0421\u043B\u0438\u0448\u043A\u043E\u043C \u0431\u043E\u043B\u044C\u0448\u043E\u0439 \u0434\u043B\u044F \u0441\u0435\u0440\u0432\u0435\u0440\u0430",
-  "Too many connected AI clients. Disconnect one or upgrade.": "\u041F\u043E\u0434\u043A\u043B\u044E\u0447\u0435\u043D\u043E \u0441\u043B\u0438\u0448\u043A\u043E\u043C \u043C\u043D\u043E\u0433\u043E \u043A\u043B\u0438\u0435\u043D\u0442\u043E\u0432 \u0418\u0418. \u041E\u0442\u043A\u043B\u044E\u0447\u0438\u0442\u0435 \u043E\u0434\u043D\u043E\u0433\u043E \u0438\u043B\u0438 \u043E\u0431\u043D\u043E\u0432\u0438\u0442\u0435 \u0442\u0430\u0440\u0438\u0444.",
   "Too many connected Obsidian vaults. Disconnect one or upgrade.": "\u041F\u043E\u0434\u043A\u043B\u044E\u0447\u0435\u043D\u043E \u0441\u043B\u0438\u0448\u043A\u043E\u043C \u043C\u043D\u043E\u0433\u043E \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449 Obsidian. \u041E\u0442\u043A\u043B\u044E\u0447\u0438\u0442\u0435 \u043E\u0434\u043D\u043E \u0438\u043B\u0438 \u043E\u0431\u043D\u043E\u0432\u0438\u0442\u0435 \u0442\u0430\u0440\u0438\u0444.",
   "Too many requests. Wait a moment and try again.": "\u0421\u043B\u0438\u0448\u043A\u043E\u043C \u043C\u043D\u043E\u0433\u043E \u0437\u0430\u043F\u0440\u043E\u0441\u043E\u0432. \u041F\u043E\u0434\u043E\u0436\u0434\u0438\u0442\u0435 \u043D\u0435\u043C\u043D\u043E\u0433\u043E \u0438 \u043F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0451 \u0440\u0430\u0437.",
   "Type {keyword} to confirm:": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 {keyword}, \u0447\u0442\u043E\u0431\u044B \u043F\u043E\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u044C:",
@@ -8702,11 +8584,17 @@ var ru = {
     many: "{count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0439",
     other: "{count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0439"
   },
-  "{count} attachments need a paid plan to sync. See Sync Center.": {
-    one: "{count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044E \u043D\u0443\u0436\u0435\u043D \u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u043F\u043B\u0430\u043D. \u0421\u043C. \u0426\u0435\u043D\u0442\u0440 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u0438.",
-    few: "{count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044F\u043C \u043D\u0443\u0436\u0435\u043D \u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u043F\u043B\u0430\u043D. \u0421\u043C. \u0426\u0435\u043D\u0442\u0440 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u0438.",
-    many: "{count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044F\u043C \u043D\u0443\u0436\u0435\u043D \u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u043F\u043B\u0430\u043D. \u0421\u043C. \u0426\u0435\u043D\u0442\u0440 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u0438.",
-    other: "{count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044F\u043C \u043D\u0443\u0436\u0435\u043D \u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u043F\u043B\u0430\u043D. \u0421\u043C. \u0426\u0435\u043D\u0442\u0440 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u0438."
+  "{count} attachments skipped. See Sync Center.": {
+    one: "\u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0435. \u041F\u043E\u0434\u0440\u043E\u0431\u043D\u043E\u0441\u0442\u0438 \u0432 \u0426\u0435\u043D\u0442\u0440\u0435 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u0438.",
+    few: "\u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044F. \u041F\u043E\u0434\u0440\u043E\u0431\u043D\u043E\u0441\u0442\u0438 \u0432 \u0426\u0435\u043D\u0442\u0440\u0435 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u0438.",
+    many: "\u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0439. \u041F\u043E\u0434\u0440\u043E\u0431\u043D\u043E\u0441\u0442\u0438 \u0432 \u0426\u0435\u043D\u0442\u0440\u0435 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u0438.",
+    other: "\u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0439. \u041F\u043E\u0434\u0440\u043E\u0431\u043D\u043E\u0441\u0442\u0438 \u0432 \u0426\u0435\u043D\u0442\u0440\u0435 \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u0438."
+  },
+  "{count} attachments will be skipped: this server only accepts text files.": {
+    one: "\u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0435: \u044D\u0442\u043E\u0442 \u0441\u0435\u0440\u0432\u0435\u0440 \u043F\u0440\u0438\u043D\u0438\u043C\u0430\u0435\u0442 \u0442\u043E\u043B\u044C\u043A\u043E \u0442\u0435\u043A\u0441\u0442\u043E\u0432\u044B\u0435 \u0444\u0430\u0439\u043B\u044B.",
+    few: "\u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u044F: \u044D\u0442\u043E\u0442 \u0441\u0435\u0440\u0432\u0435\u0440 \u043F\u0440\u0438\u043D\u0438\u043C\u0430\u0435\u0442 \u0442\u043E\u043B\u044C\u043A\u043E \u0442\u0435\u043A\u0441\u0442\u043E\u0432\u044B\u0435 \u0444\u0430\u0439\u043B\u044B.",
+    many: "\u0411\u0443\u0434\u0435\u0442 \u043F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count} \u0432\u043B\u043E\u0436\u0435\u043D\u0438\u0439: \u044D\u0442\u043E\u0442 \u0441\u0435\u0440\u0432\u0435\u0440 \u043F\u0440\u0438\u043D\u0438\u043C\u0430\u0435\u0442 \u0442\u043E\u043B\u044C\u043A\u043E \u0442\u0435\u043A\u0441\u0442\u043E\u0432\u044B\u0435 \u0444\u0430\u0439\u043B\u044B.",
+    other: "{count} \u0412\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0431\u0443\u0434\u0443\u0442 \u043F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u044B: \u044D\u0442\u043E\u0442 \u0441\u0435\u0440\u0432\u0435\u0440 \u043F\u0440\u0438\u043D\u0438\u043C\u0430\u0435\u0442 \u0442\u043E\u043B\u044C\u043A\u043E \u0442\u0435\u043A\u0441\u0442\u043E\u0432\u044B\u0435 \u0444\u0430\u0439\u043B\u044B."
   },
   "{count} attempts": {
     one: "{count} \u043F\u043E\u043F\u044B\u0442\u043A\u0430",
@@ -8826,11 +8714,11 @@ var ru = {
   },
   "\u2717 couldn't reach a server at this URL": "\u2717 \u041D\u0435 \u0443\u0434\u0430\u043B\u043E\u0441\u044C \u043F\u043E\u0434\u043A\u043B\u044E\u0447\u0438\u0442\u044C\u0441\u044F \u043A \u0441\u0435\u0440\u0432\u0435\u0440\u0443 \u043F\u043E \u044D\u0442\u043E\u043C\u0443 \u0430\u0434\u0440\u0435\u0441\u0443",
   "\u2717 server responded but isn't an Engram server": "\u2717 \u0421\u0435\u0440\u0432\u0435\u0440 \u043E\u0442\u0432\u0435\u0442\u0438\u043B, \u043D\u043E \u044D\u0442\u043E \u043D\u0435 \u0441\u0435\u0440\u0432\u0435\u0440 Engram",
-  "\u2933 {count} skipped (Free plan)": {
-    one: "\u2933 \u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count} (\u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u0442\u0430\u0440\u0438\u0444)",
-    few: "\u2933 \u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count} (\u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u0442\u0430\u0440\u0438\u0444)",
-    many: "\u2933 \u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count} (\u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u0442\u0430\u0440\u0438\u0444)",
-    other: "\u2933 {count} \u043F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E (\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u043F\u043B\u0430\u043D)"
+  "\u2933 {count} skipped": {
+    one: "\u2933 \u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count} \u044D\u043B\u0435\u043C\u0435\u043D\u0442",
+    few: "\u2933 \u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count}",
+    many: "\u2933 \u041F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E {count}",
+    other: "\u2933 {count} \u043F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E"
   },
   "\u{1F44B} Welcome": "\u{1F44B} \u0414\u043E\u0431\u0440\u043E \u043F\u043E\u0436\u0430\u043B\u043E\u0432\u0430\u0442\u044C",
   "\u{1F4AC} Feedback": "\u{1F4AC} \u041E\u0442\u0437\u044B\u0432",
@@ -8848,7 +8736,6 @@ var tr = {
   "1. Make an account": "1. Bir hesap olu\u015Fturun",
   "10 GB attachments": "10 GB ek",
   "10 vaults, unlimited devices": "10 kasa, s\u0131n\u0131rs\u0131z cihaz",
-  "2,000 notes searchable": "2.000 not aranabilir",
   "2. Connect your vault to Engram": "2. Kasan\u0131z\u0131 Engram ile ba\u011Flay\u0131n",
   "3. Connect your AI": "3. Yapay zekan\u0131z\u0131 ba\u011Flay\u0131n",
   "50 GB attachments": "50 GB ek",
@@ -8857,9 +8744,8 @@ var tr = {
   "A temporary server problem \u2014 retrying automatically.": "Ge\xE7ici bir sunucu sorunu \u2014 otomatik olarak tekrar deneniyor.",
   "AI / MCP setup guide": "Yapay zeka / MCP kurulum k\u0131lavuzu",
   "AI searches": "Yapay zeka aramalar\u0131",
-  "API access": "API eri\u015Fimi",
   "API key": "API anahtar\u0131",
-  "API keys need a Pro plan. Sign in with your Engram account instead.": "API anahtarlar\u0131 i\xE7in Pro plan\u0131 gereklidir. L\xFCtfen Engram hesab\u0131n\u0131zla giri\u015F yap\u0131n.",
+  "API key access is turned off for this account. Sign in with your Engram account instead.": "Bu hesap i\xE7in API anahtar\u0131 eri\u015Fimi devre d\u0131\u015F\u0131. L\xFCtfen Engram hesab\u0131n\u0131zla giri\u015F yap\u0131n.",
   About: "Hakk\u0131nda",
   "Accept it to keep syncing.": "Senkronizasyonu devam ettirmek i\xE7in kabul edin.",
   "Access token": "Eri\u015Fim belirteci",
@@ -8871,14 +8757,13 @@ var tr = {
   "Advanced sync options": "Geli\u015Fmi\u015F senkronizasyon se\xE7enekleri",
   "All synced. Your vault and the cloud now match.": "Her \u015Fey senkronize edildi. Kasan\u0131z ve bulut art\u0131k ayn\u0131.",
   "Already in sync. Nothing is deleted.": "Zaten senkronize. Hi\xE7bir \u015Fey silinmez.",
-  "Already signed in on another device. Upgrade for multi-device.": "Ba\u015Fka bir cihazda zaten giri\u015F yap\u0131lm\u0131\u015F. \xC7oklu cihaz i\xE7in y\xFCkseltin.",
   "Already up to date. Nothing needed syncing.": "Zaten g\xFCncel. Senkronize edilecek bir \u015Fey yok.",
   "An unexpected error \u2014 retrying automatically.": "Beklenmeyen bir hata \u2014 otomatik olarak tekrar deneniyor.",
+  "Attachment not accepted": "Ek kabul edilmedi",
   "Attachment storage full": "Ek depolama alan\u0131 doldu",
   "Attachment storage is full \u2014 upgrade for more.": "Ek depolama alan\u0131 doldu \u2014 daha fazla i\xE7in y\xFCkseltin.",
   "Attachment sync is disabled for this account.": "Bu hesap i\xE7in ek senkronizasyonu devre d\u0131\u015F\u0131.",
   Attachments: "Ekler",
-  "Attachments need a paid plan": "Ekler i\xE7in \xFCcretli bir plan gereklidir",
   "Attachments on this device": "Bu cihazdaki ekler",
   "Authenticated via Engram account (OAuth).": "Engram hesab\u0131 \xFCzerinden kimlik do\u011Fruland\u0131 (OAuth).",
   "Authenticated via manual API key.": "Manuel API anahtar\u0131 ile kimlik do\u011Fruland\u0131.",
@@ -8929,7 +8814,7 @@ var tr = {
   "Create a hosted account at {signup}, or self-host the server ({guide}).": "{signup} adresinde bir hesap olu\u015Fturun veya sunucuyu kendiniz bar\u0131nd\u0131r\u0131n ({guide}).",
   "Create a new empty vault on the server, then sync this Obsidian vault into it.": "Sunucuda yeni bir bo\u015F kasa olu\u015Fturun, ard\u0131ndan bu Obsidian kasay\u0131 i\xE7ine senkronize edin.",
   "Custom patterns": "\xD6zel kal\u0131plar",
-  "Daily AI search limit reached. Free includes 20 per day across Obsidian, the web app and MCP. Upgrade for unlimited.": "G\xFCnl\xFCk yapay zeka arama limiti a\u015F\u0131ld\u0131. \xDCcretsiz kullan\u0131mda Obsidian, web uygulamas\u0131 ve MCP i\xE7in g\xFCnl\xFCk 20 arama dahildir. S\u0131n\u0131rs\u0131z kullan\u0131m i\xE7in y\xFCkseltin.",
+  "Daily AI search limit reached. Free searches are shared across Obsidian, the web app and MCP. Upgrade for unlimited.": "G\xFCnl\xFCk yapay zeka arama limiti a\u015F\u0131ld\u0131. \xDCcretsiz aramalar Obsidian, web uygulamas\u0131 ve MCP aras\u0131nda payla\u015F\u0131l\u0131r. S\u0131n\u0131rs\u0131z kullan\u0131m i\xE7in y\xFCkseltin.",
   "Dart tool cache": "Dart ara\xE7 \xF6nbelle\u011Fi",
   "Debug (verbose)": "Hata ay\u0131klama (ayr\u0131nt\u0131l\u0131)",
   "Delete all local files, then download from remote": "T\xFCm yerel dosyalar\u0131 silin, ard\u0131ndan uzaktan indirin",
@@ -8952,6 +8837,7 @@ var tr = {
     one: "Buluttan {count} \xF6\u011Fe siliniyor.",
     other: "Buluttaki {count} \xF6\u011Fe siliniyor."
   },
+  "Device limit reached. Disconnect a device or upgrade.": "Cihaz limitine ula\u015F\u0131ld\u0131. Bir cihaz\u0131 ay\u0131r\u0131n veya y\xFCkseltin.",
   "Device swap cooldown active. Wait or upgrade.": "Cihaz de\u011Fi\u015Ftirme bekleme s\xFCresi aktif. Bekleyin veya y\xFCkseltin.",
   Diagnostics: "Tan\u0131",
   "Diagnostics detail": "Tan\u0131 ayr\u0131nt\u0131s\u0131",
@@ -8992,7 +8878,6 @@ var tr = {
   "Engram Sync: {details}": "Engram Senkronizasyon: {details}",
   "Engram URL": "Engram URL'si",
   "Engram Vault Sync {version} is available. {link}.": "Engram Vault Sync {version} mevcut. {link}.",
-  "Engram indexes {indexed} of your {all} notes. The rest match on this device only. Upgrade to index everything.": "Engram, {all} notunuzun {indexed} tanesini indeksliyor. Geri kalan\u0131 yaln\u0131zca bu cihazda mevcut. Her \u015Feyi indekslemek i\xE7in y\xFCkseltin.",
   "Engram is the backend that powers sync and semantic search.": "Engram, senkronizasyonu ve anlamsal aramay\u0131 sa\u011Flayan arka u\xE7tur.",
   "Engram search": "Engram arama",
   "Engram server changed \u2014 sign in again to continue.": "Engram sunucusu de\u011Fi\u015Fti \u2014 devam etmek i\xE7in tekrar giri\u015F yap\u0131n.",
@@ -9040,9 +8925,9 @@ var tr = {
   "Engram: this vault no longer exists on the server. Pick or create a vault to continue.": "Engram: bu kasa art\u0131k sunucuda bulunmuyor. Devam etmek i\xE7in bir kasa se\xE7in veya olu\u015Fturun.",
   "Engram: update required": "Engram: g\xFCncelleme gerekiyor",
   "Engram: your login expired \u2014 open Engram settings to reconnect.": "Engram: oturum a\xE7ma s\xFCreniz doldu \u2014 yeniden ba\u011Flanmak i\xE7in Engram ayarlar\u0131n\u0131 a\xE7\u0131n.",
-  "Engram: {count} attachments skipped \u2014 upgrade your plan to sync images & PDFs.": {
-    one: "Engram: {count} ek atland\u0131 \u2014 resim ve PDF'leri senkronize etmek i\xE7in plan\u0131n\u0131z\u0131 y\xFCkseltin.",
-    other: "Engram: {count} ek atland\u0131 \u2014 resim ve PDF'leri senkronize etmek i\xE7in plan\u0131n\u0131z\u0131 y\xFCkseltin."
+  "Engram: {count} attachments skipped. See Sync Center for why.": {
+    one: "Engram: {count} ek atland\u0131. Nedenini g\xF6rmek i\xE7in Senkronizasyon Merkezi'ne bak\u0131n.",
+    other: "Engram: {count} ek atland\u0131. Nedenini g\xF6rmek i\xE7in Senkronizasyon Merkezi'ni a\xE7\u0131n."
   },
   "Engram: {count} files failed to sync{detail} \u2014 open Sync Center": {
     one: "Engram: {count} dosya senkronize edilemedi{detail} \u2014 Senkronizasyon Merkezi'ni a\xE7",
@@ -9076,11 +8961,6 @@ var tr = {
   "Finished with some errors. Open the sync log to see what failed.": "Baz\u0131 hatalarla tamamland\u0131. Hangi i\u015Flemlerin ba\u015Far\u0131s\u0131z oldu\u011Funu g\xF6rmek i\xE7in senkronizasyon g\xFCnl\xFC\u011F\xFCn\xFC a\xE7\u0131n.",
   "First sync, this may take a moment.": "\u0130lk senkronizasyon, bu biraz zaman alabilir.",
   Free: "\xDCcretsiz",
-  "Free syncs notes only \u2014 images & PDFs need a paid plan.": "\xDCcretsiz senkronizasyon sadece notlar i\xE7in ge\xE7erlidir \u2014 resimler ve PDF'ler i\xE7in \xFCcretli bir plan gereklidir.",
-  "Free syncs notes only \u2014 {count} attachments will be skipped.": {
-    one: "\xDCcretsiz s\xFCr\xFCmde sadece notlar senkronize edilir \u2014 {count} ek atlan\u0131r.",
-    other: "\xDCcretsiz s\xFCr\xFCmde sadece notlar senkronize edilir \u2014 {count} ek dosya atlan\u0131r."
-  },
   "Frontmatter could not be parsed": "Ba\u015Fl\u0131k b\xF6l\xFCm\xFC i\u015Flenemedi",
   "Frontmatter isn't valid YAML.": "\xD6n bilgi ge\xE7erli bir YAML de\u011Fil.",
   'Frontmatter key "{key}" could not be parsed as YAML.': '\xD6n bilgi anahtar\u0131 "{key}" YAML olarak \xE7\xF6z\xFClemedi.',
@@ -9141,8 +9021,6 @@ var tr = {
   "Note limit reached. Upgrade to keep adding notes.": "Not say\u0131s\u0131 limiti a\u015F\u0131ld\u0131. Daha fazla not eklemek i\xE7in y\xFCkseltin.",
   "Note not synced locally": "Not yerel olarak senkronize edilmedi",
   "Notes on this device": "Bu cihazdaki notlar",
-  "Notes past this still sync and open normally, they are just not in the search index. The index keeps your oldest notes, so it is your newest ones that fall outside.": "Buradan sonraki notlar hala normal \u015Fekilde senkronize olur ve a\xE7\u0131l\u0131r, sadece arama indeksinde yer almazlar. \u0130ndeks en eski notlar\u0131n\u0131z\u0131 saklar, bu y\xFCzden en yeni notlar\u0131n\u0131z indeksin d\u0131\u015F\u0131nda kal\u0131r.",
-  "Notes searchable": "Notlar aranabilir",
   "Notes stored": "Notlar kaydedildi",
   "Nothing in this vault syncs until you choose how to merge it with the server.": "Bu kasadaki hi\xE7bir \u015Fey, sunucuyla nas\u0131l birle\u015Ftirilece\u011Fine karar vermedi\u011Finiz s\xFCrece senkronize olmaz.",
   "Nothing is deleted.": "Hi\xE7bir \u015Fey silinmez.",
@@ -9164,7 +9042,6 @@ var tr = {
   "Open the file to resolve the conflict, then sync again.": "\xC7ak\u0131\u015Fmay\u0131 \xE7\xF6zmek i\xE7in dosyay\u0131 a\xE7\u0131n, ard\u0131ndan tekrar senkronize edin.",
   "Opens your browser to sign in, or create an account if you don't have one yet, then links this vault.": "Taray\u0131c\u0131n\u0131z\u0131 a\xE7arak giri\u015F yap\u0131n veya hen\xFCz bir hesab\u0131n\u0131z yoksa olu\u015Fturun, ard\u0131ndan bu kasay\u0131 ba\u011Flay\u0131n.",
   "Or authenticate with a token instead of signing in.": "Veya giri\u015F yapmak yerine bir token ile kimlik do\u011Frulay\u0131n.",
-  "Or authenticate with a token instead of signing in. Engram Cloud API keys require the Pro plan; on Free and Starter, sign in above.": "Veya giri\u015F yapmak yerine bir token ile kimlik do\u011Frulay\u0131n. Engram Cloud API anahtarlar\u0131, Pro plan\u0131n\u0131 gerektirir; \xDCcretsiz ve Starter planlar\u0131nda yukar\u0131daki giri\u015F y\xF6ntemini kullan\u0131n.",
   "Paths to skip (one per line). Folder patterns end with /. Built-in: {configDir}/, .trash/, .git/": "Atlanacak yollar (her sat\u0131rda bir tane). Klas\xF6r kal\u0131plar\u0131 / ile biter. Dahili: {configDir}/, .trash/, .git/",
   "Pick a vault": "Bir kasa se\xE7in",
   "Pick a vault (previous: '{name}' not found)": "Bir kasa se\xE7in (\xF6nceki: '{name}' bulunamad\u0131)",
@@ -9208,7 +9085,6 @@ var tr = {
   "Search failed \u2014 check connection": "Arama ba\u015Far\u0131s\u0131z oldu \u2014 ba\u011Flant\u0131y\u0131 kontrol edin",
   "Search settings": "Arama ayarlar\u0131",
   "Search your vault\u2026": "Kasan\u0131z\u0131 aray\u0131n\u2026",
-  "Searching {indexed} of {all} notes. Upgrade to search everything.": "{all} notunuzun i\xE7inden {indexed} tanesini ar\u0131yor. Her \u015Feyi aramak i\xE7in y\xFCkseltin.",
   "See full pricing": "Fiyatland\u0131rma bilgilerini g\xF6r\xFCn",
   "See the AI setup guide": "Yapay zeka kurulum k\u0131lavuzuna bak\u0131n",
   "Select which vault this plugin syncs with.": "Bu eklentinin hangi kasa ile senkronize olaca\u011F\u0131n\u0131 se\xE7in.",
@@ -9259,7 +9135,7 @@ var tr = {
   "Sync server": "Senkronizasyon sunucusu",
   "Sync these now": "\u015Eimdi senkronize et",
   "Sync...": "Senkronize ediliyor...",
-  "Synced. Some attachments need a paid plan to sync (see below).": "Senkronizasyon tamamland\u0131. Baz\u0131 eklerin senkronizasyonu i\xE7in \xFCcretli bir plan gerekebilir (a\u015Fa\u011F\u0131ya bak\u0131n).",
+  "Synced. Some attachments were skipped (see below).": "Senkronize edildi. Baz\u0131 ekler atland\u0131 (a\u015Fa\u011F\u0131ya bak\u0131n).",
   "Syncing attachments": "Eklerin senkronizasyonu",
   "Syncing your vault": "Kasan\u0131z\u0131n senkronizasyonu",
   "Syncing...": "Senkronizasyon yap\u0131l\u0131yor...",
@@ -9272,7 +9148,6 @@ var tr = {
   "That does not look like an Engram API key (expected {prefix}\u2026).": "Bu, bir Engram API anahtar\u0131 gibi g\xF6r\xFCnm\xFCyor (beklenen {prefix}\u2026).",
   "The Engram server no longer accepts this plugin version (it needs {version} or newer), so notes are not being sent or received. Changes made on this device stay here until you update.": "Engram sunucusu art\u0131k bu eklenti s\xFCr\xFCm\xFCn\xFC kabul etmiyor (\u015Fu anda {version} veya daha yeni bir s\xFCr\xFCm gerekiyor), bu nedenle notlar g\xF6nderilmiyor veya al\u0131nm\u0131yor. Bu cihazda yap\u0131lan de\u011Fi\u015Fiklikler, g\xFCncelleyene kadar burada kalacak.",
   "The Engram server no longer accepts this plugin version, so notes are not being sent or received. Changes made on this device stay here until you update.": "Engram sunucusu art\u0131k bu eklenti s\xFCr\xFCm\xFCn\xFC kabul etmiyor, bu nedenle notlar g\xF6nderilmiyor veya al\u0131nm\u0131yor. Bu cihazda yap\u0131lan de\u011Fi\u015Fiklikler, g\xFCncelleyene kadar burada kalacak.",
-  "The Free tier syncs notes only. Upgrade to sync images and PDFs.": "\xDCcretsiz planda sadece notlar senkronize edilir. Resimleri ve PDF'leri senkronize etmek i\xE7in y\xFCkseltin.",
   "The file is over the server's size limit. Compress or split it, then it will sync.": "Dosya, sunucunun boyut s\u0131n\u0131r\u0131n\u0131 a\u015Ft\u0131. S\u0131k\u0131\u015Ft\u0131r\u0131n veya b\xF6l\xFCn, sonra senkronize olur.",
   "The file is too large for the server.": "Dosya, sunucu i\xE7in \xE7ok b\xFCy\xFCk.",
   "The note synced, but its frontmatter could not be fully parsed. Open it to fix the highlighted line.": "Not senkronize edildi, ancak ba\u015Fl\u0131k b\xF6l\xFCm\xFC tamamen i\u015Flenemedi. Vurgulanan sat\u0131r\u0131 d\xFCzeltmek i\xE7in a\xE7\u0131n.",
@@ -9280,7 +9155,7 @@ var tr = {
   "The server does not accept this type of file. It will retry if the file changes.": "Sunucu bu t\xFCr dosyalar\u0131 kabul etmiyor. Dosya de\u011Fi\u015Firse tekrar denenecek.",
   "The server lost this file's stored content and will try to restore it. Nothing on this device was changed.": "Sunucu bu dosyan\u0131n i\xE7eri\u011Fini kaybetti ve geri y\xFCklemeyi deneyecek. Bu cihazda hi\xE7bir de\u011Fi\u015Fiklik yap\u0131lmad\u0131.",
   "The server took too long to respond. Try again.": "Sunucu yan\u0131t vermekte \xE7ok yava\u015F. L\xFCtfen tekrar deneyin.",
-  "These files are fine. They just need a paid plan to sync.": "Bu dosyalar sorunsuz. Sadece senkronize olmak i\xE7in \xFCcretli bir plana ihtiya\xE7lar\u0131 var.",
+  "These files are fine. Each card below says why they did not sync.": "Bu dosyalar sorunsuz. A\u015Fa\u011F\u0131daki her kart, neden senkronize olmad\u0131\u011F\u0131n\u0131 belirtir.",
   "This account was deleted. Contact support if that is wrong.": "Bu hesap silindi. Yanl\u0131\u015Fsa destekle ileti\u015Fime ge\xE7in.",
   "This cannot be undone.": "Bu geri al\u0131namaz.",
   "This code expired before the link finished. Generate a new code to try again.": "Bu kod, ba\u011Flant\u0131 tamamlanmadan doldu. L\xFCtfen tekrar denemek i\xE7in yeni bir kod olu\u015Fturun.",
@@ -9288,10 +9163,10 @@ var tr = {
   "This file type isn't accepted by this server.": "Bu dosya t\xFCr\xFC bu sunucu taraf\u0131ndan kabul edilmiyor.",
   "This note could not be processed and was skipped.": "Bu not i\u015Flenemedi ve atland\u0131.",
   "This server is self-hosted, so feedback is not collected here. ": "Bu sunucu kendi kendine bar\u0131nd\u0131r\u0131ld\u0131\u011F\u0131 i\xE7in geri bildirim burada toplanmaz. ",
+  "This server isn't accepting this attachment for your account.": "Bu sunucu, hesab\u0131n\u0131z i\xE7in bu eki kabul etmiyor.",
   "This vault": "Bu kasa",
   "This vault is empty on the server. Upload your {what}?": "Bu kasa sunucuda bo\u015F. {what} dosyan\u0131z\u0131 y\xFCklemek ister misiniz?",
   "Too large for the server": "Sunucu i\xE7in \xE7ok b\xFCy\xFCk",
-  "Too many connected AI clients. Disconnect one or upgrade.": "Ba\u011Fl\u0131 \xE7ok fazla yapay zeka istemcisi var. Birini ay\u0131r\u0131n veya y\xFCkseltin.",
   "Too many connected Obsidian vaults. Disconnect one or upgrade.": "Ba\u011Fl\u0131 \xE7ok fazla Obsidian kasa var. Birini ay\u0131r\u0131n veya y\xFCkseltin.",
   "Too many requests. Wait a moment and try again.": "\xC7ok fazla istek. Bir s\xFCre bekleyin ve tekrar deneyin.",
   "Type {keyword} to confirm:": "Onaylamak i\xE7in {keyword} yaz\u0131n:",
@@ -9367,9 +9242,13 @@ var tr = {
   "waiting for a plugin update": "Eklenti g\xFCncellemesini bekliyor",
   "waiting to retry": "Yeniden denemeyi bekliyor",
   "{count} attachments": { one: "{count} ek", other: "{count} ek" },
-  "{count} attachments need a paid plan to sync. See Sync Center.": {
-    one: "{count} ek, senkronize olmak i\xE7in \xFCcretli bir plana ihtiya\xE7 duyar. Senkronizasyon Merkezi'ni inceleyin.",
-    other: "{count} ek, senkronize olmak i\xE7in \xFCcretli bir plana ihtiya\xE7 duyar. Senkronizasyon Merkezi'ne bak\u0131n."
+  "{count} attachments skipped. See Sync Center.": {
+    one: "{count} ek atland\u0131. Senkronizasyon Merkezi'ne bak\u0131n.",
+    other: "{count} ek atland\u0131. Senkronizasyon Merkezi'ne bak\u0131n."
+  },
+  "{count} attachments will be skipped: this server only accepts text files.": {
+    one: "{count} ek atlanacak: bu sunucu sadece metin dosyalar\u0131n\u0131 kabul eder.",
+    other: "{count} ek atlanacak: bu sunucu sadece metin dosyalar\u0131n\u0131 kabul eder."
   },
   "{count} attempts": { one: "{count} deneme", other: "{count} deneme" },
   "{count} conflicts need resolution": {
@@ -9429,10 +9308,7 @@ var tr = {
   "\u2715 {count} failed": { one: "\u2715 {count} ba\u015Far\u0131s\u0131z", other: "\u2715 {count} ba\u015Far\u0131s\u0131z" },
   "\u2717 couldn't reach a server at this URL": "\u2717 Bu URL'deki bir sunucuya ula\u015F\u0131lamad\u0131",
   "\u2717 server responded but isn't an Engram server": "\u2717 Sunucu yan\u0131t verdi ancak bir Engram sunucusu de\u011Fil",
-  "\u2933 {count} skipped (Free plan)": {
-    one: "\u2933 {count} atland\u0131 (\xDCcretsiz plan)",
-    other: "\u2933 {count} atland\u0131 (\xDCcretsiz plan)"
-  },
+  "\u2933 {count} skipped": { one: "\u2933 {count} atland\u0131", other: "\u2933 {count} atland\u0131" },
   "\u{1F44B} Welcome": "\u{1F44B} Ho\u015F geldiniz",
   "\u{1F4AC} Feedback": "\u{1F4AC} Geri bildirim",
   "\u{1F504} Sync Center": "\u{1F504} Senkronizasyon Merkezi",
@@ -9449,7 +9325,6 @@ var vi = {
   "1. Make an account": "1. T\u1EA1o t\xE0i kho\u1EA3n",
   "10 GB attachments": "10 GB t\u1EC7p \u0111\xEDnh k\xE8m",
   "10 vaults, unlimited devices": "10 kho l\u01B0u tr\u1EEF, s\u1ED1 l\u01B0\u1EE3ng thi\u1EBFt b\u1ECB kh\xF4ng gi\u1EDBi h\u1EA1n",
-  "2,000 notes searchable": "C\xF3 th\u1EC3 t\xECm ki\u1EBFm 2.000 ghi ch\xFA",
   "2. Connect your vault to Engram": "2. K\u1EBFt n\u1ED1i kho l\u01B0u tr\u1EEF c\u1EE7a b\u1EA1n v\u1EDBi Engram",
   "3. Connect your AI": "3. K\u1EBFt n\u1ED1i AI c\u1EE7a b\u1EA1n",
   "50 GB attachments": "50 GB t\u1EC7p \u0111\xEDnh k\xE8m",
@@ -9458,9 +9333,8 @@ var vi = {
   "A temporary server problem \u2014 retrying automatically.": "M\u1ED9t v\u1EA5n \u0111\u1EC1 t\u1EA1m th\u1EDDi v\u1EDBi m\xE1y ch\u1EE7 \u2014 \u0111ang th\u1EED l\u1EA1i t\u1EF1 \u0111\u1ED9ng.",
   "AI / MCP setup guide": "H\u01B0\u1EDBng d\u1EABn thi\u1EBFt l\u1EADp AI / MCP",
   "AI searches": "T\xECm ki\u1EBFm AI",
-  "API access": "Truy c\u1EADp API",
   "API key": "Kh\xF3a API",
-  "API keys need a Pro plan. Sign in with your Engram account instead.": "C\xE1c kh\xF3a API c\u1EA7n g\xF3i Pro. \u0110\u0103ng nh\u1EADp b\u1EB1ng t\xE0i kho\u1EA3n Engram c\u1EE7a b\u1EA1n.",
+  "API key access is turned off for this account. Sign in with your Engram account instead.": "Quy\u1EC1n truy c\u1EADp API key \u0111\xE3 b\u1ECB t\u1EAFt cho t\xE0i kho\u1EA3n n\xE0y. \u0110\u0103ng nh\u1EADp b\u1EB1ng t\xE0i kho\u1EA3n Engram c\u1EE7a b\u1EA1n.",
   About: "Gi\u1EDBi thi\u1EC7u",
   "Accept it to keep syncing.": "Ch\u1EA5p nh\u1EADn \u0111\u1EC3 ti\u1EBFp t\u1EE5c \u0111\u1ED3ng b\u1ED9 h\xF3a.",
   "Access token": "Token truy c\u1EADp",
@@ -9472,14 +9346,13 @@ var vi = {
   "Advanced sync options": "T\xF9y ch\u1ECDn \u0111\u1ED3ng b\u1ED9 h\xF3a n\xE2ng cao",
   "All synced. Your vault and the cloud now match.": "T\u1EA5t c\u1EA3 \u0111\xE3 \u0111\u1ED3ng b\u1ED9 h\xF3a. Kho l\u01B0u tr\u1EEF c\u1EE7a b\u1EA1n v\xE0 tr\xEAn \u0111\xE1m m\xE2y hi\u1EC7n \u0111\xE3 kh\u1EDBp.",
   "Already in sync. Nothing is deleted.": "\u0110\xE3 \u0111\u1ED3ng b\u1ED9 h\xF3a. Kh\xF4ng c\xF3 g\xEC b\u1ECB x\xF3a.",
-  "Already signed in on another device. Upgrade for multi-device.": "\u0110\xE3 \u0111\u0103ng nh\u1EADp tr\xEAn m\u1ED9t thi\u1EBFt b\u1ECB kh\xE1c. N\xE2ng c\u1EA5p \u0111\u1EC3 s\u1EED d\u1EE5ng tr\xEAn nhi\u1EC1u thi\u1EBFt b\u1ECB.",
   "Already up to date. Nothing needed syncing.": "\u0110\xE3 c\u1EADp nh\u1EADt. Kh\xF4ng c\u1EA7n \u0111\u1ED3ng b\u1ED9 h\xF3a g\xEC.",
   "An unexpected error \u2014 retrying automatically.": "M\u1ED9t l\u1ED7i kh\xF4ng mong mu\u1ED1n \u2014 \u0111ang th\u1EED l\u1EA1i t\u1EF1 \u0111\u1ED9ng.",
+  "Attachment not accepted": "T\u1EC7p \u0111\xEDnh k\xE8m kh\xF4ng \u0111\u01B0\u1EE3c ch\u1EA5p nh\u1EADn",
   "Attachment storage full": "B\u1ED9 nh\u1EDB t\u1EC7p \u0111\xEDnh k\xE8m \u0111\xE3 \u0111\u1EA7y",
   "Attachment storage is full \u2014 upgrade for more.": "Kh\xF4ng gian l\u01B0u tr\u1EEF t\u1EC7p \u0111\xEDnh k\xE8m \u0111\xE3 \u0111\u1EA7y \u2014 n\xE2ng c\u1EA5p \u0111\u1EC3 c\xF3 th\xEAm dung l\u01B0\u1EE3ng.",
   "Attachment sync is disabled for this account.": "T\u1EA3i l\xEAn t\u1EC7p \u0111\xEDnh k\xE8m \u0111\xE3 b\u1ECB t\u1EAFt cho t\xE0i kho\u1EA3n n\xE0y.",
   Attachments: "T\u1EC7p \u0111\xEDnh k\xE8m",
-  "Attachments need a paid plan": "T\u1EC7p \u0111\xEDnh k\xE8m c\u1EA7n g\xF3i tr\u1EA3 ph\xED",
   "Attachments on this device": "T\u1EC7p \u0111\xEDnh k\xE8m tr\xEAn thi\u1EBFt b\u1ECB n\xE0y",
   "Authenticated via Engram account (OAuth).": "X\xE1c th\u1EF1c qua t\xE0i kho\u1EA3n Engram (OAuth).",
   "Authenticated via manual API key.": "X\xE1c th\u1EF1c qua kh\xF3a API th\u1EE7 c\xF4ng.",
@@ -9530,7 +9403,7 @@ var vi = {
   "Create a hosted account at {signup}, or self-host the server ({guide}).": "T\u1EA1o t\xE0i kho\u1EA3n tr\xEAn {signup}, ho\u1EB7c t\u1EF1 c\xE0i \u0111\u1EB7t m\xE1y ch\u1EE7 ({guide}).",
   "Create a new empty vault on the server, then sync this Obsidian vault into it.": "T\u1EA1o m\u1ED9t kho l\u01B0u tr\u1EEF tr\u1ED1ng tr\xEAn m\xE1y ch\u1EE7, sau \u0111\xF3 \u0111\u1ED3ng b\u1ED9 h\xF3a kho l\u01B0u tr\u1EEF Obsidian n\xE0y v\xE0o \u0111\xF3.",
   "Custom patterns": "M\u1EABu t\xF9y ch\u1EC9nh",
-  "Daily AI search limit reached. Free includes 20 per day across Obsidian, the web app and MCP. Upgrade for unlimited.": "\u0110\xE3 \u0111\u1EA1t gi\u1EDBi h\u1EA1n t\xECm ki\u1EBFm AI h\xE0ng ng\xE0y. B\u1EA3n mi\u1EC5n ph\xED bao g\u1ED3m 20 l\u1EA7n m\u1ED7i ng\xE0y tr\xEAn Obsidian, \u1EE9ng d\u1EE5ng web v\xE0 MCP. N\xE2ng c\u1EA5p \u0111\u1EC3 c\xF3 kh\xF4ng gi\u1EDBi h\u1EA1n.",
+  "Daily AI search limit reached. Free searches are shared across Obsidian, the web app and MCP. Upgrade for unlimited.": "Gi\u1EDBi h\u1EA1n t\xECm ki\u1EBFm AI h\xE0ng ng\xE0y \u0111\xE3 \u0111\u1EA1t. S\u1ED1 l\u01B0\u1EE3t t\xECm ki\u1EBFm mi\u1EC5n ph\xED \u0111\u01B0\u1EE3c chia s\u1EBB gi\u1EEFa Obsidian, \u1EE9ng d\u1EE5ng web v\xE0 MCP. N\xE2ng c\u1EA5p \u0111\u1EC3 c\xF3 s\u1ED1 l\u01B0\u1EE3t kh\xF4ng gi\u1EDBi h\u1EA1n.",
   "Dart tool cache": "B\u1ED9 nh\u1EDB \u0111\u1EC7m c\xF4ng c\u1EE5 Dart",
   "Debug (verbose)": "G\u1EE1 l\u1ED7i (chi ti\u1EBFt)",
   "Delete all local files, then download from remote": "X\xF3a t\u1EA5t c\u1EA3 c\xE1c t\u1EC7p c\u1EE5c b\u1ED9, sau \u0111\xF3 t\u1EA3i xu\u1ED1ng t\u1EEB m\xE1y ch\u1EE7",
@@ -9541,6 +9414,7 @@ var vi = {
   Deleting: "\u0110ang x\xF3a",
   "Deleting {count} local files.": "X\xF3a {count} t\u1EC7p c\u1EE5c b\u1ED9.",
   "Deleting {count} on the cloud.": "X\xF3a {count} tr\xEAn \u0111\xE1m m\xE2y.",
+  "Device limit reached. Disconnect a device or upgrade.": "\u0110\xE3 \u0111\u1EA1t gi\u1EDBi h\u1EA1n s\u1ED1 l\u01B0\u1EE3ng thi\u1EBFt b\u1ECB. H\u1EE7y k\u1EBFt n\u1ED1i m\u1ED9t thi\u1EBFt b\u1ECB ho\u1EB7c n\xE2ng c\u1EA5p.",
   "Device swap cooldown active. Wait or upgrade.": "Ch\u1EBF \u0111\u1ED9 ch\u1EDD chuy\u1EC3n thi\u1EBFt b\u1ECB \u0111ang ho\u1EA1t \u0111\u1ED9ng. Vui l\xF2ng ch\u1EDD ho\u1EB7c n\xE2ng c\u1EA5p.",
   Diagnostics: "Ch\u1EA9n \u0111o\xE1n",
   "Diagnostics detail": "Chi ti\u1EBFt ch\u1EA9n \u0111o\xE1n",
@@ -9569,7 +9443,6 @@ var vi = {
   "Engram Sync: {details}": "\u0110\u1ED3ng b\u1ED9 h\xF3a Engram: {details}",
   "Engram URL": "URL Engram",
   "Engram Vault Sync {version} is available. {link}.": "Engram Vault Sync {version} kh\u1EA3 d\u1EE5ng. {link}.",
-  "Engram indexes {indexed} of your {all} notes. The rest match on this device only. Upgrade to index everything.": "Engram l\u1EADp ch\u1EC9 m\u1EE5c {indexed} trong s\u1ED1 {all} ghi ch\xFA c\u1EE7a b\u1EA1n. Ph\u1EA7n c\xF2n l\u1EA1i ch\u1EC9 kh\u1EDBp tr\xEAn thi\u1EBFt b\u1ECB n\xE0y. N\xE2ng c\u1EA5p \u0111\u1EC3 l\u1EADp ch\u1EC9 m\u1EE5c m\u1ECDi th\u1EE9.",
   "Engram is the backend that powers sync and semantic search.": "Engram l\xE0 backend cung c\u1EA5p kh\u1EA3 n\u0103ng \u0111\u1ED3ng b\u1ED9 h\xF3a v\xE0 t\xECm ki\u1EBFm ng\u1EEF ngh\u0129a.",
   "Engram search": "T\xECm ki\u1EBFm Engram",
   "Engram server changed \u2014 sign in again to continue.": "M\xE1y ch\u1EE7 Engram \u0111\xE3 thay \u0111\u1ED5i \u2014 \u0111\u0103ng nh\u1EADp l\u1EA1i \u0111\u1EC3 ti\u1EBFp t\u1EE5c.",
@@ -9611,7 +9484,7 @@ var vi = {
   "Engram: this vault no longer exists on the server. Pick or create a vault to continue.": "Engram: kho l\u01B0u tr\u1EEF n\xE0y kh\xF4ng c\xF2n t\u1ED3n t\u1EA1i tr\xEAn m\xE1y ch\u1EE7. Ch\u1ECDn ho\u1EB7c t\u1EA1o m\u1ED9t kho l\u01B0u tr\u1EEF \u0111\u1EC3 ti\u1EBFp t\u1EE5c.",
   "Engram: update required": "Engram: c\u1EA7n c\u1EADp nh\u1EADt",
   "Engram: your login expired \u2014 open Engram settings to reconnect.": "Engram: phi\xEAn \u0111\u0103ng nh\u1EADp c\u1EE7a b\u1EA1n \u0111\xE3 h\u1EBFt h\u1EA1n \u2014 m\u1EDF c\xE0i \u0111\u1EB7t Engram \u0111\u1EC3 k\u1EBFt n\u1ED1i l\u1EA1i.",
-  "Engram: {count} attachments skipped \u2014 upgrade your plan to sync images & PDFs.": "Engram: {count} t\u1EC7p \u0111\xEDnh k\xE8m b\u1ECB b\u1ECF qua \u2014 n\xE2ng c\u1EA5p g\xF3i c\u1EE7a b\u1EA1n \u0111\u1EC3 \u0111\u1ED3ng b\u1ED9 h\xF3a \u1EA3nh & PDF.",
+  "Engram: {count} attachments skipped. See Sync Center for why.": "Engram: {count} t\u1EC7p \u0111\xEDnh k\xE8m b\u1ECB b\u1ECF qua. Xem Trung t\xE2m \u0111\u1ED3ng b\u1ED9 h\xF3a \u0111\u1EC3 bi\u1EBFt l\xFD do.",
   "Engram: {count} files failed to sync{detail} \u2014 open Sync Center": "Engram: {count} t\u1EC7p kh\xF4ng \u0111\u1ED3ng b\u1ED9 h\xF3a{detail} \u2014 m\u1EDF Trung t\xE2m \u0111\u1ED3ng b\u1ED9 h\xF3a",
   "Engram: {count} notes have frontmatter problems. Open Sync Center to fix.": "Engram: {count} ghi ch\xFA c\xF3 v\u1EA5n \u0111\u1EC1 v\u1EC1 frontmatter. M\u1EDF Trung t\xE2m \u0111\u1ED3ng b\u1ED9 h\xF3a \u0111\u1EC3 s\u1EEDa.",
   "Engram: \u26A0 {count} sync errors": "Engram: \u26A0 {count} l\u1ED7i \u0111\u1ED3ng b\u1ED9 h\xF3a",
@@ -9635,8 +9508,6 @@ var vi = {
   "Finished with some errors. Open the sync log to see what failed.": "Ho\xE0n th\xE0nh v\u1EDBi m\u1ED9t s\u1ED1 l\u1ED7i. M\u1EDF nh\u1EADt k\xFD \u0111\u1ED3ng b\u1ED9 h\xF3a \u0111\u1EC3 xem nh\u1EEFng g\xEC \u0111\xE3 th\u1EA5t b\u1EA1i.",
   "First sync, this may take a moment.": "L\u1EA7n \u0111\u1ED3ng b\u1ED9 h\xF3a \u0111\u1EA7u ti\xEAn, c\xF3 th\u1EC3 m\u1EA5t m\u1ED9t ch\xFAt th\u1EDDi gian.",
   Free: "Mi\u1EC5n ph\xED",
-  "Free syncs notes only \u2014 images & PDFs need a paid plan.": "\u0110\u1ED3ng b\u1ED9 h\xF3a mi\u1EC5n ph\xED ch\u1EC9 d\xE0nh cho ghi ch\xFA \u2014 h\xECnh \u1EA3nh & PDF c\u1EA7n g\xF3i tr\u1EA3 ph\xED.",
-  "Free syncs notes only \u2014 {count} attachments will be skipped.": "Mi\u1EC5n ph\xED \u0111\u1ED3ng b\u1ED9 h\xF3a ghi ch\xFA, ch\u1EC9 {count} t\u1EC7p \u0111\xEDnh k\xE8m s\u1EBD b\u1ECB b\u1ECF qua.",
   "Frontmatter could not be parsed": "Kh\xF4ng th\u1EC3 ph\xE2n t\xEDch frontmatter",
   "Frontmatter isn't valid YAML.": "Frontmatter kh\xF4ng ph\u1EA3i l\xE0 \u0111\u1ECBnh d\u1EA1ng YAML h\u1EE3p l\u1EC7.",
   'Frontmatter key "{key}" could not be parsed as YAML.': 'Kh\xF4ng th\u1EC3 ph\xE2n t\xEDch kh\xF3a frontmatter "{key}" th\xE0nh YAML.',
@@ -9697,8 +9568,6 @@ var vi = {
   "Note limit reached. Upgrade to keep adding notes.": "\u0110\xE3 \u0111\u1EA1t gi\u1EDBi h\u1EA1n ghi ch\xFA. N\xE2ng c\u1EA5p \u0111\u1EC3 th\xEAm nhi\u1EC1u ghi ch\xFA h\u01A1n.",
   "Note not synced locally": "Ghi ch\xFA ch\u01B0a \u0111\u01B0\u1EE3c \u0111\u1ED3ng b\u1ED9 h\xF3a c\u1EE5c b\u1ED9",
   "Notes on this device": "Ghi ch\xFA tr\xEAn thi\u1EBFt b\u1ECB n\xE0y",
-  "Notes past this still sync and open normally, they are just not in the search index. The index keeps your oldest notes, so it is your newest ones that fall outside.": "C\xE1c ghi ch\xFA sau \u0111\xE2y v\u1EABn \u0111\u01B0\u1EE3c \u0111\u1ED3ng b\u1ED9 h\xF3a v\xE0 m\u1EDF b\xECnh th\u01B0\u1EDDng, ch\xFAng ch\u1EC9 kh\xF4ng n\u1EB1m trong ch\u1EC9 m\u1EE5c t\xECm ki\u1EBFm. Ch\u1EC9 m\u1EE5c l\u01B0u tr\u1EEF c\xE1c ghi ch\xFA c\u0169 nh\u1EA5t c\u1EE7a b\u1EA1n, v\xEC v\u1EADy c\xE1c ghi ch\xFA m\u1EDBi nh\u1EA5t c\u1EE7a b\u1EA1n s\u1EBD kh\xF4ng n\u1EB1m trong \u0111\xF3.",
-  "Notes searchable": "Ghi ch\xFA c\xF3 th\u1EC3 t\xECm ki\u1EBFm",
   "Notes stored": "Ghi ch\xFA \u0111\xE3 \u0111\u01B0\u1EE3c l\u01B0u tr\u1EEF",
   "Nothing in this vault syncs until you choose how to merge it with the server.": "Kh\xF4ng c\xF3 g\xEC trong kho l\u01B0u tr\u1EEF n\xE0y \u0111\u01B0\u1EE3c \u0111\u1ED3ng b\u1ED9 h\xF3a cho \u0111\u1EBFn khi b\u1EA1n ch\u1ECDn c\xE1ch h\u1EE3p nh\u1EA5t n\xF3 v\u1EDBi m\xE1y ch\u1EE7.",
   "Nothing is deleted.": "Kh\xF4ng c\xF3 g\xEC b\u1ECB x\xF3a.",
@@ -9720,7 +9589,6 @@ var vi = {
   "Open the file to resolve the conflict, then sync again.": "M\u1EDF t\u1EC7p \u0111\u1EC3 gi\u1EA3i quy\u1EBFt xung \u0111\u1ED9t, sau \u0111\xF3 \u0111\u1ED3ng b\u1ED9 h\xF3a l\u1EA1i.",
   "Opens your browser to sign in, or create an account if you don't have one yet, then links this vault.": "M\u1EDF tr\xECnh duy\u1EC7t c\u1EE7a b\u1EA1n \u0111\u1EC3 \u0111\u0103ng nh\u1EADp, ho\u1EB7c t\u1EA1o t\xE0i kho\u1EA3n n\u1EBFu b\u1EA1n ch\u01B0a c\xF3, sau \u0111\xF3 li\xEAn k\u1EBFt kho l\u01B0u tr\u1EEF n\xE0y.",
   "Or authenticate with a token instead of signing in.": "Ho\u1EB7c x\xE1c th\u1EF1c b\u1EB1ng token thay v\xEC \u0111\u0103ng nh\u1EADp.",
-  "Or authenticate with a token instead of signing in. Engram Cloud API keys require the Pro plan; on Free and Starter, sign in above.": "Ho\u1EB7c x\xE1c th\u1EF1c b\u1EB1ng token thay v\xEC \u0111\u0103ng nh\u1EADp. C\xE1c kh\xF3a API Engram Cloud y\xEAu c\u1EA7u g\xF3i Pro; tr\xEAn c\xE1c g\xF3i Free v\xE0 Starter, h\xE3y \u0111\u0103ng nh\u1EADp \u1EDF tr\xEAn.",
   "Paths to skip (one per line). Folder patterns end with /. Built-in: {configDir}/, .trash/, .git/": "C\xE1c \u0111\u01B0\u1EDDng d\u1EABn c\u1EA7n b\u1ECF qua (m\u1ED7i d\xF2ng m\u1ED9t). M\u1EABu th\u01B0 m\u1EE5c k\u1EBFt th\xFAc b\u1EB1ng /. T\xEDch h\u1EE3p s\u1EB5n: {configDir}/, .trash/, .git/",
   "Pick a vault": "Ch\u1ECDn m\u1ED9t kho l\u01B0u tr\u1EEF",
   "Pick a vault (previous: '{name}' not found)": "Ch\u1ECDn m\u1ED9t kho l\u01B0u tr\u1EEF (tr\u01B0\u1EDBc \u0111\xF3: '{name}' kh\xF4ng t\xECm th\u1EA5y)",
@@ -9764,7 +9632,6 @@ var vi = {
   "Search failed \u2014 check connection": "T\xECm ki\u1EBFm th\u1EA5t b\u1EA1i \u2014 ki\u1EC3m tra k\u1EBFt n\u1ED1i",
   "Search settings": "C\xE0i \u0111\u1EB7t t\xECm ki\u1EBFm",
   "Search your vault\u2026": "T\xECm ki\u1EBFm trong kho l\u01B0u tr\u1EEF c\u1EE7a b\u1EA1n\u2026",
-  "Searching {indexed} of {all} notes. Upgrade to search everything.": "T\xECm ki\u1EBFm {indexed} trong s\u1ED1 {all} ghi ch\xFA. N\xE2ng c\u1EA5p \u0111\u1EC3 t\xECm ki\u1EBFm m\u1ECDi th\u1EE9.",
   "See full pricing": "Xem chi ti\u1EBFt gi\xE1",
   "See the AI setup guide": "Xem h\u01B0\u1EDBng d\u1EABn thi\u1EBFt l\u1EADp AI",
   "Select which vault this plugin syncs with.": "Ch\u1ECDn kho l\u01B0u tr\u1EEF m\xE0 plugin n\xE0y s\u1EBD \u0111\u1ED3ng b\u1ED9 h\xF3a.",
@@ -9812,7 +9679,7 @@ var vi = {
   "Sync server": "M\xE1y ch\u1EE7 \u0111\u1ED3ng b\u1ED9 h\xF3a",
   "Sync these now": "\u0110\u1ED3ng b\u1ED9 h\xF3a c\xE1c t\u1EC7p n\xE0y ngay b\xE2y gi\u1EDD",
   "Sync...": "\u0110\u1ED3ng b\u1ED9 h\xF3a...",
-  "Synced. Some attachments need a paid plan to sync (see below).": "\u0110\xE3 \u0111\u1ED3ng b\u1ED9 h\xF3a. M\u1ED9t s\u1ED1 t\u1EC7p \u0111\xEDnh k\xE8m c\u1EA7n g\xF3i tr\u1EA3 ph\xED \u0111\u1EC3 \u0111\u1ED3ng b\u1ED9 h\xF3a (xem b\xEAn d\u01B0\u1EDBi).",
+  "Synced. Some attachments were skipped (see below).": "\u0110\xE3 \u0111\u1ED3ng b\u1ED9 h\xF3a. M\u1ED9t s\u1ED1 t\u1EC7p \u0111\xEDnh k\xE8m \u0111\xE3 b\u1ECB b\u1ECF qua (xem b\xEAn d\u01B0\u1EDBi).",
   "Syncing attachments": "\u0110ang \u0111\u1ED3ng b\u1ED9 h\xF3a t\u1EC7p \u0111\xEDnh k\xE8m",
   "Syncing your vault": "\u0110ang \u0111\u1ED3ng b\u1ED9 h\xF3a kho l\u01B0u tr\u1EEF c\u1EE7a b\u1EA1n",
   "Syncing...": "\u0110ang \u0111\u1ED3ng b\u1ED9 h\xF3a...",
@@ -9825,7 +9692,6 @@ var vi = {
   "That does not look like an Engram API key (expected {prefix}\u2026).": "\u0110\xF3 kh\xF4ng ph\u1EA3i l\xE0 kh\xF3a API Engram (mong \u0111\u1EE3i {prefix}\u2026).",
   "The Engram server no longer accepts this plugin version (it needs {version} or newer), so notes are not being sent or received. Changes made on this device stay here until you update.": "M\xE1y ch\u1EE7 Engram kh\xF4ng c\xF2n h\u1ED7 tr\u1EE3 phi\xEAn b\u1EA3n plugin n\xE0y (c\u1EA7n phi\xEAn b\u1EA3n {version} tr\u1EDF l\xEAn), v\xEC v\u1EADy ghi ch\xFA kh\xF4ng \u0111\u01B0\u1EE3c g\u1EEDi ho\u1EB7c nh\u1EADn. C\xE1c thay \u0111\u1ED5i b\u1EA1n th\u1EF1c hi\u1EC7n tr\xEAn thi\u1EBFt b\u1ECB n\xE0y s\u1EBD v\u1EABn \u1EDF \u0111\xE2y cho \u0111\u1EBFn khi b\u1EA1n c\u1EADp nh\u1EADt.",
   "The Engram server no longer accepts this plugin version, so notes are not being sent or received. Changes made on this device stay here until you update.": "M\xE1y ch\u1EE7 Engram kh\xF4ng c\xF2n h\u1ED7 tr\u1EE3 phi\xEAn b\u1EA3n plugin n\xE0y, v\xEC v\u1EADy ghi ch\xFA kh\xF4ng \u0111\u01B0\u1EE3c g\u1EEDi ho\u1EB7c nh\u1EADn. C\xE1c thay \u0111\u1ED5i b\u1EA1n th\u1EF1c hi\u1EC7n tr\xEAn thi\u1EBFt b\u1ECB n\xE0y s\u1EBD v\u1EABn \u1EDF \u0111\xE2y cho \u0111\u1EBFn khi b\u1EA1n c\u1EADp nh\u1EADt.",
-  "The Free tier syncs notes only. Upgrade to sync images and PDFs.": "G\xF3i mi\u1EC5n ph\xED ch\u1EC9 \u0111\u1ED3ng b\u1ED9 h\xF3a ghi ch\xFA. N\xE2ng c\u1EA5p \u0111\u1EC3 \u0111\u1ED3ng b\u1ED9 h\xF3a h\xECnh \u1EA3nh v\xE0 PDF.",
   "The file is over the server's size limit. Compress or split it, then it will sync.": "T\u1EC7p v\u01B0\u1EE3t qu\xE1 gi\u1EDBi h\u1EA1n k\xEDch th\u01B0\u1EDBc c\u1EE7a m\xE1y ch\u1EE7. N\xE9n ho\u1EB7c chia nh\u1ECF n\xF3, sau \u0111\xF3 n\xF3 s\u1EBD \u0111\u01B0\u1EE3c \u0111\u1ED3ng b\u1ED9 h\xF3a.",
   "The file is too large for the server.": "T\u1EC7p qu\xE1 l\u1EDBn \u0111\u1ED1i v\u1EDBi m\xE1y ch\u1EE7.",
   "The note synced, but its frontmatter could not be fully parsed. Open it to fix the highlighted line.": "Ghi ch\xFA \u0111\xE3 \u0111\u01B0\u1EE3c \u0111\u1ED3ng b\u1ED9 h\xF3a, nh\u01B0ng ph\u1EA7n frontmatter kh\xF4ng th\u1EC3 ph\xE2n t\xEDch \u0111\u1EA7y \u0111\u1EE7. M\u1EDF n\xF3 \u0111\u1EC3 s\u1EEDa d\xF2ng \u0111\u01B0\u1EE3c \u0111\xE1nh d\u1EA5u.",
@@ -9833,7 +9699,7 @@ var vi = {
   "The server does not accept this type of file. It will retry if the file changes.": "M\xE1y ch\u1EE7 kh\xF4ng ch\u1EA5p nh\u1EADn lo\u1EA1i t\u1EC7p n\xE0y. H\u1EC7 th\u1ED1ng s\u1EBD th\u1EED l\u1EA1i n\u1EBFu t\u1EC7p thay \u0111\u1ED5i.",
   "The server lost this file's stored content and will try to restore it. Nothing on this device was changed.": "M\xE1y ch\u1EE7 \u0111\xE3 m\u1EA5t n\u1ED9i dung c\u1EE7a t\u1EC7p n\xE0y v\xE0 s\u1EBD c\u1ED1 g\u1EAFng kh\xF4i ph\u1EE5c. Kh\xF4ng c\xF3 g\xEC thay \u0111\u1ED5i tr\xEAn thi\u1EBFt b\u1ECB n\xE0y.",
   "The server took too long to respond. Try again.": "M\xE1y ch\u1EE7 ph\u1EA3n h\u1ED3i qu\xE1 ch\u1EADm. Th\u1EED l\u1EA1i.",
-  "These files are fine. They just need a paid plan to sync.": "C\xE1c t\u1EC7p n\xE0y kh\xF4ng c\xF3 v\u1EA5n \u0111\u1EC1. Ch\xFAng ch\u1EC9 c\u1EA7n m\u1ED9t g\xF3i tr\u1EA3 ph\xED \u0111\u1EC3 \u0111\u1ED3ng b\u1ED9 h\xF3a.",
+  "These files are fine. Each card below says why they did not sync.": "C\xE1c t\u1EC7p n\xE0y kh\xF4ng c\xF3 v\u1EA5n \u0111\u1EC1 g\xEC. M\u1ED7i m\u1EE5c b\xEAn d\u01B0\u1EDBi gi\u1EA3i th\xEDch l\xFD do t\u1EA1i sao ch\xFAng kh\xF4ng \u0111\u01B0\u1EE3c \u0111\u1ED3ng b\u1ED9 h\xF3a.",
   "This account was deleted. Contact support if that is wrong.": "T\xE0i kho\u1EA3n n\xE0y \u0111\xE3 b\u1ECB x\xF3a. Li\xEAn h\u1EC7 h\u1ED7 tr\u1EE3 n\u1EBFu \u0111i\u1EC1u n\xE0y l\xE0 sai.",
   "This cannot be undone.": "Kh\xF4ng th\u1EC3 ho\xE0n t\xE1c.",
   "This code expired before the link finished. Generate a new code to try again.": "M\xE3 n\xE0y \u0111\xE3 h\u1EBFt h\u1EA1n tr\u01B0\u1EDBc khi qu\xE1 tr\xECnh ho\xE0n t\u1EA5t. T\u1EA1o m\xE3 m\u1EDBi \u0111\u1EC3 th\u1EED l\u1EA1i.",
@@ -9841,10 +9707,10 @@ var vi = {
   "This file type isn't accepted by this server.": "Lo\u1EA1i t\u1EC7p n\xE0y kh\xF4ng \u0111\u01B0\u1EE3c ch\u1EA5p nh\u1EADn b\u1EDFi m\xE1y ch\u1EE7 n\xE0y.",
   "This note could not be processed and was skipped.": "Ghi ch\xFA n\xE0y kh\xF4ng th\u1EC3 x\u1EED l\xFD v\xE0 \u0111\xE3 b\u1ECB b\u1ECF qua.",
   "This server is self-hosted, so feedback is not collected here. ": "M\xE1y ch\u1EE7 n\xE0y \u0111\u01B0\u1EE3c t\u1EF1 l\u01B0u tr\u1EEF, v\xEC v\u1EADy ph\u1EA3n h\u1ED3i kh\xF4ng \u0111\u01B0\u1EE3c thu th\u1EADp \u1EDF \u0111\xE2y. ",
+  "This server isn't accepting this attachment for your account.": "M\xE1y ch\u1EE7 n\xE0y kh\xF4ng ch\u1EA5p nh\u1EADn t\u1EC7p \u0111\xEDnh k\xE8m n\xE0y cho t\xE0i kho\u1EA3n c\u1EE7a b\u1EA1n.",
   "This vault": "Kho l\u01B0u tr\u1EEF n\xE0y",
   "This vault is empty on the server. Upload your {what}?": "Kho l\u01B0u tr\u1EEF n\xE0y tr\u1ED1ng tr\xEAn m\xE1y ch\u1EE7. B\u1EA1n mu\u1ED1n t\u1EA3i l\xEAn {what}?",
   "Too large for the server": "Qu\xE1 l\u1EDBn cho m\xE1y ch\u1EE7",
-  "Too many connected AI clients. Disconnect one or upgrade.": "Qu\xE1 nhi\u1EC1u \u1EE9ng d\u1EE5ng AI \u0111\u01B0\u1EE3c k\u1EBFt n\u1ED1i. Ng\u1EAFt k\u1EBFt n\u1ED1i m\u1ED9t \u1EE9ng d\u1EE5ng ho\u1EB7c n\xE2ng c\u1EA5p.",
   "Too many connected Obsidian vaults. Disconnect one or upgrade.": "Qu\xE1 nhi\u1EC1u kho l\u01B0u tr\u1EEF Obsidian \u0111\u01B0\u1EE3c k\u1EBFt n\u1ED1i. Ng\u1EAFt k\u1EBFt n\u1ED1i m\u1ED9t kho ho\u1EB7c n\xE2ng c\u1EA5p.",
   "Too many requests. Wait a moment and try again.": "Qu\xE1 nhi\u1EC1u y\xEAu c\u1EA7u. Ch\u1EDD m\u1ED9t l\xE1t r\u1ED3i th\u1EED l\u1EA1i.",
   "Type {keyword} to confirm:": "Nh\u1EADp {keyword} \u0111\u1EC3 x\xE1c nh\u1EADn:",
@@ -9911,7 +9777,8 @@ var vi = {
   "waiting for a plugin update": "\u0110ang ch\u1EDD c\u1EADp nh\u1EADt plugin",
   "waiting to retry": "\u0111ang ch\u1EDD th\u1EED l\u1EA1i",
   "{count} attachments": "{count} t\u1EC7p \u0111\xEDnh k\xE8m",
-  "{count} attachments need a paid plan to sync. See Sync Center.": "{count} t\u1EC7p \u0111\xEDnh k\xE8m c\u1EA7n g\xF3i tr\u1EA3 ph\xED \u0111\u1EC3 \u0111\u1ED3ng b\u1ED9 h\xF3a. Xem Trung t\xE2m \u0111\u1ED3ng b\u1ED9 h\xF3a.",
+  "{count} attachments skipped. See Sync Center.": "{count} t\u1EC7p \u0111\xEDnh k\xE8m b\u1ECB b\u1ECF qua. Xem Trung t\xE2m \u0111\u1ED3ng b\u1ED9 h\xF3a.",
+  "{count} attachments will be skipped: this server only accepts text files.": "{count} t\u1EC7p \u0111\xEDnh k\xE8m s\u1EBD b\u1ECB b\u1ECF qua: m\xE1y ch\u1EE7 n\xE0y ch\u1EC9 ch\u1EA5p nh\u1EADn t\u1EC7p v\u0103n b\u1EA3n.",
   "{count} attempts": "{count} l\u1EA7n th\u1EED",
   "{count} conflicts need resolution": "{count} xung \u0111\u1ED9t c\u1EA7n gi\u1EA3i quy\u1EBFt",
   "{count} conflicts to resolve.": "{count} xung \u0111\u1ED9t c\u1EA7n gi\u1EA3i quy\u1EBFt.",
@@ -9940,7 +9807,7 @@ var vi = {
   "\u2715 {count} failed": "\u2715 {count} th\u1EA5t b\u1EA1i",
   "\u2717 couldn't reach a server at this URL": "\u2717 Kh\xF4ng th\u1EC3 k\u1EBFt n\u1ED1i \u0111\u1EBFn m\xE1y ch\u1EE7 t\u1EA1i URL n\xE0y",
   "\u2717 server responded but isn't an Engram server": "\u2717 M\xE1y ch\u1EE7 ph\u1EA3n h\u1ED3i nh\u01B0ng kh\xF4ng ph\u1EA3i l\xE0 m\xE1y ch\u1EE7 Engram",
-  "\u2933 {count} skipped (Free plan)": "\u2933 {count} b\u1ECF qua (G\xF3i mi\u1EC5n ph\xED)",
+  "\u2933 {count} skipped": "\u2933 {count} \u0111\xE3 b\u1ECF qua",
   "\u{1F44B} Welcome": "\u{1F44B} Ch\xE0o m\u1EEBng",
   "\u{1F4AC} Feedback": "\u{1F4AC} Ph\u1EA3n h\u1ED3i",
   "\u{1F504} Sync Center": "\u{1F504} Trung t\xE2m \u0111\u1ED3ng b\u1ED9 h\xF3a",
@@ -9957,7 +9824,6 @@ var zh = {
   "1. Make an account": "1. \u521B\u5EFA\u8D26\u53F7",
   "10 GB attachments": "10 GB \u9644\u4EF6",
   "10 vaults, unlimited devices": "10 \u4E2A\u77E5\u8BC6\u5E93\uFF0C\u65E0\u9650\u8BBE\u5907",
-  "2,000 notes searchable": "\u53EF\u641C\u7D22 2000 \u4E2A\u7B14\u8BB0",
   "2. Connect your vault to Engram": "2. \u5C06\u60A8\u7684\u4ED3\u5E93\u8FDE\u63A5\u5230 Engram",
   "3. Connect your AI": "3. \u8FDE\u63A5\u60A8\u7684 AI",
   "50 GB attachments": "50 GB \u9644\u4EF6",
@@ -9966,9 +9832,8 @@ var zh = {
   "A temporary server problem \u2014 retrying automatically.": "\u4E34\u65F6\u670D\u52A1\u5668\u95EE\u9898\uFF0C\u6B63\u5728\u81EA\u52A8\u91CD\u8BD5\u3002",
   "AI / MCP setup guide": "AI / MCP \u8BBE\u7F6E\u6307\u5357",
   "AI searches": "AI \u641C\u7D22",
-  "API access": "API \u8BBF\u95EE",
   "API key": "API \u5BC6\u94A5",
-  "API keys need a Pro plan. Sign in with your Engram account instead.": "API \u5BC6\u94A5\u9700\u8981 Pro \u8BA1\u5212\u3002\u8BF7\u4F7F\u7528\u60A8\u7684 Engram \u8D26\u53F7\u767B\u5F55\u3002",
+  "API key access is turned off for this account. Sign in with your Engram account instead.": "\u6B64\u8D26\u53F7\u7684API\u5BC6\u94A5\u8BBF\u95EE\u5DF2\u5173\u95ED\u3002\u8BF7\u4F7F\u7528\u60A8\u7684Engram\u8D26\u53F7\u767B\u5F55\u3002",
   About: "\u5173\u4E8E",
   "Accept it to keep syncing.": "\u540C\u610F\u4EE5\u7EE7\u7EED\u540C\u6B65\u3002",
   "Access token": "\u8BBF\u95EE\u4EE4\u724C",
@@ -9980,14 +9845,13 @@ var zh = {
   "Advanced sync options": "\u9AD8\u7EA7\u540C\u6B65\u9009\u9879",
   "All synced. Your vault and the cloud now match.": "\u5DF2\u5168\u90E8\u540C\u6B65\u3002\u60A8\u7684\u4ED3\u5E93\u548C\u4E91\u7AEF\u73B0\u5728\u5DF2\u540C\u6B65\u3002",
   "Already in sync. Nothing is deleted.": "\u5DF2\u540C\u6B65\u3002\u4E0D\u4F1A\u5220\u9664\u4EFB\u4F55\u5185\u5BB9\u3002",
-  "Already signed in on another device. Upgrade for multi-device.": "\u5DF2\u5728\u53E6\u4E00\u8BBE\u5907\u4E0A\u767B\u5F55\u3002\u5347\u7EA7\u4EE5\u652F\u6301\u591A\u8BBE\u5907\u3002",
   "Already up to date. Nothing needed syncing.": "\u5DF2\u662F\u6700\u65B0\u7684\u3002\u65E0\u9700\u540C\u6B65\u4EFB\u4F55\u5185\u5BB9\u3002",
   "An unexpected error \u2014 retrying automatically.": "\u51FA\u73B0\u610F\u5916\u9519\u8BEF\uFF0C\u6B63\u5728\u81EA\u52A8\u91CD\u8BD5\u3002",
+  "Attachment not accepted": "\u9644\u4EF6\u672A\u88AB\u63A5\u53D7",
   "Attachment storage full": "\u9644\u4EF6\u5B58\u50A8\u5DF2\u6EE1",
   "Attachment storage is full \u2014 upgrade for more.": "\u5B58\u50A8\u7A7A\u95F4\u5DF2\u6EE1\uFF0C\u5347\u7EA7\u4EE5\u83B7\u5F97\u66F4\u591A\u7A7A\u95F4\u3002",
   "Attachment sync is disabled for this account.": "\u6B64\u8D26\u53F7\u5DF2\u7981\u7528\u9644\u4EF6\u540C\u6B65\u3002",
   Attachments: "\u9644\u4EF6",
-  "Attachments need a paid plan": "\u9644\u4EF6\u9700\u8981\u4ED8\u8D39\u8BA1\u5212",
   "Attachments on this device": "\u672C\u8BBE\u5907\u4E0A\u7684\u9644\u4EF6",
   "Authenticated via Engram account (OAuth).": "\u901A\u8FC7 Engram \u8D26\u53F7 (OAuth) \u9A8C\u8BC1\u3002",
   "Authenticated via manual API key.": "\u901A\u8FC7\u624B\u52A8 API \u5BC6\u94A5\u9A8C\u8BC1\u3002",
@@ -10038,7 +9902,7 @@ var zh = {
   "Create a hosted account at {signup}, or self-host the server ({guide}).": "\u5728 {signup} \u521B\u5EFA\u6258\u7BA1\u8D26\u53F7\uFF0C\u6216\u81EA\u884C\u642D\u5EFA\u670D\u52A1\u5668 ({guide})\u3002",
   "Create a new empty vault on the server, then sync this Obsidian vault into it.": "\u5728\u670D\u52A1\u5668\u4E0A\u521B\u5EFA\u4E00\u4E2A\u65B0\u7684\u7A7A\u4ED3\u5E93\uFF0C\u7136\u540E\u5C06\u6B64 Obsidian \u4ED3\u5E93\u540C\u6B65\u5230\u5176\u4E2D\u3002",
   "Custom patterns": "\u81EA\u5B9A\u4E49\u89C4\u5219",
-  "Daily AI search limit reached. Free includes 20 per day across Obsidian, the web app and MCP. Upgrade for unlimited.": "\u6BCF\u65E5 AI \u641C\u7D22\u6B21\u6570\u5DF2\u8FBE\u4E0A\u9650\u3002\u514D\u8D39\u7248\u6BCF\u5929\u5305\u542B 20 \u6B21\uFF0C\u9002\u7528\u4E8E Obsidian\u3001\u7F51\u9875\u5E94\u7528\u548C MCP\u3002\u5347\u7EA7\u4EE5\u83B7\u5F97\u65E0\u9650\u6B21\u6570\u3002",
+  "Daily AI search limit reached. Free searches are shared across Obsidian, the web app and MCP. Upgrade for unlimited.": "\u6BCF\u65E5AI\u641C\u7D22\u6B21\u6570\u5DF2\u8FBE\u4E0A\u9650\u3002\u514D\u8D39\u641C\u7D22\u6B21\u6570\u5728Obsidian\u3001\u7F51\u9875\u5E94\u7528\u548CMCP\u4E2D\u5171\u4EAB\u3002\u5347\u7EA7\u4EE5\u83B7\u5F97\u65E0\u9650\u6B21\u6570\u3002",
   "Dart tool cache": "Dart\u5DE5\u5177\u7F13\u5B58",
   "Debug (verbose)": "\u8C03\u8BD5 (\u8BE6\u7EC6)",
   "Delete all local files, then download from remote": "\u5220\u9664\u6240\u6709\u672C\u5730\u6587\u4EF6\uFF0C\u7136\u540E\u4ECE\u8FDC\u7A0B\u4E0B\u8F7D",
@@ -10049,6 +9913,7 @@ var zh = {
   Deleting: "\u5220\u9664\u4E2D",
   "Deleting {count} local files.": "\u5220\u9664 {count} \u4E2A\u672C\u5730\u6587\u4EF6\u3002",
   "Deleting {count} on the cloud.": "\u6B63\u5728\u5220\u9664{count}\u4E2A\u4E91\u7AEF\u6587\u4EF6\u3002",
+  "Device limit reached. Disconnect a device or upgrade.": "\u8BBE\u5907\u6570\u91CF\u5DF2\u8FBE\u4E0A\u9650\u3002\u65AD\u5F00\u4E00\u4E2A\u8BBE\u5907\u6216\u5347\u7EA7\u3002",
   "Device swap cooldown active. Wait or upgrade.": "\u8BBE\u5907\u5207\u6362\u51B7\u5374\u4E2D\u3002\u8BF7\u7B49\u5F85\u6216\u5347\u7EA7\u3002",
   Diagnostics: "\u8BCA\u65AD",
   "Diagnostics detail": "\u8BCA\u65AD\u8BE6\u60C5",
@@ -10077,7 +9942,6 @@ var zh = {
   "Engram Sync: {details}": "Engram \u540C\u6B65\uFF1A{details}",
   "Engram URL": "Engram \u5730\u5740",
   "Engram Vault Sync {version} is available. {link}.": "Engram Vault Sync {version} \u53EF\u7528\u3002{link}\u3002",
-  "Engram indexes {indexed} of your {all} notes. The rest match on this device only. Upgrade to index everything.": "Engram \u7D22\u5F15\u4E86\u60A8 {all} \u4E2A\u7B14\u8BB0\u4E2D\u7684 {indexed} \u4E2A\u3002\u5176\u4F59\u7684\u4EC5\u5728\u6B64\u8BBE\u5907\u4E0A\u5339\u914D\u3002\u5347\u7EA7\u4EE5\u7D22\u5F15\u6240\u6709\u5185\u5BB9\u3002",
   "Engram is the backend that powers sync and semantic search.": "Engram \u662F\u63D0\u4F9B\u540C\u6B65\u548C\u8BED\u4E49\u641C\u7D22\u7684\u540E\u7AEF\u3002",
   "Engram search": "Engram \u641C\u7D22",
   "Engram server changed \u2014 sign in again to continue.": "Engram \u670D\u52A1\u5668\u5DF2\u66F4\u6539\uFF0C\u8BF7\u91CD\u65B0\u767B\u5F55\u4EE5\u7EE7\u7EED\u3002",
@@ -10119,7 +9983,6 @@ var zh = {
   "Engram: this vault no longer exists on the server. Pick or create a vault to continue.": "Engram: \u6B64\u4ED3\u5E93\u4E0D\u518D\u5B58\u5728\u4E8E\u670D\u52A1\u5668\u4E0A\u3002\u9009\u62E9\u6216\u521B\u5EFA\u4ED3\u5E93\u4EE5\u7EE7\u7EED\u3002",
   "Engram: update required": "Engram: \u9700\u8981\u66F4\u65B0",
   "Engram: your login expired \u2014 open Engram settings to reconnect.": "Engram\uFF1A\u60A8\u7684\u767B\u5F55\u5DF2\u8FC7\u671F\uFF0C\u8BF7\u5728 Engram \u8BBE\u7F6E\u4E2D\u91CD\u65B0\u8FDE\u63A5\u3002",
-  "Engram: {count} attachments skipped \u2014 upgrade your plan to sync images & PDFs.": "Engram: \u5FFD\u7565\u4E86 {count} \u4E2A\u9644\u4EF6 \u2014 \u5347\u7EA7\u60A8\u7684\u5957\u9910\u4EE5\u540C\u6B65\u56FE\u7247\u548CPDF\u3002",
   "Engram: {count} files failed to sync{detail} \u2014 open Sync Center": "Engram\uFF1A{count}\u4E2A\u6587\u4EF6\u540C\u6B65\u5931\u8D25{detail} \u2014 \u6253\u5F00\u540C\u6B65\u4E2D\u5FC3",
   "Engram: {count} notes have frontmatter problems. Open Sync Center to fix.": "Engram: {count}\u4E2A\u7B14\u8BB0\u5B58\u5728\u524D\u7F6E\u5143\u6570\u636E\u95EE\u9898\u3002\u6253\u5F00\u540C\u6B65\u4E2D\u5FC3\u4FEE\u590D\u3002",
   "Engram: \u26A0 {count} sync errors": "Engram: \u26A0 {count}\u4E2A\u540C\u6B65\u9519\u8BEF",
@@ -10143,8 +10006,6 @@ var zh = {
   "Finished with some errors. Open the sync log to see what failed.": "\u5B8C\u6210\uFF0C\u4F46\u6709\u9519\u8BEF\u3002\u6253\u5F00\u540C\u6B65\u65E5\u5FD7\u67E5\u770B\u5931\u8D25\u539F\u56E0\u3002",
   "First sync, this may take a moment.": "\u9996\u6B21\u540C\u6B65\uFF0C\u53EF\u80FD\u9700\u8981\u4E00\u4E9B\u65F6\u95F4\u3002",
   Free: "\u514D\u8D39",
-  "Free syncs notes only \u2014 images & PDFs need a paid plan.": "\u514D\u8D39\u540C\u6B65\u4EC5\u9650\u7B14\u8BB0\uFF0C\u56FE\u7247\u548CPDF\u9700\u8981\u4ED8\u8D39\u8BA1\u5212\u3002",
-  "Free syncs notes only \u2014 {count} attachments will be skipped.": "\u514D\u8D39\u540C\u6B65\u7B14\u8BB0\uFF0C\u4EC5\u9650{count}\u4E2A\u9644\u4EF6\u3002",
   "Frontmatter could not be parsed": "\u65E0\u6CD5\u89E3\u6790\u524D\u7F6E\u4FE1\u606F",
   "Frontmatter isn't valid YAML.": "YAML \u683C\u5F0F\u9519\u8BEF\u3002",
   'Frontmatter key "{key}" could not be parsed as YAML.': '\u65E0\u6CD5\u5C06 YAML \u683C\u5F0F\u89E3\u6790\u4E3A\u952E "{key}"\u3002',
@@ -10205,8 +10066,6 @@ var zh = {
   "Note limit reached. Upgrade to keep adding notes.": "\u7B14\u8BB0\u6570\u91CF\u5DF2\u8FBE\u4E0A\u9650\u3002\u5347\u7EA7\u4EE5\u7EE7\u7EED\u6DFB\u52A0\u7B14\u8BB0\u3002",
   "Note not synced locally": "\u7B14\u8BB0\u672A\u672C\u5730\u540C\u6B65",
   "Notes on this device": "\u672C\u8BBE\u5907\u4E0A\u7684\u7B14\u8BB0",
-  "Notes past this still sync and open normally, they are just not in the search index. The index keeps your oldest notes, so it is your newest ones that fall outside.": "\u6B64\u540E\u7684\u7B14\u8BB0\u4ECD\u7136\u53EF\u4EE5\u6B63\u5E38\u540C\u6B65\u548C\u6253\u5F00\uFF0C\u53EA\u662F\u4E0D\u5728\u641C\u7D22\u7D22\u5F15\u4E2D\u3002\u7D22\u5F15\u4FDD\u7559\u60A8\u6700\u65E7\u7684\u7B14\u8BB0\uFF0C\u56E0\u6B64\u8D85\u51FA\u8303\u56F4\u7684\u662F\u60A8\u6700\u65B0\u7684\u7B14\u8BB0\u3002",
-  "Notes searchable": "\u7B14\u8BB0\u53EF\u641C\u7D22",
   "Notes stored": "\u7B14\u8BB0\u5DF2\u5B58\u50A8",
   "Nothing in this vault syncs until you choose how to merge it with the server.": "\u5728\u60A8\u9009\u62E9\u5982\u4F55\u4E0E\u670D\u52A1\u5668\u5408\u5E76\u4E4B\u524D\uFF0C\u6B64\u4ED3\u5E93\u7684\u5185\u5BB9\u4E0D\u4F1A\u540C\u6B65\u3002",
   "Nothing is deleted.": "\u4E0D\u4F1A\u5220\u9664\u4EFB\u4F55\u5185\u5BB9\u3002",
@@ -10228,7 +10087,6 @@ var zh = {
   "Open the file to resolve the conflict, then sync again.": "\u6253\u5F00\u6587\u4EF6\u89E3\u51B3\u51B2\u7A81\uFF0C\u7136\u540E\u518D\u6B21\u540C\u6B65\u3002",
   "Opens your browser to sign in, or create an account if you don't have one yet, then links this vault.": "\u6253\u5F00\u60A8\u7684\u6D4F\u89C8\u5668\u8FDB\u884C\u767B\u5F55\uFF0C\u6216\u521B\u5EFA\u8D26\u53F7\uFF08\u5982\u679C\u8FD8\u6CA1\u6709\uFF09\uFF0C\u7136\u540E\u5C06\u6B64\u4ED3\u5E93\u94FE\u63A5\u5230\u8D26\u53F7\u3002",
   "Or authenticate with a token instead of signing in.": "\u6216\u8005\u4F7F\u7528\u4EE4\u724C\u8FDB\u884C\u8EAB\u4EFD\u9A8C\u8BC1\uFF0C\u800C\u4E0D\u662F\u767B\u5F55\u3002",
-  "Or authenticate with a token instead of signing in. Engram Cloud API keys require the Pro plan; on Free and Starter, sign in above.": "\u6216\u8005\u4F7F\u7528\u4EE4\u724C\u8FDB\u884C\u8EAB\u4EFD\u9A8C\u8BC1\uFF0C\u800C\u4E0D\u662F\u767B\u5F55\u3002Engram \u4E91 API \u5BC6\u94A5\u9700\u8981 Pro \u8BA1\u5212\uFF1B\u514D\u8D39\u7248\u548C Starter \u7248\uFF0C\u8BF7\u5728\u4E0A\u65B9\u767B\u5F55\u3002",
   "Paths to skip (one per line). Folder patterns end with /. Built-in: {configDir}/, .trash/, .git/": "\u8DF3\u8FC7\u8DEF\u5F84\uFF08\u6BCF\u884C\u4E00\u6761\uFF09\u3002\u6587\u4EF6\u5939\u89C4\u5219\u4EE5/\u7ED3\u5C3E\u3002\u5185\u7F6E\uFF1A{configDir}/, .trash/, .git/",
   "Pick a vault": "\u9009\u62E9\u4E00\u4E2A\u4ED3\u5E93",
   "Pick a vault (previous: '{name}' not found)": "\u9009\u62E9\u4E00\u4E2A\u4ED3\u5E93\uFF08\u4E4B\u524D\uFF1A\u672A\u627E\u5230 '{name}'\uFF09",
@@ -10272,7 +10130,6 @@ var zh = {
   "Search failed \u2014 check connection": "\u641C\u7D22\u5931\u8D25\uFF0C\u8BF7\u68C0\u67E5\u8FDE\u63A5",
   "Search settings": "\u641C\u7D22\u8BBE\u7F6E",
   "Search your vault\u2026": "\u641C\u7D22\u60A8\u7684\u4ED3\u5E93\u2026",
-  "Searching {indexed} of {all} notes. Upgrade to search everything.": "\u6B63\u5728\u641C\u7D22 {all} \u4E2A\u7B14\u8BB0\u4E2D\u7684 {indexed} \u4E2A\u3002\u5347\u7EA7\u4EE5\u641C\u7D22\u6240\u6709\u5185\u5BB9\u3002",
   "See full pricing": "\u67E5\u770B\u5B8C\u6574\u5B9A\u4EF7",
   "See the AI setup guide": "\u67E5\u770B AI \u8BBE\u7F6E\u6307\u5357",
   "Select which vault this plugin syncs with.": "\u9009\u62E9\u6B64\u63D2\u4EF6\u8981\u540C\u6B65\u7684\u4ED3\u5E93\u3002",
@@ -10320,7 +10177,7 @@ var zh = {
   "Sync server": "\u540C\u6B65\u670D\u52A1\u5668",
   "Sync these now": "\u7ACB\u5373\u540C\u6B65\u8FD9\u4E9B",
   "Sync...": "\u540C\u6B65\u4E2D...",
-  "Synced. Some attachments need a paid plan to sync (see below).": "\u5DF2\u540C\u6B65\u3002\u90E8\u5206\u9644\u4EF6\u9700\u8981\u4ED8\u8D39\u8BA1\u5212\u624D\u80FD\u540C\u6B65\uFF08\u89C1\u4E0B\u65B9\uFF09\u3002",
+  "Synced. Some attachments were skipped (see below).": "\u5DF2\u540C\u6B65\u3002\u90E8\u5206\u9644\u4EF6\u5DF2\u8DF3\u8FC7\uFF08\u89C1\u4E0B\u65B9\uFF09\u3002",
   "Syncing attachments": "\u540C\u6B65\u9644\u4EF6",
   "Syncing your vault": "\u6B63\u5728\u540C\u6B65\u60A8\u7684\u4ED3\u5E93",
   "Syncing...": "\u540C\u6B65\u4E2D...",
@@ -10333,7 +10190,6 @@ var zh = {
   "That does not look like an Engram API key (expected {prefix}\u2026).": "\u8FD9\u770B\u8D77\u6765\u4E0D\u50CF\u4E00\u4E2A Engram API \u5BC6\u94A5\uFF08\u9884\u671F\u4E3A {prefix}\u2026\uFF09\u3002",
   "The Engram server no longer accepts this plugin version (it needs {version} or newer), so notes are not being sent or received. Changes made on this device stay here until you update.": "Engram \u670D\u52A1\u5668\u4E0D\u518D\u63A5\u53D7\u6B64\u63D2\u4EF6\u7248\u672C\uFF08\u9700\u8981 {version} \u6216\u66F4\u9AD8\u7248\u672C\uFF09\uFF0C\u56E0\u6B64\u7B14\u8BB0\u65E0\u6CD5\u53D1\u9001\u6216\u63A5\u6536\u3002\u5728\u6B64\u8BBE\u5907\u4E0A\u8FDB\u884C\u7684\u66F4\u6539\u5C06\u5728\u6B64\u5904\u4FDD\u7559\uFF0C\u76F4\u5230\u60A8\u66F4\u65B0\u3002",
   "The Engram server no longer accepts this plugin version, so notes are not being sent or received. Changes made on this device stay here until you update.": "Engram \u670D\u52A1\u5668\u4E0D\u518D\u63A5\u53D7\u6B64\u63D2\u4EF6\u7248\u672C\uFF0C\u56E0\u6B64\u7B14\u8BB0\u65E0\u6CD5\u53D1\u9001\u6216\u63A5\u6536\u3002\u5728\u6B64\u8BBE\u5907\u4E0A\u8FDB\u884C\u7684\u66F4\u6539\u5C06\u5728\u6B64\u5904\u4FDD\u7559\uFF0C\u76F4\u5230\u60A8\u66F4\u65B0\u3002",
-  "The Free tier syncs notes only. Upgrade to sync images and PDFs.": "\u514D\u8D39\u7248\u4EC5\u540C\u6B65\u7B14\u8BB0\u3002\u5347\u7EA7\u4EE5\u540C\u6B65\u56FE\u7247\u548CPDF\u3002",
   "The file is over the server's size limit. Compress or split it, then it will sync.": "\u6587\u4EF6\u8D85\u8FC7\u670D\u52A1\u5668\u5927\u5C0F\u9650\u5236\u3002\u538B\u7F29\u6216\u62C6\u5206\u540E\uFF0C\u5373\u53EF\u540C\u6B65\u3002",
   "The file is too large for the server.": "\u6587\u4EF6\u8FC7\u5927\uFF0C\u670D\u52A1\u5668\u65E0\u6CD5\u5904\u7406\u3002",
   "The note synced, but its frontmatter could not be fully parsed. Open it to fix the highlighted line.": "\u7B14\u8BB0\u5DF2\u540C\u6B65\uFF0C\u4F46\u5176\u524D\u7F6E\u4FE1\u606F\u65E0\u6CD5\u5B8C\u5168\u89E3\u6790\u3002\u6253\u5F00\u5B83\u4EE5\u4FEE\u590D\u9AD8\u4EAE\u663E\u793A\u7684\u884C\u3002",
@@ -10341,7 +10197,7 @@ var zh = {
   "The server does not accept this type of file. It will retry if the file changes.": "\u670D\u52A1\u5668\u4E0D\u652F\u6301\u6B64\u6587\u4EF6\u7C7B\u578B\u3002\u6587\u4EF6\u66F4\u6539\u65F6\u5C06\u91CD\u8BD5\u3002",
   "The server lost this file's stored content and will try to restore it. Nothing on this device was changed.": "\u670D\u52A1\u5668\u4E22\u5931\u4E86\u8BE5\u6587\u4EF6\u7684\u5185\u5BB9\uFF0C\u6B63\u5728\u5C1D\u8BD5\u6062\u590D\u3002\u672C\u8BBE\u5907\u672A\u505A\u4EFB\u4F55\u66F4\u6539\u3002",
   "The server took too long to respond. Try again.": "\u670D\u52A1\u5668\u54CD\u5E94\u65F6\u95F4\u8FC7\u957F\u3002\u8BF7\u91CD\u8BD5\u3002",
-  "These files are fine. They just need a paid plan to sync.": "\u8FD9\u4E9B\u6587\u4EF6\u6CA1\u95EE\u9898\uFF0C\u53EA\u9700\u4ED8\u8D39\u8BA1\u5212\u5373\u53EF\u540C\u6B65\u3002",
+  "These files are fine. Each card below says why they did not sync.": "\u8FD9\u4E9B\u6587\u4EF6\u6CA1\u95EE\u9898\u3002\u4E0B\u65B9\u5361\u7247\u8BF4\u660E\u4E86\u672A\u540C\u6B65\u7684\u539F\u56E0\u3002",
   "This account was deleted. Contact support if that is wrong.": "\u8D26\u53F7\u5DF2\u5220\u9664\u3002\u5982\u679C\u9519\u8BEF\uFF0C\u8BF7\u8054\u7CFB\u652F\u6301\u3002",
   "This cannot be undone.": "\u6B64\u64CD\u4F5C\u4E0D\u53EF\u64A4\u9500\u3002",
   "This code expired before the link finished. Generate a new code to try again.": "\u6B64\u9A8C\u8BC1\u7801\u5DF2\u8FC7\u671F\u3002\u8BF7\u91CD\u65B0\u751F\u6210\u9A8C\u8BC1\u7801\u540E\u91CD\u8BD5\u3002",
@@ -10349,10 +10205,10 @@ var zh = {
   "This file type isn't accepted by this server.": "\u6B64\u6587\u4EF6\u7C7B\u578B\u4E0D\u53D7\u670D\u52A1\u5668\u652F\u6301\u3002",
   "This note could not be processed and was skipped.": "\u65E0\u6CD5\u5904\u7406\u6B64\u7B14\u8BB0\uFF0C\u5DF2\u8DF3\u8FC7\u3002",
   "This server is self-hosted, so feedback is not collected here. ": "\u6B64\u670D\u52A1\u5668\u4E3A\u81EA\u6258\u7BA1\uFF0C\u56E0\u6B64\u4E0D\u6536\u96C6\u53CD\u9988\u3002",
+  "This server isn't accepting this attachment for your account.": "\u6B64\u670D\u52A1\u5668\u672A\u4E3A\u60A8\u7684\u8D26\u53F7\u63A5\u53D7\u6B64\u9644\u4EF6\u3002",
   "This vault": "\u6B64\u4ED3\u5E93",
   "This vault is empty on the server. Upload your {what}?": "\u6B64\u4ED3\u5E93\u5728\u670D\u52A1\u5668\u4E0A\u4E3A\u7A7A\u3002\u4E0A\u4F20 {what} \u5417\uFF1F",
   "Too large for the server": "\u6587\u4EF6\u8FC7\u5927",
-  "Too many connected AI clients. Disconnect one or upgrade.": "\u5DF2\u8FDE\u63A5\u8FC7\u591A\u4E2A AI \u5BA2\u6237\u7AEF\u3002\u65AD\u5F00\u4E00\u4E2A\u6216\u5347\u7EA7\u3002",
   "Too many connected Obsidian vaults. Disconnect one or upgrade.": "\u5DF2\u8FDE\u63A5\u8FC7\u591A\u4E2A Obsidian \u77E5\u8BC6\u5E93\u3002\u65AD\u5F00\u4E00\u4E2A\u6216\u5347\u7EA7\u3002",
   "Too many requests. Wait a moment and try again.": "\u8BF7\u6C42\u8FC7\u591A\u3002\u8BF7\u7A0D\u7B49\u7247\u523B\u540E\u91CD\u8BD5\u3002",
   "Type {keyword} to confirm:": "\u8F93\u5165{keyword}\u4EE5\u786E\u8BA4\uFF1A",
@@ -10419,7 +10275,7 @@ var zh = {
   "waiting for a plugin update": "\u7B49\u5F85\u63D2\u4EF6\u66F4\u65B0",
   "waiting to retry": "\u6B63\u5728\u7B49\u5F85\u91CD\u8BD5",
   "{count} attachments": "{count} \u4E2A\u9644\u4EF6",
-  "{count} attachments need a paid plan to sync. See Sync Center.": "{count}\u4E2A\u9644\u4EF6\u9700\u8981\u4ED8\u8D39\u8BA1\u5212\u624D\u80FD\u540C\u6B65\u3002\u67E5\u770B\u540C\u6B65\u4E2D\u5FC3\u3002",
+  "{count} attachments will be skipped: this server only accepts text files.": "{count} \u9644\u4EF6\u5C06\u88AB\u8DF3\u8FC7\uFF1A\u6B64\u670D\u52A1\u5668\u4EC5\u63A5\u53D7\u6587\u672C\u6587\u4EF6\u3002",
   "{count} attempts": "{count} \u6B21\u5C1D\u8BD5",
   "{count} conflicts need resolution": "{count}\u4E2A\u51B2\u7A81\u9700\u8981\u89E3\u51B3",
   "{count} conflicts to resolve.": "{count}\u4E2A\u51B2\u7A81\u9700\u8981\u89E3\u51B3\u3002",
@@ -10448,7 +10304,7 @@ var zh = {
   "\u2715 {count} failed": "\u2715 {count} \u5931\u8D25",
   "\u2717 couldn't reach a server at this URL": "\u2717 \u65E0\u6CD5\u8BBF\u95EE\u8BE5 URL \u7684\u670D\u52A1\u5668",
   "\u2717 server responded but isn't an Engram server": "\u2717 \u670D\u52A1\u5668\u54CD\u5E94\uFF0C\u4F46\u4E0D\u662F Engram \u670D\u52A1\u5668",
-  "\u2933 {count} skipped (Free plan)": "\u2933 {count} \u5DF2\u8DF3\u8FC7 (\u514D\u8D39\u7248)",
+  "\u2933 {count} skipped": "\u2933 {count} \u5DF2\u8DF3\u8FC7",
   "\u{1F44B} Welcome": "\u{1F44B} \u6B22\u8FCE",
   "\u{1F4AC} Feedback": "\u{1F4AC} \u53CD\u9988",
   "\u{1F504} Sync Center": "\u{1F504} \u540C\u6B65\u4E2D\u5FC3",
@@ -10465,7 +10321,6 @@ var zhTW = {
   "1. Make an account": "1. \u5EFA\u7ACB\u5E33\u865F",
   "10 GB attachments": "10 GB \u9644\u4EF6",
   "10 vaults, unlimited devices": "10 \u500B\u77E5\u8B58\u5EAB\uFF0C\u7121\u9650\u90E8\u88DD\u7F6E",
-  "2,000 notes searchable": "\u53EF\u641C\u5C0B 2,000 \u7B46\u7B46\u8A18",
   "2. Connect your vault to Engram": "2. \u5C07\u60A8\u7684\u5132\u5B58\u5EAB\u9023\u63A5\u5230 Engram",
   "3. Connect your AI": "3. \u9023\u63A5\u60A8\u7684 AI",
   "50 GB attachments": "50 GB \u9644\u4EF6",
@@ -10474,9 +10329,8 @@ var zhTW = {
   "A temporary server problem \u2014 retrying automatically.": "\u66AB\u6642\u7684\u4F3A\u670D\u5668\u554F\u984C\uFF0C\u6B63\u5728\u81EA\u52D5\u91CD\u8A66\u3002",
   "AI / MCP setup guide": "AI / MCP \u8A2D\u5B9A\u6307\u5357",
   "AI searches": "AI \u641C\u5C0B",
-  "API access": "API \u5B58\u53D6",
   "API key": "API \u91D1\u9470",
-  "API keys need a Pro plan. Sign in with your Engram account instead.": "API \u91D1\u9470\u9700\u8981 Pro \u65B9\u6848\u3002\u8ACB\u4F7F\u7528\u60A8\u7684 Engram \u5E33\u865F\u767B\u5165\u3002",
+  "API key access is turned off for this account. Sign in with your Engram account instead.": "\u6B64\u5E33\u6236\u5DF2\u95DC\u9589 API \u91D1\u9470\u8A2A\u554F\u3002\u8ACB\u4F7F\u7528\u60A8\u7684 Engram \u5E33\u865F\u767B\u5165\u3002",
   About: "\u95DC\u65BC",
   "Accept it to keep syncing.": "\u540C\u610F\u4EE5\u7E7C\u7E8C\u540C\u6B65\u3002",
   "Access token": "\u8A2A\u554F\u4EE4\u724C",
@@ -10488,14 +10342,13 @@ var zhTW = {
   "Advanced sync options": "\u9032\u968E\u540C\u6B65\u9078\u9805",
   "All synced. Your vault and the cloud now match.": "\u5DF2\u5168\u90E8\u540C\u6B65\u3002\u60A8\u7684\u5132\u5B58\u5EAB\u548C\u96F2\u7AEF\u73FE\u5728\u5DF2\u540C\u6B65\u3002",
   "Already in sync. Nothing is deleted.": "\u5DF2\u540C\u6B65\u3002\u4E0D\u6703\u522A\u9664\u4EFB\u4F55\u5167\u5BB9\u3002",
-  "Already signed in on another device. Upgrade for multi-device.": "\u5DF2\u5728\u53E6\u4E00\u90E8\u88DD\u7F6E\u767B\u5165\u3002\u5347\u7D1A\u4EE5\u652F\u63F4\u591A\u91CD\u88DD\u7F6E\u3002",
   "Already up to date. Nothing needed syncing.": "\u5DF2\u662F\u6700\u65B0\u7684\u3002\u7121\u9700\u540C\u6B65\u4EFB\u4F55\u5167\u5BB9\u3002",
   "An unexpected error \u2014 retrying automatically.": "\u767C\u751F\u672A\u9810\u671F\u7684\u932F\u8AA4\uFF0C\u6B63\u5728\u81EA\u52D5\u91CD\u8A66\u3002",
+  "Attachment not accepted": "\u9644\u4EF6\u672A\u88AB\u63A5\u53D7",
   "Attachment storage full": "\u9644\u4EF6\u5132\u5B58\u7A7A\u9593\u5DF2\u6EFF",
   "Attachment storage is full \u2014 upgrade for more.": "\u5132\u5B58\u7A7A\u9593\u5DF2\u6EFF\uFF0C\u5347\u7D1A\u4EE5\u7372\u5F97\u66F4\u591A\u7A7A\u9593\u3002",
   "Attachment sync is disabled for this account.": "\u6B64\u5E33\u6236\u5DF2\u505C\u7528\u9644\u4EF6\u540C\u6B65\u3002",
   Attachments: "\u9644\u4EF6",
-  "Attachments need a paid plan": "\u9644\u4EF6\u9700\u8981\u4ED8\u8CBB\u65B9\u6848",
   "Attachments on this device": "\u6B64\u88DD\u7F6E\u4E0A\u7684\u9644\u4EF6",
   "Authenticated via Engram account (OAuth).": "\u900F\u904E Engram \u5E33\u6236 (OAuth) \u9A57\u8B49\u3002",
   "Authenticated via manual API key.": "\u900F\u904E\u624B\u52D5 API \u91D1\u9470\u9A57\u8B49\u3002",
@@ -10546,7 +10399,7 @@ var zhTW = {
   "Create a hosted account at {signup}, or self-host the server ({guide}).": "\u5728 {signup} \u5EFA\u7ACB\u5E33\u6236\uFF0C\u6216\u81EA\u884C\u67B6\u8A2D\u4F3A\u670D\u5668 ({guide})\u3002",
   "Create a new empty vault on the server, then sync this Obsidian vault into it.": "\u5728\u4F3A\u670D\u5668\u4E0A\u5EFA\u7ACB\u4E00\u500B\u65B0\u7684\u7A7A\u767D\u5132\u5B58\u5EAB\uFF0C\u7136\u5F8C\u5C07\u6B64 Obsidian \u5132\u5B58\u5EAB\u540C\u6B65\u5230\u5176\u4E2D\u3002",
   "Custom patterns": "\u81EA\u8A02\u898F\u5247",
-  "Daily AI search limit reached. Free includes 20 per day across Obsidian, the web app and MCP. Upgrade for unlimited.": "\u6BCF\u65E5 AI \u641C\u5C0B\u6B21\u6578\u5DF2\u9054\u4E0A\u9650\u3002\u514D\u8CBB\u65B9\u6848\u5305\u542B Obsidian\u3001\u7DB2\u9801\u61C9\u7528\u7A0B\u5F0F\u548C MCP \u5404 20 \u6B21\u3002\u5347\u7D1A\u4EE5\u7372\u5F97\u7121\u9650\u6B21\u6578\u3002",
+  "Daily AI search limit reached. Free searches are shared across Obsidian, the web app and MCP. Upgrade for unlimited.": "\u6BCF\u65E5 AI \u641C\u5C0B\u6B21\u6578\u5DF2\u9054\u4E0A\u9650\u3002\u514D\u8CBB\u641C\u5C0B\u6B21\u6578\u5728 Obsidian\u3001\u7DB2\u9801\u61C9\u7528\u7A0B\u5F0F\u548C MCP \u4E4B\u9593\u5171\u4EAB\u3002\u5347\u7D1A\u4EE5\u7372\u5F97\u7121\u9650\u6B21\u6578\u3002",
   "Dart tool cache": "Dart \u5DE5\u5177\u5FEB\u53D6",
   "Debug (verbose)": "\u5075\u932F (\u8A73\u7D30)",
   "Delete all local files, then download from remote": "\u522A\u9664\u6240\u6709\u672C\u5730\u6A94\u6848\uFF0C\u7136\u5F8C\u5F9E\u9060\u7AEF\u4E0B\u8F09",
@@ -10557,6 +10410,7 @@ var zhTW = {
   Deleting: "\u6B63\u5728\u522A\u9664",
   "Deleting {count} local files.": "\u522A\u9664 {count} \u500B\u672C\u5730\u6A94\u6848\u3002",
   "Deleting {count} on the cloud.": "\u6B63\u5728\u5F9E\u96F2\u7AEF\u522A\u9664 {count} \u500B\u6A94\u6848\u3002",
+  "Device limit reached. Disconnect a device or upgrade.": "\u5DF2\u9054\u5230\u88DD\u7F6E\u6578\u91CF\u4E0A\u9650\u3002\u8ACB\u65B7\u958B\u4E00\u500B\u88DD\u7F6E\u6216\u5347\u7D1A\u3002",
   "Device swap cooldown active. Wait or upgrade.": "\u88DD\u7F6E\u5207\u63DB\u66AB\u505C\u4E2D\u3002\u8ACB\u7A0D\u5019\u6216\u5347\u7D1A\u3002",
   Diagnostics: "\u8A3A\u65B7",
   "Diagnostics detail": "\u8A3A\u65B7\u8A73\u60C5",
@@ -10585,7 +10439,6 @@ var zhTW = {
   "Engram Sync: {details}": "Engram \u540C\u6B65\uFF1A{details}",
   "Engram URL": "Engram \u4F4D\u5740",
   "Engram Vault Sync {version} is available. {link}.": "Engram Vault Sync {version} \u53EF\u7528\u3002{link}\u3002",
-  "Engram indexes {indexed} of your {all} notes. The rest match on this device only. Upgrade to index everything.": "Engram \u5DF2\u7D22\u5F15\u60A8\u7684 {all} \u500B\u7B46\u8A18\u4E2D\u7684 {indexed} \u500B\u3002\u5176\u9918\u7684\u50C5\u5728 \u6B64\u8A2D\u5099\u4E0A\u5339\u914D\u3002\u5347\u7D1A\u4EE5\u7D22\u5F15\u6240\u6709\u5167\u5BB9\u3002",
   "Engram is the backend that powers sync and semantic search.": "Engram \u662F\u63D0\u4F9B\u540C\u6B65\u548C\u8A9E\u610F\u641C\u5C0B\u529F\u80FD\u7684\u5F8C\u7AEF\u3002",
   "Engram search": "Engram \u641C\u5C0B",
   "Engram server changed \u2014 sign in again to continue.": "Engram \u4F3A\u670D\u5668\u5DF2\u8B8A\u66F4 \u2014 \u8ACB\u91CD\u65B0\u767B\u5165\u4EE5\u7E7C\u7E8C\u3002",
@@ -10627,7 +10480,7 @@ var zhTW = {
   "Engram: this vault no longer exists on the server. Pick or create a vault to continue.": "Engram: \u6B64\u5132\u5B58\u5EAB\u4E0D\u518D\u5B58\u5728\u65BC\u4F3A\u670D\u5668\u4E0A\u3002\u8ACB\u9078\u64C7\u6216\u5EFA\u7ACB\u4E00\u500B\u5132\u5B58\u5EAB\u4EE5\u7E7C\u7E8C\u3002",
   "Engram: update required": "Engram: \u9700\u8981\u66F4\u65B0",
   "Engram: your login expired \u2014 open Engram settings to reconnect.": "Engram\uFF1A\u60A8\u7684\u767B\u5165\u5DF2\u904E\u671F \u2014 \u8ACB\u5728 Engram \u8A2D\u5B9A\u4E2D\u91CD\u65B0\u9023\u63A5\u3002",
-  "Engram: {count} attachments skipped \u2014 upgrade your plan to sync images & PDFs.": "Engram: \u7565\u904E {count} \u500B\u9644\u4EF6 \u2014 \u5347\u7D1A\u65B9\u6848\u4EE5\u540C\u6B65\u5716\u7247\u548C PDF\u3002",
+  "Engram: {count} attachments skipped. See Sync Center for why.": "Engram: \u7531\u65BC {count}\uFF0C\u5DF2\u7565\u904E\u9019\u4E9B\u9644\u4EF6\u3002\u8ACB\u67E5\u770B\u540C\u6B65\u4E2D\u5FC3\u4E86\u89E3\u539F\u56E0\u3002",
   "Engram: {count} files failed to sync{detail} \u2014 open Sync Center": "Engram\uFF1A{count} \u500B\u6A94\u6848\u540C\u6B65\u5931\u6557{detail} \u2014 \u958B\u555F\u540C\u6B65\u4E2D\u5FC3",
   "Engram: {count} notes have frontmatter problems. Open Sync Center to fix.": "Engram: {count} \u7B46\u8A18\u5B58\u5728\u524D\u7F6E\u5143\u8CC7\u6599\u554F\u984C\u3002\u958B\u555F\u540C\u6B65\u4E2D\u5FC3\u4EE5\u4FEE\u6B63\u3002",
   "Engram: \u26A0 {count} sync errors": "Engram\uFF1A\u26A0 {count} \u500B\u540C\u6B65\u932F\u8AA4",
@@ -10651,8 +10504,6 @@ var zhTW = {
   "Finished with some errors. Open the sync log to see what failed.": "\u5DF2\u5B8C\u6210\uFF0C\u4F46\u6709\u90E8\u5206\u932F\u8AA4\u3002\u958B\u555F\u540C\u6B65\u8A18\u9304\u4EE5\u67E5\u770B\u5931\u6557\u7684\u539F\u56E0\u3002",
   "First sync, this may take a moment.": "\u9996\u6B21\u540C\u6B65\uFF0C\u53EF\u80FD\u9700\u8981\u4E00\u4E9B\u6642\u9593\u3002",
   Free: "\u514D\u8D39",
-  "Free syncs notes only \u2014 images & PDFs need a paid plan.": "\u514D\u8CBB\u540C\u6B65\u50C5\u9650\u7B46\u8A18\uFF0C\u5716\u7247\u8207 PDF \u9700\u8981\u4ED8\u8CBB\u65B9\u6848\u3002",
-  "Free syncs notes only \u2014 {count} attachments will be skipped.": "\u514D\u8CBB\u540C\u6B65\u7B46\u8A18\uFF0C\u50C5\u9650\u7B46\u8A18\u3002{count}\u500B\u9644\u4EF6\u5C07\u88AB\u7565\u904E\u3002",
   "Frontmatter could not be parsed": "\u7121\u6CD5\u89E3\u6790 Frontmatter",
   "Frontmatter isn't valid YAML.": "YAML \u524D\u7F6E\u5340\u584A\u683C\u5F0F\u7121\u6548\u3002",
   'Frontmatter key "{key}" could not be parsed as YAML.': '\u7121\u6CD5\u5C07\u524D\u7F6E\u5340\u584A\u4E2D\u7684\u9375 "{key}" \u89E3\u6790\u70BA YAML\u3002',
@@ -10713,8 +10564,6 @@ var zhTW = {
   "Note limit reached. Upgrade to keep adding notes.": "\u7B46\u8A18\u6578\u91CF\u5DF2\u9054\u4E0A\u9650\u3002\u5347\u7D1A\u4EE5\u7E7C\u7E8C\u65B0\u589E\u7B46\u8A18\u3002",
   "Note not synced locally": "\u7B46\u8A18\u5C1A\u672A\u672C\u5730\u540C\u6B65",
   "Notes on this device": "\u6B64\u88DD\u7F6E\u4E0A\u7684\u7B46\u8A18",
-  "Notes past this still sync and open normally, they are just not in the search index. The index keeps your oldest notes, so it is your newest ones that fall outside.": "\u6B64\u8655\u4E4B\u5F8C\u7684\u7B46\u8A18\u4ECD\u53EF\u6B63\u5E38\u540C\u6B65\u548C\u958B\u555F\uFF0C\u53EA\u662F\u4E0D\u5728\u641C\u5C0B\u7D22\u5F15\u4E2D\u3002\u7D22\u5F15\u4FDD\u7559\u60A8\u6700\u820A\u7684\u7B46\u8A18\uFF0C\u56E0\u6B64\u6700\u65B0\u7684\u7B46\u8A18\u624D\u6703\u8D85\u51FA\u7BC4\u570D\u3002",
-  "Notes searchable": "\u7B46\u8A18\u53EF\u641C\u5C0B",
   "Notes stored": "\u7B46\u8A18\u5DF2\u5132\u5B58",
   "Nothing in this vault syncs until you choose how to merge it with the server.": "\u5728\u60A8\u9078\u64C7\u5982\u4F55\u5C07\u6B64\u5132\u5B58\u5EAB\u8207\u4F3A\u670D\u5668\u5408\u4F75\u4E4B\u524D\uFF0C\u4E0D\u6703\u9032\u884C\u4EFB\u4F55\u540C\u6B65\u3002",
   "Nothing is deleted.": "\u4E0D\u6703\u522A\u9664\u4EFB\u4F55\u5167\u5BB9\u3002",
@@ -10736,7 +10585,6 @@ var zhTW = {
   "Open the file to resolve the conflict, then sync again.": "\u958B\u555F\u6A94\u6848\u4EE5\u89E3\u6C7A\u885D\u7A81\uFF0C\u7136\u5F8C\u518D\u6B21\u540C\u6B65\u3002",
   "Opens your browser to sign in, or create an account if you don't have one yet, then links this vault.": "\u958B\u555F\u60A8\u7684\u700F\u89BD\u5668\u4EE5\u767B\u5165\uFF0C\u6216\u5982\u679C\u60A8\u9084\u6C92\u6709\u5E33\u865F\uFF0C\u8ACB\u5EFA\u7ACB\u4E00\u500B\u5E33\u865F\uFF0C\u7136\u5F8C\u5C07\u6B64\u5132\u5B58\u5EAB\u9023\u7D50\u5230\u60A8\u7684\u5E33\u865F\u3002",
   "Or authenticate with a token instead of signing in.": "\u6216\u4F7F\u7528 Token \u9032\u884C\u9A57\u8B49\uFF0C\u800C\u975E\u767B\u5165\u3002",
-  "Or authenticate with a token instead of signing in. Engram Cloud API keys require the Pro plan; on Free and Starter, sign in above.": "\u6216\u4F7F\u7528 Token \u9032\u884C\u9A57\u8B49\uFF0C\u800C\u975E\u767B\u5165\u3002Engram Cloud API \u91D1\u9470\u9700\u8981 Pro \u65B9\u6848\uFF1BFree \u548C Starter \u65B9\u6848\u8ACB\u4F7F\u7528\u4E0A\u65B9\u767B\u5165\u65B9\u5F0F\u3002",
   "Paths to skip (one per line). Folder patterns end with /. Built-in: {configDir}/, .trash/, .git/": '\u9700\u5FFD\u7565\u7684\u8DEF\u5F91 (\u6BCF\u884C\u4E00\u500B)\u3002\u8CC7\u6599\u593E\u8DEF\u5F91\u4EE5 "/" \u7D50\u5C3E\u3002\u5167\u5EFA\uFF1A{configDir}/, .trash/, .git/',
   "Pick a vault": "\u9078\u64C7\u4E00\u500B\u5132\u5B58\u5EAB",
   "Pick a vault (previous: '{name}' not found)": "\u9078\u64C7\u4E00\u500B\u5132\u5B58\u5EAB (\u4E0A\u6B21\uFF1A{name} \u672A\u627E\u5230)",
@@ -10780,7 +10628,6 @@ var zhTW = {
   "Search failed \u2014 check connection": "\u641C\u5C0B\u5931\u6557 \u2014 \u6AA2\u67E5\u9023\u7DDA",
   "Search settings": "\u641C\u5C0B\u8A2D\u5B9A",
   "Search your vault\u2026": "\u641C\u5C0B\u60A8\u7684\u5132\u5B58\u5EAB\u2026",
-  "Searching {indexed} of {all} notes. Upgrade to search everything.": "\u6B63\u5728\u641C\u5C0B {all} \u500B\u7B46\u8A18\u4E2D\u7684 {indexed} \u500B\u3002\u5347\u7D1A\u4EE5\u641C\u5C0B\u6240\u6709\u5167\u5BB9\u3002",
   "See full pricing": "\u8A73\u95B1\u50F9\u683C",
   "See the AI setup guide": "\u53C3\u95B1 AI \u8A2D\u5B9A\u6307\u5357",
   "Select which vault this plugin syncs with.": "\u9078\u64C7\u6B64\u63D2\u4EF6\u8981\u540C\u6B65\u7684\u5132\u5B58\u5EAB\u3002",
@@ -10828,7 +10675,7 @@ var zhTW = {
   "Sync server": "\u540C\u6B65\u4F3A\u670D\u5668",
   "Sync these now": "\u7ACB\u5373\u540C\u6B65\u9019\u4E9B",
   "Sync...": "\u540C\u6B65\u4E2D...",
-  "Synced. Some attachments need a paid plan to sync (see below).": "\u5DF2\u540C\u6B65\u3002\u90E8\u5206\u9644\u4EF6\u9700\u8981\u4ED8\u8CBB\u65B9\u6848\u624D\u80FD\u540C\u6B65\uFF08\u8ACB\u53C3\u95B1\u4E0B\u65B9\uFF09\u3002",
+  "Synced. Some attachments were skipped (see below).": "\u5DF2\u540C\u6B65\u3002\u90E8\u5206\u9644\u4EF6\u5DF2\u7565\u904E (\u8ACB\u53C3\u95B1\u4E0B\u65B9)\u3002",
   "Syncing attachments": "\u540C\u6B65\u9644\u4EF6",
   "Syncing your vault": "\u540C\u6B65\u60A8\u7684\u5132\u5B58\u5EAB",
   "Syncing...": "\u540C\u6B65\u4E2D...",
@@ -10841,7 +10688,6 @@ var zhTW = {
   "That does not look like an Engram API key (expected {prefix}\u2026).": "\u9019\u770B\u8D77\u4F86\u4E0D\u50CF Engram API \u91D1\u9470\uFF08\u9810\u671F\u70BA {prefix}\u2026\uFF09\u3002",
   "The Engram server no longer accepts this plugin version (it needs {version} or newer), so notes are not being sent or received. Changes made on this device stay here until you update.": "Engram\u4F3A\u670D\u5668\u4E0D\u518D\u63A5\u53D7\u6B64\u63D2\u4EF6\u7248\u672C\uFF08\u9700\u8981{version}\u6216\u66F4\u65B0\u7248\u672C\uFF09\uFF0C\u56E0\u6B64\u7B46\u8A18\u7121\u6CD5\u50B3\u9001\u6216\u63A5\u6536\u3002\u5728\u6B64\u8A2D\u5099\u4E0A\u6240\u505A\u7684\u8B8A\u66F4\u6703\u66AB\u6642\u4FDD\u7559\uFF0C\u76F4\u5230\u60A8\u66F4\u65B0\u3002",
   "The Engram server no longer accepts this plugin version, so notes are not being sent or received. Changes made on this device stay here until you update.": "Engram\u4F3A\u670D\u5668\u4E0D\u518D\u63A5\u53D7\u6B64\u63D2\u4EF6\u7248\u672C\uFF0C\u56E0\u6B64\u7B46\u8A18\u7121\u6CD5\u50B3\u9001\u6216\u63A5\u6536\u3002\u5728\u6B64\u8A2D\u5099\u4E0A\u6240\u505A\u7684\u8B8A\u66F4\u6703\u66AB\u6642\u4FDD\u7559\uFF0C\u76F4\u5230\u60A8\u66F4\u65B0\u3002",
-  "The Free tier syncs notes only. Upgrade to sync images and PDFs.": "\u514D\u8D39\u7248\u50C5\u540C\u6B65\u7B46\u8A18\u3002\u5347\u7D1A\u4EE5\u540C\u6B65\u5716\u7247\u548C PDF\u3002",
   "The file is over the server's size limit. Compress or split it, then it will sync.": "\u6A94\u6848\u8D85\u904E\u4F3A\u670D\u5668\u5927\u5C0F\u9650\u5236\u3002\u58D3\u7E2E\u6216\u5206\u5272\u5F8C\uFF0C\u5373\u53EF\u540C\u6B65\u3002",
   "The file is too large for the server.": "\u6A94\u6848\u592A\u5927\uFF0C\u4F3A\u670D\u5668\u7121\u6CD5\u8655\u7406\u3002",
   "The note synced, but its frontmatter could not be fully parsed. Open it to fix the highlighted line.": "\u7B46\u8A18\u5DF2\u540C\u6B65\uFF0C\u4F46\u5176 Frontmatter \u7121\u6CD5\u5B8C\u5168\u89E3\u6790\u3002\u958B\u555F\u5B83\u4EE5\u4FEE\u6B63\u6A19\u793A\u7684\u884C\u3002",
@@ -10849,7 +10695,7 @@ var zhTW = {
   "The server does not accept this type of file. It will retry if the file changes.": "\u4F3A\u670D\u5668\u4E0D\u63A5\u53D7\u6B64\u985E\u6A94\u6848\u3002\u6A94\u6848\u8B8A\u66F4\u6642\u6703\u518D\u6B21\u5617\u8A66\u3002",
   "The server lost this file's stored content and will try to restore it. Nothing on this device was changed.": "\u4F3A\u670D\u5668\u5DF2\u907A\u5931\u6B64\u6A94\u6848\u7684\u5167\u5BB9\uFF0C\u5C07\u5617\u8A66\u6062\u5FA9\u3002\u6B64\u8A2D\u5099\u4E0A\u7684\u5167\u5BB9\u672A\u8B8A\u66F4\u3002",
   "The server took too long to respond. Try again.": "\u4F3A\u670D\u5668\u56DE\u61C9\u6642\u9593\u904E\u9577\u3002\u8ACB\u91CD\u8A66\u3002",
-  "These files are fine. They just need a paid plan to sync.": "\u9019\u4E9B\u6A94\u6848\u6C92\u6709\u554F\u984C\uFF0C\u53EA\u662F\u9700\u8981\u4ED8\u8CBB\u65B9\u6848\u624D\u80FD\u540C\u6B65\u3002",
+  "These files are fine. Each card below says why they did not sync.": "\u9019\u4E9B\u6A94\u6848\u6C92\u6709\u554F\u984C\u3002\u4E0B\u65B9\u5361\u7247\u8AAA\u660E\u4E86\u70BA\u4F55\u672A\u540C\u6B65\u3002",
   "This account was deleted. Contact support if that is wrong.": "\u8A72\u5E33\u6236\u5DF2\u522A\u9664\u3002\u82E5\u6709\u8AA4\uFF0C\u8ACB\u806F\u7E6B\u5BA2\u670D\u3002",
   "This cannot be undone.": "\u6B64\u52D5\u4F5C\u7121\u6CD5\u64A4\u92B7\u3002",
   "This code expired before the link finished. Generate a new code to try again.": "\u6B64\u9A57\u8B49\u78BC\u5DF2\u904E\u671F\u3002\u8ACB\u91CD\u65B0\u751F\u6210\u9A57\u8B49\u78BC\u5F8C\u518D\u8A66\u3002",
@@ -10857,10 +10703,10 @@ var zhTW = {
   "This file type isn't accepted by this server.": "\u6B64\u6A94\u6848\u985E\u578B\u672C\u4F3A\u670D\u5668\u4E0D\u652F\u63F4\u3002",
   "This note could not be processed and was skipped.": "\u8A72\u7B46\u8A18\u7121\u6CD5\u8655\u7406\uFF0C\u5DF2\u8DF3\u904E\u3002",
   "This server is self-hosted, so feedback is not collected here. ": "\u6B64\u4F3A\u670D\u5668\u70BA\u81EA\u884C\u8A17\u7BA1\uFF0C\u56E0\u6B64\u4E0D\u5728\u6B64\u8655\u6536\u96C6\u56DE\u994B\u3002",
+  "This server isn't accepting this attachment for your account.": "\u6B64\u4F3A\u670D\u5668\u4E0D\u63A5\u53D7\u60A8\u5E33\u6236\u7684\u6B64\u9644\u4EF6\u3002",
   "This vault": "\u6B64\u5132\u5B58\u5EAB",
   "This vault is empty on the server. Upload your {what}?": "\u6B64\u5132\u5B58\u5EAB\u5728\u4F3A\u670D\u5668\u4E0A\u662F\u7A7A\u7684\u3002\u8981\u4E0A\u50B3 {what} \u55CE\uFF1F",
   "Too large for the server": "\u6A94\u6848\u904E\u5927",
-  "Too many connected AI clients. Disconnect one or upgrade.": "\u5DF2\u9023\u63A5\u904E\u591A\u500B AI \u61C9\u7528\u7A0B\u5F0F\u3002\u8ACB\u65B7\u958B\u4E00\u500B\u6216\u5347\u7D1A\u3002",
   "Too many connected Obsidian vaults. Disconnect one or upgrade.": "\u5DF2\u9023\u63A5\u904E\u591A\u500B Obsidian \u77E5\u8B58\u5EAB\u3002\u8ACB\u65B7\u958B\u4E00\u500B\u6216\u5347\u7D1A\u3002",
   "Too many requests. Wait a moment and try again.": "\u8ACB\u6C42\u6B21\u6578\u904E\u591A\u3002\u8ACB\u7A0D\u5F8C\u518D\u8A66\u3002",
   "Type {keyword} to confirm:": "\u8F38\u5165 {keyword} \u4EE5\u78BA\u8A8D\uFF1A",
@@ -10927,7 +10773,7 @@ var zhTW = {
   "waiting for a plugin update": "\u7B49\u5F85\u63D2\u4EF6\u66F4\u65B0",
   "waiting to retry": "\u6B63\u5728\u7B49\u5F85\u91CD\u8A66",
   "{count} attachments": "{count} \u500B\u9644\u4EF6",
-  "{count} attachments need a paid plan to sync. See Sync Center.": "{count} \u500B\u9644\u4EF6\u9700\u8981\u4ED8\u8CBB\u65B9\u6848\u624D\u80FD\u540C\u6B65\u3002\u8A73\u60C5\u8ACB\u898B\u540C\u6B65\u4E2D\u5FC3\u3002",
+  "{count} attachments will be skipped: this server only accepts text files.": "{count} \u500B\u9644\u4EF6\u5C07\u88AB\u8DF3\u904E\uFF1A\u6B64\u4F3A\u670D\u5668\u50C5\u63A5\u53D7\u6587\u5B57\u6A94\u6848\u3002",
   "{count} attempts": "{count} \u6B21\u5617\u8A66",
   "{count} conflicts need resolution": "{count} \u500B\u885D\u7A81\u9700\u8981\u89E3\u6C7A",
   "{count} conflicts to resolve.": "\u6709 {count} \u500B\u885D\u7A81\u9700\u8981\u89E3\u6C7A\u3002",
@@ -10956,7 +10802,7 @@ var zhTW = {
   "\u2715 {count} failed": "\u2715 {count} \u5931\u6557",
   "\u2717 couldn't reach a server at this URL": "\u2717 \u7121\u6CD5\u9023\u7DDA\u5230\u6B64\u4F4D\u5740\u7684\u4F3A\u670D\u5668",
   "\u2717 server responded but isn't an Engram server": "\u2717 \u4F3A\u670D\u5668\u5DF2\u56DE\u61C9\uFF0C\u4F46\u4E0D\u662F Engram \u4F3A\u670D\u5668",
-  "\u2933 {count} skipped (Free plan)": "\u2933 {count} \u5DF2\u8DF3\u904E (\u514D\u8CBB\u65B9\u6848)",
+  "\u2933 {count} skipped": "\u2933 {count} \u5DF2\u8DF3\u904E",
   "\u{1F44B} Welcome": "\u{1F44B} \u6B61\u8FCE",
   "\u{1F4AC} Feedback": "\u{1F4AC} \u56DE\u994B",
   "\u{1F504} Sync Center": "\u{1F504} \u540C\u6B65\u4E2D\u5FC3",
@@ -19969,9 +19815,16 @@ function mergeDiskOntoDoc(base, disk, current) {
   let dmp3 = new import_diff_match_patch.diff_match_patch(), patches = dmp3.patch_make(base, disk), [merged, applied] = dmp3.patch_apply(patches, current);
   return { text: merged, clean: applied.every(Boolean) };
 }
+var MERGE_DIFF_TIMEOUT_S = 0.15;
 function editsFrom(base, other, granularity) {
-  let dmp3 = new import_diff_match_patch.diff_match_patch(), lines = granularity === "line" ? dmp3.diff_linesToChars_(base, other) : null, diffs = lines ? dmp3.diff_main(lines.chars1, lines.chars2, !1) : dmp3.diff_main(base, other);
-  lines ? dmp3.diff_charsToLines_(diffs, lines.lineArray) : dmp3.diff_cleanupSemantic(diffs);
+  let dmp3 = new import_diff_match_patch.diff_match_patch();
+  dmp3.Diff_Timeout = MERGE_DIFF_TIMEOUT_S;
+  let diffs;
+  if (granularity === "line") {
+    let lines = dmp3.diff_linesToChars_(base, other);
+    diffs = dmp3.diff_main(lines.chars1, lines.chars2, !1), dmp3.diff_charsToLines_(diffs, lines.lineArray);
+  } else
+    diffs = dmp3.diff_main(base, other), dmp3.diff_cleanupSemantic(diffs);
   let out = [], pos = 0, cur = null;
   for (let [op, s] of diffs) {
     if (op === 0) {
@@ -19987,73 +19840,111 @@ function conflicts(a, b) {
 `) || !b.text.endsWith(`
 `);
 }
-function merge3(base, local, remote) {
-  let mine = editsFrom(base, local, "line"), theirs = editsFrom(base, remote, "line").filter(
-    (r) => !mine.some((m) => m.start === r.start && m.end === r.end && m.text === r.text)
-  );
-  for (let m of mine)
-    if (theirs.some((r) => conflicts(m, r))) return { text: remote, clean: !1 };
-  let all2 = [...theirs.map((e) => ({ e, side: 0 })), ...mine.map((e) => ({ e, side: 1 }))].sort(
+function overlaps(a, b) {
+  let aIns = a.start === a.end, bIns = b.start === b.end;
+  return aIns && bIns ? a.start === b.start : aIns ? b.start <= a.start && a.start <= b.end : bIns ? a.start <= b.start && b.start <= a.end : a.start < b.end && b.start < a.end;
+}
+var same = (a, b) => a.start === b.start && a.end === b.end && a.text === b.text;
+function apply(base, edits) {
+  let all2 = [...edits].sort(
     (x, y) => x.e.start - y.e.start || +(x.e.end > x.e.start) - +(y.e.end > y.e.start) || x.side - y.side
   ), out = "", pos = 0;
   for (let { e } of all2)
     out += base.slice(pos, e.start) + e.text, pos = Math.max(pos, e.end);
-  return { text: out + base.slice(pos), clean: !0 };
+  return out + base.slice(pos);
 }
-function overwritesConcurrentEdit(base, disk, current) {
-  if (base === disk || base === current) return !1;
-  let mine = editsFrom(base, disk, "char"), theirs = editsFrom(base, current, "char"), inside = (p, e) => e.start < p && p < e.end;
-  return mine.some(
-    (m) => theirs.some(
-      (t2) => !(m.start === t2.start && m.end === t2.end && m.text === t2.text) && (m.start < t2.end && t2.start < m.end || m.start === m.end && inside(m.start, t2) || t2.start === t2.end && inside(t2.start, m))
-    )
-  );
+var CHAR_MERGE_MAX = 64 * 1024;
+function mergeRegion(base, local, remote) {
+  if (Math.max(base.length, local.length, remote.length) > CHAR_MERGE_MAX) return null;
+  let mine = editsFrom(base, local, "char"), theirs = editsFrom(base, remote, "char").filter((r) => !mine.some((m) => same(m, r)));
+  return mine.some((m) => theirs.some((r) => overlaps(m, r))) ? null : apply(base, [
+    ...theirs.map((e) => ({ e, side: 0 })),
+    ...mine.map((e) => ({ e, side: 1 }))
+  ]);
+}
+function merge3(base, local, remote) {
+  let mine = editsFrom(base, local, "line"), sorted = [
+    ...editsFrom(base, remote, "line").filter((r) => !mine.some((m) => same(m, r))).map((e) => ({ e, side: 0 })),
+    ...mine.map((e) => ({ e, side: 1 }))
+  ].sort((x, y) => x.e.start - y.e.start || x.e.end - y.e.end), regions = [];
+  for (let x of sorted) {
+    let last2 = regions[regions.length - 1];
+    last2 != null && last2.some((m) => m.side !== x.side && conflicts(m.e, x.e)) ? last2.push(x) : regions.push([x]);
+  }
+  let out = [];
+  for (let members of regions) {
+    if (members.every((m) => {
+      var _a;
+      return m.side === ((_a = members[0]) == null ? void 0 : _a.side);
+    })) {
+      out.push(...members);
+      continue;
+    }
+    let start = Math.min(...members.map((m) => m.e.start)), end = Math.max(...members.map((m) => m.e.end)), region = base.slice(start, end), shift = (side) => members.filter((m) => m.side === side).map((m) => ({
+      e: { ...m.e, start: m.e.start - start, end: m.e.end - start },
+      side
+    })), text2 = mergeRegion(region, apply(region, shift(1)), apply(region, shift(0)));
+    if (text2 === null) return { text: remote, clean: !1 };
+    out.push({ e: { start, end, text: text2 }, side: 0 });
+  }
+  return { text: apply(base, out), clean: !0 };
+}
+function diskOnlyText(doc2, disk) {
+  return editsFrom(doc2, disk, "line").map((e) => e.text).join("");
 }
 
-// src/crdt/live/cm-yjs-bridge.ts
-var import_diff_match_patch2 = __toESM(require_diff_match_patch(), 1), dmp = new import_diff_match_patch2.diff_match_patch();
-function yDeltaToChangeSpec(delta) {
-  let changes = [], pos = 0;
-  for (let d of delta)
-    d.insert != null ? changes.push({ from: pos, to: pos, insert: d.insert }) : d.delete != null ? (changes.push({ from: pos, to: pos + d.delete, insert: "" }), pos += d.delete) : d.retain != null && (pos += d.retain);
-  return changes;
+// src/crdt/line-endings.ts
+function toLf(text2) {
+  return hasCr(text2) ? text2.replace(/\r\n?/g, `
+`) : text2;
 }
-function applyCmChangesToYText(ytext, changes) {
-  let adj = 0;
-  for (let c of changes)
-    c.fromA !== c.toA && ytext.delete(c.fromA + adj, c.toA - c.fromA), c.insert.length > 0 && ytext.insert(c.fromA + adj, c.insert), adj += c.insert.length - (c.toA - c.fromA);
+function hasCr(text2) {
+  return text2.includes("\r");
 }
-function textDiffToChangeSpec(before, after) {
-  if (before === after) return [];
-  let diffs = dmp.diff_main(before, after);
+function lfView(raw) {
+  if (!hasCr(raw)) return { view: raw, rawAt: (v) => v };
+  let starts = [], view = "";
+  for (let i = 0; i < raw.length; i++)
+    starts.push(i), raw[i] === "\r" ? (view += `
+`, raw[i + 1] === `
+` && i++) : view += raw[i];
+  return starts.push(raw.length), { view, rawAt: (v) => {
+    var _a;
+    return (_a = starts[v]) != null ? _a : raw.length;
+  } };
+}
+function lfEditsToRaw(raw, edits) {
+  if (!hasCr(raw)) return edits;
+  let { rawAt } = lfView(raw);
+  return edits.map((e) => ({ from: rawAt(e.from), to: rawAt(e.to), insert: e.insert }));
+}
+
+// src/crdt/bridge.ts
+var import_diff_match_patch2 = __toESM(require_diff_match_patch(), 1);
+var dmp = new import_diff_match_patch2.diff_match_patch();
+function seedOnce(text2, disk, hasLca) {
+  if (hasLca) return !1;
+  let current = text2.toJSON();
+  return current === disk || current.length > 0 ? !1 : (text2.insert(0, disk), !0);
+}
+function diffIntoYText(text2, incoming) {
+  let { view: current, rawAt } = lfView(text2.toJSON());
+  if (current === incoming) return;
+  let diffs = dmp.diff_main(current, incoming);
   dmp.diff_cleanupSemantic(diffs);
-  let changes = [], cursor = 0;
-  for (let [op, data] of diffs)
-    if (op === 0)
-      cursor += data.length;
-    else if (op === 1) {
-      let prev = changes[changes.length - 1];
-      prev && prev.to === cursor && prev.insert === "" ? prev.insert = data : changes.push({ from: cursor, to: cursor, insert: data });
-    } else
-      changes.push({ from: cursor, to: cursor + data.length, insert: "" }), cursor += data.length;
-  return changes;
-}
-
-// src/crdt/live/live-binding-decisions.ts
-var import_diff_match_patch3 = __toESM(require_diff_match_patch(), 1);
-
-// src/file-kind.ts
-function isMarkdownPath(path) {
-  return path.endsWith(".md");
-}
-function isCanvasPath(path) {
-  return path.endsWith(".canvas");
-}
-function isCrdtEligiblePath(path) {
-  return isMarkdownPath(path) || isCanvasPath(path);
-}
-function docKindFor(path) {
-  return isCanvasPath(path) ? "canvas" : "note";
+  let apply2 = () => {
+    let cursor = 0, shift = 0;
+    for (let [op, data] of diffs)
+      if (op === 0)
+        cursor += data.length;
+      else if (op === 1)
+        text2.insert(rawAt(cursor) + shift, data), shift += data.length;
+      else {
+        let from2 = rawAt(cursor), len = rawAt(cursor + data.length) - from2;
+        text2.delete(from2 + shift, len), shift -= len, cursor += data.length;
+      }
+  };
+  text2.doc ? text2.doc.transact(apply2) : apply2();
 }
 
 // node_modules/yaml/browser/dist/nodes/identity.js
@@ -24756,20 +24647,27 @@ function stringify3(value, replacer, options) {
 
 // src/crdt/frontmatter-codec.ts
 var FRONTMATTER_KEY = "frontmatter", RAW_FRONTMATTER_KEY = "frontmatter_raw", ORDER_KEY = "frontmatter_order", CONTENT_KEY = "content";
+function uniqueKeyOrder(order) {
+  return [...new Set(order)];
+}
 function frontmatterOf(doc2) {
-  let order = doc2.getArray(ORDER_KEY).toArray(), values = doc2.getMap(FRONTMATTER_KEY).toJSON();
+  let order = uniqueKeyOrder(doc2.getArray(ORDER_KEY).toArray()), values = doc2.getMap(FRONTMATTER_KEY).toJSON();
   return { order, values };
 }
 function rawFrontmatterOf(doc2) {
   return doc2.getMap(RAW_FRONTMATTER_KEY).toJSON();
 }
 var FENCE = "---", CLOSE_MID = /\n---[ \t]*\r?\n/, CLOSE_EOF = /\n---[ \t]*\r?$/;
+function openFence(s) {
+  return s.startsWith(`${FENCE}\r
+`) ? FENCE.length + 2 : s.startsWith(`${FENCE}
+`) ? FENCE.length + 1 : 0;
+}
 function splitFrontmatter(raw) {
-  if (!raw.startsWith(`${FENCE}
-`)) return { fmBlock: null, body: raw };
-  let rest = raw.slice(FENCE.length + 1);
-  if (rest.startsWith(`${FENCE}
-`)) return { fmBlock: "", body: rest.slice(FENCE.length + 1) };
+  let start = openFence(raw);
+  if (start === 0) return { fmBlock: null, body: raw };
+  let rest = raw.slice(start), empty = openFence(rest);
+  if (empty > 0) return { fmBlock: "", body: rest.slice(empty) };
   let mid = rest.match(CLOSE_MID);
   if (mid && mid.index !== void 0) {
     let block = `${rest.slice(0, mid.index)}
@@ -24832,7 +24730,7 @@ function emitFrontmatter(order, values, raws = {}) {
   let has = (m, k) => (
     // biome-ignore lint/suspicious/noPrototypeBuiltins: Object.hasOwn needs lib ES2022, we target ES2021
     Object.prototype.hasOwnProperty.call(m, k)
-  ), present = order.filter((k) => has(raws, k) || has(values, k));
+  ), present = uniqueKeyOrder(order).filter((k) => has(raws, k) || has(values, k));
   if (present.length === 0) return "";
   let out = "";
   for (let key of present)
@@ -24845,6 +24743,200 @@ function projectNote(order, values, body, raws = {}) {
 ${block}${FENCE}
 ${body}`;
 }
+function sameFrontmatterMeaning(a, b) {
+  if (a === b) return !0;
+  let pa = a === null ? { kind: "empty" } : parseFrontmatterBlock(a), pb = b === null ? { kind: "empty" } : parseFrontmatterBlock(b);
+  return pa.kind === "empty" || pb.kind === "empty" ? pa.kind === pb.kind : pa.kind !== "ok" || pb.kind !== "ok" ? !1 : canonicalJson(pa.order) === canonicalJson(pb.order) && canonicalJson(pa.values) === canonicalJson(pb.values);
+}
+function keepDiskFrontmatter(rawNext, rawDisk) {
+  let next = toLf(rawNext), disk = toLf(rawDisk);
+  if (next === disk) return next;
+  let n = splitFrontmatter(next), d = splitFrontmatter(disk);
+  return sameFrontmatterMeaning(n.fmBlock, d.fmBlock) ? disk.slice(0, disk.length - d.body.length) + n.body : next;
+}
+function flushTarget(projection, disk) {
+  return {
+    projection,
+    onDisk: disk === null ? projection : keepDiskFrontmatter(projection, disk)
+  };
+}
+function sameNoteMeaning(a, b) {
+  return keepDiskFrontmatter(a, b) === toLf(b);
+}
+
+// src/crdt/canvas-codec.ts
+var NODES_KEY = "nodes", EDGES_KEY = "edges", NODES_ORDER_KEY = "nodes_order", EDGES_ORDER_KEY = "edges_order", CANVAS_META_KEY = "canvas_meta";
+function parseCanvas(json) {
+  let data;
+  try {
+    data = JSON.parse(json);
+  } catch (e) {
+    return null;
+  }
+  if (data === null || typeof data != "object" || Array.isArray(data)) return null;
+  let obj = data, nodes = asElements(obj.nodes), edges = asElements(obj.edges);
+  if (nodes === null || edges === null) return null;
+  let meta = {};
+  for (let [k, v] of Object.entries(obj))
+    k !== NODES_KEY && k !== EDGES_KEY && (meta[k] = v);
+  return { nodes, edges, meta };
+}
+function asElements(v) {
+  if (v === void 0) return [];
+  if (!Array.isArray(v)) return null;
+  let out = [];
+  for (let el of v) {
+    if (el === null || typeof el != "object" || Array.isArray(el) || typeof el.id != "string") return null;
+    out.push(el);
+  }
+  return out;
+}
+function seedCanvasInto(doc2, json) {
+  let parsed = parseCanvas(json);
+  return parsed === null ? !1 : (doc2.transact(() => {
+    upsertElements(doc2.getMap(NODES_KEY), doc2.getArray(NODES_ORDER_KEY), parsed.nodes), upsertElements(doc2.getMap(EDGES_KEY), doc2.getArray(EDGES_ORDER_KEY), parsed.edges), upsertMeta(doc2.getMap(CANVAS_META_KEY), parsed.meta);
+  }), !0);
+}
+function upsertElements(map3, order, elements) {
+  let ids = new Set(elements.map((e) => e.id));
+  for (let el of elements) {
+    let cur = map3.get(el.id);
+    (cur === void 0 || !jsonEqual(cur, el)) && map3.set(el.id, el);
+  }
+  for (let id3 of [...map3.keys()])
+    ids.has(id3) || map3.delete(id3);
+  let nextOrder = elements.map((e) => e.id);
+  jsonEqual(order.toArray(), nextOrder) || (order.length > 0 && order.delete(0, order.length), nextOrder.length > 0 && order.insert(0, nextOrder));
+}
+function upsertMeta(map3, meta) {
+  for (let [k, v] of Object.entries(meta))
+    jsonEqual(map3.get(k), v) || map3.set(k, v);
+  for (let k of [...map3.keys()])
+    k in meta || map3.delete(k);
+}
+function projectCanvas(doc2) {
+  let meta = doc2.getMap(CANVAS_META_KEY).toJSON(), nodes = orderedElements(doc2.getMap(NODES_KEY), doc2.getArray(NODES_ORDER_KEY)), edges = orderedElements(doc2.getMap(EDGES_KEY), doc2.getArray(EDGES_ORDER_KEY));
+  return JSON.stringify({ ...meta, nodes, edges }, null, "	");
+}
+function orderedElements(map3, order) {
+  let out = [], seen = /* @__PURE__ */ new Set();
+  for (let id3 of order.toArray()) {
+    let el = map3.get(id3);
+    el !== void 0 && !seen.has(id3) && (out.push(el), seen.add(id3));
+  }
+  for (let id3 of [...map3.keys()].sort())
+    seen.has(id3) || out.push(map3.get(id3));
+  return out;
+}
+function canvasIsEmpty(doc2) {
+  return doc2.getMap(NODES_KEY).size === 0 && doc2.getMap(EDGES_KEY).size === 0;
+}
+function jsonEqual(a, b) {
+  return canonicalJson(a) === canonicalJson(b);
+}
+
+// src/crdt/note-seed.ts
+function textHasHistory(text2) {
+  return text2.length > 0;
+}
+function docHasHistory(doc2, kind) {
+  return kind === "canvas" ? !canvasIsEmpty(doc2) : textHasHistory(doc2.getText(CONTENT_KEY));
+}
+function docHasAnyHistory(doc2, kind) {
+  return docHasHistory(doc2, kind) ? !0 : kind === "canvas" ? !1 : doc2.getArray(ORDER_KEY).length > 0 || doc2.getMap(FRONTMATTER_KEY).size > 0 || doc2.getMap(RAW_FRONTMATTER_KEY).size > 0;
+}
+function applyFrontmatterInto(doc2, order, values) {
+  let map3 = doc2.getMap(FRONTMATTER_KEY), arr = doc2.getArray(ORDER_KEY), rawMap = doc2.getMap(RAW_FRONTMATTER_KEY), current = map3.toJSON();
+  doc2.transact(() => {
+    for (let [k, v] of Object.entries(values))
+      current[k] !== v && map3.set(k, v), rawMap.has(k) && rawMap.delete(k);
+    for (let k of Object.keys(current))
+      k in values || map3.delete(k);
+    let currentOrder = uniqueKeyOrder(arr.toArray());
+    currentOrder.length === order.length && currentOrder.every((k, i) => k === order[i]) || (arr.length > 0 && arr.delete(0, arr.length), order.length > 0 && arr.insert(0, order));
+  });
+}
+function seedContentInto(doc2, text2, raw, lca) {
+  let content = toLf(raw), { fmBlock, body: splitBody } = splitFrontmatter(content), parsed = fmBlock === null ? { kind: "empty" } : parseFrontmatterBlock(fmBlock), body = parsed.kind === "degraded" && !hasFrontmatter(doc2) ? content : splitBody;
+  doc2.transact(() => {
+    parsed.kind === "ok" ? applyFrontmatterInto(doc2, parsed.order, parsed.values) : parsed.kind === "empty" && applyFrontmatterInto(doc2, [], {}), seedOnce(text2, body, lca) || diffIntoYText(text2, body);
+  });
+}
+function hasFrontmatter(doc2) {
+  return doc2.getMap(FRONTMATTER_KEY).size > 0 || doc2.getArray(ORDER_KEY).length > 0;
+}
+function seedFrontmatterInto(doc2, content) {
+  let { fmBlock } = splitFrontmatter(toLf(content)), parsed = fmBlock === null ? { kind: "empty" } : parseFrontmatterBlock(fmBlock);
+  parsed.kind !== "degraded" && (parsed.kind === "empty" ? applyFrontmatterInto(doc2, [], {}) : applyFrontmatterInto(doc2, parsed.order, parsed.values));
+}
+function liftBodyFence(doc2, origin) {
+  let text2 = doc2.getText(CONTENT_KEY), healed = !1;
+  return doc2.transact(() => {
+    for (; ; ) {
+      let body = text2.toJSON(), { fmBlock, body: rest } = splitFrontmatter(body);
+      if (fmBlock === null) return;
+      let parsed = parseFrontmatterBlock(fmBlock);
+      if (parsed.kind === "degraded") return;
+      let map3 = doc2.getMap(FRONTMATTER_KEY), raws = doc2.getMap(RAW_FRONTMATTER_KEY), arr = doc2.getArray(ORDER_KEY);
+      if (parsed.kind === "ok") {
+        let fresh = parsed.order.filter((k) => !map3.has(k) && !raws.has(k));
+        for (let k of fresh) {
+          let v = parsed.values[k];
+          v !== void 0 && map3.set(k, v);
+        }
+        let known = new Set(arr.toArray()), append2 = fresh.filter((k) => !known.has(k));
+        append2.length > 0 && arr.insert(arr.length, append2);
+      }
+      text2.delete(0, body.length - rest.length), healed = !0;
+    }
+  }, origin), healed;
+}
+
+// src/crdt/live/cm-yjs-bridge.ts
+var import_diff_match_patch3 = __toESM(require_diff_match_patch(), 1), dmp2 = new import_diff_match_patch3.diff_match_patch();
+function yDeltaToChangeSpec(delta) {
+  let changes = [], pos = 0;
+  for (let d of delta)
+    d.insert != null ? changes.push({ from: pos, to: pos, insert: d.insert }) : d.delete != null ? (changes.push({ from: pos, to: pos + d.delete, insert: "" }), pos += d.delete) : d.retain != null && (pos += d.retain);
+  return changes;
+}
+function applyCmChangesToYText(ytext, changes) {
+  let adj = 0;
+  for (let c of changes)
+    c.fromA !== c.toA && ytext.delete(c.fromA + adj, c.toA - c.fromA), c.insert.length > 0 && ytext.insert(c.fromA + adj, c.insert), adj += c.insert.length - (c.toA - c.fromA);
+}
+function textDiffToChangeSpec(before, after) {
+  if (before === after) return [];
+  let diffs = dmp2.diff_main(before, after);
+  dmp2.diff_cleanupSemantic(diffs);
+  let changes = [], cursor = 0;
+  for (let [op, data] of diffs)
+    if (op === 0)
+      cursor += data.length;
+    else if (op === 1) {
+      let prev = changes[changes.length - 1];
+      prev && prev.to === cursor && prev.insert === "" ? prev.insert = data : changes.push({ from: cursor, to: cursor, insert: data });
+    } else
+      changes.push({ from: cursor, to: cursor + data.length, insert: "" }), cursor += data.length;
+  return changes;
+}
+
+// src/crdt/live/live-binding-decisions.ts
+var import_diff_match_patch4 = __toESM(require_diff_match_patch(), 1);
+
+// src/file-kind.ts
+function isMarkdownPath(path) {
+  return path.endsWith(".md");
+}
+function isCanvasPath(path) {
+  return path.endsWith(".canvas");
+}
+function isCrdtEligiblePath(path) {
+  return isMarkdownPath(path) || isCanvasPath(path);
+}
+function docKindFor(path) {
+  return isCanvasPath(path) ? "canvas" : "note";
+}
 
 // src/crdt/live/live-binding-decisions.ts
 function ownedMarkdownPath(view, info) {
@@ -24853,7 +24945,7 @@ function ownedMarkdownPath(view, info) {
   let path = (_c = (_b = info.file) == null ? void 0 : _b.path) != null ? _c : null;
   return path && isMarkdownPath(path) ? path : null;
 }
-var merger = new import_diff_match_patch3.diff_match_patch();
+var merger = new import_diff_match_patch4.diff_match_patch();
 merger.Match_Threshold = 0.2;
 merger.Patch_DeleteThreshold = 0.2;
 function frontmatterPrefixLen(editorText) {
@@ -24910,7 +25002,29 @@ var DRIFT_CHECK_MS = 3e3;
 function shiftChanges(changes, n) {
   return n === 0 ? changes : changes.map((c) => ({ from: c.from + n, to: c.to + n, insert: c.insert }));
 }
-var ySyncAnnotation = import_state.Annotation.define(), coordinator = null;
+function toRawEdits(text2, changes) {
+  let view = changes.map((c) => ({ from: c.fromA, to: c.toA, insert: c.insert }));
+  return lfEditsToRaw(text2.toJSON(), view).map((c) => ({
+    fromA: c.from,
+    toA: c.to,
+    insert: c.insert
+  }));
+}
+function healOnOpen(text2, origin) {
+  text2.doc && liftBodyFence(text2.doc, origin);
+}
+var ySyncAnnotation = import_state.Annotation.define();
+function syncDispatch(view, changes) {
+  view.dispatch({
+    changes,
+    annotations: [
+      ySyncAnnotation.of(view),
+      import_state.Transaction.addToHistory.of(!1),
+      import_state.Transaction.remote.of(!0)
+    ]
+  });
+}
+var coordinator = null;
 function setLiveBindingCoordinator(c) {
   coordinator = c;
 }
@@ -24954,6 +25068,10 @@ var LiveBindingValue = class {
     this.gateOpenUnsub = null;
     /** Periodic drift-check timer (self-heal backstop); null when not scheduled. */
     this.driftTimer = null;
+    /** The bound doc may hold a CR (see the header): paint and forward through
+     *  its LF view. Set on go-live and by a remote CR insert; re-read on each
+     *  remote update while set, so it clears once the room's heal lands. */
+    this.docMayHoldCr = !1;
     this.editor = editor, this.attach();
   }
   update(u) {
@@ -25009,7 +25127,8 @@ var LiveBindingValue = class {
         }
       }), spansFrontmatter && this.scheduleDriftCheck(), changes.length !== 0)
         try {
-          doc2.transact(() => applyCmChangesToYText(ytext, changes), this);
+          let raw = this.docMayHoldCr ? toRawEdits(ytext, changes) : changes;
+          doc2.transact(() => applyCmChangesToYText(ytext, raw), this);
         } catch (err) {
           rlog().error(
             "crdt-live-binding",
@@ -25036,7 +25155,8 @@ var LiveBindingValue = class {
    *  (never revert them — the cold-open loss bug), or defer an unseeded doc. */
   reconcileAndGoLive(text2) {
     var _a;
-    let fullText = this.editor.state.doc.toString(), prefix = frontmatterPrefixLen(fullText), editorText = prefix > 0 ? fullText.slice(prefix) : fullText, docText = text2.toJSON(), base = this.preEditText === null ? null : this.preEditText.slice(frontmatterPrefixLen(this.preEditText)), action = decideReconcile(editorText, docText, this.dirtySinceAttach, base);
+    healOnOpen(text2, this);
+    let fullText = this.editor.state.doc.toString(), prefix = frontmatterPrefixLen(fullText), editorText = prefix > 0 ? fullText.slice(prefix) : fullText, docText = toLf(text2.toJSON()), base = this.preEditText === null ? null : this.preEditText.slice(frontmatterPrefixLen(this.preEditText)), action = decideReconcile(editorText, docText, this.dirtySinceAttach, base);
     if (action.kind === "defer") {
       let gated = this.noteId !== null && ((_a = this.boundCoordinator) == null ? void 0 : _a.awaitsServer(this.noteId)) === !0;
       this.deferSeed(text2, gated);
@@ -25071,17 +25191,18 @@ var LiveBindingValue = class {
   /** Dispatch BODY-coordinate changes into the editor, shifted past any
    *  frontmatter block, annotated so update() does not echo them back. */
   paintEditor(changes, prefix) {
-    changes.length !== 0 && this.editor.dispatch({
-      changes: shiftChanges(changes, prefix),
-      annotations: [ySyncAnnotation.of(this.editor)]
-    });
+    changes.length !== 0 && syncDispatch(this.editor, shiftChanges(changes, prefix));
   }
   /** Apply BODY-coordinate changes into the Y.Text under our own origin (so the
    *  observer suppresses a repaint and the provider broadcasts them). */
   writeYText(text2, changes) {
     let doc2 = text2.doc;
     if (!doc2 || changes.length === 0) return;
-    let mapped = changes.map((c) => ({ fromA: c.from, toA: c.to, insert: c.insert }));
+    let mapped = lfEditsToRaw(text2.toJSON(), changes).map((c) => ({
+      fromA: c.from,
+      toA: c.to,
+      insert: c.insert
+    }));
     doc2.transact(() => applyCmChangesToYText(text2, mapped), this);
   }
   /** Wait for the server seed, then reconcile. Reconciling on the FIRST non-empty
@@ -25102,7 +25223,7 @@ var LiveBindingValue = class {
     this.deferObserver = onSeed, text2.observe(onSeed), gated && this.noteId && this.boundCoordinator && (this.gateOpenUnsub = this.boundCoordinator.onLoadGateOpen(this.noteId, () => {
       if (this.gateOpenUnsub = null, this.destroyed || this.ytext !== text2 || this.deferObserver !== onSeed) return;
       text2.unobserve(onSeed), this.deferObserver = null;
-      let fullText = this.editor.state.doc.toString(), prefix = frontmatterPrefixLen(fullText), changes = textDiffToChangeSpec(text2.toJSON(), fullText.slice(prefix));
+      let fullText = this.editor.state.doc.toString(), prefix = frontmatterPrefixLen(fullText), changes = textDiffToChangeSpec(toLf(text2.toJSON()), fullText.slice(prefix));
       this.applyAndGoLive(text2, { kind: "forward", changes }, prefix);
     }));
   }
@@ -25118,7 +25239,8 @@ var LiveBindingValue = class {
     let stale = () => this.destroyed || this.ytext !== text2;
     c.loadMergeBase(path, noteId).catch(() => null).then((base) => {
       if (stale()) return;
-      let fullText = this.editor.state.doc.toString(), prefix = frontmatterPrefixLen(fullText), editorText = fullText.slice(prefix), docText = text2.toJSON(), baseBody = base === null ? null : base.slice(frontmatterPrefixLen(base)), action = decideLoadedReconcile(editorText, docText, baseBody);
+      healOnOpen(text2, this);
+      let fullText = this.editor.state.doc.toString(), prefix = frontmatterPrefixLen(fullText), editorText = fullText.slice(prefix), docText = toLf(text2.toJSON()), lfBase = base === null ? null : toLf(base), baseBody = lfBase === null ? null : lfBase.slice(frontmatterPrefixLen(lfBase)), action = decideLoadedReconcile(editorText, docText, baseBody);
       if (action.kind !== "conflict") {
         this.applyAndGoLive(text2, action, prefix);
         return;
@@ -25137,21 +25259,23 @@ var LiveBindingValue = class {
   goLive(text2) {
     this.observer = (event, tr2) => {
       if (this.destroyed || tr2.origin === this) return;
-      let changes = yDeltaToChangeSpec(event.delta);
-      if (changes.length !== 0)
-        try {
-          let prefix = frontmatterPrefixLen(this.editor.state.doc.toString());
-          this.editor.dispatch({
-            changes: shiftChanges(changes, prefix),
-            annotations: [ySyncAnnotation.of(this.editor)]
-          });
-        } catch (err) {
-          rlog().error(
-            "crdt-live-binding",
-            `paint failed for ${noteRef(this.path)}: ${String(err)}`
-          ), this.scheduleDriftCheck();
-        }
-    }, text2.observe(this.observer), this.ready = !0, this.scheduleDriftCheck();
+      let delta = event.delta;
+      delta.some((d) => typeof d.insert == "string" && hasCr(d.insert)) && (this.docMayHoldCr = !0);
+      try {
+        let fullText = this.editor.state.doc.toString(), prefix = frontmatterPrefixLen(fullText), changes;
+        if (this.docMayHoldCr) {
+          let raw = text2.toJSON();
+          this.docMayHoldCr = hasCr(raw), changes = textDiffToChangeSpec(fullText.slice(prefix), toLf(raw));
+        } else
+          changes = yDeltaToChangeSpec(delta);
+        this.paintEditor(changes, prefix);
+      } catch (err) {
+        rlog().error(
+          "crdt-live-binding",
+          `paint failed for ${noteRef(this.path)}: ${String(err)}`
+        ), this.scheduleDriftCheck();
+      }
+    }, this.docMayHoldCr = hasCr(text2.toJSON()), text2.observe(this.observer), this.ready = !0, this.scheduleDriftCheck();
   }
   /** Periodic drift backstop: while bound, compare the
    *  editor text to the Y.Text every DRIFT_CHECK_MS. If a delta/forward was silently
@@ -25171,7 +25295,7 @@ var LiveBindingValue = class {
       this.scheduleDriftCheck();
       return;
     }
-    let fullText = this.editor.state.doc.toString(), prefix = frontmatterPrefixLen(fullText), editorText = prefix > 0 ? fullText.slice(prefix) : fullText, docText = this.ytext.toJSON();
+    let fullText = this.editor.state.doc.toString(), prefix = frontmatterPrefixLen(fullText), editorText = prefix > 0 ? fullText.slice(prefix) : fullText, docText = toLf(this.ytext.toJSON());
     if (editorText !== docText) {
       rlog().warn(
         "crdt-live-binding",
@@ -26023,134 +26147,47 @@ var asError = (e) => e instanceof Error ? e : new Error(String(e)), Lifetime = c
   }
 };
 
-// src/crdt/canvas-codec.ts
-var NODES_KEY = "nodes", EDGES_KEY = "edges", NODES_ORDER_KEY = "nodes_order", EDGES_ORDER_KEY = "edges_order", CANVAS_META_KEY = "canvas_meta";
-function parseCanvas(json) {
-  let data;
-  try {
-    data = JSON.parse(json);
-  } catch (e) {
-    return null;
-  }
-  if (data === null || typeof data != "object" || Array.isArray(data)) return null;
-  let obj = data, nodes = asElements(obj.nodes), edges = asElements(obj.edges);
-  if (nodes === null || edges === null) return null;
-  let meta = {};
-  for (let [k, v] of Object.entries(obj))
-    k !== NODES_KEY && k !== EDGES_KEY && (meta[k] = v);
-  return { nodes, edges, meta };
-}
-function asElements(v) {
-  if (v === void 0) return [];
-  if (!Array.isArray(v)) return null;
-  let out = [];
-  for (let el of v) {
-    if (el === null || typeof el != "object" || Array.isArray(el) || typeof el.id != "string") return null;
-    out.push(el);
-  }
-  return out;
-}
-function seedCanvasInto(doc2, json) {
-  let parsed = parseCanvas(json);
-  return parsed === null ? !1 : (doc2.transact(() => {
-    upsertElements(doc2.getMap(NODES_KEY), doc2.getArray(NODES_ORDER_KEY), parsed.nodes), upsertElements(doc2.getMap(EDGES_KEY), doc2.getArray(EDGES_ORDER_KEY), parsed.edges), upsertMeta(doc2.getMap(CANVAS_META_KEY), parsed.meta);
-  }), !0);
-}
-function upsertElements(map3, order, elements) {
-  let ids = new Set(elements.map((e) => e.id));
-  for (let el of elements) {
-    let cur = map3.get(el.id);
-    (cur === void 0 || !jsonEqual(cur, el)) && map3.set(el.id, el);
-  }
-  for (let id3 of [...map3.keys()])
-    ids.has(id3) || map3.delete(id3);
-  let nextOrder = elements.map((e) => e.id);
-  jsonEqual(order.toArray(), nextOrder) || (order.length > 0 && order.delete(0, order.length), nextOrder.length > 0 && order.insert(0, nextOrder));
-}
-function upsertMeta(map3, meta) {
-  for (let [k, v] of Object.entries(meta))
-    jsonEqual(map3.get(k), v) || map3.set(k, v);
-  for (let k of [...map3.keys()])
-    k in meta || map3.delete(k);
-}
-function projectCanvas(doc2) {
-  let meta = doc2.getMap(CANVAS_META_KEY).toJSON(), nodes = orderedElements(doc2.getMap(NODES_KEY), doc2.getArray(NODES_ORDER_KEY)), edges = orderedElements(doc2.getMap(EDGES_KEY), doc2.getArray(EDGES_ORDER_KEY));
-  return JSON.stringify({ ...meta, nodes, edges }, null, "	");
-}
-function orderedElements(map3, order) {
-  let out = [], seen = /* @__PURE__ */ new Set();
-  for (let id3 of order.toArray()) {
-    let el = map3.get(id3);
-    el !== void 0 && !seen.has(id3) && (out.push(el), seen.add(id3));
-  }
-  for (let id3 of [...map3.keys()].sort())
-    seen.has(id3) || out.push(map3.get(id3));
-  return out;
-}
-function canvasIsEmpty(doc2) {
-  return doc2.getMap(NODES_KEY).size === 0 && doc2.getMap(EDGES_KEY).size === 0;
-}
-function jsonEqual(a, b) {
-  return canonicalJson(a) === canonicalJson(b);
-}
-
-// src/crdt/bridge.ts
-var import_diff_match_patch4 = __toESM(require_diff_match_patch(), 1), dmp2 = new import_diff_match_patch4.diff_match_patch();
-function seedOnce(text2, disk, hasLca) {
-  if (hasLca) return !1;
-  let current = text2.toJSON();
-  return current === disk || current.length > 0 ? !1 : (text2.insert(0, disk), !0);
-}
-function diffIntoYText(text2, incoming) {
-  let current = text2.toJSON();
-  if (current === incoming) return;
-  let diffs = dmp2.diff_main(current, incoming);
-  dmp2.diff_cleanupSemantic(diffs);
-  let apply = () => {
-    let cursor = 0;
-    for (let [op, data] of diffs)
-      op === 0 ? cursor += data.length : op === 1 ? (text2.insert(cursor, data), cursor += data.length) : text2.delete(cursor, data.length);
-  };
-  text2.doc ? text2.doc.transact(apply) : apply();
-}
-
-// src/crdt/note-seed.ts
-function textHasHistory(text2) {
-  return text2.length > 0;
-}
-function docHasHistory(doc2, kind) {
-  return kind === "canvas" ? !canvasIsEmpty(doc2) : textHasHistory(doc2.getText(CONTENT_KEY));
-}
-function docHasAnyHistory(doc2, kind) {
-  return docHasHistory(doc2, kind) ? !0 : kind === "canvas" ? !1 : doc2.getArray(ORDER_KEY).length > 0 || doc2.getMap(FRONTMATTER_KEY).size > 0 || doc2.getMap(RAW_FRONTMATTER_KEY).size > 0;
-}
-function applyFrontmatterInto(doc2, order, values) {
-  let map3 = doc2.getMap(FRONTMATTER_KEY), arr = doc2.getArray(ORDER_KEY), rawMap = doc2.getMap(RAW_FRONTMATTER_KEY), current = map3.toJSON();
-  doc2.transact(() => {
-    for (let [k, v] of Object.entries(values))
-      current[k] !== v && map3.set(k, v), rawMap.has(k) && rawMap.delete(k);
-    for (let k of Object.keys(current))
-      k in values || map3.delete(k);
-    let currentOrder = arr.toArray();
-    currentOrder.length === order.length && currentOrder.every((k, i) => k === order[i]) || (arr.length > 0 && arr.delete(0, arr.length), order.length > 0 && arr.insert(0, order));
-  });
-}
-function seedContentInto(doc2, text2, content, lca) {
-  let { fmBlock, body: splitBody } = splitFrontmatter(content), parsed = fmBlock === null ? { kind: "empty" } : parseFrontmatterBlock(fmBlock), body = parsed.kind === "degraded" && !hasFrontmatter(doc2) ? content : splitBody;
-  doc2.transact(() => {
-    parsed.kind === "ok" ? applyFrontmatterInto(doc2, parsed.order, parsed.values) : parsed.kind === "empty" && applyFrontmatterInto(doc2, [], {}), seedOnce(text2, body, lca) || diffIntoYText(text2, body);
-  });
-}
-function hasFrontmatter(doc2) {
-  return doc2.getMap(FRONTMATTER_KEY).size > 0 || doc2.getArray(ORDER_KEY).length > 0;
-}
-function seedFrontmatterInto(doc2, content) {
-  let { fmBlock } = splitFrontmatter(content), parsed = fmBlock === null ? { kind: "empty" } : parseFrontmatterBlock(fmBlock);
-  parsed.kind !== "degraded" && (parsed.kind === "empty" ? applyFrontmatterInto(doc2, [], {}) : applyFrontmatterInto(doc2, parsed.order, parsed.values));
-}
-
 // src/crdt/provider-registry.ts
-var REMOTE = /* @__PURE__ */ Symbol("remote");
+var REMOTE = /* @__PURE__ */ Symbol("remote"), DISK = /* @__PURE__ */ Symbol("disk"), MERGE_BASE_KEY = "merge-base";
+function invalidateStoredBase(dbName, hash) {
+  return new Promise((resolve) => {
+    let req;
+    try {
+      req = indexedDB.open(dbName);
+    } catch (e) {
+      resolve();
+      return;
+    }
+    req.onupgradeneeded = () => {
+      var _a;
+      return (_a = req.transaction) == null ? void 0 : _a.abort();
+    }, req.onerror = () => resolve(), req.onblocked = () => resolve(), req.onsuccess = () => {
+      let db = req.result, done = () => {
+        db.close(), resolve();
+      };
+      try {
+        if (!db.objectStoreNames.contains("custom")) {
+          done();
+          return;
+        }
+        let tx = db.transaction("custom", "readwrite"), store = tx.objectStore("custom"), get2 = store.get(MERGE_BASE_KEY);
+        get2.onsuccess = () => {
+          try {
+            let raw = get2.result, rec = typeof raw == "string" ? JSON.parse(raw) : null, text2 = rec == null ? void 0 : rec.text;
+            typeof text2 == "string" && fnv1a(text2) !== hash && store.put(
+              JSON.stringify({ text: null, invalid: !0 }),
+              MERGE_BASE_KEY
+            );
+          } catch (e) {
+          }
+        }, tx.oncomplete = done, tx.onerror = done, tx.onabort = done;
+      } catch (e) {
+        done();
+      }
+    };
+  });
+}
+var IN_DOC_CONFLICT_MARKER = "<!-- Engram kept both: the conflicting disk version follows -->";
 function eqBytes(a, b) {
   return a.length === b.length && a.every((byte, i) => byte === b[i]);
 }
@@ -26202,6 +26239,13 @@ var ROOM_OPEN_REPORT_EVERY = 50, ProviderRegistry = class {
      *  live: a restore) and by destroyAll (stack teardown). Never revived, an id
      *  just stays dead, which is the delete's intent. */
     this.removed = /* @__PURE__ */ new Set();
+    /** Baseline hashes an `invalidateMergeBase` asked for while the note's
+     *  stored base was not loaded yet (doc hydrating, or not resident while
+     *  its IndexedDB record is being marked). `loadMergeBase` applies the
+     *  latest one to whatever it reads, so a stale base never resurrects.
+     *  Cleared by that load; for a non-resident note, also when the direct
+     *  IndexedDB mark finishes. */
+    this.pendingInvalidation = /* @__PURE__ */ new Map();
     /** The seq fence for each tombstone: the delete's seq, or the newest seq this
      *  device knew for the note when it deleted. Only a row NEWER than it can
      *  revive the id; anything at or below it is history from before the delete.
@@ -26268,7 +26312,7 @@ var ROOM_OPEN_REPORT_EVERY = 50, ProviderRegistry = class {
   project(e) {
     if (e.kind === "canvas") return projectCanvas(e.doc);
     let { order, values } = frontmatterOf(e.doc);
-    return projectNote(order, values, e.text.toJSON(), rawFrontmatterOf(e.doc));
+    return projectNote(order, values, toLf(e.text.toJSON()), rawFrontmatterOf(e.doc));
   }
   /** Liveness: a tombstoned note is dead until the server brings the same id
    *  back (`revive`) or the stack is torn down (destroyAll). */
@@ -26368,6 +26412,15 @@ var ROOM_OPEN_REPORT_EVERY = 50, ProviderRegistry = class {
       ready: Promise.resolve(),
       remoteSeq: 0,
       lastFlushedFm: null,
+      localHead: null,
+      localHeadAt: 0,
+      localDirty: !1,
+      mergeBase: null,
+      mergeBaseTouched: !1,
+      mergeBaseCleared: !1,
+      mergeBaseInvalid: !1,
+      mergeBaseLoaded: !1,
+      mergeBaseWrite: null,
       pendingFlush: null,
       lifetime: new Lifetime(),
       hadHistory: !1,
@@ -26379,12 +26432,12 @@ var ROOM_OPEN_REPORT_EVERY = 50, ProviderRegistry = class {
       ackedKey: this.ackedKey()
     };
     return doc2.on("beforeTransaction", (tr2) => {
-      !entry.ackedIsDoc || tr2.origin === provider || tr2.origin === REMOTE || (entry.deliveredReceipt = snapshotOf(doc2), entry.ackedIsDoc = !1);
+      entry.localDirty && (tr2.origin === provider || tr2.origin === REMOTE) && (entry.localDirty = !1, entry.localHead = kind === "note" ? fnv1a(this.project(entry)) : null, entry.localHeadAt = Date.now()), !(!entry.ackedIsDoc || tr2.origin === provider || tr2.origin === REMOTE) && (entry.deliveredReceipt = snapshotOf(doc2), entry.ackedIsDoc = !1);
     }), doc2.on("update", (_u, origin) => {
       if (!entry.lifetime.active) return;
       let firstLoad = !entry.hadHistory && docHasAnyHistory(doc2, kind);
       if (firstLoad && (entry.hadHistory = !0), origin !== provider && origin !== REMOTE) {
-        entry.localSinceAck = !0, origin !== persistence && this.trackResend(noteId, !0);
+        entry.localSinceAck = !0, origin !== persistence && (this.trackResend(noteId, !0), origin !== DISK && (entry.localDirty = !0));
         return;
       }
       !entry.localSinceAck && entry.lifetime.active && (entry.ackedIsDoc = !0, entry.deliveredReceipt = void 0, this.markAckedDirty(noteId, entry)), entry.remoteSeq += 1;
@@ -26405,7 +26458,7 @@ var ROOM_OPEN_REPORT_EVERY = 50, ProviderRegistry = class {
         entry.pendingFlush === flush && (entry.pendingFlush = null);
       });
     }), entry.ready = persistence.whenSynced.then(async () => {
-      provider.activate(), this.connected && provider.setConnected(!0), await this.loadAcked(noteId, entry);
+      provider.activate(), this.connected && provider.setConnected(!0), await this.loadAcked(noteId, entry), await this.loadMergeBase(noteId, entry);
     }), this.entries.set(noteId, entry), entry;
   }
   /** Sync handle for the live-editor ViewPlugin: the resident Y.Text now (empty
@@ -26484,7 +26537,7 @@ var ROOM_OPEN_REPORT_EVERY = 50, ProviderRegistry = class {
    *  Ports CrdtManager.applyLocalEdit: stale-snapshot guard + adopt-first gate +
    *  the shared seedContentInto codec. */
   async applyLocalEdit(noteId, diskContent, hasLca, reread) {
-    var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j, _k, _l;
+    var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j;
     if (this.removed.has(noteId)) return null;
     let e = await this.entry(noteId);
     if (!e.lifetime.active) return null;
@@ -26510,12 +26563,15 @@ var ROOM_OPEN_REPORT_EVERY = 50, ProviderRegistry = class {
       }
       diskContent = content;
     }
-    let base = (hasLca != null ? hasLca : docHasHistory(e.doc, e.kind)) ? (_f = (_e = this.opts).lcaFor) == null ? void 0 : _f.call(_e, noteId) : null;
-    if (base != null && e.kind === "note") {
-      let current = this.project(e), merged = mergeDiskOntoDoc(base, diskContent, current);
-      if (merged.clean)
-        return overwritesConcurrentEdit(base, diskContent, current) && ((_h = (_g = this.opts).onLossyMerge) == null || _h.call(_g, noteId)), seedContentInto(e.doc, e.text, merged.text, docHasHistory(e.doc, e.kind)), merged.text;
-      (_j = (_i = this.opts).onDirtyMerge) == null || _j.call(_i, noteId);
+    let history = hasLca != null ? hasLca : docHasHistory(e.doc, e.kind), echo = this.takeEditorEcho(e, diskContent);
+    if ((_f = (_e = this.opts).isUnchangedSynced) != null && _f.call(_e, noteId, diskContent) && this.seedMergeBase(noteId, diskContent), history && echo === "late" && e.kind === "note")
+      return sameNoteMeaning(this.project(e), diskContent) ? diskContent : this.keepBoth(noteId, e, diskContent);
+    if (history && e.mergeBaseInvalid && e.kind === "note" && echo !== "echo")
+      return sameNoteMeaning(this.project(e), diskContent) ? diskContent : this.keepBoth(noteId, e, diskContent);
+    let base = history ? echo === "echo" ? diskContent : this.mergeBaseFor(noteId, e) : null;
+    if (base !== null && e.kind === "note") {
+      let current = keepDiskFrontmatter(this.project(e), base), merged = merge3(toLf(base), toLf(diskContent), toLf(current));
+      return merged.clean ? (this.seedFromDisk(e, merged.text, docHasHistory(e.doc, e.kind)), this.writeBack(noteId, e, diskContent)) : ((_h = (_g = this.opts).onDirtyMerge) == null || _h.call(_g, noteId), this.keepBoth(noteId, e, diskContent));
     }
     if (reread) {
       let stable = !1;
@@ -26537,7 +26593,183 @@ var ROOM_OPEN_REPORT_EVERY = 50, ProviderRegistry = class {
       if (!stable) return null;
     }
     let lca = hasLca != null ? hasLca : docHasHistory(e.doc, e.kind);
-    return !lca && ((_l = (_k = this.opts).isUnchangedSynced) != null && _l.call(_k, noteId, content)) ? content : e.kind === "canvas" ? seedCanvasInto(e.doc, content) ? content : null : (seedContentInto(e.doc, e.text, content, lca), content);
+    return !lca && ((_j = (_i = this.opts).isUnchangedSynced) != null && _j.call(_i, noteId, content)) ? content : e.kind === "canvas" ? seedCanvasInto(e.doc, content) ? content : null : (this.seedFromDisk(e, content, lca), content);
+  }
+  /** Seed disk text into the doc under the DISK origin (see `localHead`). */
+  seedFromDisk(e, content, lca) {
+    e.doc.transact(() => seedContentInto(e.doc, e.text, content, lca), DISK);
+  }
+  /** After a merge seeded the doc: if the doc kept work disk lacks (a failed
+   *  or deferred flush, a keep-both), write it to disk, so disk stops holding
+   *  the stale text. Returns what disk holds, which the caller stamps as the
+   *  baseline (and so the merge base). Not written when disk moved since it
+   *  was read (an external write mid-ingest: its own modify ingests it), or
+   *  when the write fails; disk then still holds `diskContent`. */
+  async writeBack(noteId, e, diskContent) {
+    var _a, _b;
+    let docText = this.project(e);
+    if (sameNoteMeaning(docText, diskContent)) return diskContent;
+    try {
+      let write2 = (_b = (_a = this.opts).writeIfDiskStill) == null ? void 0 : _b.call(_a, noteId, diskContent, docText), written = write2 ? await e.lifetime.guard(write2) : null;
+      return written != null ? written : diskContent;
+    } catch (err) {
+      return rlog().warn(
+        "crdt",
+        `write-back after a disk merge failed for ${noteId}: ${errMsg(err)}`
+      ), diskContent;
+    }
+  }
+  /** Keep both sides of a disk edit the doc cannot take: the doc keeps its
+   *  text, and disk's goes to a conflict copy beside the note. With no copy
+   *  (no handler, or the write failed: a file-system error, an unknown path)
+   *  the lines only disk holds are kept IN the doc under a marker, so the
+   *  fallback never reverts either side. Refusing the ingest instead would
+   *  not be safer: the next remote flush overwrites disk. The block holds
+   *  only disk-only lines, so a retry after a write-back adds nothing (no
+   *  nesting), and the next ingest tries the copy again. Then the doc is
+   *  written back to disk. */
+  async keepBoth(noteId, e, diskContent) {
+    var _a, _b;
+    let copied = !1;
+    try {
+      copied = await ((_b = (_a = this.opts).onMergeConflict) == null ? void 0 : _b.call(_a, noteId, diskContent)) === !0;
+    } catch (err) {
+      rlog().warn("crdt", `conflict copy failed for ${noteId}: ${errMsg(err)}`);
+    }
+    if (!e.lifetime.active) return diskContent;
+    if (!copied) {
+      let current = this.project(e), only = diskOnlyText(current, toLf(diskContent));
+      if (only !== "") {
+        rlog().error(
+          "crdt",
+          `conflict copy unavailable for ${noteId}: kept ${only.length} chars of disk in the note`
+        );
+        let kept = current.lastIndexOf(IN_DOC_CONFLICT_MARKER) === -1 ? `${current.replace(/\n*$/, "")}
+
+${IN_DOC_CONFLICT_MARKER}
+${only}` : `${current.replace(/\n*$/, "")}
+${only}`;
+        this.seedFromDisk(e, kept, !0);
+      }
+    }
+    return this.writeBack(noteId, e, diskContent);
+  }
+  /** The doc's text just reached disk through a write that is not a remote
+   *  flush (a merge write-back, a create-time merge): record its frontmatter
+   *  block as flushed, in the projection's form the flush compares against,
+   *  so the next remote flush does not report a block change that did not
+   *  happen (which would turn a bound note's save nudge into a direct write
+   *  under its editor). Called by `SyncEngine.writeNoteIfDiskStill`. */
+  markWritten(noteId) {
+    let e = this.entries.get(noteId);
+    !(e != null && e.lifetime.active) || e.kind !== "note" || (e.lastFlushedFm = splitFrontmatter(this.project(e)).fmBlock);
+  }
+  /** Take the editor-echo window. `"echo"`: `disk` is the editor's late save
+   *  inside the window. `"late"`: the same save past it. Every ingest clears
+   *  the window, match or not. */
+  takeEditorEcho(e, disk) {
+    if (e.localHead === null) return null;
+    let match2 = e.localHead === fnv1a(disk), inWindow = Date.now() - e.localHeadAt <= 5e3;
+    return e.localHead = null, match2 ? inWindow ? "echo" : "late" : null;
+  }
+  /** The merge base, or null when none: `lcaFor` when the caller supplies
+   *  one, else the persisted base. */
+  mergeBaseFor(noteId, e) {
+    return this.opts.lcaFor ? this.opts.lcaFor(noteId) : e.mergeBase;
+  }
+  /** Record the note's merge base: a text disk and doc now agree on, or null
+   *  when the baseline moved without one (the base is stale from then on).
+   *  Kept only for a resident doc (every caller just flushed, ingested or
+   *  saved it), and written to the doc's own IndexedDB store at once, text
+   *  and hash in one record, so a crash or a force-quit keeps them together. */
+  setMergeBase(noteId, text2) {
+    let e = this.entries.get(noteId);
+    if (!(e != null && e.lifetime.active) || e.kind !== "note") return;
+    e.mergeBaseTouched = !0, text2 !== null && this.pendingInvalidation.delete(noteId);
+    let wasInvalid = e.mergeBaseInvalid;
+    text2 !== null && (e.mergeBaseInvalid = !1), !(e.mergeBase === text2 && e.mergeBaseCleared === (text2 === null) && e.mergeBaseInvalid === wasInvalid) && (e.mergeBase = text2, e.mergeBaseCleared = text2 === null, this.persistMergeBase(noteId, e));
+  }
+  /** Write the entry's base state as one record, queued behind any write in
+   *  flight. Not lifetime-gated: `destroy` awaits it before the store closes. */
+  persistMergeBase(noteId, e) {
+    var _a;
+    let text2 = e.mergeBase, invalid = e.mergeBaseInvalid, write2 = ((_a = e.mergeBaseWrite) != null ? _a : Promise.resolve()).then(async () => {
+      var _a2, _b;
+      if (!(e.mergeBase !== text2 || e.mergeBaseInvalid !== invalid))
+        try {
+          let rec = text2 === null ? invalid ? { text: text2, invalid } : { text: text2 } : { text: text2, hash: fnv1a(text2) };
+          await e.persistence.set(MERGE_BASE_KEY, JSON.stringify(rec));
+        } catch (err) {
+          (_b = (_a2 = this.opts).onPersistError) == null || _b.call(_a2, noteId, err), await e.persistence.del(MERGE_BASE_KEY).catch(() => {
+          });
+        }
+    });
+    e.mergeBaseWrite = write2, write2.finally(() => {
+      e.mergeBaseWrite === write2 && (e.mergeBaseWrite = null);
+    });
+  }
+  /** The baseline for this note just moved to `hash` through a writer that
+   *  records no base (a catch-up quiet record, a REST path). A base that
+   *  does not hash to it is no longer an ancestor of disk: mark it invalid
+   *  (see `mergeBaseInvalid`). A non-resident note is marked straight in its
+   *  IndexedDB record, without hydrating the doc. */
+  invalidateMergeBase(noteId, hash) {
+    let e = this.entries.get(noteId);
+    if (e && !e.mergeBaseLoaded) {
+      this.pendingInvalidation.set(noteId, hash);
+      return;
+    }
+    if (e) {
+      if (e.kind !== "note" || e.mergeBase === null || fnv1a(e.mergeBase) === hash) return;
+      e.mergeBaseTouched = !0, e.mergeBase = null, e.mergeBaseCleared = !0, e.mergeBaseInvalid = !0, this.persistMergeBase(noteId, e);
+      return;
+    }
+    this.pendingInvalidation.set(noteId, hash), invalidateStoredBase(this.storeName(noteId), hash).finally(() => {
+      this.pendingInvalidation.get(noteId) === hash && !this.entries.has(noteId) && this.pendingInvalidation.delete(noteId);
+    });
+  }
+  /** An open editor's autosave: a merge base only if the doc holds exactly
+   *  that text (the binding forwards every keystroke, so it normally does);
+   *  otherwise the save is a claim about disk the doc may lack, and the base
+   *  is cleared. One O(n) compare per autosave. */
+  recordEditorSave(noteId, text2) {
+    let e = this.entries.get(noteId);
+    !(e != null && e.lifetime.active) || e.kind !== "note" || this.setMergeBase(noteId, sameNoteMeaning(this.project(e), text2) ? text2 : null);
+  }
+  /** Adopt `disk` as the merge base when the note has never had one (the
+   *  first launch after upgrade) and the caller knows disk is at the synced
+   *  baseline. Never over a real base, and never after a hash-only baseline
+   *  cleared it: that baseline is a claim about disk, not proof the doc holds
+   *  it (an offline editor save the doc may lack). */
+  seedMergeBase(noteId, disk) {
+    let e = this.entries.get(noteId);
+    !e || e.mergeBase !== null || e.mergeBaseCleared || e.mergeBaseInvalid || this.setMergeBase(noteId, disk);
+  }
+  /** Read the persisted merge base after hydration. A set this session is
+   *  newer and wins. A record whose hash does not match its text (a torn or
+   *  foreign write) is ignored. A failed read leaves none (the two-way path). */
+  async loadMergeBase(noteId, e) {
+    try {
+      await this.readMergeBase(noteId, e);
+    } finally {
+      e.mergeBaseLoaded = !0;
+      let pending = this.pendingInvalidation.get(noteId);
+      this.pendingInvalidation.delete(noteId), pending !== void 0 && e.lifetime.active && this.invalidateMergeBase(noteId, pending);
+    }
+  }
+  async readMergeBase(noteId, e) {
+    var _a, _b;
+    if (e.kind === "note")
+      try {
+        let stored = await e.persistence.get(MERGE_BASE_KEY);
+        if (!e.lifetime.active || e.mergeBaseTouched || typeof stored != "string") return;
+        let rec = JSON.parse(stored);
+        if (typeof rec != "object" || rec === null) return;
+        let { text: text2, hash } = rec;
+        text2 === null ? (e.mergeBaseCleared = !0, e.mergeBaseInvalid = rec.invalid === !0) : typeof text2 == "string" && hash === fnv1a(text2) && (e.mergeBase = text2);
+      } catch (err) {
+        (_b = (_a = this.opts).onPersistError) == null || _b.call(_a, noteId, err);
+      }
   }
   /** Merge a disk edit made FROM `base` onto the doc, with no await between
    *  the check and the seed. The doc must still project `expected` (what the
@@ -26552,11 +26784,11 @@ var ROOM_OPEN_REPORT_EVERY = 50, ProviderRegistry = class {
     let e = await this.entry(noteId);
     if (!e.lifetime.active || e.kind !== "note") return null;
     let current = this.project(e);
-    if (current !== expected && !force) return null;
-    let merged = merge3(base, disk, current);
+    if (current !== toLf(expected) && !force) return null;
+    let [b, d] = [toLf(base), toLf(disk)], merged = merge3(b, d, current);
     if (!merged.clean && !force) return null;
-    let text2 = merged.clean ? merged.text : mergeDiskOntoDoc(base, disk, current).text;
-    return seedContentInto(e.doc, e.text, text2, !0), text2;
+    let text2 = merged.clean ? merged.text : mergeDiskOntoDoc(b, d, current).text;
+    return this.seedFromDisk(e, text2, !0), text2;
   }
   /** Apply a raw Yjs update (vault-channel fan-out) as a remote merge, awaiting
    *  its disk flush so a write failure can be surfaced (#235).
@@ -27010,6 +27242,7 @@ var ROOM_OPEN_REPORT_EVERY = 50, ProviderRegistry = class {
     this.removed.add(noteId), this.removedAtSeq.set(noteId, Math.max(deleteSeq, (_a = this.removedAtSeq.get(noteId)) != null ? _a : 0)), path !== void 0 && this.removedAtPath.set(noteId, path), await this.destroy(noteId, !0);
   }
   async destroy(noteId, clearData) {
+    var _a;
     this.enrolledIds.delete(noteId), clearData && this.trackResend(noteId, !1);
     let e = this.entries.get(noteId), markWrite = e && !clearData ? this.persistAcked(noteId, e) : void 0;
     if (e != null && e.ackedTimer && window.clearTimeout(e.ackedTimer), e && e.lifetime.end(new NoteDestroyedError(noteId)), !e) {
@@ -27019,7 +27252,8 @@ var ROOM_OPEN_REPORT_EVERY = 50, ProviderRegistry = class {
       });
       return;
     }
-    this.entries.delete(noteId), e.provider.destroy(), e.doc.destroy(), await markWrite, clearData && await e.persistence.clearData(), await e.persistence.destroy();
+    this.entries.delete(noteId), e.provider.destroy(), e.doc.destroy(), await markWrite, await ((_a = e.mergeBaseWrite) == null ? void 0 : _a.catch(() => {
+    })), clearData && await e.persistence.clearData(), await e.persistence.destroy();
   }
   async destroyAll() {
     this.flushRoomOpenCounts(), this.flushResendIds();
@@ -27095,7 +27329,17 @@ function createCrdtWiring(deps) {
     ackScope: deps.ackScope,
     lcaFor: deps.lcaFor,
     onDirtyMerge: deps.onDirtyMerge,
-    onLossyMerge: deps.onLossyMerge,
+    // The registry write-back goes through the engine's one guarded write. An
+    // open editor owns the note's disk: nudge its save instead.
+    writeIfDiskStill: async (noteId, expectedDisk, text2) => {
+      var _a2;
+      let path = noteIdMap.pathForId(noteId);
+      return path ? deps.isBound(path) ? ((_a2 = deps.onBoundUpdate) == null || _a2.call(deps, path), null) : syncEngine.writeNoteIfDiskStill(path, expectedDisk, text2) : null;
+    },
+    onMergeConflict: async (noteId, diskText) => {
+      let path = noteIdMap.pathForId(noteId);
+      return path ? syncEngine.keepConflictCopy(path, diskText, "disk edit overlaps the doc") : !1;
+    },
     send: (docId, frame, kind) => {
       if (kind === "op" && deps.canSendLive && !deps.canSendLive(docId))
         return syncEngine.recordUndeliveredCrdtEdit(docId), !1;
@@ -27806,14 +28050,13 @@ function table() {
     attachments_disabled: t("Attachment sync is disabled for this account."),
     attachments_quota_exceeded: t("Attachment storage is full \u2014 upgrade for more."),
     file_too_large: t("File too large for your plan."),
-    concurrent_devices_exceeded: t(
-      "Already signed in on another device. Upgrade for multi-device."
-    ),
+    // Names no number: Free allows 2 devices, so "another device" was wrong,
+    // and an installed plugin lags any change to the cap.
+    concurrent_devices_exceeded: t("Device limit reached. Disconnect a device or upgrade."),
     device_swap_cooldown: t("Device swap cooldown active. Wait or upgrade."),
     obsidian_connections_exceeded: t(
       "Too many connected Obsidian vaults. Disconnect one or upgrade."
     ),
-    mcp_connections_exceeded: t("Too many connected AI clients. Disconnect one or upgrade."),
     // ONE key, replacing `ai_conversations_per_day_exceeded`,
     // `ai_queries_per_conversation_exceeded` and `ai_queries_per_day_exceeded`.
     // Those three were dead strings: the backend deleted the keys behind them
@@ -27821,17 +28064,17 @@ function table() {
     // AI cap a user can now hit fell through to the generic fallback. Emitted
     // by `search_controller.ex`. Copy tracks the web app's wording so the same
     // limit does not read as two different products.
+    // Names no number: the backend owns the cap and an installed plugin lags it.
     ai_searches_per_day_exceeded: t(
-      "Daily AI search limit reached. Free includes 20 per day across Obsidian, the web app and MCP. Upgrade for unlimited."
+      "Daily AI search limit reached. Free searches are shared across Obsidian, the web app and MCP. Upgrade for unlimited."
     ),
-    // Server rejects an API-key-authed socket or REST call outright: Cloud
-    // gates API keys behind Pro. Point at sign-in, which works on every plan,
-    // rather than at a generic "upgrade".
+    // API keys work on every plan (backend #1974). The server sends this only
+    // when a per-user `api_rps_cap` override is 0, a kill switch on one
+    // account, so it names no plan and points at sign-in, which still works.
+    // `api_write_not_available` and `mcp_connections_exceeded` went with
+    // their gates in the same change; the server never sends them.
     api_access_not_available: t(
-      "API keys need a Pro plan. Sign in with your Engram account instead."
-    ),
-    api_write_not_available: t(
-      "API keys need a Pro plan. Sign in with your Engram account instead."
+      "API key access is turned off for this account. Sign in with your Engram account instead."
     ),
     account_suspended: t("Account suspended. Contact support."),
     no_tier: t("Account setup incomplete."),
@@ -27891,10 +28134,6 @@ function parsePlanState(raw, now) {
     attachmentsTextOnly: typeof r.attachments_all_types == "boolean" ? r.attachments_all_types === !1 : r.attachments_text_only === !0,
     maxFileBytes: typeof r.max_file_bytes == "number" ? r.max_file_bytes : 0,
     attachmentBytesCap: typeof r.attachment_bytes_cap == "number" ? r.attachment_bytes_cap : null,
-    // Absent on a backend older than the free keyword-only tier → treat as
-    // uncapped, matching this file's "unknown plan → permissive" direction.
-    // A negative value is the backend's "unlimited" sentinel, not a cap of -1.
-    indexedNotesCap: typeof r.indexed_notes_cap == "number" && r.indexed_notes_cap >= 0 ? r.indexed_notes_cap : null,
     updatedAt: now
   };
 }
@@ -27903,7 +28142,7 @@ function attachmentCapabilityGained(prev, next) {
   return ((_a = prev == null ? void 0 : prev.attachmentsTextOnly) != null ? _a : !0) && !next.attachmentsTextOnly;
 }
 function samePlanState(prev, next) {
-  return prev === null ? !1 : prev.tier === next.tier && prev.attachmentsTextOnly === next.attachmentsTextOnly && prev.maxFileBytes === next.maxFileBytes && prev.attachmentBytesCap === next.attachmentBytesCap && prev.indexedNotesCap === next.indexedNotesCap;
+  return prev === null ? !1 : prev.tier === next.tier && prev.attachmentsTextOnly === next.attachmentsTextOnly && prev.maxFileBytes === next.maxFileBytes && prev.attachmentBytesCap === next.attachmentBytesCap;
 }
 
 // src/plugin-data-io.ts
@@ -28057,9 +28296,6 @@ function excerpt(text2, query) {
   }
   return `${start > 0 ? "\u2026" : ""}${t2.slice(start, end)}${end < t2.length ? "\u2026" : ""}`;
 }
-function stripFrontmatter(content) {
-  return content.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, "");
-}
 function mapSemantic(results, query) {
   return results.map((r) => {
     var _a, _b, _c;
@@ -28136,7 +28372,7 @@ async function searchLocalKeyword(query, ctx, opts, fuzzy) {
       console.warn("Engram search: skipping unreadable file", file.path, e);
       continue;
     }
-    let body = stripFrontmatter(content), title = basename(file.path), titleHit = scorer(title), bodyHit = scorer(body), score = Math.max(
+    let { body } = splitFrontmatter(content), title = basename(file.path), titleHit = scorer(title), bodyHit = scorer(body), score = Math.max(
       titleHit ? titleHit.score + TITLE_BONUS : Number.NEGATIVE_INFINITY,
       bodyHit ? bodyHit.score : Number.NEGATIVE_INFINITY
     );
@@ -28254,19 +28490,8 @@ function modeHint() {
 function modeHintText(mode) {
   return `${modeLabel()[mode]} ${modeHint()[mode]}`;
 }
-function capHintText(cap, total, localFused) {
-  if (unsearchableCount(cap, total) === 0) return null;
-  let indexed = cap.toLocaleString(), all2 = total.toLocaleString();
-  return localFused ? t(
-    "Engram indexes {indexed} of your {all} notes. The rest match on this device only. Upgrade to index everything.",
-    { indexed, all: all2 }
-  ) : t("Searching {indexed} of {all} notes. Upgrade to search everything.", { indexed, all: all2 });
-}
-function unsearchableCount(cap, total) {
-  return cap === null || cap < 0 ? 0 : Math.max(0, total - cap);
-}
 var SearchPanel = class {
-  constructor(parent, ctx, opts) {
+  constructor(parent, ctx, opts = {}) {
     this.selectedTags = [];
     /** The segmented mode buttons, so a change can move `is-active` without
      *  re-rendering the panel (which would drop the query and focus). */
@@ -28453,24 +28678,14 @@ var SearchPanel = class {
     for (let seg of buildSegments(result.text, queryTokenRanges(result.text, query)))
       seg.hit ? el.createSpan({ text: seg.text, cls: "engram-search-hl" }) : el.appendText(seg.text);
   }
-  renderCapHint() {
-    var _a, _b, _c, _d, _e, _f;
-    let text2 = capHintText(
-      (_c = (_b = (_a = this.opts).indexedNotesCap) == null ? void 0 : _b.call(_a)) != null ? _c : null,
-      (_f = (_e = (_d = this.ctx.app.vault) == null ? void 0 : _d.getMarkdownFiles) == null ? void 0 : _e.call(_d).length) != null ? _f : 0,
-      this.mode !== "semantic"
-    );
-    text2 !== null && this.resultsEl.createEl("p", { text: text2, cls: "engram-search-cap-hint" });
-  }
   renderResults(query) {
     if (this.resultsEl.empty(), !this.results.length) {
       this.resultsEl.createEl("p", {
         text: t("No results found"),
         cls: "engram-search-empty"
-      }), this.renderCapHint();
+      });
       return;
     }
-    this.renderCapHint();
     let strengths = matchStrengths(this.results.map((r) => r.score));
     this.results.forEach((result, i) => {
       var _a;
@@ -28578,20 +28793,17 @@ var SearchPanel = class {
 
 // src/search-modal.ts
 var SearchModal = class extends import_obsidian12.Modal {
-  constructor(app, api, indexedNotesCap) {
+  constructor(app, api) {
     super(app);
     this.panel = null;
-    this.api = api, this.indexedNotesCap = indexedNotesCap;
+    this.api = api;
   }
   onOpen() {
     let { contentEl } = this;
     contentEl.empty(), contentEl.addClass("engram-search-modal"), this.panel = new SearchPanel(
       contentEl,
       { api: this.api, app: this.app },
-      {
-        indexedNotesCap: this.indexedNotesCap,
-        onResultOpened: () => this.close()
-      }
+      { onResultOpened: () => this.close() }
     ), this.panel.focus();
   }
   onClose() {
@@ -28603,10 +28815,10 @@ var SearchModal = class extends import_obsidian12.Modal {
 // src/search-view.ts
 var import_obsidian13 = require("obsidian");
 var SEARCH_VIEW_TYPE = "engram-search-view", SearchView = class extends import_obsidian13.ItemView {
-  constructor(leaf, api, indexedNotesCap) {
+  constructor(leaf, api) {
     super(leaf);
     this.panel = null;
-    this.api = api, this.indexedNotesCap = indexedNotesCap;
+    this.api = api;
   }
   getViewType() {
     return SEARCH_VIEW_TYPE;
@@ -28618,13 +28830,7 @@ var SEARCH_VIEW_TYPE = "engram-search-view", SearchView = class extends import_o
     return "brain-circuit";
   }
   async onOpen() {
-    this.contentEl.empty(), this.contentEl.addClass("engram-search-view-container"), this.panel = new SearchPanel(
-      this.contentEl,
-      { api: this.api, app: this.app },
-      {
-        indexedNotesCap: this.indexedNotesCap
-      }
-    );
+    this.contentEl.empty(), this.contentEl.addClass("engram-search-view-container"), this.panel = new SearchPanel(this.contentEl, { api: this.api, app: this.app });
   }
   async onClose() {
     var _a;
@@ -29125,14 +29331,14 @@ function renderCompletionSummary(parent, summary, webUrl, offerUpgrade = !1) {
     text: t("\u2713 {count} synced", { count: summary.synced })
   }), summary.skipped > 0 && line.createSpan({
     cls: "engram-progress-tally-skipped",
-    text: t("\u2933 {count} skipped (Free plan)", { count: summary.skipped })
+    text: t("\u2933 {count} skipped", { count: summary.skipped })
   }), summary.failed > 0 && line.createSpan({
     cls: "engram-progress-tally-failed",
     text: t("\u2715 {count} failed", { count: summary.failed })
   }), summary.skipped > 0) {
     let note = parent.createDiv({ cls: "engram-progress-plan-note" });
     if (note.createSpan({
-      text: t("{count} attachments need a paid plan to sync. See Sync Center.", {
+      text: t("{count} attachments skipped. See Sync Center.", {
         count: summary.skipped
       })
     }), !offerUpgrade) return;
@@ -29145,7 +29351,7 @@ function renderCompletionSummary(parent, summary, webUrl, offerUpgrade = !1) {
   }
 }
 function describeCompletion(summary) {
-  return summary.failed > 0 ? t("Finished with some errors. Open the sync log to see what failed.") : summary.skipped > 0 ? t("Synced. Some attachments need a paid plan to sync (see below).") : summary.synced > 0 ? t("All synced. Your vault and the cloud now match.") : t("Already up to date. Nothing needed syncing.");
+  return summary.failed > 0 ? t("Finished with some errors. Open the sync log to see what failed.") : summary.skipped > 0 ? t("Synced. Some attachments were skipped (see below).") : summary.synced > 0 ? t("All synced. Your vault and the cloud now match.") : t("Already up to date. Nothing needed syncing.");
 }
 function plannedPhases(choice, plan) {
   let b = optionBreakdown(plan, choice), deleting = b.deleteLocalCount + b.deleteRemoteCount, out = [];
@@ -29323,6 +29529,32 @@ function externalLink(parent, text2, href) {
 function heading(containerEl, name) {
   new import_obsidian17.Setting(containerEl).setName(name).setHeading().settingEl.addClass("engram-about-heading");
 }
+function planCards() {
+  return [
+    [
+      t("Free"),
+      [
+        t("1 vault, 2 devices"),
+        t("Real-time sync"),
+        t("Search all your notes"),
+        t("Connect any AI (MCP)")
+      ]
+    ],
+    [
+      t("Starter"),
+      [
+        t("10 vaults, unlimited devices"),
+        t("Search all your notes"),
+        t("10 GB attachments"),
+        t("Unlimited AI searches")
+      ]
+    ],
+    [
+      t("Pro"),
+      [t("Unlimited vaults"), t("Search across all vaults at once"), t("50 GB attachments")]
+    ]
+  ];
+}
 function renderAboutTab(ctx) {
   let { containerEl, switchToTab } = ctx;
   new import_obsidian17.Setting(containerEl).setName(t("New here? Watch the setup video")).setDesc(t("What Engram does, and how to connect your vault, start to finish.")).addButton(
@@ -29347,28 +29579,13 @@ function renderAboutTab(ctx) {
   ai.descEl.appendText(
     t("Link Claude, Cursor, ChatGPT, or any MCP app so it can read and write your notes. ")
   ), externalLink(ai.descEl, t("See the AI setup guide"), ENGRAM_MCP_URL), heading(containerEl, t("Plans"));
-  let plans = containerEl.createEl("ul", { cls: "engram-plans" }), plan = (name, features) => {
+  let plans = containerEl.createEl("ul", { cls: "engram-plans" });
+  for (let [name, features] of planCards()) {
     let card = plans.createEl("li", { cls: "engram-plan" });
     card.createEl("h4", { text: name });
     let list2 = card.createEl("ul", { cls: "engram-plan-features" });
     for (let feature of features) list2.createEl("li", { text: feature });
-  };
-  plan(t("Free"), [
-    t("1 vault, 2 devices"),
-    t("Real-time sync"),
-    t("2,000 notes searchable"),
-    t("Connect any AI (MCP)")
-  ]), plan(t("Starter"), [
-    t("10 vaults, unlimited devices"),
-    t("Search all your notes"),
-    t("10 GB attachments"),
-    t("Unlimited AI searches")
-  ]), plan(t("Pro"), [
-    t("Unlimited vaults"),
-    t("Search across all vaults at once"),
-    t("50 GB attachments"),
-    t("API access")
-  ]);
+  }
   let pricing = containerEl.createEl("p", { cls: "engram-about-link" });
   externalLink(pricing, t("See full pricing"), ENGRAM_PRICING_URL), heading(containerEl, t("Learn more"));
   let links = containerEl.createEl("ul", { cls: "engram-about-links" });
@@ -29585,9 +29802,7 @@ function renderAuthSection(ctx) {
       })
     )
   );
-  let keyDesc = plugin.settings.backendMode === "cloud" ? t(
-    "Or authenticate with a token instead of signing in. Engram Cloud API keys require the Pro plan; on Free and Starter, sign in above."
-  ) : t("Or authenticate with a token instead of signing in.");
+  let keyDesc = t("Or authenticate with a token instead of signing in.");
   new import_obsidian19.Setting(containerEl).setName(t("API key")).setDesc(keyDesc).setHeading();
   let pendingKey = "";
   new import_obsidian19.Setting(containerEl).setName(t("Access token")).setDesc(t("Bearer token from your Engram account.")).addText((text2) => {
@@ -29902,31 +30117,21 @@ function formatBytes(bytes) {
 }
 function buildRow(label, entry, fmt, opts = {}) {
   if (!entry) return null;
-  let { used, limit } = entry, { hint, hideWhenUnlimited, prefix = "" } = opts;
+  let { used, limit } = entry, { prefix = "" } = opts;
   if (isUnlimited(limit))
-    return hideWhenUnlimited || used === null ? null : { label, value: `${prefix}${fmt(used)}`, fraction: null, atLimit: !1, hint };
+    return used === null ? null : { label, value: `${prefix}${fmt(used)}`, fraction: null, atLimit: !1 };
   let cap = limit;
-  return used === null ? { label, value: `${prefix}${fmt(cap)}`, fraction: null, atLimit: !1, hint } : {
+  return used === null ? { label, value: `${prefix}${fmt(cap)}`, fraction: null, atLimit: !1 } : {
     label,
     value: `${prefix}${fmt(used)} / ${fmt(cap)}`,
     fraction: cap === 0 ? 1 : Math.min(1, used / cap),
-    atLimit: used >= cap,
-    hint
+    atLimit: used >= cap
   };
 }
 function planUsageRows(data, opts = {}) {
   var _a;
   let u = (_a = data.usage) != null ? _a : {}, attachPrefix = opts.localAttachmentCount === void 0 ? void 0 : `${t("{count} files", { count: opts.localAttachmentCount })} \xB7 `;
   return [
-    // Hidden on paid: with no index cap, "searchable" equals "stored", and the
-    // row below already says that. Shown on Free because it is the limit that
-    // binds first and the only one that refuses nothing.
-    buildRow(t("Notes searchable"), u.indexed_notes, count2, {
-      hideWhenUnlimited: !0,
-      hint: t(
-        "Notes past this still sync and open normally, they are just not in the search index. The index keeps your oldest notes, so it is your newest ones that fall outside."
-      )
-    }),
     buildRow(t("Notes stored"), u.notes, count2),
     // No Vaults row. On Free it is permanently "1 / 1" — a meter pinned at
     // full for a limit the user is not near and cannot act on, sitting in a
@@ -30105,8 +30310,10 @@ function remediation(category, reason, limitBytes) {
   switch (category) {
     case "needs_pro":
       return {
-        title: t("Attachments need a paid plan"),
-        hint: t("The Free tier syncs notes only. Upgrade to sync images and PDFs.")
+        // Every Engram Cloud plan syncs every attachment type, so this is
+        // a server capability refusal, not a tier one.
+        title: t("Attachment not accepted"),
+        hint: t("This server isn't accepting this attachment for your account.")
       };
     case "quota":
       return {
@@ -30348,7 +30555,9 @@ function countSkippedAttachments(plan, attachmentsTextOnly) {
   return attachmentsTextOnly ? plan.toPush.attachments.filter((p) => !isTextAttachment(extOf(p))).length : 0;
 }
 function skippedAttachmentsLine(n) {
-  return n <= 0 ? null : t("Free syncs notes only \u2014 {count} attachments will be skipped.", { count: n });
+  return n <= 0 ? null : t("{count} attachments will be skipped: this server only accepts text files.", {
+    count: n
+  });
 }
 function ignoredLine(n) {
   let count3 = n != null ? n : 0;
@@ -31066,7 +31275,9 @@ function renderPlanSkips(parent, plugin, refresh) {
   let body = section.createDiv({ cls: "engram-sync-center-section-body" });
   body.createEl("p", {
     cls: "engram-sync-center-card-hint",
-    text: t("These files are fine. They just need a paid plan to sync.")
+    // Names no plan: a quota card here reaches Starter and Pro users too, and
+    // a text-only server refusal is not a tier at all.
+    text: t("These files are fine. Each card below says why they did not sync.")
   });
   for (let [category, list2] of groups)
     renderPlanCard(body, plugin, refresh, category, list2);
@@ -31287,7 +31498,7 @@ function actionLabel(action) {
 function renderStats(parent, plugin) {
   let section = parent.createDiv({ cls: "engram-sync-center-section" });
   sectionHeading(section, t("Stats"));
-  let body = section.createDiv({ cls: "engram-sync-center-section-body" }), grid = body.createDiv({ cls: "engram-sync-center-stats-grid" }), allFiles = plugin.app.vault.getFiles(), noteCount = 0, attCount = 0;
+  let grid = section.createDiv({ cls: "engram-sync-center-section-body" }).createDiv({ cls: "engram-sync-center-stats-grid" }), allFiles = plugin.app.vault.getFiles(), noteCount = 0, attCount = 0;
   for (let f of allFiles)
     plugin.syncEngine.isSyncable(f) && (plugin.syncEngine.shouldIgnore(f.path) || (plugin.syncEngine.isBinaryFile(f) ? attCount++ : noteCount++));
   let localNotes = addStat(grid, t("Notes on this device"), String(noteCount)), localAtts = addStat(grid, t("Attachments on this device"), String(attCount)), vaultEl = addStat(
@@ -31297,25 +31508,24 @@ function renderStats(parent, plugin) {
   );
   plugin.resolveRemoteVaultName().then((name) => {
     vaultEl.value.setText(name || t("not linked"));
-  }), renderPlanStats(body, grid, plugin, {
+  }), renderPlanStats(grid, plugin, {
     localNoteCount: noteCount,
     localNotesRow: localNotes.row,
     localAttachmentCount: attCount,
     localAttachmentsRow: localAtts.row
   });
 }
-function renderPlanStats(body, grid, plugin, local) {
+function renderPlanStats(grid, plugin, local) {
   var _a, _b;
   if (!((_b = (_a = plugin.syncEngine) == null ? void 0 : _a.getPlanState()) == null ? void 0 : _b.tier)) return;
   let api = plugin.api;
   api != null && api.getBillingUsage && api.getBillingUsage().then((data) => {
     var _a2, _b2;
     let rows = planUsageRows(data, { localAttachmentCount: local.localAttachmentCount });
-    if (rows.length === 0) return;
-    for (let row of rows) addStat(grid, row.label, row.value, local.localNotesRow);
-    ((_b2 = (_a2 = data.usage) == null ? void 0 : _a2.notes) == null ? void 0 : _b2.used) === local.localNoteCount && local.localNotesRow.remove(), rows.some((r) => r.label === t("Attachments")) && local.localAttachmentsRow.remove();
-    let pinched = rows.find((r) => r.atLimit && r.hint);
-    pinched != null && pinched.hint && body.createEl("p", { cls: "engram-sync-center-card-hint", text: pinched.hint });
+    if (rows.length !== 0) {
+      for (let row of rows) addStat(grid, row.label, row.value, local.localNotesRow);
+      ((_b2 = (_a2 = data.usage) == null ? void 0 : _a2.notes) == null ? void 0 : _b2.used) === local.localNoteCount && local.localNotesRow.remove(), rows.some((r) => r.label === t("Attachments")) && local.localAttachmentsRow.remove();
+    }
   }).catch(() => {
     addStat(grid, t("Plan usage"), "unavailable", local.localNotesRow);
   });
@@ -32010,7 +32220,7 @@ function countFolders(paths) {
   }
   return set2.size;
 }
-var ECHO_COOLDOWN_MS = 5e3, RECENT_DELETE_COOLDOWN_MS = 6e4, RELOCATION_MEMORY_MS = 3e4, DISCOVERY_BASE_TTL_MS = 10 * 6e4, DISCOVERY_BASE_MAX_CHARS = 4 * 1024 * 1024, STREAM_EVENT_STALL_MS = 3e4, CONVERGENCE_HOLD_MS = 12e4, DEGRADED_NOTICE_DEBOUNCE_MS = 1500, DEGRADED_NOTICE_DURATION_MS = 1e4, ALWAYS_IGNORED = [".trash/", ".git/"];
+var RECENT_DELETE_COOLDOWN_MS = 6e4, RELOCATION_MEMORY_MS = 3e4, DISCOVERY_BASE_TTL_MS = 10 * 6e4, DISCOVERY_BASE_MAX_CHARS = 4 * 1024 * 1024, STREAM_EVENT_STALL_MS = 3e4, CONVERGENCE_HOLD_MS = 12e4, DEGRADED_NOTICE_DEBOUNCE_MS = 1500, DEGRADED_NOTICE_DURATION_MS = 1e4, ALWAYS_IGNORED = [".trash/", ".git/"];
 var BINARY_EXTENSIONS = /* @__PURE__ */ new Set([
   "png",
   "jpg",
@@ -33137,7 +33347,7 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
     if (file && !((_d = (_c = this.app.vault).getAbstractFileByPath) != null && _d.call(_c, dest)))
       try {
         let folder = dest.includes("/") ? dest.slice(0, dest.lastIndexOf("/")) : "";
-        folder && await this.ensureFolder(folder), this.files.mark(src, "remotelyRenamed", ECHO_COOLDOWN_MS), this.files.mark(dest, "remotelyRenamed", ECHO_COOLDOWN_MS), await this.app.vault.rename(file, dest), (_e = this.baseStore) == null || _e.rename(src, dest), this.renamePath(src, dest, "remote"), this.rememberFileFor(dest), rlog().info("pull", `Followed identity move: ${noteRef(src)} -> ${noteRef(dest)}`);
+        folder && await this.ensureFolder(folder), this.files.mark(src, "remotelyRenamed", 5e3), this.files.mark(dest, "remotelyRenamed", 5e3), await this.app.vault.rename(file, dest), (_e = this.baseStore) == null || _e.rename(src, dest), this.renamePath(src, dest, "remote"), this.rememberFileFor(dest), rlog().info("pull", `Followed identity move: ${noteRef(src)} -> ${noteRef(dest)}`);
       } catch (e) {
         this.files.clearMarker(src, "remotelyRenamed"), this.files.clearMarker(dest, "remotelyRenamed"), rlog().warn(
           "pull",
@@ -33877,16 +34087,22 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
    *  branches on what was written must use this, not its own snapshot: the
    *  write may hold the doc's newer text. */
   async writeCrdtNote(path, content, loadedId) {
-    var _a, _b, _c, _d, _e, _f;
+    var _a, _b, _c, _d, _e, _f, _g, _h, _i;
     if (this.syncBlocked)
       return devLog().log("sync-blocked", `flushFromCrdt short-circuited \u2014 gate closed: ${path}`), null;
     let normalized = (0, import_obsidian26.normalizePath)(path), latest = async () => {
       let text2 = await this.currentDocText(normalized);
-      return text2 !== null && text2.trim() !== "" ? text2 : null;
+      if (text2 === null || text2.trim() === "") return null;
+      let onDiskNow = this.app.vault.getAbstractFileByPath(normalized);
+      return onDiskNow instanceof import_obsidian26.TFile ? flushTarget(text2, await this.app.vault.cachedRead(onDiskNow)).onDisk : text2;
     };
     loadedId === void 0 && (content = (_a = await latest()) != null ? _a : content);
-    let file = this.app.vault.getAbstractFileByPath(normalized);
-    if (file instanceof import_obsidian26.TFile && await this.app.vault.cachedRead(file) === content)
+    let file = this.app.vault.getAbstractFileByPath(normalized), onDisk = file instanceof import_obsidian26.TFile ? await this.app.vault.cachedRead(file) : null;
+    if (onDisk !== null && onDisk !== content && this.isUnchangedSynced(normalized, onDisk)) {
+      let noteId = (_b = this.noteIdMap) == null ? void 0 : _b.get(normalized);
+      noteId && ((_d = (_c = this.crdt) == null ? void 0 : _c.seedMergeBase) == null || _d.call(_c, noteId, onDisk));
+    }
+    if (file instanceof import_obsidian26.TFile && onDisk === content)
       return this.recordCrdtBaseline(normalized, content), this.flushingHash.has(normalized) && this.flushOverlap.add(normalized), content;
     let verbatim = !1;
     if (loadedId !== void 0 && file instanceof import_obsidian26.TFile) {
@@ -33895,14 +34111,14 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
       verbatim = resolved !== content, content = resolved;
     }
     let ask = verbatim ? void 0 : latest;
-    if (ask && (content = (_b = await ask()) != null ? _b : content), file instanceof import_obsidian26.TFile && content.trim() === "") {
+    if (ask && (content = (_e = await ask()) != null ? _e : content), file instanceof import_obsidian26.TFile && content.trim() === "") {
       let prev = "";
       try {
         prev = await this.app.vault.cachedRead(file);
       } catch (e) {
       }
       if (prev.trim() !== "") {
-        let noteId = (_d = (_c = this.noteIdMap) == null ? void 0 : _c.get(normalized)) != null ? _d : null, refusal = await this.emptyWriteRefusal(noteId);
+        let noteId = (_g = (_f = this.noteIdMap) == null ? void 0 : _f.get(normalized)) != null ? _g : null, refusal = await this.emptyWriteRefusal(noteId);
         if (refusal)
           return rlog().warn(
             "crdt",
@@ -33911,7 +34127,7 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
       }
     }
     this.markRecentlyFlushed(normalized);
-    let inFlight = (_e = this.flushingHash.get(normalized)) != null ? _e : /* @__PURE__ */ new Map();
+    let inFlight = (_h = this.flushingHash.get(normalized)) != null ? _h : /* @__PURE__ */ new Map();
     this.flushingHash.set(normalized, inFlight);
     let marked = [], mark = (text2) => {
       var _a2;
@@ -33931,7 +34147,7 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
       ), null;
     } finally {
       for (let h of marked) {
-        let n = ((_f = inFlight.get(h)) != null ? _f : 1) - 1;
+        let n = ((_i = inFlight.get(h)) != null ? _i : 1) - 1;
         n > 0 ? inFlight.set(h, n) : inFlight.delete(h);
       }
       inFlight.size === 0 && this.flushingHash.get(normalized) === inFlight && (this.flushingHash.delete(normalized), this.flushOverlap.delete(normalized));
@@ -33995,8 +34211,14 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
   /** MERGE onto `path`'s row as read at stamp time: refresh the named fields,
    *  preserve everything else already recorded. A missing row starts at
    *  `hash: 0` (the historical `?? { hash: 0 }` default). */
-  patchSyncedRow(path, patch) {
-    this.syncState.set(path, { hash: 0, ...this.syncState.get(path), ...patch }), this.noteRowWrite(path);
+  patchSyncedRow(path, patch, withBase = !1) {
+    var _a, _b, _c, _d;
+    let before = (_a = this.syncState.get(path)) == null ? void 0 : _a.hash;
+    if (this.syncState.set(path, { hash: 0, ...this.syncState.get(path), ...patch }), !withBase && patch.hash !== void 0 && patch.hash !== 0 && patch.hash !== before) {
+      let noteId = (_b = this.noteIdMap) == null ? void 0 : _b.get(path);
+      noteId && ((_d = (_c = this.crdt) == null ? void 0 : _c.invalidateMergeBase) == null || _d.call(_c, noteId, patch.hash));
+    }
+    this.noteRowWrite(path);
   }
   /** Drop `path`'s sync bookkeeping — and its CAS merge base unless
    *  `dropBase: false` (attachments have no base; the rename/echo-skip sites
@@ -34050,10 +34272,17 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
    *  `markServerKnown` after the flush, which fills a missing head without
    *  ever overwriting a real one. */
   recordCrdtBaseline(normalized, content, opts) {
-    this.patchSyncedRow(normalized, {
-      hash: fnv1a(content),
-      ...opts != null && opts.markCreated ? { crdtHead: CRDT_HEAD_CREATED } : {}
-    });
+    var _a, _b, _c, _d, _e;
+    this.patchSyncedRow(
+      normalized,
+      {
+        hash: fnv1a(content),
+        ...opts != null && opts.markCreated ? { crdtHead: CRDT_HEAD_CREATED } : {}
+      },
+      !0
+    );
+    let noteId = (_a = this.noteIdMap) == null ? void 0 : _a.get(normalized);
+    noteId && ((opts == null ? void 0 : opts.mergeBase) === "if-doc-holds" ? (_c = (_b = this.crdt) == null ? void 0 : _b.recordEditorSave) == null || _c.call(_b, noteId, content) : (_e = (_d = this.crdt) == null ? void 0 : _d.setMergeBase) == null || _e.call(_d, noteId, (opts == null ? void 0 : opts.mergeBase) === !1 ? null : content));
   }
   /** Un-bank the echo baseline for a frame the server DROPPED (note_not_found).
    *
@@ -34090,7 +34319,8 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
     try {
       this.recordCrdtBaseline(
         (0, import_obsidian26.normalizePath)(file.path),
-        await this.app.vault.cachedRead(file)
+        await this.app.vault.cachedRead(file),
+        { mergeBase: "if-doc-holds" }
       );
     } catch (e) {
       devLog().log(
@@ -34329,20 +34559,21 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
   retryHeldLocalEdits() {
     for (let noteId of [...this.heldForServer]) this.loadServerState(noteId);
   }
-  /** Keep `text` beside `path` as a conflict copy (the open editor's half of
-   *  the load gate's keep-both). False when the copy could not be written. */
-  async keepConflictCopy(path, text2) {
+  /** Keep `text` beside `path` as a conflict copy (the keep-both of the
+   *  load gate's open editor, or of a conflicting disk merge). False when
+   *  the copy could not be written. */
+  async keepConflictCopy(path, text2, why = "load gate: open editor diverged from the server") {
     let normalized = (0, import_obsidian26.normalizePath)(path);
     try {
       let copy2 = await this.writeDriftConflictCopy(normalized, text2);
       return rlog().info(
         "conflict",
-        `load gate: open editor diverged from the server \u2192 keep-both | original=${noteRef(normalized)} copy=${noteRef(copy2)}`
+        `${why} \u2192 keep-both | original=${noteRef(normalized)} copy=${noteRef(copy2)}`
       ), !0;
     } catch (e) {
       return rlog().error(
         "conflict",
-        `load gate: keep-both copy failed for ${noteRef(normalized)}: ${errMsg(e, normalized)}`
+        `${why}: keep-both copy failed for ${noteRef(normalized)}: ${errMsg(e, normalized)}`
       ), !1;
     }
   }
@@ -34768,9 +34999,9 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
    *  firing a replay round-trip per op raced the live path suite-wide. The
    *  trailing throttle keeps the heal guarantee (a true miss replays within
    *  SEQ_HEAL_COOLDOWN_MS) while bounding replay rate to one per window. */
-  async applyLiveOpWithSeq(noteId, seq2, apply) {
+  async applyLiveOpWithSeq(noteId, seq2, apply2) {
     var _a;
-    let landed = await apply();
+    let landed = await apply2();
     if (landed === "applied" && Number.isInteger(seq2)) {
       let path = (_a = this.noteIdMap) == null ? void 0 : _a.pathForId(noteId), st = path ? this.syncState.get(path) : void 0;
       path && st && (st.seq === void 0 || seq2 > st.seq) && this.patchSyncedRow(path, { seq: seq2 });
@@ -35035,17 +35266,81 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
    *  ONE implementation on purpose: both callers below reach it from a state
    *  where re-sending the body would mint a rival lineage, and a second copy
    *  is how the first one drifted (#476). */
-  async adoptServerLineage(noteId, path) {
+  async adoptServerLineage(noteId, path, file) {
     let crdt = this.crdt;
     if (!crdt) return null;
     let state = await this.readServerDocState(noteId, path);
     return state === null ? null : this.crdt !== crdt ? (rlog().warn(
       "crdt",
       `create: vault changed while reading server state for ${noteRef(path)} \u2014 discarding the reply rather than applying it to the new vault`
-    ), null) : await crdt.applyRemoteUpdate(noteId, fromB64(state.b64)) ? (rlog().info("crdt", `create: adopted server lineage for ${noteRef(path)}`), await crdt.projectedText(noteId)) : (rlog().warn(
+    ), null) : await crdt.applyRemoteUpdate(noteId, fromB64(state.b64)) ? (rlog().info("crdt", `create: adopted server lineage for ${noteRef(path)}`), (await this.flushedProjection(crdt, noteId, file)).onDisk) : (rlog().warn(
       "crdt",
       `create: server state for ${noteRef(path)} was refused by the registry (note removed or doc destroyed) \u2014 not an adopt`
     ), null);
+  }
+  /** THE guarded write of a note's doc after a merge, and the only place one
+   *  records a baseline: the registry write-back (via `writeIfDiskStill`) and
+   *  both create-time merges use it.
+   *
+   *  Disk is re-read right before the write. If it no longer holds
+   *  `expectedDisk` (the text the merge read; an edit landed while the merge
+   *  ran), nothing is written: the doc must never overwrite typing it never
+   *  saw. That edit's own modify ingests it, merging from what the caller
+   *  records. Otherwise `writeCrdtNote` writes and records the baseline only
+   *  once the write lands, from the bytes it wrote (disk's frontmatter bytes
+   *  kept when they mean the same), and returns them. Null when nothing was
+   *  written (disk moved, unreadable, or the write failed, logged there); no
+   *  baseline is recorded then, and the caller records `expectedDisk`, what
+   *  disk still holds, never the merged text. */
+  async writeNoteIfDiskStill(normalized, expectedDisk, text2, file, noteId = ((_a) => (_a = this.noteIdMap) == null ? void 0 : _a.get(normalized))()) {
+    var _a2, _b;
+    let found = file ? null : this.app.vault.getAbstractFileByPath(normalized), target = file != null ? file : found instanceof import_obsidian26.TFile ? found : null;
+    if (!target) return null;
+    let now;
+    try {
+      now = await this.app.vault.cachedRead(target);
+    } catch (e) {
+      return null;
+    }
+    if (now !== expectedDisk)
+      return rlog().info(
+        "crdt",
+        `merge write skipped: ${noteRef(normalized)} changed on disk during the merge`
+      ), null;
+    let written = await this.writeCrdtNote(normalized, text2);
+    return written !== null && noteId && ((_b = (_a2 = this.crdt) == null ? void 0 : _a2.markWritten) == null || _b.call(_a2, noteId)), written;
+  }
+  /** After an apply or a merge the doc may hold text disk lacks (its flush
+   *  failed or was refused, or nothing wrote it): make disk hold the doc
+   *  through the one guarded write, and return the baseline, which is what
+   *  disk holds afterwards. `expectedDisk` is disk as last read; if the write
+   *  does not land (disk moved, failed), the baseline is that, never the
+   *  doc's text. A baseline without the write is the #2480 revert. */
+  async baselineFromDisk(normalized, file, noteId, expectedDisk, docText) {
+    let written = await this.writeNoteIfDiskStill(
+      normalized,
+      expectedDisk,
+      docText,
+      file,
+      noteId
+    );
+    return written != null ? written : expectedDisk;
+  }
+  /** `noteId`'s doc and its file after an apply (which awaits its flush):
+   *  `onDisk` is what the file holds now, read, not predicted. A baseline
+   *  stamped after an apply must be `onDisk`, never the bare projection: on
+   *  a note whose YAML the codec re-serialises, that is a baseline no file
+   *  holds, and the next catch-up drift-copies the note (Engram#1928 class,
+   *  backend e2e test_101). When the flush was refused or nudged instead,
+   *  the projection is text disk never got, and stamping it is the #2480
+   *  revert. A merge's "expected doc" is `projection`. */
+  async flushedProjection(crdt, noteId, file) {
+    let projected = await crdt.projectedText(noteId), disk = null;
+    try {
+      disk = file ? await this.app.vault.cachedRead(file) : null;
+    } catch (e) {
+    }
+    return { projection: projected, onDisk: disk != null ? disk : projected };
   }
   /** Merge `disk`, edited from `base` (the body this device's create sent),
    *  onto the doc, which projects `current`. Null when nothing was merged:
@@ -35091,7 +35386,9 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
    *  Always returns null — the "nothing transmitted" contract. */
   async deferToServerLineage(normalized, file, why) {
     try {
-      this.recordCrdtBaseline(normalized, await this.app.vault.cachedRead(file));
+      this.recordCrdtBaseline(normalized, await this.app.vault.cachedRead(file), {
+        mergeBase: !1
+      });
     } catch (e) {
       rlog().warn(
         "crdt",
@@ -35259,20 +35556,32 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
         } catch (e) {
         }
         await this.crdt.applyRemoteUpdate(effectiveId, opts.genesisUpdate);
-        let consumed = await this.crdt.projectedText(effectiveId);
+        let flushed = await this.flushedProjection(this.crdt, effectiveId, file), consumed = flushed.onDisk;
         if (preApplyDisk !== null && preApplyDisk !== opts.genesisContent) {
+          let held = consumed;
+          try {
+            held = await this.app.vault.cachedRead(file);
+          } catch (e) {
+          }
           let merged = await this.mergeOwnCreateDrift(
             effectiveId,
             normalized,
             opts.genesisContent,
-            consumed,
+            flushed.projection,
+            // what the doc holds: the merge's expected text
             preApplyDisk
           );
-          merged !== null && (consumed = merged, await this.flushFromCrdt(normalized, merged));
+          merged !== null && (consumed = await this.baselineFromDisk(
+            normalized,
+            file,
+            effectiveId,
+            held,
+            merged
+          ));
         }
         return consumed;
       }
-      let adopted = await this.adoptServerLineage(effectiveId, normalized);
+      let adopted = await this.adoptServerLineage(effectiveId, normalized, file);
       return adopted !== null ? adopted : await this.deferToServerLineage(
         normalized,
         file,
@@ -35280,7 +35589,7 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
       );
     }
     let known = opts.genesisOutcome;
-    if (!effectiveIdHasHistory && known !== "absent" && await this.adoptServerLineage(effectiveId, normalized) === null) {
+    if (!effectiveIdHasHistory && known !== "absent" && await this.adoptServerLineage(effectiveId, normalized, file) === null) {
       if (known === "occupied")
         return await this.deferToServerLineage(
           normalized,
@@ -35293,12 +35602,12 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
       );
     }
     if (sameId && known !== "absent" && typeof this.crdt.projectedText == "function") {
-      effectiveIdHasHistory && await this.adoptServerLineage(effectiveId, normalized);
+      effectiveIdHasHistory && await this.adoptServerLineage(effectiveId, normalized, file);
       let server = await this.crdt.projectedText(effectiveId), disk = await this.app.vault.cachedRead(file);
       if (server !== "") {
         let base = this.ownBaseBody(normalized);
         if (this.isAckedBase(normalized, fnv1a(disk)) || base !== null && base === disk)
-          return rlog().anomaly("crdt", "occupied_create_own_base"), server;
+          return rlog().anomaly("crdt", "occupied_create_own_base"), this.baselineFromDisk(normalized, file, effectiveId, disk, server);
         if (base !== null) {
           let merged = await this.mergeOwnCreateDrift(
             effectiveId,
@@ -35307,7 +35616,13 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
             server,
             disk
           );
-          return merged != null ? merged : server;
+          return this.baselineFromDisk(
+            normalized,
+            file,
+            effectiveId,
+            disk,
+            merged != null ? merged : server
+          );
         }
       }
     }
@@ -36180,7 +36495,7 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
       })
     } : plan.attachmentsTextOnly && !isTextAttachment(file.extension) ? {
       category: "needs_pro",
-      message: t("Free syncs notes only \u2014 images & PDFs need a paid plan.")
+      message: t("This file type isn't accepted by this server.")
     } : null : null;
   }
   /** Drain the batch failure tally for an aggregated, deduped Notice. Returns
@@ -36218,7 +36533,7 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
     this.attachmentLimitToastShown = !0;
     let noun = count3 === 1 ? "attachment" : "attachments";
     new import_obsidian26.Notice(
-      t("Engram: {count} attachments skipped \u2014 upgrade your plan to sync images & PDFs.", {
+      t("Engram: {count} attachments skipped. See Sync Center for why.", {
         count: count3
       }),
       1e4
@@ -36299,7 +36614,7 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
    *  its echo-push can tombstone a note recreated at the path since. */
   async trashRemotelyDeleted(file) {
     var _a, _b;
-    this.files.mark(file.path, "remotelyDeleted", ECHO_COOLDOWN_MS);
+    this.files.mark(file.path, "remotelyDeleted", 5e3);
     let before = (_a = this.engineTrashedPaths.get(file.path)) != null ? _a : 0;
     this.engineTrashedPaths.set(file.path, before + 1);
     try {
@@ -36310,7 +36625,7 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
   }
   /** Suppress WebSocket echoes for a path for ECHO_COOLDOWN_MS after push. */
   markRecentlyPushed(path) {
-    this.files.mark(path, "pushed", ECHO_COOLDOWN_MS);
+    this.files.mark(path, "pushed", 5e3);
   }
   /** Check if a path was recently pushed (for echo suppression). */
   // biome-ignore lint/correctness/noUnusedPrivateClassMembers: read by tests/sync.test.ts via (engine as any)
@@ -36321,7 +36636,7 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
    *  ECHO_COOLDOWN_MS. Separate from recentlyPushed so a post-push cooldown
    *  never swallows a genuine local edit. */
   markRecentlyFlushed(path) {
-    this.files.mark(path, "flushed", ECHO_COOLDOWN_MS);
+    this.files.mark(path, "flushed", 5e3);
   }
   /** Record a note_id THIS device just deleted so neither CRDT convergence
    *  path resurrects it during the delete-wins window (backend #970).
@@ -37600,7 +37915,7 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
           );
           return;
         }
-        existing2 && ((_u = this.baseStore) == null || _u.rename(normalized, (0, import_obsidian26.normalizePath)(relocatedPath)), this.files.mark(normalized, "renamedAway", ECHO_COOLDOWN_MS), await this.applyRemoteRemoval(existing2)), ((_v = this.noteIdMap) == null ? void 0 : _v.get(normalized)) === roomId && this.noteIdMap.delete(normalized), rlog().info(
+        existing2 && ((_u = this.baseStore) == null || _u.rename(normalized, (0, import_obsidian26.normalizePath)(relocatedPath)), this.files.mark(normalized, "renamedAway", 5e3), await this.applyRemoteRemoval(existing2)), ((_v = this.noteIdMap) == null ? void 0 : _v.get(normalized)) === roomId && this.noteIdMap.delete(normalized), rlog().info(
           "ws",
           `Delete is rename old-leg (id relocated to ${noteRef(relocatedPath)}); old path trashed, room preserved: ${noteRef(normalized)}`
         );
@@ -37825,7 +38140,7 @@ var REDELIVER_PER_SWEEP = 50, REDELIVER_ROOMS_PER_SWEEP = 5, _SyncEngine = class
     if (oldFile && !this.app.vault.getAbstractFileByPath((0, import_obsidian26.normalizePath)(newPath)))
       try {
         let parent = (0, import_obsidian26.normalizePath)(newPath).includes("/") ? (0, import_obsidian26.normalizePath)(newPath).substring(0, (0, import_obsidian26.normalizePath)(newPath).lastIndexOf("/")) : "";
-        parent && await this.ensureFolder(parent), this.files.mark((0, import_obsidian26.normalizePath)(priorPath), "remotelyRenamed", ECHO_COOLDOWN_MS), this.files.mark((0, import_obsidian26.normalizePath)(newPath), "remotelyRenamed", ECHO_COOLDOWN_MS), await this.app.vault.rename(oldFile, (0, import_obsidian26.normalizePath)(newPath)), rlog().info(
+        parent && await this.ensureFolder(parent), this.files.mark((0, import_obsidian26.normalizePath)(priorPath), "remotelyRenamed", 5e3), this.files.mark((0, import_obsidian26.normalizePath)(newPath), "remotelyRenamed", 5e3), await this.app.vault.rename(oldFile, (0, import_obsidian26.normalizePath)(newPath)), rlog().info(
           "pull",
           `Id-keyed move (true rename): ${noteRef(priorPath)} -> ${noteRef(newPath)} (id=${id3})`
         );
@@ -40481,17 +40796,7 @@ var _EngramSyncPlugin = class _EngramSyncPlugin extends import_obsidian28.Plugin
       callback: () => {
         new SyncLogModal(this.app, this.syncLog).open();
       }
-    }), this.registerView(
-      SEARCH_VIEW_TYPE,
-      (leaf) => new SearchView(
-        leaf,
-        this.api,
-        () => {
-          var _a2, _b2, _c2;
-          return (_c2 = (_b2 = (_a2 = this.syncEngine) == null ? void 0 : _a2.getPlanState()) == null ? void 0 : _b2.indexedNotesCap) != null ? _c2 : null;
-        }
-      )
-    ), this.addCommand({
+    }), this.registerView(SEARCH_VIEW_TYPE, (leaf) => new SearchView(leaf, this.api)), this.addCommand({
       id: "send-feedback",
       name: t("Send feedback"),
       callback: () => this.openFeedback()
@@ -40499,14 +40804,7 @@ var _EngramSyncPlugin = class _EngramSyncPlugin extends import_obsidian28.Plugin
       id: "search",
       name: t("Semantic search"),
       callback: () => {
-        new SearchModal(
-          this.app,
-          this.api,
-          () => {
-            var _a2, _b2, _c2;
-            return (_c2 = (_b2 = (_a2 = this.syncEngine) == null ? void 0 : _a2.getPlanState()) == null ? void 0 : _b2.indexedNotesCap) != null ? _c2 : null;
-          }
-        ).open();
+        new SearchModal(this.app, this.api).open();
       }
     }), this.addCommand({
       id: "open-search-sidebar",
@@ -41316,24 +41614,9 @@ var _EngramSyncPlugin = class _EngramSyncPlugin extends import_obsidian28.Plugin
             ackScope: () => ackScopeFor(this.settings.apiUrl, this.settings.vaultId),
             noteIdMap: this.noteIdMap,
             syncEngine: this.syncEngine,
-            // BaseStore is keyed by vault path and already holds exactly the
-            // last-synced content its own docstring calls "the common
-            // ancestor for 3-way merge"; the registry is keyed by note_id,
-            // so resolve through the id map.
-            lcaFor: (noteId) => {
-              var _a3, _b2, _c2;
-              let path = this.noteIdMap.pathForId(noteId);
-              return path && (_c2 = (_b2 = (_a3 = this.baseStore) == null ? void 0 : _a3.get(path)) == null ? void 0 : _b2.content) != null ? _c2 : null;
-            },
             onDirtyMerge: (noteId) => rlog().warn(
               "crdt",
-              `LCA merge left unapplied hunks for ${noteId} \u2014 fell back to the two-way path`
-            ),
-            // Warn so it ships from user devices: the count decides whether
-            // overlapping edits need a keep-both path instead.
-            onLossyMerge: (noteId) => rlog().warn(
-              "crdt",
-              `LCA merge overwrote a concurrent edit for ${noteId}; disk side kept`
+              `LCA merge conflict for ${noteId}: keeping both (conflict copy)`
             ),
             // `?? false`: a null socket (mid-reconnect) must read as REFUSED so
             // the edit is recorded in the durable queue and delivered on
